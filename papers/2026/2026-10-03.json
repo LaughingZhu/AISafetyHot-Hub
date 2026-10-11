@@ -876,28 +876,6 @@
     "discoveredAt": "2026-10-03T12:46:25.073Z"
   },
   {
-    "arxivId": null,
-    "title": "The Backbone of Abuse: How Infrastructure Providers Enable the Proliferation of AI-Generated Non-Consensual Intimate Imagery",
-    "titleZh": "研究梳理88个AI非自愿私密影像网站依赖的基础设施供应商",
-    "authors": [
-      "Sarah Morgan",
-      "Hany Farid",
-      "Sophie J. Nightingale"
-    ],
-    "category": "industry",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "Sarah Morgan、Hany Farid 与 Sophie J. Nightingale研究公开分发AI生成非自愿私密影像的网站及其基础设施。他们在六周检索窗口内找到400个URL，筛出88个相关网站，再分析托管、内容分发、DNS、域名及其他服务。研究认为少数大型供应商在其中扮演重要角色，并呼吁识别违规服务、停止支持和加强治理。样本不代表全网，CDN或代理服务不等同于直接托管，服务关联也不证明供应商知情协助。",
-    "quickRead": null,
-    "links": {
-      "paper": "https://tsjournal.org/index.php/jots/article/view/348",
-      "aisafetyhot": "https://aisafetyhot.com/items/hrlczdf525ldft15qqdhwaw3n"
-    },
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "timelineAt": "2026-10-03T12:38:08.593Z",
-    "discoveredAt": "2026-10-03T12:38:08.593Z"
-  },
-  {
     "arxivId": "2607.10526",
     "title": "Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents",
     "titleZh": "PASB 基准：自改进个人 Agent 的持久谄媚在后续会话中失败率达 71.9%",
@@ -1101,7 +1079,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 ZoneClaw，通过把 OpenClaw 式计算机使用 Agent 的扁平工作区记忆改为带明确权限等级的分层信任区，切断持久化与权限之间的绑定，防御持久记忆攻击。这类攻击中，攻击者只需控制看似无害的外部内容，就能让 Agent 在正常任务中写入有利于攻击者的声明，这些声明随后会支配攻击者从未接触过的正常任务，攻击链从恶意上下文到恶意响应延伸为恶意上下文、记忆注入、恶意执行。ZoneClaw 让外部声明只停留在低信任区，只有跨过显式权限边界才能获得指导行动的权限，且提升时需与攻击者无法直接写入的信任区交叉校验，并通过非对称权限的角色专用进程保证没有进程同时摄取外部内容并对外行动。在四类攻击场景、两种注入设置和四个骨干模型上，ZoneClaw 将攻击成功率从 372/480 降至 6/480，同时在 458/480 次试验中保留实用性，并对部分具备防御感知的攻击者仍然有效。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "OpenClaw式计算机使用智能体把持久工作区文件自动载入后续会话，记住的外部主张会默认获得指导行动的权限。攻击者只需控制看似无害的外部内容，就能在合法任务中写入主张，并影响之后自己并未触及的良性任务。",
+          "label": "问题"
+        },
+        {
+          "text": "ZoneClaw把平坦记忆分成不可变策略区、可指导行动的可信区和只作参考的低信任区。Observer只记录外部主张，Gatekeeper对照攻击者不能直接写的高信任内容决定是否提升，Planner与Executor不读低信任区。",
+          "label": "方法"
+        },
+        {
+          "text": "四场景两设置四骨干共480次中，无防御ASR为372/480，ZoneClaw为6/480，Utility为458/480。边界分析里攻击主张多留在低信任区，两类CSR均为0/60。用户触发BCC上两种自适应攻击ASR为0/30。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者将批量观察、并行读取和更小角色模型以缩短延迟，以及把用户授权传给Executor，留作后续。实验覆盖四骨干、四自建场景和五种防御；自适应攻击仅为用户触发BCC、Claude Sonnet 4.6、每种15次。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.00450"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.00450",
       "aisafetyhot": "https://aisafetyhot.com/items/xovwksw877wzov7u2iif8h9bt"
@@ -1167,7 +1166,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 WebMCP-Phalanx，一种面向 W3C WebMCP 浏览器内 LLM Agent 工具调用的双层运行时架构，用于补足同源策略在工具来源与生命周期上的不足。第一层以浏览器原生信任锚，通过加密保护的能力凭证把每个工具绑定到注册主体，并在工具生命周期内传播来源标签；第二层把语义检查与特权工具使用分离，无工具调用权限的隔离 Agent（Q-LLM）检查工具元数据、输出和页面内容中的提示注入，通过验证的内容再交给特权 Agent（P-LLM）执行，Q-LLM 内部状态对页面脚本不可见。实验显示，浏览器原生归属机制把撤销与覆写攻击成功率从 100% 降到 0%；双 Agent 运行时拦截了工具描述中嵌入的全部 80 次提示注入尝试，并把工具返回攻击限制在 80 次中的 2 次成功，任务效用与无攻击基线在统计上无差异。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "WebMCP草案让网页向LLM智能体暴露可调用工具，但执行处在浏览器同源策略下，主程序与第三方脚本共享同一源。作者称因此出现主体归属伪造、工具生命周期失控和语义提示注入，且不依赖某一个语言模型。",
+          "label": "问题"
+        },
+        {
+          "text": "WebMCP-Phalanx把来源核验和语义执行分开。浏览器发放不可伪造的capability handle，并用来源、生命周期和运行轨迹合成Green/Yellow/Red标签。无工具权的Q检查描述、schema和返回内容，通过后再交给有调用权的P。",
+          "label": "方法"
+        },
+        {
+          "text": "作者报告撤销与覆写从20/20降到0/20。描述注入在多代理判定下为0/80，返回内容注入残留2/80。跨页只清工具后攻击成功率仍为70%，加上框架后为0%。持有分类器提示的白盒攻击者把载荷挪到工具名，绕过15/16。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者指出同源脚本注册即可拿到凭证，主体归属超出bearer capability。polyfill模拟了来源与API完整性。信任策略和带外确认未实证评估。运行时观测挡不住首次副作用。作者认为工具名上的白盒绕过需要调用时序门。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2608.24017"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2608.24017",
       "aisafetyhot": "https://aisafetyhot.com/items/jdfrkje94uy20fu1zmtdm5gpq"
@@ -1293,7 +1313,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "Kevin Du、Alexander Hoyle、Laura Ruis、Acyr Locatelli 的论文将推理步骤的重要性定义为该步骤带来的期望奖励变化，用蒙特卡洛 rollout 估计作为基准，检验 LLM 评判者能否识别高重要性步骤。结果显示，能力足够强的 LLM 能超过流行度基线，但远未达到噪声上限；将模型微调为步骤级评判者后，对错误回答的识别有明显提升，对正确回答仍与上限差距较大。作者据此认为，步骤重要性只能部分从推理轨迹文本中恢复，提醒不要把思维链的可读性当作可解释性，这一结论对过程奖励模型有直接影响。论文发表于 COLM 2026。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "链式思维被当作可读窗口，用于judge诊断、faithfulness评估和过程奖励，但步骤文本是否编码该步对最终答案的功能重要性并不清楚。",
+          "label": "问题"
+        },
+        {
+          "text": "把重要性定义为advantage，即加入该步后期望奖励的变化，用每前缀50次rollout估计，再用变点检测标出consequential步骤，并让judge与微调critic只根据文本预测。",
+          "label": "方法"
+        },
+        {
+          "text": "在Qwen3-1.7B非思考数学轨迹上，错误回答的critic PR-AUC为0.28–0.30（ID），正确回答仅0.065–0.10。作者称思考和规模的提升主要来自第一步前答案概率已经较高。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "结论把步骤影响答案与文本能否读成意义留作未解张力。附录A写明分段常数只是近似，渐进爬升会误标到单步，思考轨迹更常如此。生成实验为Qwen3三个规模及1.7B思考模式。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.04194"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.04194",
       "aisafetyhot": "https://aisafetyhot.com/items/st4kl2m0lker0q8zvt6xsqjiw"
@@ -1371,7 +1412,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 CoSec，一个用于评估 LLM Agent 系统在社区内部及跨社区运行时隐私与授权执行情况的可执行基准。该基准包含 208 个规范场景，覆盖固定与演化的社区边界、属于 Agent 所有者或其他参与者的受保护信息，以及通过对话、环境内容、持久记忆和组合工作流发起的攻击。CoSec 以持久会话、记忆、文件和工具运行完整 Agent 系统，并借助执行轨迹与产物对照当前授权状态验证信息流。结果显示，在不同 harness 与模型配置下，Agent 常能完成正常任务，却违反隐私与授权边界；隐私行为随 harness、攻击面和社区状态而变化，说明记忆、文件、工具与工作流都可能把受保护信息带出授权范围。作者据此指出，任务效用并不代表隐私或授权合规，社区场景下的授权仍是持久化 LLM Agent 尚未解决的安全挑战。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "持久LLM智能体要在多用户社区里完成正当任务，同时防止受保护信息越出当前授权。作者称既有评测很少同时覆盖完整智能体、持久状态和会变化的社区边界。",
+          "label": "问题"
+        },
+        {
+          "text": "CoSec含208个场景：Static112固定边界，Dyn96在计分前改成员、角色、组成或关系。运行OpenClaw、Hermes、Codex的原生会话、记忆、文件和工具，用隐藏授权oracle与痕迹、LLM评审判定越界和任务完成。",
+          "label": "方法"
+        },
+        {
+          "text": "13个配置总体PVR从OpenClaw+Gemini 3.1 Pro的29.33%到Hermes+DeepSeek 4.1 Flash的96.15%。作者称换harness后PVR不同，且高BCR不等于守住边界；能力组合汇总PVR为70.27%。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称CoSec是controlled synthetic testbed，后续应看更广领域、更长协作史和执行期授权防御。13个配置各跑208个场景；护栏仅两个DeepSeek 4.1 Flash配置的首轮。论文未报告人工一致性。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.34790"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.34790",
       "aisafetyhot": "https://aisafetyhot.com/items/c699ik03dpth2v1gs3vmnwolc"
@@ -1571,7 +1633,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 GEOFlagBench 基准与 Intervention-Paired Training（IPT）方法，用于检测为提升生成式搜索引擎引用率而优化的网页内容。该基准包含 400 条查询、四个领域、八类 GEO 优化器共 3200 个网页内容实例；最强基线聚合 F1 为 0.880，但按方法和作者条件评估显示明显弱点并可能依赖作者相关捷径。在 ModernBERT 上，IPT 将 F1 从 0.862 提升至 0.944，最差组准确率从 0.725 提升至 0.883。研究者还构建 GEO 门控 Agent 系统审计被检测页面的来源层级与引用 URL 可验证性，并在 Google Search 与 Gemini 检索的 1000 条真实用户查询、10095 个可用页面上估计 GEO 总体占比为 8.90%，2026 年修改过的页面中达 16.36%。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "生成式搜索把多页合成单一答案，GEO改写网页以提高被选中和引用的可能。作者认为这可能让可见度与权威性不相称，并放大薄弱或虚假信息；系统检测这类页面的方法仍然不足。",
+          "label": "问题"
+        },
+        {
+          "text": "构建含3200条的GEOFlagBench并评测现有检测器。IPT要求GEO干预后分数升高、非GEO的AI润色后分数接近不变。检出页再由智能体按规则审计引用的来源层级与可核验性。",
+          "label": "方法"
+        },
+        {
+          "text": "GEOFlagBench上词TF-IDF的F1为0.880，最差组准确率0.375。ModernBERT-IPT的F1为0.944。10,095页估计GEO占比8.90%，2026修改页16.36%，引用LOW占69.34%。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称当前基准不能保证对未见GEO策略同样有效；真实结果是分类估计而非金标，仅19.57%页面有可解析dateModified。可核验性不衡量主张是否正确或得到支持。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2608.16824"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2608.16824",
       "aisafetyhot": "https://aisafetyhot.com/items/hicxebr3g3zihpfzec8241h9z"
@@ -1591,7 +1674,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者 A. Feder Cooper 发布 arXiv 评论文章，认为 Alignment Whack-a-Mole 中关于微调导致书籍记忆化的核心结果使用了无效的测量流程。她指出，这些结果依赖的书籍记忆化覆盖率指标所统计的序列匹配长度远短于领域公认的记忆化证据标准，用于诱发记忆化的提示词流程还可能把待提取文本泄露进提示词中。论文缺少负对照实验，无法判断结果中有多少来自假阳性，即在生成内容与训练数据的匹配可能源于其他因素时仍宣称提取成功。她据此认为，论文关于微调可让用户提取受版权保护书籍中足以替代原作的相当部分内容的说法缺乏结果支持，且未报告实验成本这一威胁模型的重要组成。她提到，过去一个月有潜在原告联系她，希望将该论文作为正在和可能发生的版权诉讼中的有效证据。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Alignment Whack-a-Mole称微调后可提取版权书的大部分，且复述可能替代原作。Cooper认为其bmc@5与摘要提示不能支撑这些主张，成本也未报告。",
+          "label": "问题"
+        },
+        {
+          "text": "作者未新跑实验。他按定义和代码重写bmc@5：摘录约300–500词，GPT-4o写约一半长度的摘要，每摘录生成100次，以不少于5个连续词对整本书计覆盖。",
+          "label": "方法"
+        },
+        {
+          "text": "作者称5词低于约50个token的常用门槛。合成微调后GPT-4o对The Handmaid's Tale的bmc@5为19.4%，微调前6.3%。仅GPT-4o的Batch API成本，作者估约$11,500。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "论文没有专节讨论本注自身的局限。第6节作者称将暂停该领域新工作。本注未重跑实验；成本是封底估算。负对照和匹配长度分布在被评论文中未报告，本注也未补测。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.09320"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.09320",
       "aisafetyhot": "https://aisafetyhot.com/items/jva0jod5p4ndz52rhofd3oq5g"
@@ -1611,7 +1715,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 GraphProfiler，一种可审计的 LLM 画像方法，将用户发帖历史表示为带来源链接的个人知识图谱，节点和边可回溯到原始帖子，属性预测可引用图谱记录和源文本。在八属性的 SynthPAI 基准上攻击成功率达 86.7%，与纯文本强基线相差不到两个百分点，在 PANDORA 上为 84.6%，超过 98% 的预测附有支持证据。消融实验显示，移除被引用的帖子比移除同等数量的随机帖子更能降低攻击成功率，说明这些帖子确实贡献了推断结果。该工作已被 EMNLP 2026 主会接收。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "敏感属性常由许多普通帖子中的弱线索汇合暴露，而不是一句直接自述。LLM画像器能自动聚合这些线索，但难以指出是哪些帖子、概念和关系使推断成立，因此无法只改写少数泄露帖。",
+          "label": "问题"
+        },
+        {
+          "text": "GraphProfiler把每帖建成带来源链接的个人知识图谱，按属性检索局部图上下文，再把模型引用的表记录映射回源文件。支持审计、只用被引文本的推断，以及删除后重建索引，用来检查这些源帖是否真与推断有关。",
+          "label": "方法"
+        },
+        {
+          "text": "在SynthPAI八属性上GraphProfiler总ASR为86.7%，PANDORA年龄与性别为84.6%且覆盖率100%。逾98%的预测可解析到源帖；删除被引帖比等量随机删除更降低ASR。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者写明这不是完整缓解系统。删被引帖后冗余线索仍可能保留推断；local search引用并非穷尽证据。评测用GPT-4o，SynthPAI为合成历史，PANDORA标签来自flair。未含匹配的chunk级RAG基线。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.12448"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.12448",
       "aisafetyhot": "https://aisafetyhot.com/items/kg01x1p2mu70yyqg0lbsbc43e"
@@ -1980,7 +2105,7 @@
       "paper": "https://arxiv.org/abs/2610.02142",
       "aisafetyhot": "https://aisafetyhot.com/items/zwltc88g2wf3p0242u0zujhoj"
     },
-    "publishedAt": "2026-09-30T20:00:00.000Z",
+    "publishedAt": "2026-10-01T17:46:38.000Z",
     "timelineAt": "2026-10-02T17:34:21.062Z",
     "discoveredAt": "2026-10-02T17:34:21.062Z"
   },
@@ -2226,7 +2351,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出多模态自动红队越狱方法 Hierarchical Atomic Combination Attack（HACA），对五款主流 MLLM 取得平均 95.48% 的攻击成功率。该方法先把文本与图像越狱策略空间分解为结构、语义、句法三个层级，构建覆盖两种模态的越狱策略集合；再基于六维策略空间，用跨模态联合规划器选择并组合不同原子越狱策略，生成后续越狱指令；实现层面采用统一的生成执行器，直接依据所选多模态策略产出越狱指令。论文认为现有多模态越狱攻击缺乏原子化策略空间，也缺少超越人工经验的简洁高效执行框架。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "MLLM可被图文越狱触发有害输出。作者称现有攻击多绑在特定场景或手工技巧上，又缺少原子化的多模态策略空间，以及可脱离人工经验执行的自动红队框架。",
+          "label": "问题"
+        },
+        {
+          "text": "HACA把文本和图像的越狱策略拆成结构、语义、句法三层，共30个原子单元。规划器按层内互补和层间不冲突选出六个策略，再由LLM与文生图模型生成图文指令，查询目标直到成功或达到查询上限。",
+          "label": "方法"
+        },
+        {
+          "text": "Safebench的350条上，HACA对五款MLLM平均ASR为95.48%。Table 1的Average ASR中，VLGuard为83.14%，LLaVA-1.6-Mistral为99.71%。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称实验限于Safebench七类和若干主流MLLM，轻量边缘模型与新兴高风险场景未纳入；效果依赖外部生成模型，迁移到较弱模型时可能下降。消融写在GPT-5的Illegal Activities子集；论文未报告评审与人工一致性。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2608.04034"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2608.04034",
       "aisafetyhot": "https://aisafetyhot.com/items/y81g2eqnievs5ezvvertlcp1x"
@@ -2292,7 +2438,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 HerHealthEval，一个针对女性健康沟通多语言理解能力的受控评测框架，覆盖英语、法语和现代标准阿拉伯语。每个临床案例提供六种沟通形式：规范、临床、外行、间接或含糊、情绪担忧以及刻意信息不足，前五种保留相同临床信息，最后一种故意省略细节以测试模型是否意识到需要追问。研究评测了一个多语言指令模型及 QLoRA 适配变体，考察关切分类、风险校准、追问行为、解析合规和跨形式一致性。结果显示聚合准确率和一致性会掩盖与安全相关的失败：在语言不对称风险监督下，多语言适配模型在法语和阿拉伯语上的分诊不足率达到 0.994；改用源自数据、语言不变的风险标签重新适配后，分诊不足率分别降至 0.572 和 0.558。论文认为稳健的多语言医疗评测需要显式测试语域变化、不确定性处理以及适配标签的来源与不变性。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "医疗沟通中的LLM评测多看回答质量，并默认用户关切已被正确理解。女性健康表达常受病耻、不确定和间接说法影响；同一关切在不同语域及英、法、现代标准阿拉伯语下，可能被理解成不同紧急程度，或在信息不足时仍被直接回答。",
+          "label": "问题"
+        },
+        {
+          "text": "HerHealthEval固定病例，在英、法、现代标准阿拉伯语下各给六种形式：五种保留临床信息，欠指定形式删细节以测澄清。风险银标从英文来源答案导出并跨语言传播。另比较零样本多语言模型与QLoRA变体，含语言不变风险再适配。",
+          "label": "方法"
+        },
+        {
+          "text": "多语言适配在法、阿的under-triage达0.994，校正后为0.572与0.558；作者称校正前高一致性来自塌到routine。零样本英语under-triage为0.718，校正后三语澄清召回仍为0.000。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称范围是三类主题、英/法/现代标准阿拉伯语、一个模型家族和有限配置，推断属探索性，且不确立临床安全。后续包括更广设置、临床裁定标注和不确定性感知对话。评测覆盖五配置与每语言540条，未报告over-triage与重复次数。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.20684"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.20684",
       "aisafetyhot": "https://aisafetyhot.com/items/h2l0jfepao9dyg9sadd86jfel"
@@ -2300,27 +2467,6 @@
     "publishedAt": "2026-09-17T16:53:47.000Z",
     "timelineAt": "2026-10-03T05:41:00.841Z",
     "discoveredAt": "2026-10-03T05:41:00.841Z"
-  },
-  {
-    "arxivId": null,
-    "title": "Trust and Safety of Human- and AI-Powered Visual Description: A Case Study of Be My Eyes",
-    "titleZh": "研究分析 Be My Eyes 1428 条低分评论，揭示视觉描述服务的骚扰、隐私与无障碍安全问题",
-    "authors": [
-      "Natalie Grace Brigham",
-      "Tadayoshi Kohno"
-    ],
-    "category": "eval",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "Brigham 与 Kohno 对 Be My Eyes 的 1428 条一至三星评论做定性分析，考察这一连接超百万盲人与低视力用户、超千万志愿者的视觉描述服务及其 AI 版本 Be My AI 中用户和志愿者遇到的问题。分析发现三类问题：网络骚扰与滥用（恶意骚扰、网络裸露、举报机制失效）、信息暴露之外的隐私担忧（数据被用于模型训练），以及无障碍与安全问题（描述不准确、家长式护栏）。研究还分析平台政策是否及如何回应这些问题，并针对无障碍、安全、隐私与 AI 方面的挑战提出改进视觉描述服务信任与安全的建议。",
-    "quickRead": null,
-    "links": {
-      "paper": "https://tsjournal.org/index.php/jots/article/view/340",
-      "aisafetyhot": "https://aisafetyhot.com/items/qbhagu0yrlp4lkdyqkzhzeibg"
-    },
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "timelineAt": "2026-10-03T12:46:02.610Z",
-    "discoveredAt": "2026-10-03T12:46:02.610Z"
   },
   {
     "arxivId": "2608.03485",
@@ -2342,7 +2488,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 SkillSentry，一个基于自适应蜜罐世界的动态安全测试框架，用于检测 LLM Agent 外部技能在特定环境状态下才暴露的有害行为。该方法先推断技能的能力边界，构建由 LLM 模拟、含受控诱饵资源的环境，并自适应生成任务以探索其行为状态，再将启用技能的执行轨迹与匹配的无技能执行对比，把可疑行为定位到源码和已验证的执行轨迹上。在标准基准上，SkillSentry 取得 99.50% 召回率和 96.26% 平均 F1；在保持语义的规避攻击下平均 F1 为 92.95%，最强基线为 80.07%。作者称代码已公开。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "已安装技能可能在特定环境、资源或交互历史出现后才暴露未披露行为。公开注册表使技能易复用，安装后可使用宿主的文件、shell、凭证和网络。静态分析与一次性语义判断难以确认该行为可达、已完成且由技能导致。",
+          "label": "问题"
+        },
+        {
+          "text": "SkillSentry先从宣称任务推断能力契约，再把源码支持的越界行为做成测试。它构造含任务无关诱饵的honey world，对同一任务做有技能与无技能的配对执行，只在效果完成、可归因且超出契约时判为不安全。",
+          "label": "方法"
+        },
+        {
+          "text": "SkillSentry在仅有害基准上Recall为99.50%，两个混合基准F1为96.08%与96.43%，FPR为4.15%与2.33%。四种规避平均F1为92.95%。注入平均F1为86.32%。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "论文未专门讨论局限。实验覆盖三个标准基准、四种语义保持规避和两组能力注入，以及组件消融、四类骨干和200个技能的耗时抽样。论文未报告完整基准规模、重复次数和人工一致性。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2608.03485"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2608.03485",
       "aisafetyhot": "https://aisafetyhot.com/items/z9uxfdxyj2l01l20ru73vonnv"
@@ -2415,7 +2582,24 @@
     "selected": false,
     "attention": null,
     "summaryZh": "一篇 arXiv 论文比较 AI 系统与 AI 智能体，并综合 23 位学术界与产业界专家的意见，梳理出报告 AI 智能体安全事件所需的信息要素。论文提出的潜在报告要素包括智能体记忆与记忆访问、实际与潜在的自主性水平以及工具使用情况。作者据此列出若干开放研究问题，例如如何高效记录事件、如何判断漏洞与事件是否具有泛化性。专家反馈还指出报告机制本身的弱点，包括数据泄露风险以及针对报告基础设施的攻击，并总结了隐私要求与安全可信部署智能体的研究方向。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "AI智能体的安全事件沿推理、工具、记忆和环境交互展开，还可能由多个模型组成，现有非智能体报告标准覆盖不到。作者称立法已要求报告，因此需要事先确定应采集的信息。",
+          "label": "问题"
+        },
+        {
+          "text": "两位编辑作者对照OECD与欧盟定义，综合23位学术界与产业界专家意见，把应记录内容分为轨迹与自主性、工具与委托、子组件与编排，并讨论报告泄密、针对报告过程的攻击和隐私约束。",
+          "label": "方法"
+        },
+        {
+          "text": "作者将可复现与取证、跨法域、日志体量与防篡改、semantic gap、涌现行为的记录时长，以及报告泄密和被规避列为开放问题。材料是23位专家意见和Table 1；论文未报告征询协议、一致性，也未报告用该清单填写真实事件的数量。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.24515"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.24515",
       "aisafetyhot": "https://aisafetyhot.com/items/pql9mjydorh1mgmzj35guxkj6"
@@ -2527,7 +2711,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 GeoDetect，一种针对视觉语言预训练模型（VLP）的对抗样本检测方法。他们分析 VLP 嵌入空间的几何结构，发现其存在不同于单模态视觉模型的各向异性，理论分析表明对抗攻击会增大干净样本与对抗样本之间的几何间隔，对抗样本到随机采样点的期望距离更大，倾向于把表示推出流形区域。GeoDetect 利用这种偏离流形的几何分数识别对抗样本。评估显示该方法在多种 VLP 架构和威胁场景下都能可靠检测对抗样本，覆盖单模态与多模态攻击以及自适应攻击。该工作已被 ECCV 2026 接收。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "VLP易受对抗样本影响，单模态检测信号能否迁移尚不确定。对抗训练开销大，PIP又限于带显式交叉注意力的VQA。需要不依赖任务标签、可拒绝有害查询的检测方法。",
+          "label": "问题"
+        },
+        {
+          "text": "GeoDetect从图像或融合编码器取嵌入，相对干净参考批计算LID、k-NN、Mahalanobis或KDE。标量分数用阈值，多层LID训练逻辑回归。依据是各向异性下对抗样本离流形，到随机干净点的期望距离更大。",
+          "label": "方法"
+        },
+        {
+          "text": "CLIPCNN上k-NN对CIFAR10的Sepuni，AUC为100、FPR95为0，同设置MCM为65.47（Table 1）。自适应后CLIPViT的LID在Flickr30k从99.37降到31.56（Table 3）。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "论文未专门讨论局限。正文实验覆盖CLIPViT、CLIPCNN、ALBEF、TCL，分类与检索，Sep-Attack和Co-Attack，以及不同分布批的白盒自适应攻击；SGA与选择性梯度攻击的数字只在附录，正文未给。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2607.14737"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2607.14737",
       "aisafetyhot": "https://aisafetyhot.com/items/w8mls8yswkij1loap6tpaq7js"
@@ -2552,7 +2757,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 Temporally Consistent Universal Adversarial Perturbations（TC-UAP），用于保护视频免遭基于参考的图像转视频生成和基于微调的视频定制两类流程的滥用。该方法在多个视频的滑动窗口上优化身份级多帧通用对抗扰动，以应对视频 VAE 时序压缩、单视频扰动难以迁移以及时序不一致扰动易被时序攻击破坏三个挑战，并引入内在时序建模与外在代理时序攻击损失。实验显示，TC-UAP 在两类定制流程下的身份保护效果优于现有方法，且对多种未见过的时序攻击保持稳健。该工作为 ECCV 2026 LifeGenIP Challenge 提供基础。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "公开视频可被整段微调或抽帧做image-to-video，从而复现身份。逐帧图像扰动过不了3D视频VAE的时间压缩；单视频扰动怕剪辑，也护不住未见片段。",
+          "label": "问题"
+        },
+        {
+          "text": "TC-UAP为同一身份学习可沿时间重复的多帧通用扰动，在多段视频滑窗上拉大VAE隐距离，并用相邻帧平均损失与前帧平均重参数化保持时间一致性。",
+          "label": "方法"
+        },
+        {
+          "text": "作者称LTX-2.3三数据集上ISM更低、重建更差，相对三种基线。TalkVid的box filter后，PGD微调ISM1为0.463，TC-UAP为0.136。Wan2.2参考式例外：PhotoGuard的LPIPS与FDFR略高。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者指出方法主要作用于视觉VAE，不能阻止抽取或克隆音轨；联合音视频保护是后续方向。保护只覆盖工具采用后发布的视频，且可能被更强时间模型或离线来源绕过。评测模型为LTX-2.3与Wan2.2-5B，鲁棒性表在TalkVid。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2607.13336"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2607.13336",
       "aisafetyhot": "https://aisafetyhot.com/items/bah99y9cij51t36h1raesdp2n"
@@ -2661,7 +2887,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 PACE（Policy-Attested Contract Execution），一个插入在基于 LLM 的 Agent 与链上执行之间的交易级授权框架，用于应对 Agent 继承的提示注入风险以及审批无法绑定到最终上链交易的问题。PACE 引入类型化交易意图、确定性策略验证器和签名的 Policy Decision Records（PDR），将获批意图、策略与模拟报告加密绑定到确切的执行字节，并提供重放与过期保护；Solidity 智能账户在链上强制校验 PDR 签名，实测开销为 29,826-31,822 gas。作者将结论限定为可复现基准内的逻辑层安全，而非可直接部署的 DeFi 安全方案。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "LLM智能体替用户规划DeFi交易时会继承提示注入，而且模拟阶段的批准没有绑到最终上链的字节，错误结算不可逆。",
+          "label": "问题"
+        },
+        {
+          "text": "Pace把提议收成类型化意图，由从不询问模型的验证器对照用户策略和模拟报告，再签发绑定执行字节的PDR；智能账户在外部调用前复查签名、哈希、nonce和有效期。",
+          "label": "方法"
+        },
+        {
+          "text": "2800次确定性试验中，Pace的unsafe execution与良性误拒均为0.00，无守卫基线unsafe execution为0.80。三个实况模型经Pace守护后攻击成功率为0.000，但有良性误拒。符合策略的有害交易仍被放行。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者将多轮自适应、把合规腿组成有害序列，以及分叉主网上的trace模拟列为后续。实验数字来自内存模拟器、自建40任务和三个实况模型；正文未给出fork数值。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2608.17220"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2608.17220",
       "aisafetyhot": "https://aisafetyhot.com/items/rm40fdi2k4i0a8923r7wgx4ff"
@@ -2685,7 +2932,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出自进化智能体框架，通过识别智能体轨迹中不稳定、低一致性的步骤并将其转化为情景记忆，来缩小 LLM 智能体的「一致性差距」。在 AppWorld 基准上，使用 ReAct/GPT-4.1 的智能体单次运行平均通过率为 77%，但同一任务五次全部成功的比例仅 53%，存在 24 个百分点的差距。该框架将五次全成功率在同任务评测中提升 16 个百分点，在相似任务泛化上提升 13 个百分点。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "同一任务重复执行时，LLM智能体的平均通过率高于五次全通过率。作者称该差额为consistency gap，缩小它是可信部署的前提。AppWorld上ReAct/GPT-4.1的Mean@5为77.4%，Passˆ5为53.0%。",
+          "label": "问题"
+        },
+        {
+          "text": "离线重采样每条轨迹的推理点，用响应变异给步骤打一致性分，再把易翻转步骤写成策略、恢复或优化指南，存入episodic memory。后续相似任务按余弦相似度把指南注入提示词，不改权重和推理循环。",
+          "label": "方法"
+        },
+        {
+          "text": "AppWorld上ReAct/GPT-4.1的Passˆ5同任务从53.0%到69.0%，相似任务到66.0%。GPT-OSS-120B相似任务Passˆ5+8.7 pp。50条轨迹上一致性对成败的AUROC为0.699。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称无法测量平台侧非确定性，框架并不消除不一致，分析器只打稳定性。N=30约把每条轨迹token成本乘30；指南准入校验与跨栈评估留作后续。主实验为ReAct与两个模型、AppWorld 168题。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.08832"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.08832",
       "aisafetyhot": "https://aisafetyhot.com/items/aqbp7iap5eke9h3nk4h200bmv"
@@ -2756,7 +3024,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "SPARED 是一个对抗强化学习框架，让扩散图像编辑器把真实照片改造成能骗过当前检测器的伪造版本，同时让推理 MLLM 学会给出带自由推理依据的判断。双方奖励均设计为无法走捷径：攻击方仅在编辑被忠实执行时得分，防御方仅在判断正确时得分。两模型交替迭代，每轮攻击方针对检测器盲点重建更难训练集，检测器在三个外部基准上逐轮单调提升，解释质量虽未被奖励也随轮次上升。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "部署中的 AI 生成图像检测要同时给出 real/fake 判决和自然语言理由，并泛化到持续增加的生成器。作者认为独立来源的真假图、监督解释语料和静态伪造语料会分别带来溯源捷径、模板化理由和静止的决策边界。",
+          "label": "问题"
+        },
+        {
+          "text": "SPARED 交替训练扩散编辑器与 Qwen3.5-9B 推理检测器。攻击奖励须过 PaCo 忠实编辑门（阈值 0.7）且骗过冻结检测器；防御只奖励判决对错。每轮重编辑同一批真实照片，配对后只剩编辑痕迹。",
+          "label": "方法"
+        },
+        {
+          "text": "作者报告三基准逐轮上升。Iter3：DeepfakeJudge Overall Acc 79.5，AnomReason 零样本 Acc 92.18，Holmes-Set 平均准确率 92.8。Janus 从 86.5 降到 73.1。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者指出局限是硬 0/1 欺骗奖励缺少分家族难度控制，下一步是分级难度信号。实验含三个外部基准、十个未见生成器家族和 Table 3 对照；正文未报告样本量、训练池规模与重复次数。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2608.12876"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2608.12876",
       "aisafetyhot": "https://aisafetyhot.com/items/qbdlvw2skdpa7w7s6wmr64ecq"
@@ -2778,7 +3067,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者用文化响应性评估（CRE）框架的六维评分表审计了 OpenAI 的 SimpleQA（4,326 项）和 LMSYS Chatbot Arena（600 段对话）。SimpleQA 每题都要求以英语档案作为证据基础，单一评分者对哥伦比亚建国日期的偏好占 2.70% 的题目，夸大了全球南方覆盖度；Arena 中英语提示词占 76.3%，而 ITU 估计全球网民中英语用户仅占 25.9%。一个 50 项反基准的 CR 缺陷均值比 SimpleQA 低近三倍（Cohen's d = 1.01），论文认为这属于结构性效度失效。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "SimpleQA与Chatbot Arena被用来判断模型的事实性与质量，并影响教育、劳动和公共服务。作者追问这些仪器对谁有效、谁的知识能进入计分。",
+          "label": "问题"
+        },
+        {
+          "text": "事先按文化回应性评价理论定出六维量表，对SimpleQA全量4,326题做内容分析，并对LMSYS-Chat-1M分层抽取600条对话。另建50题反基准，看量表能否把低CR deficit的知识标出来。",
+          "label": "方法"
+        },
+        {
+          "text": "全库平均CR deficit为1.78，D2在每题上为1。剔除哥伦比亚簇后，其他Global South题占5.41%。Arena抽样中英语提示占76.3%，对照ITU估计25.9%。反基准均值0.64，Cohen's d=1.01。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者在Limitations写明：量表需再验证，D5为下界，ITU估计有方法争议，语料属于某一时点，反基准50题由团队自建。实验覆盖SimpleQA全量4,326题与Arena抽样600条，人工和模型一致性都在52题上。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.24934"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.24934",
       "aisafetyhot": "https://aisafetyhot.com/items/k9x54tc6nzkrmbpqw9o4729iu"
@@ -2943,19 +3253,19 @@
     "quickRead": {
       "parts": [
         {
-          "text": "视觉语言模型在图像与文本单独看无害、合在一起才有风险时，容易给出不安全回答；现有偏好对齐、多 rollout 强化学习和推理期防护数据或算力开销大，还常以直接拒答牺牲有用性。",
+          "text": "图像和请求各自看似无害，组合后却可能需要安全边界。作者关注 VLM 如何避免有害帮助，同时保留对正常或含糊请求的有用回答。",
           "label": "问题"
         },
         {
-          "text": "用多智能体流水线把意图重标为可核对的证据化特权，训练时只给冻结教师；学生只看原图文，每条提示词做一次 on-policy rollout，用 top-32 前向 KL 蒸馏教师的 token 级续写偏好，并混入通用锚点。推理时去掉教师和特权。",
+          "text": "作者重建基于图文证据的意图标注，只给训练期的冻结教师使用；学生每个请求生成一次回答，学习教师在相同前缀上的 token 分布，并加入通用任务监督。",
           "label": "方法"
         },
         {
-          "text": "在 Qwen3-VL-4B 的五组安全评测上，Joint Success 均为最高或与 Base 并列。SIUO+HoliSafe 从 43.9% 到 53.5%。去掉特权、换用原始意图或打乱意图都会下降。通用能力 Aggregate 为 54.5，相对 Base 的 53.3。",
+          "text": "在 Qwen3-VL-4B-Instruct 的五组安全评测中，OPSD 的联合成功率均为表中最高或并列最高；MSSBench 与 Base 持平。LLaVA 补充实验也报告五组提升。",
           "label": "实验与结果"
         },
         {
-          "text": "作者指出 curated 基准之外的泛化仍难，现有协议只部分衡量校准后的安全与有用性，并计划做更广的交互评测。实验主干是 Qwen3-VL-4B，附录另有 LLaVA；安全评审为 GPT-5.6 Sol。",
+          "text": "作者指出基准之外的泛化和评估方法仍需探索。附录的历史评审协议不同，通用能力档案记录的是100样本版本；LLaVA 补充实验未独立分离意图质量的作用。",
           "label": "局限与可以继续做的"
         }
       ],
@@ -3091,7 +3401,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 MM-IFEval-Pro，一个覆盖中英文任务和多种指令劫持场景的多模态指令遵循基准，包含 4 大任务类别、24 个子类及 8 个指令类别、52 个子类，每个样本平均含 3.0 个约束。团队还构建了富含中文与对抗指令的强化学习训练集，显著提升模型在该基准上的表现，并有效迁移到其他主流多模态基准，展现出跨任务与跨语言的泛化能力。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "现有多模态指令遵循基准缺少中文样本，对指令劫持等对抗场景覆盖不足。MM-IFEval-Pro要在中英双语、多约束和视觉伪任务冲突下评测VLM是否遵守用户指令。",
+          "label": "问题"
+        },
+        {
+          "text": "每条约束配确定性规则验证器，中英文长度与句子切分分开实现。劫持样本在图中放伪任务，文本只要求转写，归一化Levenshtein距离小于0.1判为遵守。13,547条训练集用约束满足比例作奖励，以GRPO训练。",
+          "label": "方法"
+        },
+        {
+          "text": "Qwen3-VL-8B在MM-IFEval-Pro平均分从78.73%到89.31%（w/ IH，Table 1），InternVL3.5-8B从64.64%到87.55%。Table 3中MiMo的w/ IH为64.70，其w/o IH为71.40。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "论文未在Conclusion写出局限或后续方向。实验含Qwen3-VL-8B-Instruct与InternVL3.5-8B的GRPO，以及Table 3中另外三个VLM；论文未报告重复次数，也未给出构建数据所用VLM/LLM名称。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.04859"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.04859",
       "aisafetyhot": "https://aisafetyhot.com/items/ibhjr5yjqj8nzwre16bstburm"
@@ -3222,7 +3553,7 @@
       "paper": "https://arxiv.org/abs/2610.00812",
       "aisafetyhot": "https://aisafetyhot.com/items/gsc11w4epfe815d2iz5bb9uoj"
     },
-    "publishedAt": "2026-09-29T20:00:00.000Z",
+    "publishedAt": "2026-09-30T23:13:08.000Z",
     "timelineAt": "2026-10-02T19:35:24.340Z",
     "discoveredAt": "2026-10-02T19:35:24.340Z"
   },
@@ -3237,7 +3568,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "针对全球 AI 治理规则碎片化、代表性不均且多为非约束性的困境，Simon Chesterman 在评论 Matthijs Maas《Architectures of Global AI Governance》时指出，制度设计无法与权力分配分离。Maas 以社会技术变迁、治理中断与机制复杂性为框架，反对技术决定论和单一制度蓝图；但 Chesterman 认为其常提的\"我们\"掩盖了国家、国际机构与科技公司间的差异，前沿 AI 的关键决策集中于少数私营公司，全球 AI 治理更像是多方权力与激励分歧下形成的架构。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "人工智能发展快、易跨境，塑造它的行动者能力可能比肩国家，国际回应却碎片、代表性不均且多无约束力。书评追问谁有能力与激励去创建、执行并调整规则。",
+          "label": "问题"
+        },
+        {
+          "text": "作者评述Maas的三条透镜：社会技术变迁、治理中断、制度复合体，以及常规、军事、先进模型三条轨道。书评则把制度设计放回国家权力与少数私人公司对前沿决策的控制。",
+          "label": "方法"
+        },
+        {
+          "text": "书评没有做模型实验。它援引联合国2024年估计：七项最重要倡议仅7个G7国家参加，另有100国一项未参加。作者另称书中we多于400次，且600页以上的书未出现architect。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "书评没有局限或未来工作专节。脚注43承认本文也可能被指同样忽略全球南方。参与度数字引自联合国2024年报告第9页，七项倡议名称论文未列出；论文未报告编码方案或第二编码者。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.01716"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.01716",
       "aisafetyhot": "https://aisafetyhot.com/items/z87391qd1g9i42tac5nftzgr4"
@@ -3286,7 +3638,7 @@
       "paper": "https://arxiv.org/abs/2610.00209",
       "aisafetyhot": "https://aisafetyhot.com/items/fndj80bk0nnjbo94isk0rq7zc"
     },
-    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "publishedAt": "2026-09-21T03:37:02.000Z",
     "timelineAt": "2026-10-02T17:32:23.067Z",
     "discoveredAt": "2026-10-02T17:32:23.067Z"
   }

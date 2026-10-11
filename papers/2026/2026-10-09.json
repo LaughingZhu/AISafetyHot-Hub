@@ -4353,7 +4353,7 @@
     "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
     "titleZh": "Station 在开放式科研任务中平均复现 62.7% 的预设子发现",
     "authors": [],
-    "category": "eval",
+    "category": "ai_news",
     "selected": false,
     "attention": null,
     "summaryZh": "研究者构建了开放式科研任务评测，从三篇 ICLR oral 论文中提取研究问题与实验设置，但隐去原始发现并禁用联网访问。Station 平均复现了 62.7% 的预设子发现，最强配置 AI Scientist-v2 为 20.6%，Codex Multiagent-v2 为 15.4%，比较按累计实验时间对齐，token 预算与模型团队不同。Agent 自行选择研究方向、开展实验，并在共享知识库中基于已审阅的发现继续推进；Supervisor 指导与周期性 Meta Reflection 促使它们持续探究，而非过早转向更简单的问题。在另外两项探索性任务上，Agent 还给出了与同期人类研究相符的发现，例如在 subliminal learning 中发现把 LoRA 训练限制在浅层可恢复失败的特质迁移。",
