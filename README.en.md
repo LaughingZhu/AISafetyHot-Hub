@@ -1,70 +1,41 @@
 <p align="center"><img src="assets/logo.svg" width="80" alt="AI Safety HOT"></p>
 
-<p align="center"><a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a></p>
+<p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
 
 <h1 align="center">AI Safety HOT Hub</h1>
 
-<p align="center"><strong>Follow AI safety news and events, read papers, and connect your Agent.</strong></p>
+<p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
 
-<p align="center">Attacks and jailbreaks · Defenses and guardrails · Alignment and safety evaluations · AI incidents · Multi-agent safety risks · Governance and policy</p>
+Agent connection guide and public briefing archive for [AI Safety HOT](https://aisafetyhot.com). Website content and daily digests are currently primarily in Chinese.
 
-<p align="center">
-  <a href="https://aisafetyhot.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Website-aisafetyhot.com-2563eb?style=flat-square" alt="🌐 Website: aisafetyhot.com"></a>
-  <a href="https://aisafetyhot.com"><img src="https://img.shields.io/badge/Daily%20digest-Updated%20throughout%20the%20day-d97706?style=flat-square" alt="One daily edition, updated as news develops"></a>
-  <a href="#agent"><img src="https://img.shields.io/badge/Agent-MCP-2563eb?style=flat-square" alt="Agent MCP"></a>
-  <a href="#papers"><img src="https://img.shields.io/badge/Papers-Markdown%20%2F%20BibTeX%20%2F%20JSON-16856b?style=flat-square" alt="Paper lists in three formats"></a>
-</p>
+## Thank you, and an access update
 
-<p align="center">
-  <a href="#agent">Connect your Agent</a> ·
-  <a href="#examples">See how to use it</a> ·
-  <a href="#daily">Daily digest</a> ·
-  <a href="https://aisafetyhot.com/">Visual overview</a> ·
-  <a href="https://aisafetyhot.com/featured">News only</a> ·
-  <a href="https://aisafetyhot.com/papers">Papers only</a> ·
-  <a href="#papers">Related papers</a> ·
-  <a href="https://aisafetyhot.com/hot">Trending events</a> ·
-  <a href="https://aisafetyhot.com">Visit the website ↗</a>
-</p>
+Thank you for your support! AI Safety Hub received substantial traffic within its first few days. We also observed suspicious requests that looked like potential attacks and blocked them. As AI safety researchers, we will continue maintaining the site's defenses.
 
-<p align="center">
-  <a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="Animated demo of AI Safety HOT News Monitor"></a>
-</p>
+To support service costs, our accumulated work and long-term maintenance, **anonymous access now covers recent discovery rather than every dataset**. We continue improving access to recent information:
 
-<p align="center">The demo interface is in Chinese.</p>
+| Scope | Available content |
+| --- | --- |
+| Public News API | News originally published in the last **7 days**: titles, excerpts up to **160 characters**, known original dates, source and website links; search and pagination |
+| Selected papers | Up to **5** recent selected paper titles and links |
+| Daily briefs and events | News excerpts from daily editions within the last 7 days, and recent source reports for an event |
+| Full readings/bodies, historical queries, weekly/monthly reports, snapshots and incremental synchronization | Read authorization required; contact [wuy7117@gmail.com](mailto:wuy7117@gmail.com) |
 
-This is the **Agent connection guide and public content archive** for [AI Safety HOT](https://aisafetyhot.com). Use MCP to find news, read papers, follow events, and prepare briefings, or download paper lists in Markdown, BibTeX, and JSON.
-
-This is the English guide. Linked documentation, daily digests, archives, and service content are currently primarily in Chinese.
-
-**If you find it useful, please give the project a Star on GitHub.**
+Unknown original dates do not become recent through ingestion. The website remains free to read; public briefs need no login.
 
 <a id="website"></a>
 
-## 🌐 Explore the website
+## Read on the website
 
-| Page | What you can find |
-|---|---|
-| [Overview](https://aisafetyhot.com/) | News Monitor, trending events, and an animated news flow connecting sources → topics → news cards |
-| [News only](https://aisafetyhot.com/featured) | Up to 20 news events in the current editorial window; reports and discussions about the same event appear together as updates, with papers listed separately |
-| [Papers only](https://aisafetyhot.com/papers) | Organized entries first by default, ordered within each group by original publication date; switch to newest publication or filter by research type, risk, setting, and component |
-| [Trending events](https://aisafetyhot.com/hot) | Event-level attention, coverage from multiple sources, and related discussions |
-| [Daily digest](https://aisafetyhot.com/daily) | One edition per day, updated as news develops, with earlier editions available |
-| [Conference papers](https://aisafetyhot.com/conferences) | Browse collected AI safety papers by conference |
+[Overview](https://aisafetyhot.com/) · [News](https://aisafetyhot.com/featured) · [Papers](https://aisafetyhot.com/papers) · [Events](https://aisafetyhot.com/hot) · [Daily](https://aisafetyhot.com/daily) · [Conferences](https://aisafetyhot.com/conferences)
 
-News and digests use original publication dates to assess freshness; the editorial window includes the previous day's news from North America. Paper ordering is not a quality ranking. Existing quick reads and detailed commentary are available on paper detail pages.
-
-### How content is maintained
-
-Server workers collect configured feeds and aggregate listings incrementally. Grok Bot discovers material on X; AI Safety Bot (dot) discovers web, media, institutional, Xiaohongshu, and paper sources. A shared intake process screens and groups submissions before the website presents Chinese titles and summaries. A listed publisher is not necessarily checked in full every day, and collection counts are not publication counts.
-
-The site manager follows unfinished tasks, source-check receipts, content updates, and page behavior. The lower news flow is an organized snapshot of the past three days, normally refreshed every 72 hours; News Monitor reflects incoming data. The existing publisher synchronizes Chinese digests and paper exports. English and Japanese READMEs provide navigation; digest bodies are currently primarily Chinese. Please report content errors on the [website board](https://aisafetyhot.com/board).
+News freshness uses original publication dates, including the previous day's North American news. The same daily edition is updated as new reports arrive. Full existing paper readings remain on detail pages. Report errors on the [board](https://aisafetyhot.com/board).
 
 <a id="agent"></a>
 
-## 🤖 Connect your Agent
+## Connect your Agent
 
-The public MCP service requires no login or API key. Run the command for your client in a terminal, then reopen the client session.
+Public briefs need no API key. Use **Streamable HTTP**, run a command below, then reopen the client session.
 
 **Codex**
 
@@ -78,132 +49,48 @@ codex mcp add aisafetyhot --url https://aisafetyhot.com/api/mcp
 claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com/api/mcp
 ```
 
-For other clients, set the name to `aisafetyhot`, the URL to `https://aisafetyhot.com/api/mcp`, and the connection type to **Streamable HTTP**.
-
-### What you can do
-
-| What you want to do | MCP tool | What you get |
-|---|---|---|
-| See the latest updates | `aisafetyhot_get_latest` | All updates or selected items, with summaries, sources, and pagination |
-| Search news and papers | `aisafetyhot_search` | Existing content filtered by keyword, topic, category, and date |
-| Explore research topics | `aisafetyhot_get_topics` | Topic names, identifiers, definitions, and related topics |
-| Read an individual item | `aisafetyhot_get_content` | An item summary, the original source link, and any existing paper commentary |
-| See trending events | `aisafetyhot_get_hot_topics` | The current event ranking, contributing sources, and related link counts |
-| Follow an event | `aisafetyhot_get_story` | An event overview, a timeline of source reports, and discussions |
-| Read daily, weekly, or monthly reports | `aisafetyhot_get_daily` | Published reports or a list of available report keys |
-
-<a id="parameters"></a>
-
-### Parameter quick reference
-
-Tool names in this table omit the shared `aisafetyhot_` prefix. Your Agent can fill in the parameters based on your question. For all allowed values, defaults, and invocation details, see the tool descriptions provided by MCP.
-
-| Parameter | Used by | Meaning and common values |
-|---|---|---|
-| `q` | `search` | Required search keyword, such as `prompt injection` |
-| `mode` | `get_latest`, `search` | `all` searches all public updates; `selected` searches selected items only |
-| `mode` | `get_latest` | `snapshot` / `changes` synchronizes the entire selected collection; category, topic, and date filters are not supported |
-| `mode` | `get_daily` | `read` reads one report; `list` lists published report keys |
-| `window` | `get_latest`, `search` | `24h` covers the past day; `7d` covers the past week; `all` includes historical content |
-| `by` | `get_latest`, `search` | `timeline` sorts by the site timeline and filters date ranges by the time an item was added to the site; `published` sorts and filters by the original publication date |
-| `category` | `get_latest`, `search` | Category codes: `attack` attacks, `defense` defenses, `alignment` alignment, `eval` evaluations, `incident` incidents, `industry` governance, `tip` tools, `opinion` opinions, `ai_news` AI updates |
-| `topic` | `get_latest`, `search` | Topic identifier; use a slug returned by `get_topics` |
-| `from` | `get_latest`, `search` | Start date or timestamp with a time zone; inclusive |
-| `until` | `get_latest`, `search` | End date or timestamp with a time zone; exclusive |
-| `limit` | `get_latest`, `search`, `get_daily`, `get_hot_topics` | Number of returned items: 1–50 per page for paginated tools, or the top 1–10 trending events; for reports, used only in `list` mode |
-| `cursor` | `get_latest`, `search`, `get_story`, `get_daily` | Next-page identifier; use `page.nextCursor` for ordinary pagination; for reports, used only in `list` mode |
-| `id` | `get_content` | Required news or paper ID, obtained from query results |
-| `public_id` | `get_story` | Required event ID; use the `publicId` in the results |
-| `depth` | `get_content`, `get_story` | `summary` returns a brief overview; `full` adds any existing body text or paper commentary, or event report summaries |
-| `max_chars` | `get_content` | Character budget for body text, paper quick reads, and commentary: 1000–30000 |
-| `report_limit` | `get_story` | Number of source reports per page: 1–50 |
-| `period` | `get_daily` | `daily` for daily digests; `weekly` for weekly reports; `monthly` for monthly reports |
-| `key` | `get_daily` | Report key in read mode: `YYYY-MM-DD`, `YYYY-Www`, or `YYYY-MM`; omit to read the latest published report |
-| `date` | `get_daily` | Legacy daily digest date in read mode, in `YYYY-MM-DD` format; new calls can use `key` |
-| `slug` | `get_topics` | Selects one topic; omit to list all configured topics |
-
-Use `window="all"` to search historical content. Date-only `from` / `until` values are interpreted as midnight UTC. For cursor rules when synchronizing selected items, see the [full guide (Chinese)](docs/agent.md#续接精选变化).
+| MCP tool | Anonymous scope |
+| --- | --- |
+| `aisafetyhot_get_latest` | 24h/7d News excerpts and selected paper links |
+| `aisafetyhot_search` | Search and paginate within the same recent News scope |
+| `aisafetyhot_get_content` | Recent News excerpts or current selected paper links; `depth=summary` |
+| `aisafetyhot_get_hot_topics` | Current event titles, ranks and reading links |
+| `aisafetyhot_get_story` | Recent News excerpts and links for an event; `depth=summary` |
+| `aisafetyhot_get_daily` | News briefs from daily editions within the last 7 days; `period=daily` |
+| `aisafetyhot_get_topics` | Topic names, slugs and definitions |
 
 <a id="examples"></a>
 
-### What to try
+### Try it
 
-Once connected, ask questions in natural language. MCP provides tool descriptions and parameter definitions, which your Agent uses to choose the calls.
+Call `get_latest({window:"7d",mode:"all",limit:10})`, then use returned IDs for summaries. Search with `search({q:"prompt injection",window:"7d",mode:"all"})`. Keep filters unchanged when following `page.nextCursor` until `page.hasMore=false`.
 
-| What to try | How to use it | Result |
-|---|---|---|
-| See new content | “List 3 selected items added to the site in the past 24 hours, with their sources and original links.” | [Titles, summaries, sources, and pagination (Chinese)](docs/mcp-examples.md#latest) |
-| Research a topic | “Find papers about prompt injection, then open one and explain its findings.” | [Search results and existing paper commentary (Chinese)](docs/mcp-examples.md#topics) |
-| Prepare a briefing | “Read the latest weekly report and list its themes and reading links.” | [Report key, coverage dates, and themes (Chinese)](docs/mcp-examples.md#reports) |
+`mode=all` includes all News within the permitted window. `window=all`, `depth=full` and `mode=snapshot/changes` require authorization. Original dates and ingestion dates remain separate.
 
-The linked example results were sampled on 2026-10-07 (Melbourne). Actual query results change as the website updates.
+Anonymous MCP, REST and RSS share a per-IP quota of 60 requests/minute and 1,000/UTC day; excess requests return 429 and `Retry-After`. Authorized reads use `Authorization: Bearer <token>`, without admin or write access. Invalid credentials return 401; out-of-scope reads return 403 or MCP `authorization_required`.
 
-Keep both the site links and original source links in your answers. If `page.hasMore` is true, continue paginating; check `completeness` for missing or truncated content. The service reads existing public content. Paper commentary is secondary material, so verify key facts against the original source.
-
-[MCP connection and parameter guide (Chinese)](docs/agent.md) · [Calls and example results (Chinese)](docs/mcp-examples.md) · [Reading scope and caveats (Chinese)](docs/agent.md#读取范围)
+[Guide (Chinese)](docs/agent.md) · [Examples (Chinese)](docs/mcp-examples.md) · [Agent Skill](skills/aisafetyhot/SKILL.md) · [OpenAPI](https://aisafetyhot.com/openapi-v1.json)
 
 <a id="daily"></a>
 
-## 🗞️ Daily AI safety digest
+## Daily briefs
 
-Read the latest digest and earlier editions through these regularly updated entries:
+[Latest brief (Chinese)](README.md#daily) · [Daily archive](daily) · [Full website daily](https://aisafetyhot.com/daily)
 
-- [Latest digest (Chinese)](README.md#daily)
-- [Daily digest archive (Chinese)](daily)
-- [Daily reports on the website (Chinese)](https://aisafetyhot.com/daily)
-
-> The first daily edition is published at **08:00 Beijing time (UTC+8)** and updated as new developments arrive throughout the same day. The Hub checks for updates every 15 minutes. Each new edition replaces the digest section in the Chinese README; earlier editions remain in the [daily digest archive (Chinese)](daily).
+The existing publisher checks every 15 minutes. Digest bodies are primarily Chinese; this README provides English navigation.
 
 <a id="papers"></a>
 
-## 📚 Download the paper lists
+## Paper links and archives
 
-Since 2026-09-24, papers added to the site and classified as AI safety research have been archived by date. Existing Chinese reading guides and paper quick reads are included in the lists, with further commentary added over time.
+From **2026-10-12**, daily exports contain up to 5 selected paper titles, original dates and links in Markdown, BibTeX and JSON. Paper summaries, quick reads and detailed commentary are no longer automatically exported. Files use the Beijing ingestion day; original publication dates are recorded separately.
 
-| What you want to do | File to use |
-|---|---|
-| Read paper titles, reading guides, and quick reads | [Markdown lists (Chinese)](papers) |
-| Import into Zotero, EndNote, or a paper's bibliography | `papers/YYYY/YYYY-MM-DD.bib` |
-| Give the data to an Agent, take notes, or use your own scripts | `papers/YYYY/YYYY-MM-DD.json` |
+Previously published archives remain available. Changing an API cannot recall copies already downloaded. Export reconciliation covers the selected link set; other papers remain readable on the website.
 
-Paper quick reads cover the **problem, method, experiments and results, and limitations**, with the source identified for each paper. ★ marks a selected item. Attention scores are a reference signal for AI safety readers, not a measure of paper quality.
+[Latest downloads (Chinese)](README.md#papers) · [Papers](papers) · [Daily archive](daily) · [2026 archive](archive/2026.md) · [Sync record](status.json)
 
-To download the LaTeX source files of arXiv papers, you can also use [arxiv2agent](https://github.com/wuyoscar/arxiv2agent).
+## Support and feedback
 
-<details>
-<summary><strong>Browse recent digests and paper downloads</strong></summary>
+Please give the project a Star or [buy the author a coffee](https://buymeacoffee.com/wuyoscar) if it saves you time. Thanks to AIHOT, Security of AI, and the publications, open-source frameworks and communities that inspired this project.
 
-- [Latest digests and paper downloads (Chinese)](README.md#papers)
-- [2026 archive (Chinese)](archive/2026.md)
-- [Paper lists (Chinese)](papers)
-
-Paper lists are grouped by Beijing calendar day (00:00–24:00), using the paper's timestamp on the website timeline. Each daily edition uses original publication dates, covering 08:00 on the previous day through the latest update on the edition date, Beijing time (UTC+8). Because these day boundaries differ, a digest and paper list for the same date do not contain exactly the same set of items; a paper may appear in the digest for an adjacent date. Papers removed, corrected, or added on the website within the most recent 7 days are checked hourly, and any changes are synchronized to the list for the corresponding day.
-
-[status.json](status.json) records each day's paper count and an ID digest, as well as the synchronization time limit (`slaMinutes`: the maximum number of minutes before papers on the website appear here).
-
-</details>
-
-## 🔎 More to explore on the website
-
-[All updates](https://aisafetyhot.com/all) lists incoming public content · [Weekly reports](https://aisafetyhot.com/weekly) review the week · [Monthly reports](https://aisafetyhot.com/monthly) recap the month
-
-**Subscribe in your own feed reader:** [Selected items RSS](https://aisafetyhot.com/feed.xml) · [All updates RSS](https://aisafetyhot.com/feed/all.xml) · [Daily digest RSS](https://aisafetyhot.com/feed/daily.xml)
-
-## ☕ Support and feedback
-
-The website and Hub are free. If they save you some time finding resources, you are welcome to [buy the author a coffee](https://buymeacoffee.com/wuyoscar) to help cover server and model API costs.
-
-<details>
-<summary>Support via WeChat</summary>
-
-<img src="assets/wechat-pay.png" width="160" alt="WeChat payment QR code">
-
-</details>
-
-To report an error or request a correction or removal, visit the [message board (Chinese)](https://aisafetyhot.com/board) and select 「下架/更正」 (removal/correction).
-
----
-
-AI Safety HOT is built on the open-source framework [AIHOT](https://github.com/KKKKhazix/AIHOT), with thanks to its original author. Reading guides are generated by models. Paper quick reads are prepared from paper PDFs or from arXiv full text; each record identifies the specific source. Refer to the original sources for important numbers and conclusions.
-
-Reading guides, quick reads, and daily digest text in this repository are licensed under [CC BY-NC 4.0](LICENSE). When republishing, credit AI Safety HOT and retain the source attribution; commercial use is not permitted. Copyright in the original articles and papers belongs to their respective authors and sources.
+<img src="assets/wechat-pay.png" width="160" alt="WeChat support QR code">

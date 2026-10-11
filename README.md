@@ -1,66 +1,41 @@
 <p align="center"><img src="assets/logo.svg" width="80" alt="AI Safety HOT"></p>
 
-<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
+<p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
 
 <h1 align="center">AI Safety HOT Hub</h1>
 
-<p align="center"><strong>看 AI 安全新闻、追事件进展、读论文，也让你的 Agent 一起用。</strong></p>
+<p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
 
-<p align="center">攻击与越狱 · 防御与护栏 · 对齐与安全评测 · AI 事件 · 多智能体不安全 · 治理与政策</p>
+AI Safety HOT 的 Agent 接入指南与公开简报归档。新闻、论文和完整阅读入口在 [aisafetyhot.com](https://aisafetyhot.com)。
 
-<p align="center">
-  <a href="https://aisafetyhot.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Website-aisafetyhot.com-2563eb?style=flat-square" alt="🌐 Website：aisafetyhot.com"></a>
-  <a href="https://aisafetyhot.com"><img src="https://img.shields.io/badge/日报-当天持续更新-d97706?style=flat-square" alt="当天一期，随新进展更新"></a>
-  <a href="#agent"><img src="https://img.shields.io/badge/Agent-MCP-2563eb?style=flat-square" alt="Agent MCP"></a>
-  <a href="#papers"><img src="https://img.shields.io/badge/论文-Markdown%20%2F%20BibTeX%20%2F%20JSON-16856b?style=flat-square" alt="三种格式的论文清单"></a>
-</p>
+## 感谢大家，也说一下接口调整
 
-<p align="center">
-  <a href="#agent">接入你的 Agent</a> ·
-  <a href="#examples">看看怎么用</a> ·
-  <a href="#daily">今日日报</a> ·
-  <a href="https://aisafetyhot.com/">总览可视化</a> ·
-  <a href="https://aisafetyhot.com/featured">只看 News</a> ·
-  <a href="https://aisafetyhot.com/papers">只看 paper</a> ·
-  <a href="#papers">相关论文</a> ·
-  <a href="https://aisafetyhot.com/hot">看热点</a> ·
-  <a href="https://aisafetyhot.com">逛网站 ↗</a>
-</p>
+感谢大家的喜欢！AI Safety Hub 上线几天就迎来了大量访问。我们也观察到了一些疑似攻击的访问，并进行了拦截。我们本身研究 AI 安全，也会持续维护网站的防护。
 
-<p align="center">
-  <a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor 动态演示"></a>
-</p>
+考虑到服务成本、内容积累和长期维护，**我们不再通过匿名接口开放全部数据，但会继续做好近期信息的开放和可用性**：
 
-这里是 [AI Safety HOT](https://aisafetyhot.com) 的 **Agent 接入指南与公开内容归档**。用 MCP 查新闻、读论文、追事件和整理简报，也可以带走 Markdown、BibTeX、JSON 论文清单。
+| 范围 | 现在提供什么 |
+| --- | --- |
+| 匿名 News 接口 | 原发最近 **7 天**的新闻标题、最多 **160 字**的短摘要、已知原发时间、原文链接和本站链接；支持搜索与分页 |
+| 少量精选论文 | 最多 **5 篇**近期精选论文的标题与链接，方便回网站阅读 |
+| 日报与事件 | 最近 7 天内日报的 News 简报，以及同一事件的近期新闻摘要与链接 |
+| 完整论文解读、正文、历史查询、周报/月报、全量与增量同步 | 需要只读授权，联系 [wuy7117@gmail.com](mailto:wuy7117@gmail.com) |
 
-**觉得有用，欢迎在 GitHub 点 Star。**
+未知原发日期的材料不会凭收录时间进入近期 News。网站继续免费阅读，公开简报继续无需登录。
 
 <a id="website"></a>
 
-## 🌐 先在网站上看什么
+## 在网站阅读
 
-| 入口 | 可以看到什么 |
-|---|---|
-| [总览](https://aisafetyhot.com/) | News Monitor、热点与动态新闻流；沿「来源 → 话题 → 新闻卡片」浏览近期内容 |
-| [只看 News](https://aisafetyhot.com/featured) | 当天编辑窗口内最多 20 个新闻事件；同一事件的报道与讨论汇入「事件进展」，论文另列 |
-| [只看 paper](https://aisafetyhot.com/papers) | 默认已整理优先，组内按原发表日期排序；可切换「最新发表」，按研究类型、风险、场景和组件筛选 |
-| [热点榜](https://aisafetyhot.com/hot) | 聚合事件热度，追踪多家报道和相关讨论 |
-| [AI 安全日报](https://aisafetyhot.com/daily) | 当天一期，随新进展更新，回看往期日报 |
-| [会议论文](https://aisafetyhot.com/conferences) | 按会议浏览收录的 AI 安全论文 |
+[总览](https://aisafetyhot.com/) · [News](https://aisafetyhot.com/featured) · [论文](https://aisafetyhot.com/papers) · [热点事件](https://aisafetyhot.com/hot) · [日报](https://aisafetyhot.com/daily) · [会议论文](https://aisafetyhot.com/conferences)
 
-News 与日报按原发时间判断新鲜度，编辑窗口包含北美前一天的消息。论文页的排序不代表质量排名；已生成的速读和深度解读可以在详情页阅读。
-
-### 内容怎样更新
-
-固定列表与聚合入口由服务器增量采集；Grok Bot发现X材料，AI Safety Bot（dot）发现网页、媒体、机构、小红书和论文。材料经统一收录流程筛选、核对与归组，再由网站提供中文标题和摘要。来源目录中的网站不一定都被每天完整检查，采集数量也不等于公开数量。
-
-网站总控检查未完成任务、内容更新和页面显示，结合来源检查回执接续问题。新闻流保存近三天的整理快照，常规每72小时更新；上方News Monitor随入站数据更新。这里的中文日报与论文导出由现有发布器同步；英文、日文README提供导航，日报正文目前以中文为主。标题与摘要仍可能有误，反馈请用[网站留言板](https://aisafetyhot.com/board)。
+新闻和日报按原发时间判断新进展，兼顾北美前一天。当天同一期日报会随新报道更新。论文完整速读与已有解读在详情页阅读。发现内容错误，欢迎在[留言板](https://aisafetyhot.com/board)反馈。
 
 <a id="agent"></a>
 
-## 🤖 接入你的 Agent
+## 接入 Agent
 
-公开 MCP，无需登录或 API Key。在终端执行对应命令，然后重新打开客户端会话。
+公开简报不需要 API Key，连接方式为 **Streamable HTTP**。运行以下命令后重新打开客户端会话：
 
 **Codex**
 
@@ -74,73 +49,31 @@ codex mcp add aisafetyhot --url https://aisafetyhot.com/api/mcp
 claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com/api/mcp
 ```
 
-其他客户端：名称填 `aisafetyhot`，地址填 `https://aisafetyhot.com/api/mcp`，连接方式选 **Streamable HTTP**。
-
-### 可以做什么
-
-| 你想做什么 | MCP 工具 | 能拿到什么 |
-|---|---|---|
-| 看最新动态 | `aisafetyhot_get_latest` | 全部动态或精选，附摘要、出处和下一页 |
-| 搜新闻和论文 | `aisafetyhot_search` | 按关键词、话题、分类和日期查找已有内容 |
-| 找研究话题 | `aisafetyhot_get_topics` | 话题名称、标识、定义和相关话题 |
-| 读一篇内容 | `aisafetyhot_get_content` | 单篇摘要、原文链接及已有论文解读 |
-| 看当前热点 | `aisafetyhot_get_hot_topics` | 当前事件榜、参与信源与相关链接数量 |
-| 追踪一个事件 | `aisafetyhot_get_story` | 事件综述、来源报道时间线和讨论 |
-| 读日／周／月报 | `aisafetyhot_get_daily` | 已发布报告，或可供选择的报告期号 |
-
-<a id="parameters"></a>
-
-### 参数速查
-
-表中工具名省略共同前缀 `aisafetyhot_`。参数可交给 Agent 按你的问题填写；完整取值、默认值和调用方式见 MCP 自带的工具说明。
-
-| 参数 | 用在哪个工具 | 含义与常用取值 |
-|---|---|---|
-| `q` | `search` | 搜索关键词，必填，如 `prompt injection` |
-| `mode` | `get_latest`、`search` | `all` 查全部公开动态；`selected` 只查精选 |
-| `mode` | `get_latest` | `snapshot`／`changes` 同步整个精选集合，不支持分类、话题或日期筛选 |
-| `mode` | `get_daily` | `read` 读一期；`list` 列出已发布期号 |
-| `window` | `get_latest`、`search` | `24h` 近一天；`7d` 近一周；`all` 包含历史内容 |
-| `by` | `get_latest`、`search` | `timeline` 按本站时间线排序，日期范围按收录时间筛选；`published` 按原文日期排序和筛选 |
-| `category` | `get_latest`、`search` | 分类编码：`attack` 攻击、`defense` 防御、`alignment` 对齐、`eval` 评测、`incident` 事件、`industry` 治理、`tip` 工具、`opinion` 观点、`ai_news` AI 动态 |
-| `topic` | `get_latest`、`search` | 话题标识，使用 `get_topics` 返回的 slug |
-| `from` | `get_latest`、`search` | 开始日期或带时区的时间，包含起点 |
-| `until` | `get_latest`、`search` | 结束日期或带时区的时间，不含终点 |
-| `limit` | `get_latest`、`search`、`get_daily`、`get_hot_topics` | 返回条数；分页工具每页 1–50，热点榜前 1–10 条；报告只在 `list` 模式使用 |
-| `cursor` | `get_latest`、`search`、`get_story`、`get_daily` | 下一页标识；普通翻页使用 `page.nextCursor`，报告只在 `list` 模式使用 |
-| `id` | `get_content` | 新闻或论文 ID，必填，从查询结果中取得 |
-| `public_id` | `get_story` | 事件 ID，必填，使用结果里的 `publicId` |
-| `depth` | `get_content`、`get_story` | `summary` 返回简要内容；`full` 加入已有正文／论文解读，或事件报道摘要 |
-| `max_chars` | `get_content` | 正文、论文速读与解读的字符预算，1000–30000 |
-| `report_limit` | `get_story` | 每页来源报道条数，1–50 |
-| `period` | `get_daily` | `daily` 日报；`weekly` 周报；`monthly` 月报 |
-| `key` | `get_daily` | 读取模式的报告期号：`YYYY-MM-DD`、`YYYY-Www`、`YYYY-MM`；省略读最新一期 |
-| `date` | `get_daily` | 读取模式的旧版日报日期，`YYYY-MM-DD`；新调用可用 `key` |
-| `slug` | `get_topics` | 指定一个话题；省略列出全部已配置话题 |
-
-查历史内容时用 `window="all"`；只写日期的 `from`／`until` 按 UTC 零点解释。精选同步的游标规则见[完整说明](docs/agent.md#续接精选变化)。
+| MCP 工具 | 匿名可用范围 |
+| --- | --- |
+| `aisafetyhot_get_latest` | 最近 24 小时或 7 天的 News 简报，附少量精选论文链接 |
+| `aisafetyhot_search` | 同范围 News 搜索和分页 |
+| `aisafetyhot_get_content` | 近期新闻短摘要、当前精选论文链接；`depth=summary` |
+| `aisafetyhot_get_hot_topics` | 当前热点标题、排名和阅读入口 |
+| `aisafetyhot_get_story` | 事件近期 News 摘要与链接；`depth=summary` |
+| `aisafetyhot_get_daily` | 最近 7 天内的日报 News 简报；`period=daily` |
+| `aisafetyhot_get_topics` | 话题名称、slug 与定义 |
 
 <a id="examples"></a>
 
-### 想试什么
+### 怎么用
 
-连接后直接用自然语言提问。MCP 会提供工具说明和参数定义，Agent 据此选择调用。
+让 Agent 调用 `get_latest({window:"7d",mode:"all",limit:10})`，再通过返回的 ID 读取短摘要。搜索用 `search({q:"prompt injection",window:"7d",mode:"all"})`。同一筛选下沿 `page.nextCursor` 翻页，直到 `page.hasMore=false`。
 
-| 想试什么 | 怎么用 | 结果 |
-|---|---|---|
-| 看新内容 | “列出过去 24 小时收录的 3 条精选，附来源和原文。” | [标题、摘要、来源和分页](docs/mcp-examples.md#latest) |
-| 做话题研究 | “找提示注入相关论文，打开一篇说明它的发现。” | [搜索结果与已有论文解读](docs/mcp-examples.md#topics) |
-| 准备简报 | “读最新一期周报，列出主题和阅读链接。” | [报告期号、覆盖日期和主题](docs/mcp-examples.md#reports) |
+`mode=all` 表示同一近期范围内全部 News；`window=all`、`depth=full`、`mode=snapshot/changes` 需要授权。原发时间与收录时间分别保留，不混为一谈。
 
-链接中的示例结果来自 2026-10-07（墨尔本）；实际查询随网站更新。
+匿名 MCP、REST 与 RSS 合计每 IP 最多 60 次/分钟、1,000 次/UTC 日；超额返回 429 与 `Retry-After`。只读授权使用 `Authorization: Bearer <令牌>`，不授予管理或写入权限。无效凭证返回 401，超范围返回 403 或 MCP `authorization_required`。
 
-回答时保留站内链接和原文链接；有 `page.hasMore` 就继续翻页，缺失或截断查看 `completeness`。接口读取已有公开内容，论文解读属于二手资料，关键事实请回原文核对。
-
-[MCP 接入与参数说明](docs/agent.md) · [调用与结果示例](docs/mcp-examples.md) · [读取范围与注意事项](docs/agent.md#读取范围)
+[详细指南](docs/agent.md) · [使用示例](docs/mcp-examples.md) · [Agent Skill](skills/aisafetyhot/SKILL.md) · [OpenAPI](https://aisafetyhot.com/openapi-v1.json)
 
 <a id="daily"></a>
 
-## 🗞️ 每日 AI 安全日报
+## 最新 AI 安全日报简报
 
 <!-- daily:start -->
 ### 2026-10-12 · 0 条精选
@@ -150,26 +83,15 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 点击标题展开导读，每条都附原文链接。
 <!-- daily:end -->
 
-> 日报每天北京时间 08:00 出首版，同一天随新进展更新；Hub 每 15 分钟检查更新。新一期发布后替换本区，往期保留在 [日报归档](daily)。
+完整内容在[网站日报](https://aisafetyhot.com/daily)阅读。Hub 由既有发布器每 15 分钟检查更新，成功同步以正文和远端读回为准。
 
 <a id="papers"></a>
 
-## 📚 论文可以直接带走
+## 论文链接与归档
 
-从 2026-09-24 起，每天进站并判定为 AI 安全的论文按日期归档。已生成的中文导读和论文速读随清单提供，后续解读会持续补齐。
+自 **2026-10-12** 起，每天导出最多 5 篇精选论文的标题、原发时间和链接，保留 Markdown、BibTeX、JSON 格式；不再自动导出论文摘要、速读或六问解读。按本站收录的北京时间自然日归档，原发日期另列，两个日期可能不同。
 
-| 你想做什么 | 用哪份文件 |
-|---|---|
-| 直接阅读论文标题、导读和速读 | [Markdown 清单](papers) |
-| 导入 Zotero、EndNote 或论文参考文献 | `papers/YYYY/YYYY-MM-DD.bib` |
-| 交给 Agent、做笔记或接自己的脚本 | `papers/YYYY/YYYY-MM-DD.json` |
-
-论文速读包含**问题、方法、实验与结果、局限**，每篇标明出处。★ 表示入选精选；关注度是对 AI 安全读者的参考信号，不代表论文质量。
-
-想下载 arXiv 论文的 LaTeX 源文件（source），也可以用 [arxiv2agent](https://github.com/wuyoscar/arxiv2agent)。
-
-<details>
-<summary><strong>展开最近的日报与论文下载</strong></summary>
+此前已经公开的归档继续保留；接口调整无法撤回他人已下载的内容。新范围内的导出对账以同一精选链接集合为准，未导出的其他论文仍在网站阅读。
 
 <!-- latest:start -->
 | 日期 | 每日精选 | 论文清单 |
@@ -196,29 +118,10 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 [status.json](status.json) 记录每天的论文数和 ID 摘要，以及同步时限（slaMinutes：网站上的论文最迟多少分钟内出现在这里）。
 <!-- latest:end -->
 
-</details>
+[日报归档](daily) · [论文清单](papers) · [2026 归档](archive/2026.md) · [同步记录](status.json)
 
-## 🔎 还可以在网站上看什么
+## 支持与反馈
 
-[全部动态](https://aisafetyhot.com/all) 查看持续入站的公开内容 · [周报](https://aisafetyhot.com/weekly) 回顾一周 · [月报](https://aisafetyhot.com/monthly) 盘点一个月
+如果这个项目帮你节省了时间，欢迎给仓库一个 Star，或[请作者喝杯咖啡](https://buymeacoffee.com/wuyoscar)。感谢 AIHOT、Security of AI，以及启发了这个项目的公众号、开源框架和社区。
 
-**订阅到自己的阅读器：** [精选 RSS](https://aisafetyhot.com/feed.xml) · [全部动态 RSS](https://aisafetyhot.com/feed/all.xml) · [日报 RSS](https://aisafetyhot.com/feed/daily.xml)
-
-## ☕ 支持与反馈
-
-网站和 Hub 都免费。如果它为你省下了一点找资料的时间，欢迎 [请作者喝杯咖啡](https://buymeacoffee.com/wuyoscar)，支持服务器与模型调用开销。
-
-<details>
-<summary>微信支持</summary>
-
-<img src="assets/wechat-pay.png" width="160" alt="微信收款码">
-
-</details>
-
-发现错误、希望更正或下架，请到 [留言板](https://aisafetyhot.com/board) 选择「下架/更正」。
-
----
-
-AI Safety HOT 基于开源框架 [AIHOT](https://github.com/KKKKhazix/AIHOT) 搭建，感谢原作者。导读由模型生成；论文速读根据论文 PDF 或 arXiv 全文整理，具体出处见每篇记录。重要数字与结论请以原文为准。
-
-仓库中的导读、速读与日报文字采用 [CC BY-NC 4.0](LICENSE)，转载请署名 AI Safety HOT 并保留来源，不用于商业用途。原文和论文版权归各自作者与来源。
+<img src="assets/wechat-pay.png" width="160" alt="微信支持二维码">
