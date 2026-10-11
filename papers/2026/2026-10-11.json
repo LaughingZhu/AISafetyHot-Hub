@@ -197,6 +197,24 @@
     "discoveredAt": "2026-10-11T05:00:58.431Z"
   },
   {
+    "arxivId": "2610.07781",
+    "title": "Quantization Effects on Tool-Failure Recovery Vary Across Prompts and Evaluation Designs",
+    "titleZh": "Llama 与 Qwen 量化 Agent 的工具故障恢复对比随提示词与评分口径反转",
+    "authors": [],
+    "category": "eval",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "论文比较 Llama-3.1-8B-Instruct 与 Qwen2.5-7B-Instruct 的 8-bit 和 4-bit 量化版本在 20 个确定性工具使用任务、5 组提示词下的工具故障恢复表现，发现两者优劣会随提示词和评测口径反转。在同一提示词下两个版本都无故障完成的任务上，Llama 的差异为 0 到 +20.2 个百分点，Qwen 为 -50.0 到 +35.0 个百分点；全流程点估计在 5 组提示词下都偏向 8-bit Llama，而 Qwen 的结论随提示词改变方向。评测目标同样能反转结果：Llama 在某组提示词下，只按各版本自身无故障任务打分时 4-bit 领先 17.5 个百分点，对两个版本打同样的任务则无差异，按全流程打分则 8-bit 领先 28.3 个百分点。改用严格输出解析重新打分后，该 +28.3 变为 -15.0，Qwen 基本不变。",
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07781",
+      "aisafetyhot": "https://aisafetyhot.com/items/kfpl5xkh66xgafwtqm9cbk9tt"
+    },
+    "publishedAt": "2026-10-06T05:17:10.000Z",
+    "timelineAt": "2026-10-11T13:03:40.482Z",
+    "discoveredAt": "2026-10-11T13:03:40.482Z"
+  },
+  {
     "arxivId": "2610.11848",
     "title": "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
     "titleZh": "SemField：免训练的语义水印，改写攻击下平均真阳性率 88.2% 至 90.4%",
@@ -363,7 +381,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "SAFESHIELD 框架把小型语言模型（SLM）的部署安全视为决策组织问题，区分准入、路由、证据与发布责任，并记录可审计的决策轨迹。作者报告的协调消融显示，撤去上游证据后，发布判断准确率从 96.0% 降至 69.5%。该结果来自特定系统实验，尚未复现，不等同于普遍部署效果。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "本地与边缘上的小模型仍须在运行时决定请求能否进入、如何处理、证据是否够用、回复能否交付。现有护栏多规定如何做单项判断，较少规定这些决策如何分解、协调和留下可审计记录。",
+          "label": "问题"
+        },
+        {
+          "text": "SAFESHIELD把admission、routing、evidence、release交给四个运行时阶段。拒绝可终止下游，路由选择后续策略，检索证据可留给发布阶段做忠实性检查；已提交决策写入Decision Trace。",
+          "label": "方法"
+        },
+        {
+          "text": "HarmBench的400条有害提示上，完整系统ASR为0.25%，去掉输入和输出阶段后为16.5%。200条配对中，向release隐瞒证据后准确率从96.0%降到69.5%。套件上正确处理498/600。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称四项责任不是穷尽分类，实验用一个主骨干和一种检索配置，协调消融只做门控与证据传递。后续包括更多语言和部署设定、降低校验开销，以及Decision Trace如何支持人工审计。论文未报告重复次数。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.07276"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.07276",
       "aisafetyhot": "https://aisafetyhot.com/items/gb4kdiivkppmkd3fzrmj58vc7"
