@@ -76,11 +76,27 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 ## 最新 AI 安全日报简报
 
 <!-- daily:start -->
-### 2026-10-12 · 0 条精选
+### 2026-10-12 · 2 条精选
 
 **当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-12.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-12)
 
 点击标题展开导读，每条都附原文链接。
+
+#### AI 动态
+
+<details>
+<summary>1. OpenAI 发布内部前沿模型产出的数学结果并公开推理摘要</summary>
+
+[OpenAI 发布内部前沿模型产出的数学结果并公开推理摘要](https://openai.com/index/sharing-ai-progress-in-mathematics)：OpenAI 发布了一批由内部前沿模型产出的数学结果，并在 GitHub 仓库中公开，附带论文修订与引用协议。仓库同时提供许多证明的 Lean 形式化，供计算机检查，并会随获取进度持续更新。为提升透明度，OpenAI 还公布了 10 份模型推理摘要、以 ChatGPT Pro 用量估算的算力消耗以及尝试题目数量的统计… ——OpenAI｜[站内](https://aisafetyhot.com/items/ginxdgi12ul8sh6bf522m8fvz)
+
+</details>
+
+<details>
+<summary>2. OpenAI 在全球 ChatGPT 上线 GPT-6 与 Intelligent UI</summary>
+
+[OpenAI 在全球 ChatGPT 上线 GPT-6 与 Intelligent UI](https://openai.com/index/gpt-6-for-everyone)：OpenAI 宣布 GPT-6 在全球 ChatGPT 中上线，并搭配 Intelligent UI，提供更快的响应以及可视化、可交互的体验，用户可直接探索和使用。 ——OpenAI｜[站内](https://aisafetyhot.com/items/ncmqbjeqrxbbek419ae5vsyr0)
+
+</details>
 <!-- daily:end -->
 
 完整内容在[网站日报](https://aisafetyhot.com/daily)阅读。Hub 由既有发布器每 15 分钟检查更新，成功同步以正文和远端读回为准。
