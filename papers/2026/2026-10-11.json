@@ -293,6 +293,45 @@
     "discoveredAt": "2026-10-11T03:07:13.004Z"
   },
   {
+    "arxivId": "2610.07276",
+    "title": "SAFESHIELD: A Decision-Organization Framework for Deployment-Time Safety of Small Language Models",
+    "titleZh": "SAFESHIELD：小语言模型部署时安全的决策组织框架",
+    "authors": [],
+    "category": "defense",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "SAFESHIELD 提出面向小语言模型部署时安全的决策组织框架，把安全决策拆分为准入、路由、证据与放行四类职责，并将已作出的决策记录在可审计的 Decision Traces 中。协调消融实验显示，移除准入门控会显著提高错误放行，而不向放行决策提供上游证据会使其放行准确率从 96.0% 降至 69.5%。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "本地与边缘上的小模型仍须在运行时决定请求能否进入、如何处理、证据是否够用、回复能否交付。现有护栏多规定如何做单项判断，较少规定这些决策如何分解、协调和留下可审计记录。",
+          "label": "问题"
+        },
+        {
+          "text": "SAFESHIELD把admission、routing、evidence、release交给四个运行时阶段。拒绝可终止下游，路由选择后续策略，检索证据可留给发布阶段做忠实性检查；已提交决策写入Decision Trace。",
+          "label": "方法"
+        },
+        {
+          "text": "HarmBench的400条有害提示上，完整系统ASR为0.25%，去掉输入和输出阶段后为16.5%。200条配对中，向release隐瞒证据后准确率从96.0%降到69.5%。套件上正确处理498/600。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称四项责任不是穷尽分类，实验用一个主骨干和一种检索配置，协调消融只做门控与证据传递。后续包括更多语言和部署设定、降低校验开销，以及Decision Trace如何支持人工审计。论文未报告重复次数。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.07276"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07276",
+      "aisafetyhot": "https://aisafetyhot.com/items/gb4kdiivkppmkd3fzrmj58vc7"
+    },
+    "publishedAt": "2026-10-05T19:16:05.000Z",
+    "timelineAt": "2026-10-11T14:04:46.846Z",
+    "discoveredAt": "2026-10-11T14:04:46.846Z"
+  },
+  {
     "arxivId": "2610.11352",
     "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
     "titleZh": "RL-ARC：用推理引导的不确定性校准大型推理模型",
@@ -373,42 +412,42 @@
     "discoveredAt": "2026-10-11T00:06:50.690Z"
   },
   {
-    "arxivId": "2610.07276",
-    "title": "SAFESHIELD: A Decision-Organization Framework for Deployment-Time Safety of Small Language Models",
-    "titleZh": "SAFESHIELD：面向小语言模型部署时安全的决策组织框架",
+    "arxivId": "2609.35155",
+    "title": "LENS: The Sum Is Worse Than the Parts for Set-Level Poisoning in Retrieval-Augmented Generation",
+    "titleZh": "LENS：在检索增强生成中，集合级投毒的整体危害大于各部分之和",
     "authors": [],
-    "category": "defense",
+    "category": "attack",
     "selected": false,
     "attention": null,
-    "summaryZh": "SAFESHIELD 框架把小型语言模型（SLM）的部署安全视为决策组织问题，区分准入、路由、证据与发布责任，并记录可审计的决策轨迹。作者报告的协调消融显示，撤去上游证据后，发布判断准确率从 96.0% 降至 69.5%。该结果来自特定系统实验，尚未复现，不等同于普遍部署效果。",
+    "summaryZh": null,
     "quickRead": {
       "parts": [
         {
-          "text": "本地与边缘上的小模型仍须在运行时决定请求能否进入、如何处理、证据是否够用、回复能否交付。现有护栏多规定如何做单项判断，较少规定这些决策如何分解、协调和留下可审计记录。",
+          "text": "冻结单轮RAG把多篇检索文档联合作为生成条件。作者称，单篇看似合理且不足以改答案的文档，组合后仍可能把输出导向预设的非金标目标，而局部筛查看的不是这个组合单元。",
           "label": "问题"
         },
         {
-          "text": "SAFESHIELD把admission、routing、evidence、release交给四个运行时阶段。拒绝可终止下游，路由选择后续策略，检索证据可留给发布阶段做忠实性检查；已提交决策写入Decision Trace。",
+          "text": "LENS是生成器黑盒的多智能体流程。外环选定查询条件下的解释透镜和文档角色，内环写透镜设定与事实补全文档，并用本地surrogate的全集、真子集、对齐和有效性反例做修复，冻结前穷尽检查真子集。",
           "label": "方法"
         },
         {
-          "text": "HarmBench的400条有害提示上，完整系统ASR为0.25%，去掉输入和输出阶段后为16.5%。200条配对中，向release隐瞒证据后准确率从96.0%降到69.5%。套件上正确处理498/600。",
+          "text": "四基准、三目标生成器上，返回包Full ASR为0.852，最强真子集0.069，检索后ASR@5为0.784。全尝试E2E-Strict@5为0.363，高于最强构造基线0.244。四种防御下全尝试ASR@5均高于所列基线。",
           "label": "实验与结果"
         },
         {
-          "text": "作者称四项责任不是穷尽分类，实验用一个主骨干和一种检索配置，协调消融只做门控与证据传递。后续包括更多语言和部署设定、降低校验开销，以及Decision Trace如何支持人工审计。论文未报告重复次数。",
+          "text": "论文未在Conclusion或专节写出局限。实验覆盖四个基准各1000次、三个目标生成器，以及四种已发表防御。论文未报告人工一致性，也未给出Llama引导构造的型号与数字。",
           "label": "局限与可以继续做的"
         }
       ],
       "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.07276"
+      "sourceUrl": "https://arxiv.org/abs/2609.35155"
     },
     "links": {
-      "paper": "https://arxiv.org/abs/2610.07276",
-      "aisafetyhot": "https://aisafetyhot.com/items/gb4kdiivkppmkd3fzrmj58vc7"
+      "paper": "https://arxiv.org/abs/2609.35155",
+      "aisafetyhot": "https://aisafetyhot.com/items/u7hmfohvymoovfc9ohx1ia7ga"
     },
-    "publishedAt": "2026-10-05T19:16:05.000Z",
-    "timelineAt": "2026-10-11T14:04:46.846Z",
-    "discoveredAt": "2026-10-11T14:04:46.846Z"
+    "publishedAt": "2026-09-28T13:33:32.000Z",
+    "timelineAt": "2026-10-11T15:12:06.187Z",
+    "discoveredAt": "2026-10-11T15:12:06.187Z"
   }
 ]
