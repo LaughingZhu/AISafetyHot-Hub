@@ -82,13 +82,34 @@
   {
     "arxivId": "2610.11514",
     "title": "SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents",
-    "titleZh": "SSCBench 评测工具调用 LLM Agent 故障注入测试的证据有效性",
+    "titleZh": "SSCBench：评估工具调用 LLM Agent 故障注入测试证据有效性的测量协议与基准",
     "authors": [],
     "category": "eval",
     "selected": false,
     "attention": null,
-    "summaryZh": "SSCBench 评估面向工具调用 LLM Agent 的故障注入测试在证据上是否成立。作者在两个 τ-bench 环境、四类故障和五种 Agent 配置下分析了 1,191 次故障执行，区分反证可获取与执行中实际可见。在 44 次最终看到反证但仍出现错误采纳的执行中，17 次在首次使用前看到反证，27 次在之后。作者指出，合并统计可能掩盖支撑具体结论的样本量。",
-    "quickRead": null,
+    "summaryZh": "论文提出一套测量协议并据此构建 SSCBench，用于评估工具调用 LLM Agent 故障注入测试的证据有效性，在两种 τ-bench 环境、四种故障算子和五种 Agent 配置的 1,191 次故障执行上做了实验。协议规定哪些观察能反驳注入的断言、这些反证能否在受影响事实首次被使用前可见，并记录执行是否真的满足该条件。结果显示同一故障案例与 Agent 配置在不同执行中可实现差异明显的证据条件；在 44 次最终看到反证的采纳执行中，只有 17 次在首次使用前看到，27 次在使用后。作者还发现首次错误时机与后续立场修正不一定重合，自动轨迹分析能恢复采纳但无法可靠恢复时间诊断所需的首次错误依赖事件，并主张把执行实现的证据条件与支持特定解释的总体纳入故障注入评测报告。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "工具使用智能体的故障注入常被用来评估可靠性，但智能体自己决定哪些权威观察会在执行中出现。把采纳解释成在矛盾证据下仍依赖故障，需要有效反证在受影响事实被使用前可见。作者要测量该次执行是否实现这一条件。",
+          "label": "问题"
+        },
+        {
+          "text": "SSCBench为每个注入断言规定能反驳它的观察，只准入存在用前合法路径的案例，再从轨迹重建反证到达与第一次依赖使用。四个算子覆盖共交付、跨记录绑定和写入后回读，底物是τ-bench的retail与airline。",
+          "label": "方法"
+        },
+        {
+          "text": "五个配置共1,191次故障执行。共交付算子的可评估r0全部在使用前见到反证。WriteEffect的141次可评估r0中101次采纳，终见反证的44次里仅17次在用前。轨迹预言能标出采纳，但不稳定定位第一次错误依赖。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者在Section VIII称，到达分层比较是描述性而非因果，终态不衡量修复，比率宜按所研究设置解释而非智能体总体估计。实验有五个配置、1,191次故障执行和120个准入种子；论文未报告B2裁判的模型名。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11514"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.11514",
       "aisafetyhot": "https://aisafetyhot.com/items/ng8ntwptnb3ikrd56av4hsx6b"
@@ -96,6 +117,45 @@
     "publishedAt": "2026-10-08T08:50:31.000Z",
     "timelineAt": "2026-10-11T05:00:58.431Z",
     "discoveredAt": "2026-10-11T05:00:58.431Z"
+  },
+  {
+    "arxivId": "2610.11848",
+    "title": "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+    "titleZh": "研究者提出 SemField 语义水印，三个模型上改写条件下平均 TPR 为 88.2%–90.4%",
+    "authors": [],
+    "category": "defense",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "论文提出 SemField 语义水印，在生成时引入连续语义信号，并对文档做聚合统计，使检测结果不受句序重排影响，其中 SemField-PL 版本固定初始方向。作者在 500 篇 C4-RealNewsLike 文档，以及 Llama-3.2-1B、Qwen3-1.7B 和 OPT-1.3B 三个模型上与 12 种基线比较，报告清洁检测和四类改写条件下的平均 TPR 为 88.2%–90.4%（FPR=1%）。作者称其用途是识别使用该水印生成的文本，而不是证明任意文本来自 AI。该工作定位为概念验证，限定在英文、句子结构、三个模型、单一嵌入模型和数据集，未宣称在所有方法、模型或用途上最优，RLVR、思考模型、代码与数学等被列为未来工作。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "token水印在释义后容易失去信号。作者要的是可校准的文档级语义水印：识别本方模型生成的文本，少误判独立文本，改写后仍可检测，且不偏离自然文本。",
+          "label": "问题"
+        },
+        {
+          "text": "SemField用密钥确定高斯方向，逐句选择使归一化文档聚合投影最大的候选句。SemField-PL先由首句锁定正负极性。检测把该投影与标准正态比较；完整句子重排不改变分数。",
+          "label": "方法"
+        },
+        {
+          "text": "三模型各500篇上，干净加四种释义的平均TPR@1%为88.2%–90.4%。80%删除时PL为79.2%–84.2%，80%稀释时单侧变体更高。困惑度靠近12个基线的中位数，MAUVE为三模型上的前两名。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者写明只测英文、句子级和三个基座模型，嵌入模型与数据集保持单一，主评测为500篇。后续方向包括采样开销更低，以及面向安全、有用性和低熵生成的多维候选选择。温度、候选数与跨密钥实验只在Llama-3.2-1B上报告。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11848"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11848",
+      "aisafetyhot": "https://aisafetyhot.com/items/ptwz9lyeafvgktwneyd77ubgl"
+    },
+    "publishedAt": "2026-10-08T12:35:11.000Z",
+    "timelineAt": "2026-10-11T06:11:22.628Z",
+    "discoveredAt": "2026-10-11T06:11:22.628Z"
   },
   {
     "arxivId": "2610.04691",
