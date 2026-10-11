@@ -41,6 +41,24 @@
     "discoveredAt": "2026-10-10T17:01:19.739Z"
   },
   {
+    "arxivId": "2610.12125",
+    "title": "The learner who does not learn: when optimizing a pedagogical metric degrades LLM tutoring",
+    "titleZh": "研究者发现优化教学适配度指标会让 LLM 导师重复同一选项，专家评分从 4.46 降到 3.03",
+    "authors": [],
+    "category": "alignment",
+    "selected": true,
+    "attention": 79,
+    "summaryZh": "西班牙 UNED 的研究者设计教学适配度指数（PAI），并在开源权重代理 Qwen3-32B 上做 LoRA 纠正微调，被纠正的 30 个低分案例 PAI 从 +0.05 升到 +0.42，但 31 名教育者的盲评均分从 4.46 降到 3.03。研究者称原因在指标结构本身：每项决策独立评分再取平均，最优解就是重复得分最高的那个选项，贪婪微调的模型在全部测试案例中输出完全单调的序列，跨样本同样如此。权重分析显示 75% 至 93% 的更新能量集中在输出投影层，模型复现了训练文本而非学会适配；保留多样性的微调最多只能拿回约三分之一的指标增益。论文还指出学习阶段这一条件在案例文本中本就难以恢复（κ 约 0.15），也几乎不被模型识别，而得分损失恰好落在依赖它的决策点上，作者据此提出“优化有效性”等基准设计原则。",
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12125",
+      "aisafetyhot": "https://aisafetyhot.com/items/f1htz7i3v9j52qktlat0rr21e"
+    },
+    "publishedAt": "2026-10-08T15:18:26.000Z",
+    "timelineAt": "2026-10-11T12:02:33.288Z",
+    "discoveredAt": "2026-10-11T12:02:33.288Z"
+  },
+  {
     "arxivId": "2610.11765",
     "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
     "titleZh": "研究提出三项指标衡量 LLM 不思考行为，发现被要求停止思考时仍持续显式推理",
