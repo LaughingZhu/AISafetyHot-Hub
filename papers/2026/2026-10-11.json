@@ -207,7 +207,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "针对 RLVR 训练导致推理模型校准退化、过度自信的问题，作者提出校准感知训练框架 RL-ARC，联合利用推理置信度与答案置信度，将推理置信度作为正确样本的引导正则项、错误样本的过度自信惩罚项。在 ID 与 OOD 设置下，RL-ARC 在改善校准的同时让模型按问题自适应估计置信度，且未明显牺牲推理性能。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "RLVR提升推理但不把置信度纳入奖励，作者称这会强化过自信。已有校准训练主要对齐答案置信度，在分布偏移下仍过自信，并常牺牲推理精度。",
+          "label": "问题"
+        },
+        {
+          "text": "RL-ARC在GRPO中同时引出推理置信度与答案置信度。预测正确时用前者正则化后者；预测错误时惩罚高答案置信，并把推理置信度作为额外惩罚。默认λpos为0.4、λneg为0.15。",
+          "label": "方法"
+        },
+        {
+          "text": "主实验用Big-Math训练Qwen2.5-7B、Qwen3-8B与Llama-8B，并评测算术ID及复杂推理、事实问答OOD。作者称校准优于已有方法且精度接近RLVR；Llama-8B的OOD Acc仍低于Base（Table 2）。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称训练只覆盖两类数据且只用GRPO，主要验证语言模型尤其Qwen家族，并称LLM评审推理正确性会引入误差。实验含三个骨干，论文未报告重复次数与评审模型名。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11352"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.11352",
       "aisafetyhot": "https://aisafetyhot.com/items/qejgc5f9z17fq0z442sk4xtut"
