@@ -82,12 +82,12 @@
   {
     "arxivId": "2610.04691",
     "title": "RAGStress: A controlled benchmark for evaluating retrieval-augmented generation under knowledge-base degradation",
-    "titleZh": "RAGStress：评估知识库退化下 RAG 表现的受控基准",
+    "titleZh": "RAGStress：评测知识库退化下 RAG 鲁棒性的受控基准",
     "authors": [],
     "category": "eval",
     "selected": false,
     "attention": null,
-    "summaryZh": "作者提出 RAGStress，一个用于评估检索增强生成（RAG）在知识库退化条件下表现的受控基准，覆盖 57 个 MMLU 学科、182,546 篇文档，报告 52,500 次模型—问题—条件评估，并通过单一知识库的元数据筛选比较不同条件。作者报告，事实错误与矛盾内容比数值错字、相关性扰动更有害，且不使用检索时的准确率也不能可靠预测受损检索下的表现。该基准的用途限于受控知识库损坏压力测试，不是通用模型排行榜或现实攻击成功率估计；作者明确尚不覆盖开放式、多跳、对话及 agentic RAG，部分评测拆分和完整知识库仍是发表时归档的承诺。",
+    "summaryZh": "论文提出 RAGStress，一个在知识库系统性损坏下压力测试 RAG 系统的受控评测基准。基准覆盖四类自然污染（事实篡改、数字错字、相关性投毒、矛盾注入）与三级严重度（轻微、中等、明显），基于 57 个 MMLU 科目、182,546 篇文档构建单知识库、带元数据过滤的实验设计。在 52,500 次模型-问题-条件评测中，结果显示干净检索会掩盖鲁棒性差异，语义保真类污染比信号效用扰动危害更大，无检索准确率无法预测损坏检索下的鲁棒性，混合知识库准确率不应视为最坏情况鲁棒性。作者同时公开生成脚本、污染提示词、元数据 schema 和评测代码，并说明该基准用于受控压力测试，而非通用模型排行榜。",
     "quickRead": {
       "parts": [
         {
@@ -114,7 +114,7 @@
       "paper": "https://arxiv.org/abs/2610.04691",
       "aisafetyhot": "https://aisafetyhot.com/items/bh2qmazd3v1o2mae1msuoyuy9"
     },
-    "publishedAt": null,
+    "publishedAt": "2026-10-03T18:07:17.000Z",
     "timelineAt": "2026-10-11T03:07:13.004Z",
     "discoveredAt": "2026-10-11T03:07:13.004Z"
   },
@@ -186,7 +186,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "作者测试 Jev 作为金融证据裁判，发现带符号的引用位置数字匹配基线已解释相较字面引文检查的大部分恢复收益，不能全归给概率核验器。受控同数字引用交换中，错误角色引用仍可能通过、正确替代引文也可能被拒；明确列名可改善部分错误识别，却压低部分有效证据支持。测试覆盖 96 道 FinQA 单步运算题与 192 条 GPT-4.1-mini 轨迹。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "金融报告会在不同期间、指标和会计行重复同一数值，计算可以数值正确而所引角色错误。论文要评估概率性来源支持核验在数值匹配之外还能区分什么，以及会不会拒掉等价的有效引用。",
+          "label": "问题"
+        },
+        {
+          "text": "固定操作数与算术，把一个操作数的引用换到同数值的另一单元格，并用等价事实对照区分无害改引和角色错误。Jev以二值Noul事件给出所引位置是否支持所需角色的概率；列标题被显式重复以改变呈现。36页随访用程序构造记录，由一名非作者评审标注。",
+          "label": "方法"
+        },
+        {
+          "text": "192条上，0.8门控Jev的joint pass为142，签名数值规则为141，接受数分别为146与154。同数值交换会放过部分错误角色，也会拒掉部分等价引用。36题随访保留这一取舍；原发布门未提高键匹配。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者写明：自然银行按单运算题筛选，历史标签来自非盲assistant review；随访为一名评审，无评审者间可靠性估计。作者还写明历史扩展是探索性的，程序构造的36题总体限制外推，财报中的失败出现率未测量。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.08675"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.08675",
       "aisafetyhot": "https://aisafetyhot.com/items/lojxvjwi5li0qe47euowqejfs"
