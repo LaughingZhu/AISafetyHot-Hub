@@ -80,6 +80,24 @@
     "discoveredAt": "2026-10-10T23:05:42.828Z"
   },
   {
+    "arxivId": "2610.11514",
+    "title": "SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents",
+    "titleZh": "SSCBench 评测工具调用 LLM Agent 故障注入测试的证据有效性",
+    "authors": [],
+    "category": "eval",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "SSCBench 评估面向工具调用 LLM Agent 的故障注入测试在证据上是否成立。作者在两个 τ-bench 环境、四类故障和五种 Agent 配置下分析了 1,191 次故障执行，区分反证可获取与执行中实际可见。在 44 次最终看到反证但仍出现错误采纳的执行中，17 次在首次使用前看到反证，27 次在之后。作者指出，合并统计可能掩盖支撑具体结论的样本量。",
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11514",
+      "aisafetyhot": "https://aisafetyhot.com/items/ng8ntwptnb3ikrd56av4hsx6b"
+    },
+    "publishedAt": "2026-10-08T08:50:31.000Z",
+    "timelineAt": "2026-10-11T05:00:58.431Z",
+    "discoveredAt": "2026-10-11T05:00:58.431Z"
+  },
+  {
     "arxivId": "2610.04691",
     "title": "RAGStress: A controlled benchmark for evaluating retrieval-augmented generation under knowledge-base degradation",
     "titleZh": "RAGStress：评测知识库退化下 RAG 鲁棒性的受控基准",
@@ -176,44 +194,5 @@
     "publishedAt": "2026-10-08T09:35:15.000Z",
     "timelineAt": "2026-10-11T00:06:50.690Z",
     "discoveredAt": "2026-10-11T00:06:50.690Z"
-  },
-  {
-    "arxivId": "2610.08675",
-    "title": "Same-Number Citation Swaps: Stress-Testing Jev as a Financial Evidence Judge",
-    "titleZh": "同数字引用交换：压力测试 Jev 的金融证据裁判能力",
-    "authors": [],
-    "category": "eval",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "作者测试 Jev 作为金融证据裁判，发现带符号的引用位置数字匹配基线已解释相较字面引文检查的大部分恢复收益，不能全归给概率核验器。受控同数字引用交换中，错误角色引用仍可能通过、正确替代引文也可能被拒；明确列名可改善部分错误识别，却压低部分有效证据支持。测试覆盖 96 道 FinQA 单步运算题与 192 条 GPT-4.1-mini 轨迹。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "金融报告会在不同期间、指标和会计行重复同一数值，计算可以数值正确而所引角色错误。论文要评估概率性来源支持核验在数值匹配之外还能区分什么，以及会不会拒掉等价的有效引用。",
-          "label": "问题"
-        },
-        {
-          "text": "固定操作数与算术，把一个操作数的引用换到同数值的另一单元格，并用等价事实对照区分无害改引和角色错误。Jev以二值Noul事件给出所引位置是否支持所需角色的概率；列标题被显式重复以改变呈现。36页随访用程序构造记录，由一名非作者评审标注。",
-          "label": "方法"
-        },
-        {
-          "text": "192条上，0.8门控Jev的joint pass为142，签名数值规则为141，接受数分别为146与154。同数值交换会放过部分错误角色，也会拒掉部分等价引用。36题随访保留这一取舍；原发布门未提高键匹配。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "作者写明：自然银行按单运算题筛选，历史标签来自非盲assistant review；随访为一名评审，无评审者间可靠性估计。作者还写明历史扩展是探索性的，程序构造的36题总体限制外推，财报中的失败出现率未测量。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.08675"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.08675",
-      "aisafetyhot": "https://aisafetyhot.com/items/lojxvjwi5li0qe47euowqejfs"
-    },
-    "publishedAt": "2026-10-06T16:57:47.000Z",
-    "timelineAt": "2026-10-11T04:08:15.146Z",
-    "discoveredAt": "2026-10-11T04:08:15.146Z"
   }
 ]
