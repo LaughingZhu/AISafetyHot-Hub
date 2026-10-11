@@ -54,6 +54,12 @@ This is the English guide. Linked documentation, daily digests, archives, and se
 
 News and digests use original publication dates to assess freshness; the editorial window includes the previous day's news from North America. Paper ordering is not a quality ranking. Existing quick reads and detailed commentary are available on paper detail pages.
 
+### How content is maintained
+
+Server workers collect configured feeds and aggregate listings incrementally. Grok Bot discovers material on X; AI Safety Bot (dot) discovers web, media, institutional, Xiaohongshu, and paper sources. A shared intake process screens and groups submissions before the website presents Chinese titles and summaries. A listed publisher is not necessarily checked in full every day, and collection counts are not publication counts.
+
+The site manager follows unfinished tasks, source-check receipts, content updates, and page behavior. The lower news flow is an organized snapshot of the past three days, normally refreshed every 72 hours; News Monitor reflects incoming data. The existing publisher synchronizes Chinese digests and paper exports. English and Japanese READMEs provide navigation; digest bodies are currently primarily Chinese. Please report content errors on the [website board](https://aisafetyhot.com/board).
+
 <a id="agent"></a>
 
 ## 🤖 Connect your Agent
