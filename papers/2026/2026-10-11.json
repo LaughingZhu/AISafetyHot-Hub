@@ -80,6 +80,45 @@
     "discoveredAt": "2026-10-10T23:05:42.828Z"
   },
   {
+    "arxivId": "2610.11765",
+    "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+    "titleZh": "arXiv 论文提出 Thinking Inertia，称 LLM 被要求停止思考时仍继续推理",
+    "authors": [],
+    "category": "alignment",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "arXiv 论文《Thinking Inertia》把模型输出拆成答案前文本与最终答案，发现六个模型在六种提示干预下被要求只给答案时仍常继续可见推理。论文称，可见推理在更开放的答案空间更常持续，开放题上出现仅答案遵循率与任务准确率的取舍，布尔题和选择题准确率相对稳定。作者强调该研究只观察可观察响应，不能据此推断隐藏状态没有计算，裁判指标依赖标注准则与校准；多语言、代码、工具调用、多轮对话、随机解码和变化中的商业端点尚未验证，可见遵循也不等于实际推理成本下降。作者称上述为实验结论，未独立复现。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "思考模式提高表现，也增加延迟和 token 消耗。作者认为用关闭开关、缺少思考标记或输出变短来认定 no-thinking 并不可靠，终答前仍可能留下针对题目的推理。",
+          "label": "问题"
+        },
+        {
+          "text": "把输出拆成终答前文本和终答。空思考率看是否只有答案，嵌入相似度看前置文本是否与题相关，盲审再判有没有显式推理。六种干预从打开思考到答案前缀。",
+          "label": "方法"
+        },
+        {
+          "text": "六个模型、六个基准。作者称关闭思考后，可见显式推理随答案空间变开放而更常见。全语料开放式 EIR 在严格只要答案时从 99.69% 降到 62.00%；作者称布尔与选择题准确率大体平稳。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称结论只涉及可见输出，不表示隐状态没有计算；多语言、代码、工具使用、多轮和随机解码的推广仍开放。实验含六个模型与六个基准，主评审为 GPT-5.5，另有 Claude Opus 4.8 复核。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11765"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11765",
+      "aisafetyhot": "https://aisafetyhot.com/items/cq9vn2kafxr9f8knq040ngjr1"
+    },
+    "publishedAt": "2026-10-08T11:49:37.000Z",
+    "timelineAt": "2026-10-11T11:04:37.443Z",
+    "discoveredAt": "2026-10-11T11:04:37.443Z"
+  },
+  {
     "arxivId": "2610.11514",
     "title": "SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents",
     "titleZh": "SSCBench：评估工具调用 LLM Agent 故障注入测试证据有效性的测量协议与基准",
