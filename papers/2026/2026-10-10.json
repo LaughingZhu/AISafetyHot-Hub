@@ -318,7 +318,7 @@
     "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
     "titleZh": "Opera：面向长程编码 Agent 的口头批评者框架",
     "authors": [],
-    "category": "tip",
+    "category": "ai_news",
     "selected": false,
     "attention": null,
     "summaryZh": "研究者提出 Opera，一个面向长程编码 Agent 的口头批评者框架，把每次纠正当作持续跟踪的笔记，直到被诊断的问题真正解决。它通过周期性与事件驱动触发决定何时审查，用带类型的算子诊断问题，在交付前依据可见证据审核反馈，并跟踪 Agent 后续动作以区分表面服从与实际解决。作为测试时批评者，Opera 在 Terminal-Bench 2.1、SWE-Bench Pro 子集和 DeepSWE v1.1 上，跨四个策略模型把非批评者 Agent 的解决率分别提升最多 12.4、15.0 和 8.9 个百分点，并在三个基准上取得竞争性批评者基线中最高的平均解决率，也能在策略模型自我批评时带来提升。代码已开源于 https://github.com/dongyuanjushi/Opera。",
