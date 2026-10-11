@@ -80,6 +80,45 @@
     "discoveredAt": "2026-10-11T12:02:33.288Z"
   },
   {
+    "arxivId": "2609.35155",
+    "title": "LENS: The Sum Is Worse Than the Parts for Set-Level Poisoning in Retrieval-Augmented Generation",
+    "titleZh": "LENS：检索增强生成中集合级投毒的整体危害大于各部分之和",
+    "authors": [],
+    "category": "attack",
+    "selected": true,
+    "attention": 78,
+    "summaryZh": "研究者提出 LENS，一种针对检索增强生成（RAG）的集合级组合投毒框架，让单篇看似合理的文档只有在组合后才把答案引向攻击者预设目标，而任何真子集都不足以做到。该方法把构造形式化为带全真子集约束的证据组合，用外层规划解释视角、内层合成文档并以反例修复的多智能体流程实现。在 HotpotQA、2WikiMultihopQA、MuSiQue 和 Natural Questions 四个基准、三个目标生成器上，返回文档包的全集合 ASR 为 0.852、检索后 ASR@5 为 0.784，最强真子集仅 0.069；相对最强构造基线，全尝试 E2E-Strict@5 从 0.244 升到 0.363。盲审显示 68.3% 的文档包同时具备错误目标、明确的答案标准偏移和原语义下无目标蕴含；在四种已发表防御下其 ASR@5 仍最高，平均超出最强基线 0.141。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "冻结单轮RAG把多篇检索文档联合作为生成条件。作者称，单篇看似合理且不足以改答案的文档，组合后仍可能把输出导向预设的非金标目标，而局部筛查看的不是这个组合单元。",
+          "label": "问题"
+        },
+        {
+          "text": "LENS是生成器黑盒的多智能体流程。外环选定查询条件下的解释透镜和文档角色，内环写透镜设定与事实补全文档，并用本地surrogate的全集、真子集、对齐和有效性反例做修复，冻结前穷尽检查真子集。",
+          "label": "方法"
+        },
+        {
+          "text": "四基准、三目标生成器上，返回包Full ASR为0.852，最强真子集0.069，检索后ASR@5为0.784。全尝试E2E-Strict@5为0.363，高于最强构造基线0.244。四种防御下全尝试ASR@5均高于所列基线。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "论文未在Conclusion或专节写出局限。实验覆盖四个基准各1000次、三个目标生成器，以及四种已发表防御。论文未报告人工一致性，也未给出Llama引导构造的型号与数字。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.35155"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.35155",
+      "aisafetyhot": "https://aisafetyhot.com/items/u7hmfohvymoovfc9ohx1ia7ga"
+    },
+    "publishedAt": "2026-09-28T13:33:32.000Z",
+    "timelineAt": "2026-10-11T15:12:06.187Z",
+    "discoveredAt": "2026-10-11T15:12:06.187Z"
+  },
+  {
     "arxivId": "2610.11765",
     "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
     "titleZh": "研究提出三项指标衡量 LLM 不思考行为，发现被要求停止思考时仍持续显式推理",
@@ -410,44 +449,5 @@
     "publishedAt": "2026-10-08T09:35:15.000Z",
     "timelineAt": "2026-10-11T00:06:50.690Z",
     "discoveredAt": "2026-10-11T00:06:50.690Z"
-  },
-  {
-    "arxivId": "2609.35155",
-    "title": "LENS: The Sum Is Worse Than the Parts for Set-Level Poisoning in Retrieval-Augmented Generation",
-    "titleZh": "LENS：在检索增强生成中，集合级投毒的整体危害大于各部分之和",
-    "authors": [],
-    "category": "attack",
-    "selected": false,
-    "attention": null,
-    "summaryZh": null,
-    "quickRead": {
-      "parts": [
-        {
-          "text": "冻结单轮RAG把多篇检索文档联合作为生成条件。作者称，单篇看似合理且不足以改答案的文档，组合后仍可能把输出导向预设的非金标目标，而局部筛查看的不是这个组合单元。",
-          "label": "问题"
-        },
-        {
-          "text": "LENS是生成器黑盒的多智能体流程。外环选定查询条件下的解释透镜和文档角色，内环写透镜设定与事实补全文档，并用本地surrogate的全集、真子集、对齐和有效性反例做修复，冻结前穷尽检查真子集。",
-          "label": "方法"
-        },
-        {
-          "text": "四基准、三目标生成器上，返回包Full ASR为0.852，最强真子集0.069，检索后ASR@5为0.784。全尝试E2E-Strict@5为0.363，高于最强构造基线0.244。四种防御下全尝试ASR@5均高于所列基线。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "论文未在Conclusion或专节写出局限。实验覆盖四个基准各1000次、三个目标生成器，以及四种已发表防御。论文未报告人工一致性，也未给出Llama引导构造的型号与数字。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2609.35155"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.35155",
-      "aisafetyhot": "https://aisafetyhot.com/items/u7hmfohvymoovfc9ohx1ia7ga"
-    },
-    "publishedAt": "2026-09-28T13:33:32.000Z",
-    "timelineAt": "2026-10-11T15:12:06.187Z",
-    "discoveredAt": "2026-10-11T15:12:06.187Z"
   }
 ]
