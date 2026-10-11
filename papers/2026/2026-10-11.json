@@ -80,6 +80,24 @@
     "discoveredAt": "2026-10-10T23:05:42.828Z"
   },
   {
+    "arxivId": "2610.04691",
+    "title": "RAGStress: A controlled benchmark for evaluating retrieval-augmented generation under knowledge-base degradation",
+    "titleZh": "RAGStress：评估知识库退化下 RAG 表现的受控基准",
+    "authors": [],
+    "category": "eval",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "作者提出 RAGStress，一个用于评估检索增强生成（RAG）在知识库退化条件下表现的受控基准，覆盖 57 个 MMLU 学科、182,546 篇文档，报告 52,500 次模型—问题—条件评估，并通过单一知识库的元数据筛选比较不同条件。作者报告，事实错误与矛盾内容比数值错字、相关性扰动更有害，且不使用检索时的准确率也不能可靠预测受损检索下的表现。该基准的用途限于受控知识库损坏压力测试，不是通用模型排行榜或现实攻击成功率估计；作者明确尚不覆盖开放式、多跳、对话及 agentic RAG，部分评测拆分和完整知识库仍是发表时归档的承诺。",
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04691",
+      "aisafetyhot": "https://aisafetyhot.com/items/bh2qmazd3v1o2mae1msuoyuy9"
+    },
+    "publishedAt": null,
+    "timelineAt": "2026-10-11T03:07:13.004Z",
+    "discoveredAt": "2026-10-11T03:07:13.004Z"
+  },
+  {
     "arxivId": "2610.11352",
     "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
     "titleZh": "RL-ARC：用推理引导的不确定性校准大型推理模型",
