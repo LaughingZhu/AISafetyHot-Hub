@@ -16,7 +16,7 @@
 
 ### 结果
 
-以下是该次返回的一条新闻及相关范围字段节选，省略其他元数据和 5 条论文链接；未改写返回文本。
+以下是该次返回的一条新闻及相关范围字段节选，省略 `page.nextCursor`、其他元数据和 5 条论文链接；未改写返回文本。
 
 ```json
 {
@@ -47,7 +47,15 @@
 }
 ```
 
-`page.hasMore=true` 时，将同次返回的 `page.nextCursor` 原样传入下一次调用，保持筛选不变。`publishedAt=null`、`publishedDate=2026-10-10` 表示原文只精确到日，不补造时刻。
+`page.hasMore=true` 时，将同次返回的 `page.nextCursor` 原样填入下一次调用的 `arguments.cursor`，保持其他参数不变。例如，继续上面 `limit=1` 的调用：
+
+```json
+{"name":"aisafetyhot_get_latest","arguments":{"window":"7d","mode":"all","limit":1,"cursor":"替换为上次返回的 page.nextCursor"}}
+```
+
+`cursor` 的值是占位说明，调用前须替换为实际返回的游标；不要把字段名 `nextCursor` 当作请求参数。每次继续翻页都使用上一页返回的新游标，直到 `page.hasMore=false`；不能只因返回条数少于 `limit` 就判断已经读完。
+
+`publishedAt=null`、`publishedDate=2026-10-10` 表示原文只精确到日，不补造时刻。
 
 ## 最新与搜索
 
