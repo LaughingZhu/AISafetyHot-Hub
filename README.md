@@ -76,16 +76,25 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 ## 最新 AI 安全日报简报
 
 <!-- daily:start -->
-### 2026-10-12 · 1 条精选
+### 2026-10-12 · 2 条精选
 
 **当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-12.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-12)
 
 点击标题展开导读，每条都附原文链接。
 
+#### 安全评测
+
+<details>
+<summary>1. AI 漏洞修复的评分方式存在问题</summary>
+
+[AI 漏洞修复的评分方式存在问题](https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/)：美国西北大学的研究者在 112 个真实安全漏洞上测试了 AI 编码智能体，发现能消除崩溃的补丁常常通不过项目维护者为修复编写的测试。在 Claude Opus 4.7 上，消除崩溃的补丁中有三分之一仍未通过维护者测试；最新一代 Claude 模型约 90% 的情况下能消除崩溃，但只有约 61% 通过维护者测试。数据集… ——Help Net Security AI｜[站内](https://aisafetyhot.com/items/lgacsh3g52nk7dd168qs99t4f)
+
+</details>
+
 #### 治理与政策
 
 <details>
-<summary>1. 白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权</summary>
+<summary>2. 白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权</summary>
 
 [白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权](https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn)：白宫撤销了要求美国 AI 公司停止向英国 AISI 共享模型的决定，英国 AI 安全研究所将恢复对 Anthropic、Google DeepMind 和 OpenAI 最新模型的发布前安全测试权限。上个月，白宫国家网络主管办公室下达该要求后，Anthropic 曾限制英国官员审查其新的 Claude Mythos … ——The Telegraph｜[站内](https://aisafetyhot.com/items/vc7xwhti3s1b2uvwgnr93o27u)
 
