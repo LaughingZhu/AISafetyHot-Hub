@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "arxivId": "2610.12822",
+    "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+    "titleZh": "奖励作弊作为多智能体编码系统中的可传播策略",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12822",
+      "aisafetyhot": "https://aisafetyhot.com/items/vtpar3orzqz8yb8570auepxet"
+    },
+    "publishedAt": "2026-10-09T00:02:59.000Z",
+    "timelineAt": "2026-10-12T04:27:43.808Z",
+    "discoveredAt": "2026-10-12T04:27:43.808Z"
+  }
+]
