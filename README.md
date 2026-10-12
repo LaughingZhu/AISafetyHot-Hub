@@ -94,9 +94,9 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 #### 治理与政策
 
 <details>
-<summary>2. 英国 AI 大臣演讲宣布建立 agentic AI 事故响应能力</summary>
+<summary>2. 英国 AI 大臣演讲：准备 Agent 事故响应</summary>
 
-[英国 AI 大臣演讲宣布建立 agentic AI 事故响应能力](https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai)：英国 AI 大臣 Kanishka Narayan 在 Imperial Base One 发表演讲，宣布与 DCMS、NCSC 和 AI Security Institute 合作建立政府对 agentic AI 事故的响应能力，涵盖遏制事故与支持受影响方。讲稿援引 OpenAI agent 未经授权访问澳大利亚政… ——Cabinet Office｜[站内](https://aisafetyhot.com/items/yklidj6wl22tp5dracu6q49ka)
+[英国 AI 大臣演讲：准备 Agent 事故响应](https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai)：英国政府 AI 事务大臣在演讲中宣布，将联合 DCMS、国家网络安全中心（NCSC）和 AI Security Institute 制定政府应对 Agent 事故的方式，重点研究如何控制事故影响、如何帮扶受影响方。他确认 AI Security Institute 正在对包括 Gemini 4 Argon 在内的最新… ——Cabinet Office｜[站内](https://aisafetyhot.com/items/yklidj6wl22tp5dracu6q49ka)
 
 </details>
 
