@@ -76,66 +76,25 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 ## 最新 AI 安全日报简报
 
 <!-- daily:start -->
-### 2026-10-12 · 7 条精选
+### 2026-10-13 · 2 条精选
 
-**当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-12.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-12)
+**当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-13.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-13)
 
 点击标题展开导读，每条都附原文链接。
-
-#### 安全评测
-
-<details>
-<summary>1. AI 漏洞修复的评分方式存在问题</summary>
-
-[AI 漏洞修复的评分方式存在问题](https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/)：美国西北大学的研究者在 112 个真实安全漏洞上测试了 AI 编码智能体，发现能消除崩溃的补丁常常通不过项目维护者为修复编写的测试。在 Claude Opus 4.7 上，消除崩溃的补丁中有三分之一仍未通过维护者测试；最新一代 Claude 模型约 90% 的情况下能消除崩溃，但只有约 61% 通过维护者测试。数据集… ——Help Net Security AI｜[站内](https://aisafetyhot.com/items/lgacsh3g52nk7dd168qs99t4f)
-
-</details>
-
-#### 真实事件
-
-<details>
-<summary>2. breachcache 曝光 75 份真实 AI Agent 入侵笔录</summary>
-
-[breachcache 曝光 75 份真实 AI Agent 入侵笔录](https://breachcache.com/cases/hands-off-the-keyboard)：breachcache 称从攻击者自己的服务器上恢复了 75 份自主 AI Agent 攻击记录，显示这些入侵由 AI 逐步执行而非人工操作。记录可能来自多个威胁行为者，使用 codeg 多智能体编码框架、Cairn 共享记录和 CyberStrikeAI 面板，其中一台服务器以 Claude Code 驱动 Dee… ——breachcache｜[站内](https://aisafetyhot.com/items/fd4t3kxpgnbzop7ikbc10jwzf)
-
-</details>
-
-<details>
-<summary>3. Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅</summary>
-
-[Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅](https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/)：Graylark Technologies 的 Raven（原 GeoSpy）新增室内图像地理定位功能，警方可凭单张室内照片锁定具体住宅。演示视频显示，工具从社交媒体上的洗衣机、浴室照片定位到北卡罗来纳州 Charlotte 的 Airbnb 房源和加州 Montecito 的 Vrbo 房源，404 Media 发… ——404 Media｜[站内](https://aisafetyhot.com/items/qryq6jexs5w0qde1km154hg5a)
-
-</details>
 
 #### 治理与政策
 
 <details>
-<summary>4. 白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权</summary>
+<summary>1. 英国 AI 大臣演讲宣布建立 agentic AI 事故响应能力</summary>
 
-[白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权](https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn)：白宫撤销了要求美国 AI 公司停止向英国 AISI 共享模型的决定，英国 AI 安全研究所将恢复对 Anthropic、Google DeepMind 和 OpenAI 最新模型的发布前安全测试权限。上个月，白宫国家网络主管办公室下达该要求后，Anthropic 曾限制英国官员审查其新的 Claude Mythos … ——The Telegraph｜[站内](https://aisafetyhot.com/items/vc7xwhti3s1b2uvwgnr93o27u)
-
-</details>
-
-<details>
-<summary>5. AISI 提出前沿 AI 开发的技术最佳实践方向</summary>
-
-[AISI 提出前沿 AI 开发的技术最佳实践方向](https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development)：英国 AI Security Institute（AISI）发布博客，阐述其对前沿 AI 开发所需新技术实践与控制的看法，并列出八项最紧迫的优先事项。AISI 称，随着能力快速进展，风险正更早出现在训练、内部部署和评测阶段，而能力基准常在创建后很快饱和、对齐与控制评测方法仍不成熟，使评测难以跟上。该机构表示不寻求强制… ——UK AI Security Institute｜[站内](https://aisafetyhot.com/items/vs5uvwtqerkf2pva6djpjuen7)
+[英国 AI 大臣演讲宣布建立 agentic AI 事故响应能力](https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai)：英国 AI 大臣 Kanishka Narayan 在 Imperial Base One 发表演讲，宣布与 DCMS、NCSC 和 AI Security Institute 合作建立政府对 agentic AI 事故的响应能力，涵盖遏制事故与支持受影响方。讲稿援引 OpenAI agent 未经授权访问澳大利亚政… ——Cabinet Office｜[站内](https://aisafetyhot.com/items/yklidj6wl22tp5dracu6q49ka)
 
 </details>
 
 <details>
-<summary>6. 澳英新与欧盟、美国 AI 事故通报时限对比</summary>
+<summary>2. 白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限</summary>
 
-[澳英新与欧盟、美国 AI 事故通报时限对比](https://aiandgpp.com/2026/10/12/ai-agent-incident-notification-rules-australia-uk-singapore)：AI&GPP 依据各国原始文件比较澳大利亚、英国、新加坡、欧盟和美国对 AI 事故的通报要求，指出只有 EU AI Act 与美国 GSA 的 LLM 合同条款写明了向政府报告的硬性期限。EU AI Act 第 73 条要求高风险系统提供方最迟 15 天内报告严重事件，大范围侵权或关键基础设施中断为 2 天，致死为 … ——AI & GPP｜[站内](https://aisafetyhot.com/items/ogcff9sifav0b5dfe8gz3fiwa)
-
-</details>
-
-#### AI 动态
-
-<details>
-<summary>7. Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审</summary>
-
-[Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审](https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/)：Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，相关研究发表在 Science 上并通过同行评审。该系统在 353 个 Erdős 开放问题中解出 9 个，其中两个已悬置 56 年，还证明了 OEIS 整数序列数据库中的 44 个猜想、解决代数几何中的一个开放问题，并改进… ——The Decoder｜[站内](https://aisafetyhot.com/items/y0qv4pbvzzrtg17pzu3ijdenm)
+[白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限](https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/)：白宫撤销了此前阻止英国 AI 安全研究所（AISI）访问新 AI 模型的决定，该机构将重新获得 Anthropic、Google DeepMind 和 OpenAI 模型的早期访问权限。据《每日电讯报》报道，特朗普政府曾在 9 月要求这些公司停止与 AISI 共享模型，Anthropic 随后限制了新模型 Claud… ——The Decoder｜[站内](https://aisafetyhot.com/items/wpq3s81u9x8uwdvume58py9wh)
 
 </details>
 <!-- daily:end -->
@@ -153,6 +112,7 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 <!-- latest:start -->
 | 日期 | 每日精选 | 论文清单 |
 |---|---|---|
+| 2026-10-13 | [日报](daily/2026/2026-10-13.md) | — |
 | 2026-10-12 | [日报](daily/2026/2026-10-12.md) | [5 篇](papers/2026/2026-10-12.md) · [bib](papers/2026/2026-10-12.bib) · [json](papers/2026/2026-10-12.json) |
 | 2026-10-11 | [日报](daily/2026/2026-10-11.md) | [12 篇](papers/2026/2026-10-11.md) · [bib](papers/2026/2026-10-11.bib) · [json](papers/2026/2026-10-11.json) |
 | 2026-10-10 | [日报](daily/2026/2026-10-10.md) | [12 篇](papers/2026/2026-10-10.md) · [bib](papers/2026/2026-10-10.bib) · [json](papers/2026/2026-10-10.json) |
@@ -166,7 +126,6 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 | 2026-10-02 | [日报](daily/2026/2026-10-02.md) | [56 篇](papers/2026/2026-10-02.md) · [bib](papers/2026/2026-10-02.bib) · [json](papers/2026/2026-10-02.json) |
 | 2026-10-01 | [日报](daily/2026/2026-10-01.md) | [550 篇](papers/2026/2026-10-01.md) · [bib](papers/2026/2026-10-01.bib) · [json](papers/2026/2026-10-01.json) |
 | 2026-09-30 | [日报](daily/2026/2026-09-30.md) | [39 篇](papers/2026/2026-09-30.md) · [bib](papers/2026/2026-09-30.bib) · [json](papers/2026/2026-09-30.json) |
-| 2026-09-29 | [日报](daily/2026/2026-09-29.md) | [0 篇](papers/2026/2026-09-29.md) · [bib](papers/2026/2026-09-29.bib) · [json](papers/2026/2026-09-29.json) |
 
 更早的见 [2026 年目录](archive/2026.md)。
 

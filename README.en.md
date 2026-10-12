@@ -28,9 +28,9 @@ Unknown original dates do not become recent through ingestion. The website remai
 ## Read on the website
 
 <!-- daily:start -->
-### 2026-10-12
+### 2026-10-13
 
-[English daily](en/daily/2026/2026-10-12.md) · [English website](https://aisafetyhot.com/en/daily/2026-10-12) · [Chinese edition](daily/2026/2026-10-12.md)
+[English daily](en/daily/2026/2026-10-13.md) · [English website](https://aisafetyhot.com/en/daily/2026-10-13) · [Chinese edition](daily/2026/2026-10-13.md)
 <!-- daily:end -->
 
 [Overview](https://aisafetyhot.com/en) · [News](https://aisafetyhot.com/en/featured) · [Papers](https://aisafetyhot.com/en/papers) · [Events](https://aisafetyhot.com/en/hot) · [Newsletter](https://aisafetyhot.com/en/daily) · [Conference](https://aisafetyhot.com/en/conferences)
