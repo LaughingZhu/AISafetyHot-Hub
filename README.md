@@ -76,7 +76,7 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 ## 最新 AI 安全日报简报
 
 <!-- daily:start -->
-### 2026-10-12 · 2 条精选
+### 2026-10-12 · 4 条精选
 
 **当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-12.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-12)
 
@@ -91,12 +91,30 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 
 </details>
 
+#### 真实事件
+
+<details>
+<summary>2. breachcache 披露 75 份自主 AI agent 入侵笔录</summary>
+
+[breachcache 披露 75 份自主 AI agent 入侵笔录](https://breachcache.com/cases/hands-off-the-keyboard)：breachcache 称从威胁行为者服务器回收了 75 份自主 AI agent 攻击笔录，操作者只写目标与规则，agent 自行完成侦察、选漏洞、确认结果并写回共享记录系统 Cairn。据其描述，这些 agent 由 Claude Code 驱动 DeepSeek、pi、Codex 等模型，影响包括 23 台主机… ——breachcache｜[站内](https://aisafetyhot.com/items/fd4t3kxpgnbzop7ikbc10jwzf)
+
+</details>
+
 #### 治理与政策
 
 <details>
-<summary>2. 白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权</summary>
+<summary>3. 白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权</summary>
 
 [白宫改口，英国 AISI 恢复对三家美国实验室模型的发布前测试权](https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn)：白宫撤销了要求美国 AI 公司停止向英国 AISI 共享模型的决定，英国 AI 安全研究所将恢复对 Anthropic、Google DeepMind 和 OpenAI 最新模型的发布前安全测试权限。上个月，白宫国家网络主管办公室下达该要求后，Anthropic 曾限制英国官员审查其新的 Claude Mythos … ——The Telegraph｜[站内](https://aisafetyhot.com/items/vc7xwhti3s1b2uvwgnr93o27u)
+
+</details>
+
+#### AI 动态
+
+<details>
+<summary>4. Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审</summary>
+
+[Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审](https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/)：Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，相关研究发表在 Science 上并通过同行评审。该系统在 353 个 Erdős 开放问题中解出 9 个，其中两个已悬置 56 年，还证明了 OEIS 整数序列数据库中的 44 个猜想、解决代数几何中的一个开放问题，并改进… ——The Decoder｜[站内](https://aisafetyhot.com/items/y0qv4pbvzzrtg17pzu3ijdenm)
 
 </details>
 <!-- daily:end -->

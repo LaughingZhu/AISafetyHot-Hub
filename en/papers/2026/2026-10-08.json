@@ -362,8 +362,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 39,
-      "translated": 10,
-      "pending": 29,
+      "translated": 12,
+      "pending": 27,
       "status": "partial"
     }
   },
@@ -1121,8 +1121,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 36,
-      "translated": 10,
-      "pending": 26,
+      "translated": 12,
+      "pending": 24,
       "status": "partial"
     }
   },
@@ -2593,8 +2593,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 10,
-      "pending": 27,
+      "translated": 13,
+      "pending": 24,
       "status": "partial"
     }
   },

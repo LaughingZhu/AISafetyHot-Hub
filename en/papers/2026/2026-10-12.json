@@ -3,7 +3,7 @@
     "id": "gy798xve19ex60mr8j4qvowpm",
     "arxivId": "2602.04653",
     "title": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
-    "titleEn": "Inference-time backdoor via chat template: from LLM supply chain to agent system compromise",
+    "titleEn": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -16,17 +16,17 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 3,
-      "translated": 3,
-      "pending": 0,
-      "status": "complete"
+      "total": 11,
+      "translated": 7,
+      "pending": 4,
+      "status": "partial"
     }
   },
   {
     "id": "po16jbxyvycytjig1k4mf49v6",
     "arxivId": "2602.23329",
     "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
-    "titleEn": "LLM capability uplift for novices on dual-use computational biology tasks",
+    "titleEn": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -39,10 +39,10 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 3,
-      "translated": 3,
-      "pending": 0,
-      "status": "complete"
+      "total": 11,
+      "translated": 7,
+      "pending": 4,
+      "status": "partial"
     }
   },
   {
@@ -56,7 +56,7 @@
       "paper": "https://arxiv.org/abs/2506.09956",
       "aisafetyhot": "https://aisafetyhot.com/en/items/p4yuobfd86ajcvnud78u1q1gw"
     },
-    "publishedAt": null,
+    "publishedAt": "2025-06-11T17:30:07.000Z",
     "timelineAt": "2026-10-12T07:39:38.322Z",
     "translation": {
       "locale": "en",
@@ -85,17 +85,17 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 3,
-      "translated": 0,
-      "pending": 3,
-      "status": "original"
+      "total": 11,
+      "translated": 4,
+      "pending": 7,
+      "status": "partial"
     }
   },
   {
     "id": "kaj51xr9gd4xsdfnygspxp8lv",
     "arxivId": "2603.06594",
     "title": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
-    "titleEn": "Safety evaluation is like a coin toss: LLM judges cannot reliably measure adversarial robustness",
+    "titleEn": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -108,10 +108,10 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 3,
-      "translated": 3,
-      "pending": 0,
-      "status": "complete"
+      "total": 11,
+      "translated": 7,
+      "pending": 4,
+      "status": "partial"
     }
   }
 ]
