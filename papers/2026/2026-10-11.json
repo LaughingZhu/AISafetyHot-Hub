@@ -244,7 +244,28 @@
     "selected": false,
     "attention": null,
     "summaryZh": "论文比较 Llama-3.1-8B-Instruct 与 Qwen2.5-7B-Instruct 的 8-bit 和 4-bit 量化版本在 20 个确定性工具使用任务、5 组提示词下的工具故障恢复表现，发现两者优劣会随提示词和评测口径反转。在同一提示词下两个版本都无故障完成的任务上，Llama 的差异为 0 到 +20.2 个百分点，Qwen 为 -50.0 到 +35.0 个百分点；全流程点估计在 5 组提示词下都偏向 8-bit Llama，而 Qwen 的结论随提示词改变方向。评测目标同样能反转结果：Llama 在某组提示词下，只按各版本自身无故障任务打分时 4-bit 领先 17.5 个百分点，对两个版本打同样的任务则无差异，按全流程打分则 8-bit 领先 28.3 个百分点。改用严格输出解析重新打分后，该 +28.3 变为 -15.0，Qwen 基本不变。",
-    "quickRead": null,
+    "quickRead": {
+      "parts": [
+        {
+          "text": "量化降低智能体部署成本，但工具暂时失败后能否重试并完成任务，会随重试指令和如何筛选任务而变。作者比较8-bit与4-bit对这一恢复的影响。",
+          "label": "问题"
+        },
+        {
+          "text": "比较两个Instruct模型的Q8_0与Q4_K_M，任务为二十个确定性订单管理任务、五个提示词。主故障是标准路径上一次瞬时工具失败。同一日志用三种任务集合和两种输出打分计恢复。",
+          "label": "方法"
+        },
+        {
+          "text": "匹配任务上Llama的8-bit减4-bit为0至+20.2点，Qwen为−50.0至+35.0点。全流程点估计在五个提示词上都偏向8-bit Llama，Qwen改号。Llama在P4上，换评测目标或改为严格打分都会反转比较。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称二十个合成任务、两个相近规模模型和一次瞬时故障，不足以估计其他领域或规模上的频率；结论针对这些GGUF预设，不是比特宽度本身。主实验为两个模型、五个提示词和ET；IT、EP与更多Llama预设只在P0。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.07781"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.07781",
       "aisafetyhot": "https://aisafetyhot.com/items/kfpl5xkh66xgafwtqm9cbk9tt"
