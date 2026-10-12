@@ -76,7 +76,7 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 ## 最新 AI 安全日报简报
 
 <!-- daily:start -->
-### 2026-10-12 · 4 条精选
+### 2026-10-12 · 5 条精选
 
 **当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-12.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-12)
 
@@ -109,10 +109,17 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 
 </details>
 
+<details>
+<summary>4. 澳英新与欧盟、美国 AI 事故通报时限对比</summary>
+
+[澳英新与欧盟、美国 AI 事故通报时限对比](https://aiandgpp.com/2026/10/12/ai-agent-incident-notification-rules-australia-uk-singapore)：AI&GPP 依据各国原始文件比较澳大利亚、英国、新加坡、欧盟和美国对 AI 事故的通报要求，指出只有 EU AI Act 与美国 GSA 的 LLM 合同条款写明了向政府报告的硬性期限。EU AI Act 第 73 条要求高风险系统提供方最迟 15 天内报告严重事件，大范围侵权或关键基础设施中断为 2 天，致死为 … ——AI & GPP｜[站内](https://aisafetyhot.com/items/ogcff9sifav0b5dfe8gz3fiwa)
+
+</details>
+
 #### AI 动态
 
 <details>
-<summary>4. Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审</summary>
+<summary>5. Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审</summary>
 
 [Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，并真正通过同行评审](https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/)：Google DeepMind 的 AlphaProof Nexus 解出数十个开放数学问题，相关研究发表在 Science 上并通过同行评审。该系统在 353 个 Erdős 开放问题中解出 9 个，其中两个已悬置 56 年，还证明了 OEIS 整数序列数据库中的 44 个猜想、解决代数几何中的一个开放问题，并改进… ——The Decoder｜[站内](https://aisafetyhot.com/items/y0qv4pbvzzrtg17pzu3ijdenm)
 
