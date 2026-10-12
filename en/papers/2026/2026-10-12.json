@@ -1,0 +1,117 @@
+[
+  {
+    "id": "gy798xve19ex60mr8j4qvowpm",
+    "arxivId": "2602.04653",
+    "title": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
+    "titleEn": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.04653",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/gy798xve19ex60mr8j4qvowpm"
+    },
+    "publishedAt": "2026-02-04T15:28:53.000Z",
+    "timelineAt": "2026-10-12T06:28:55.289Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 3,
+      "translated": 0,
+      "pending": 3,
+      "status": "original"
+    }
+  },
+  {
+    "id": "po16jbxyvycytjig1k4mf49v6",
+    "arxivId": "2602.23329",
+    "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+    "titleEn": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.23329",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/po16jbxyvycytjig1k4mf49v6"
+    },
+    "publishedAt": "2026-02-26T18:37:23.000Z",
+    "timelineAt": "2026-10-12T06:28:30.747Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 3,
+      "translated": 0,
+      "pending": 3,
+      "status": "original"
+    }
+  },
+  {
+    "id": "p4yuobfd86ajcvnud78u1q1gw",
+    "arxivId": "2506.09956",
+    "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+    "titleEn": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.09956",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/p4yuobfd86ajcvnud78u1q1gw"
+    },
+    "publishedAt": null,
+    "timelineAt": "2026-10-12T07:39:38.322Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 3,
+      "translated": 1,
+      "pending": 2,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "g34dcq6ycbnrvmtkxleiv79fh",
+    "arxivId": "2603.24511",
+    "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
+    "titleEn": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.24511",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/g34dcq6ycbnrvmtkxleiv79fh"
+    },
+    "publishedAt": "2026-03-25T16:50:56.000Z",
+    "timelineAt": "2026-10-12T06:28:06.823Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 3,
+      "translated": 0,
+      "pending": 3,
+      "status": "original"
+    }
+  },
+  {
+    "id": "kaj51xr9gd4xsdfnygspxp8lv",
+    "arxivId": "2603.06594",
+    "title": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
+    "titleEn": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.06594",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/kaj51xr9gd4xsdfnygspxp8lv"
+    },
+    "publishedAt": "2026-02-04T15:13:35.000Z",
+    "timelineAt": "2026-10-12T06:28:55.238Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 3,
+      "translated": 0,
+      "pending": 3,
+      "status": "original"
+    }
+  }
+]

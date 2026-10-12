@@ -13,7 +13,7 @@
       "paper": "https://arxiv.org/abs/2602.04653",
       "aisafetyhot": "https://aisafetyhot.com/items/gy798xve19ex60mr8j4qvowpm"
     },
-    "publishedAt": null,
+    "publishedAt": "2026-02-04T15:28:53.000Z",
     "timelineAt": "2026-10-12T06:28:55.289Z",
     "discoveredAt": "2026-10-12T06:28:55.289Z"
   },
@@ -31,9 +31,27 @@
       "paper": "https://arxiv.org/abs/2602.23329",
       "aisafetyhot": "https://aisafetyhot.com/items/po16jbxyvycytjig1k4mf49v6"
     },
-    "publishedAt": null,
+    "publishedAt": "2026-02-26T18:37:23.000Z",
     "timelineAt": "2026-10-12T06:28:30.747Z",
     "discoveredAt": "2026-10-12T06:28:30.747Z"
+  },
+  {
+    "arxivId": "2506.09956",
+    "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+    "titleZh": "LLMail-Inject：来自真实自适应提示注入挑战的数据集",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.09956",
+      "aisafetyhot": "https://aisafetyhot.com/items/p4yuobfd86ajcvnud78u1q1gw"
+    },
+    "publishedAt": null,
+    "timelineAt": "2026-10-12T07:39:38.322Z",
+    "discoveredAt": "2026-10-12T07:39:38.322Z"
   },
   {
     "arxivId": "2603.24511",
@@ -67,26 +85,8 @@
       "paper": "https://arxiv.org/abs/2603.06594",
       "aisafetyhot": "https://aisafetyhot.com/items/kaj51xr9gd4xsdfnygspxp8lv"
     },
-    "publishedAt": null,
+    "publishedAt": "2026-02-04T15:13:35.000Z",
     "timelineAt": "2026-10-12T06:28:55.238Z",
     "discoveredAt": "2026-10-12T06:28:55.238Z"
-  },
-  {
-    "arxivId": "2603.01608",
-    "title": "Evaluating and Understanding Scheming Propensity in LLM Agents",
-    "titleZh": "评估与理解 LLM Agent 的谋划倾向",
-    "authors": [],
-    "category": null,
-    "selected": true,
-    "attention": null,
-    "summaryZh": null,
-    "quickRead": null,
-    "links": {
-      "paper": "https://arxiv.org/abs/2603.01608",
-      "aisafetyhot": "https://aisafetyhot.com/items/bfwjm4xtgh8i90hqcppjalwe8"
-    },
-    "publishedAt": null,
-    "timelineAt": "2026-10-12T06:28:30.727Z",
-    "discoveredAt": "2026-10-12T06:28:30.727Z"
   }
 ]

@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
 
-Agent connection guide and public briefing archive for [AI Safety HOT](https://aisafetyhot.com). Website content and daily digests are currently primarily in Chinese.
+Agent connection guide and public briefing archive for [AI Safety HOT](https://aisafetyhot.com). The website offers English and Chinese. Entries awaiting translation retain their original language.
 
 ## Thank you, and an access update
 
@@ -26,6 +26,12 @@ Unknown original dates do not become recent through ingestion. The website remai
 <a id="website"></a>
 
 ## Read on the website
+
+<!-- daily:start -->
+### 2026-10-12
+
+[English daily](en/daily/2026/2026-10-12.md) · [English website](https://aisafetyhot.com/en/daily/2026-10-12) · [Chinese edition](daily/2026/2026-10-12.md)
+<!-- daily:end -->
 
 [Overview](https://aisafetyhot.com/) · [News](https://aisafetyhot.com/featured) · [Papers](https://aisafetyhot.com/papers) · [Events](https://aisafetyhot.com/hot) · [Daily](https://aisafetyhot.com/daily) · [Conferences](https://aisafetyhot.com/conferences)
 
