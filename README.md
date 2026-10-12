@@ -117,16 +117,16 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 </details>
 
 <details>
-<summary>5. 澳英新与欧盟、美国 AI 事故通报时限对比</summary>
+<summary>5. AISI 提出前沿 AI 开发的技术最佳实践方向</summary>
 
-[澳英新与欧盟、美国 AI 事故通报时限对比](https://aiandgpp.com/2026/10/12/ai-agent-incident-notification-rules-australia-uk-singapore)：AI&GPP 依据各国原始文件比较澳大利亚、英国、新加坡、欧盟和美国对 AI 事故的通报要求，指出只有 EU AI Act 与美国 GSA 的 LLM 合同条款写明了向政府报告的硬性期限。EU AI Act 第 73 条要求高风险系统提供方最迟 15 天内报告严重事件，大范围侵权或关键基础设施中断为 2 天，致死为 … ——AI & GPP｜[站内](https://aisafetyhot.com/items/ogcff9sifav0b5dfe8gz3fiwa)
+[AISI 提出前沿 AI 开发的技术最佳实践方向](https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development)：英国 AI Security Institute（AISI）发布博客，阐述其对前沿 AI 开发所需新技术实践与控制的看法，并列出八项最紧迫的优先事项。AISI 称，随着能力快速进展，风险正更早出现在训练、内部部署和评测阶段，而能力基准常在创建后很快饱和、对齐与控制评测方法仍不成熟，使评测难以跟上。该机构表示不寻求强制… ——UK AI Security Institute｜[站内](https://aisafetyhot.com/items/vs5uvwtqerkf2pva6djpjuen7)
 
 </details>
 
 <details>
-<summary>6. AISI 提出前沿 AI 开发的技术最佳实践方向</summary>
+<summary>6. 澳英新与欧盟、美国 AI 事故通报时限对比</summary>
 
-[AISI 提出前沿 AI 开发的技术最佳实践方向](https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development)：英国 AI Security Institute（AISI）发布博客，阐述其对前沿 AI 开发所需新技术实践与控制的看法，并列出八项最紧迫的优先事项。AISI 称，随着能力快速进展，风险正更早出现在训练、内部部署和评测阶段，而能力基准常在创建后很快饱和、对齐与控制评测方法仍不成熟，使评测难以跟上。该机构表示不寻求强制… ——UK AI Security Institute｜[站内](https://aisafetyhot.com/items/vs5uvwtqerkf2pva6djpjuen7)
+[澳英新与欧盟、美国 AI 事故通报时限对比](https://aiandgpp.com/2026/10/12/ai-agent-incident-notification-rules-australia-uk-singapore)：AI&GPP 依据各国原始文件比较澳大利亚、英国、新加坡、欧盟和美国对 AI 事故的通报要求，指出只有 EU AI Act 与美国 GSA 的 LLM 合同条款写明了向政府报告的硬性期限。EU AI Act 第 73 条要求高风险系统提供方最迟 15 天内报告严重事件，大范围侵权或关键基础设施中断为 2 天，致死为 … ——AI & GPP｜[站内](https://aisafetyhot.com/items/ogcff9sifav0b5dfe8gz3fiwa)
 
 </details>
 
