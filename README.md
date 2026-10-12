@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
 
-AI Safety HOT 的 Agent 接入指南与公开简报归档。新闻、论文和完整阅读入口在 [aisafetyhot.com](https://aisafetyhot.com)。
+AI Safety HOT 的 Agent 接入指南与公开简报归档。网站默认中文，可在“中文 / English”切换；[中文入口](https://aisafetyhot.com/zh)和[English](https://aisafetyhot.com/en)共享内容与原文链接。英文由后台逐步翻译，缺译处保留原文。
 
 ## 感谢大家，也说一下接口调整
 
@@ -27,7 +27,7 @@ AI Safety HOT 的 Agent 接入指南与公开简报归档。新闻、论文和�
 
 ## 在网站阅读
 
-[总览](https://aisafetyhot.com/) · [News](https://aisafetyhot.com/featured) · [论文](https://aisafetyhot.com/papers) · [热点事件](https://aisafetyhot.com/hot) · [日报](https://aisafetyhot.com/daily) · [会议论文](https://aisafetyhot.com/conferences)
+[总览](https://aisafetyhot.com/zh) · [News](https://aisafetyhot.com/zh/featured) · [论文](https://aisafetyhot.com/zh/papers) · [热点事件](https://aisafetyhot.com/zh/hot) · [Newsletter](https://aisafetyhot.com/zh/daily) · [Conference](https://aisafetyhot.com/zh/conferences)
 
 新闻和日报按原发时间判断新进展，兼顾北美前一天。当天同一期日报会随新报道更新。论文完整速读与已有解读在详情页阅读。发现内容错误，欢迎在[留言板](https://aisafetyhot.com/board)反馈。
 

@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
 
-Agent connection guide and public briefing archive for [AI Safety HOT](https://aisafetyhot.com). The website offers English and Chinese. Entries awaiting translation retain their original language.
+Agent connection guide and public briefing archive for AI Safety HOT. Open the [English website](https://aisafetyhot.com/en) or [Chinese website](https://aisafetyhot.com/zh). The default entry is Chinese; the language switch keeps your place. Translations arrive in the background, and fields awaiting translation retain their original language.
 
 ## Thank you, and an access update
 
@@ -33,9 +33,9 @@ Unknown original dates do not become recent through ingestion. The website remai
 [English daily](en/daily/2026/2026-10-12.md) · [English website](https://aisafetyhot.com/en/daily/2026-10-12) · [Chinese edition](daily/2026/2026-10-12.md)
 <!-- daily:end -->
 
-[Overview](https://aisafetyhot.com/) · [News](https://aisafetyhot.com/featured) · [Papers](https://aisafetyhot.com/papers) · [Events](https://aisafetyhot.com/hot) · [Daily](https://aisafetyhot.com/daily) · [Conferences](https://aisafetyhot.com/conferences)
+[Overview](https://aisafetyhot.com/en) · [News](https://aisafetyhot.com/en/featured) · [Papers](https://aisafetyhot.com/en/papers) · [Events](https://aisafetyhot.com/en/hot) · [Newsletter](https://aisafetyhot.com/en/daily) · [Conference](https://aisafetyhot.com/en/conferences)
 
-News freshness uses original publication dates, including the previous day's North American news. The same daily edition is updated as new reports arrive. Full existing paper readings remain on detail pages. Report errors on the [board](https://aisafetyhot.com/board).
+News freshness uses original publication dates, including the previous day's North American news. The same daily edition is updated as new reports arrive. Full existing paper readings remain on detail pages. Report errors on the [board](https://aisafetyhot.com/en/board).
 
 <a id="agent"></a>
 

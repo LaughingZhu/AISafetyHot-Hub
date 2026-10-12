@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
 
-[AI Safety HOT](https://aisafetyhot.com)のエージェント接続ガイドと公開ブリーフのアーカイブです。サイトの本文と日報は現在主に中国語です。
+AI Safety HOTのエージェント接続ガイドと公開ブリーフのアーカイブです。サイトは[中国語](https://aisafetyhot.com/zh)と[英語](https://aisafetyhot.com/en)に対応し、初回は中国語で表示します。英訳は順次追加され、未翻訳の部分は原文のまま表示されます。この日本語READMEは利用案内であり、日本語の本文アーカイブではありません。
 
 ## ありがとうございます。公開範囲の変更について
 
