@@ -1,0 +1,278 @@
+[
+  {
+    "id": "lqvgsrfg28ywli6ha5m9f9jgx",
+    "arxivId": "2610.11169",
+    "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+    "titleEn": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11169",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lqvgsrfg28ywli6ha5m9f9jgx"
+    },
+    "publishedAt": "2026-10-08T03:25:22.000Z",
+    "timelineAt": "2026-10-09T18:56:24.268Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "raqu6wbr4ibd0qgtyms0zxvhc",
+    "arxivId": "2610.12083",
+    "title": "论文审计 LLM 裁判可靠性：重复一致不等于正确",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12083",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/raqu6wbr4ibd0qgtyms0zxvhc"
+    },
+    "publishedAt": "2026-10-08T14:55:29.000Z",
+    "timelineAt": "2026-10-09T23:01:43.997Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 14,
+      "pending": 23,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "tf5cngqw2nj2565sglybbbtm9",
+    "arxivId": "2610.10422",
+    "title": "研究：在线 RL 行为归因信号可能被梯度大小与流畅度混淆",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10422",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/tf5cngqw2nj2565sglybbbtm9"
+    },
+    "publishedAt": "2026-10-07T17:01:37.000Z",
+    "timelineAt": "2026-10-10T06:04:17.391Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "xe661qjmzmcayim2zacw6ut0k",
+    "arxivId": "2610.11599",
+    "title": "Large Language Model Turnover Undermines Screening for Artificial Intelligence-Assisted Scientific Writing",
+    "titleEn": "Large Language Model Turnover Undermines Screening for Artificial Intelligence-Assisted Scientific Writing",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11599",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/xe661qjmzmcayim2zacw6ut0k"
+    },
+    "publishedAt": "2026-10-08T09:44:08.000Z",
+    "timelineAt": "2026-10-10T11:06:47.151Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "exzp15zm6i2zfalgju2km6c5s",
+    "arxivId": "2610.07309",
+    "title": "论文提出长期记忆智能体的检索可允许性验证框架",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07309",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/exzp15zm6i2zfalgju2km6c5s"
+    },
+    "publishedAt": "2026-10-05T19:47:43.000Z",
+    "timelineAt": "2026-10-10T03:02:54.107Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "of8dpno9hcfswb26ubo3vxvru",
+    "arxivId": "2610.04888",
+    "title": "研究：事实核查评测可能混入声明时不可知的未来证据",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04888",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/of8dpno9hcfswb26ubo3vxvru"
+    },
+    "publishedAt": "2026-10-04T02:53:23.000Z",
+    "timelineAt": "2026-10-09T16:05:52.690Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "mek7qa97peombxtebbf9oum6y",
+    "arxivId": "2610.09167",
+    "title": "Persist-3 用顺序检验识别未见越狱来源，提升 MTK 与 Prompt Guard 2 防御效果",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09167",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/mek7qa97peombxtebbf9oum6y"
+    },
+    "publishedAt": "2026-10-06T22:10:21.000Z",
+    "timelineAt": "2026-10-10T02:10:58.784Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "a96zojasssfyepiv1oigbpqb5",
+    "arxivId": "2610.10833",
+    "title": "研究：Agent 准时停机不等于有效使用时间预算",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10833",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/a96zojasssfyepiv1oigbpqb5"
+    },
+    "publishedAt": "2026-10-07T19:35:08.000Z",
+    "timelineAt": "2026-10-10T07:14:26.537Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lytkh18wwq0isocm0bhktp3ov",
+    "arxivId": "2609.33987",
+    "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+    "titleEn": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.33987",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lytkh18wwq0isocm0bhktp3ov"
+    },
+    "publishedAt": "2026-09-27T22:42:57.000Z",
+    "timelineAt": "2026-10-09T21:31:24.915Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "fw1b4bwqs4596pq2vfdhzvbro",
+    "arxivId": "2610.09296",
+    "title": "论文用生成式 Agent 建模模拟私有测试集对评分与用户体验差距的影响",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09296",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/fw1b4bwqs4596pq2vfdhzvbro"
+    },
+    "publishedAt": "2026-10-07T01:58:25.000Z",
+    "timelineAt": "2026-10-09T17:19:19.856Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "d4pxfhyhnqsfgy3qgltwlqu7h",
+    "arxivId": "2610.12432",
+    "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+    "titleEn": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12432",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/d4pxfhyhnqsfgy3qgltwlqu7h"
+    },
+    "publishedAt": "2026-10-08T17:57:06.000Z",
+    "timelineAt": "2026-10-10T11:58:52.651Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 14,
+      "pending": 23,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yki8yqjjiaieuzbpms9t04f37",
+    "arxivId": "2610.11467",
+    "title": "GROB 用公开网络痕迹研究自主智能体活动归因边界",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11467",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yki8yqjjiaieuzbpms9t04f37"
+    },
+    "publishedAt": "2026-10-08T08:17:45.000Z",
+    "timelineAt": "2026-10-10T01:12:52.652Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  }
+]

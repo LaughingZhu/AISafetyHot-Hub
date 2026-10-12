@@ -1,0 +1,4349 @@
+[
+  {
+    "id": "t95l61rxviid4swjpkxtmmvhz",
+    "arxivId": "2608.25776",
+    "title": "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
+    "titleEn": "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.25776",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/t95l61rxviid4swjpkxtmmvhz"
+    },
+    "publishedAt": "2026-08-26T13:19:12.000Z",
+    "timelineAt": "2026-10-08T12:48:14.292Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "zqlzm697qr12hg7sjudwcvoxe",
+    "arxivId": "2605.18583",
+    "title": "Overeager Coding Agents: Measuring Out-of-Scope Actions on Benign Tasks",
+    "titleEn": "Overeager Coding Agents: Measuring Out-of-Scope Actions on Benign Tasks",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18583",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/zqlzm697qr12hg7sjudwcvoxe"
+    },
+    "publishedAt": "2026-05-18T16:00:41.000Z",
+    "timelineAt": "2026-10-08T12:48:23.675Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "kibyvanycioett14jakdvn4ft",
+    "arxivId": "2609.11757",
+    "title": "Signing the Transaction but Not the Decision: Whisper Attacks and a Binding Defense for AP2",
+    "titleEn": "Signing the Transaction but Not the Decision: Whisper Attacks and a Binding Defense for AP2",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.11757",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/kibyvanycioett14jakdvn4ft"
+    },
+    "publishedAt": "2026-09-10T16:11:58.000Z",
+    "timelineAt": "2026-10-08T06:40:10.993Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "wg3t1ondijsj4b0g0snosmb68",
+    "arxivId": "2607.03968",
+    "title": "Refused in Chat, Written in Code: Workflow-Level Jailbreak Construction in IDE Coding Agents",
+    "titleEn": "Refused in Chat, Written in Code: Workflow-Level Jailbreak Construction in IDE Coding Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.03968",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/wg3t1ondijsj4b0g0snosmb68"
+    },
+    "publishedAt": "2026-07-04T17:57:05.000Z",
+    "timelineAt": "2026-10-08T12:48:14.644Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lqcza7hmpr135ihrl1a920g1y",
+    "arxivId": "2604.14604",
+    "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+    "titleEn": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.14604",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lqcza7hmpr135ihrl1a920g1y"
+    },
+    "publishedAt": "2026-04-16T04:22:11.000Z",
+    "timelineAt": "2026-10-08T12:48:23.394Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "cu64l06s8d1vpmkxw9qxntzg2",
+    "arxivId": "2601.02670",
+    "title": "Break Me If You Can: Self-Jailbreaking of Aligned LLMs via Lexical Insertion Prompting",
+    "titleEn": "Break Me If You Can: Self-Jailbreaking of Aligned LLMs via Lexical Insertion Prompting",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.02670",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/cu64l06s8d1vpmkxw9qxntzg2"
+    },
+    "publishedAt": "2026-01-06T02:58:22.000Z",
+    "timelineAt": "2026-10-07T19:18:56.192Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ujhecxr5e7lzsi3oamkvhtll2",
+    "arxivId": "2610.04375",
+    "title": "Do Tool Calls Execute as Intended? Measuring and Repairing Intent-Execution Correspondence in LLM Agents",
+    "titleEn": "Do Tool Calls Execute as Intended? Measuring and Repairing Intent-Execution Correspondence in LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04375",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ujhecxr5e7lzsi3oamkvhtll2"
+    },
+    "publishedAt": "2026-10-03T08:38:35.000Z",
+    "timelineAt": "2026-10-07T20:18:39.436Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "f7whkm737an505e0tny0b7hvx",
+    "arxivId": "2610.09240",
+    "title": "Adversarial Images Hijack Web Agents from Visual Grounding to Browser Execution",
+    "titleEn": "Adversarial Images Hijack Web Agents from Visual Grounding to Browser Execution",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09240",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/f7whkm737an505e0tny0b7hvx"
+    },
+    "publishedAt": "2026-10-07T00:05:53.000Z",
+    "timelineAt": "2026-10-08T05:33:35.792Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 10,
+      "pending": 29,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "sl44mzze5yuij79npdhzqkxb2",
+    "arxivId": "2605.01970",
+    "title": "Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents",
+    "titleEn": "Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.01970",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/sl44mzze5yuij79npdhzqkxb2"
+    },
+    "publishedAt": "2026-05-03T17:07:20.000Z",
+    "timelineAt": "2026-10-08T06:35:46.698Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "pouv1h9le2dya4j1trql1bb34",
+    "arxivId": "2609.22076",
+    "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
+    "titleEn": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.22076",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/pouv1h9le2dya4j1trql1bb34"
+    },
+    "publishedAt": "2026-09-18T17:58:10.000Z",
+    "timelineAt": "2026-10-08T06:40:18.584Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "f1343e3ulqlbn484qba996bkt",
+    "arxivId": "2610.08871",
+    "title": "CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents",
+    "titleEn": "CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08871",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/f1343e3ulqlbn484qba996bkt"
+    },
+    "publishedAt": "2026-10-06T05:07:33.000Z",
+    "timelineAt": "2026-10-08T08:47:07.143Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "da3uzaak160r7jckzm09l79ef",
+    "arxivId": "2606.09700",
+    "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+    "titleEn": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.09700",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/da3uzaak160r7jckzm09l79ef"
+    },
+    "publishedAt": "2026-06-08T16:21:34.000Z",
+    "timelineAt": "2026-10-08T12:48:14.656Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "uvpva23vfmiuobr2bo04xtr8s",
+    "arxivId": "2605.16626",
+    "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+    "titleEn": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.16626",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/uvpva23vfmiuobr2bo04xtr8s"
+    },
+    "publishedAt": "2026-05-15T20:46:46.000Z",
+    "timelineAt": "2026-10-07T21:16:20.208Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "x9uv4026trhf79ft7lw4j0nx9",
+    "arxivId": "2605.12673",
+    "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
+    "titleEn": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.12673",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/x9uv4026trhf79ft7lw4j0nx9"
+    },
+    "publishedAt": "2026-05-12T19:22:45.000Z",
+    "timelineAt": "2026-10-07T23:17:00.330Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "boepwrczmd1o3ooa6pbsb5p7n",
+    "arxivId": "2610.05532",
+    "title": "DelegationBench: Measuring When AI Agents Should Ask Before Acting",
+    "titleEn": "DelegationBench: Measuring When AI Agents Should Ask Before Acting",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05532",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/boepwrczmd1o3ooa6pbsb5p7n"
+    },
+    "publishedAt": "2026-10-04T20:54:35.000Z",
+    "timelineAt": "2026-10-08T10:51:55.007Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "nx7ncszhbljvtw2hubpgldz36",
+    "arxivId": "2609.27273",
+    "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+    "titleEn": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.27273",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/nx7ncszhbljvtw2hubpgldz36"
+    },
+    "publishedAt": "2026-09-23T03:00:00.000Z",
+    "timelineAt": "2026-10-08T11:21:23.203Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 10,
+      "pending": 29,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "rvn3w6eu1ld6lxle5tanuwcj1",
+    "arxivId": "2610.07939",
+    "title": "CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage",
+    "titleEn": "CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07939",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/rvn3w6eu1ld6lxle5tanuwcj1"
+    },
+    "publishedAt": "2026-10-06T08:13:10.000Z",
+    "timelineAt": "2026-10-08T11:43:15.173Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "m2biqt47wpmthlld6i2nkgw8f",
+    "arxivId": "2608.04565",
+    "title": "Breadcrumbing Search Agents",
+    "titleEn": "Breadcrumbing Search Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04565",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/m2biqt47wpmthlld6i2nkgw8f"
+    },
+    "publishedAt": "2026-08-05T07:57:27.000Z",
+    "timelineAt": "2026-10-08T12:48:14.668Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lyxcy83oir2on1w0bwzht7nc1",
+    "arxivId": "2606.14517",
+    "title": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
+    "titleEn": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.14517",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lyxcy83oir2on1w0bwzht7nc1"
+    },
+    "publishedAt": "2026-06-12T14:49:00.000Z",
+    "timelineAt": "2026-10-08T12:48:14.685Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "cux8u5qdq1jagriwmdqxdwq4p",
+    "arxivId": "2602.10179",
+    "title": "When the Prompt Becomes Visual: Vision-Centric Jailbreak Attacks for Large Image Editing Models",
+    "titleEn": "When the Prompt Becomes Visual: Vision-Centric Jailbreak Attacks for Large Image Editing Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.10179",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/cux8u5qdq1jagriwmdqxdwq4p"
+    },
+    "publishedAt": "2026-02-10T18:59:55.000Z",
+    "timelineAt": "2026-10-08T12:48:23.642Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "dfod90qane6m8qaxb4w2ycxkp",
+    "arxivId": "2608.05563",
+    "title": "When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems",
+    "titleEn": "When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.05563",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/dfod90qane6m8qaxb4w2ycxkp"
+    },
+    "publishedAt": "2026-08-06T03:32:43.000Z",
+    "timelineAt": "2026-10-08T12:48:14.638Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "uaf0s8pu0uk1w24qov1eq72sz",
+    "arxivId": "2605.14605",
+    "title": "A Few Steps Further: Why Defenses Against Malicious Finetuning Erode Under Continued Training",
+    "titleEn": "A Few Steps Further: Why Defenses Against Malicious Finetuning Erode Under Continued Training",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.14605",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/uaf0s8pu0uk1w24qov1eq72sz"
+    },
+    "publishedAt": "2026-05-14T09:22:14.000Z",
+    "timelineAt": "2026-10-08T12:48:23.246Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "v8z7uoi3c1nsz8zopyrq9tqsq",
+    "arxivId": "2610.09793",
+    "title": "Formal Runtime Verification for Tool-Using LLM Agents: An Offline Same-Benchmark Study on AgentDojo and STAC",
+    "titleEn": "Formal Runtime Verification for Tool-Using LLM Agents: An Offline Same-Benchmark Study on AgentDojo and STAC",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09793",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/v8z7uoi3c1nsz8zopyrq9tqsq"
+    },
+    "publishedAt": "2026-10-07T10:08:46.000Z",
+    "timelineAt": "2026-10-08T09:29:23.057Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 10,
+      "pending": 29,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "qez3ztsnleud43yr8jp6a2hwz",
+    "arxivId": "2602.08877",
+    "title": "Stress-Testing Alignment Audits With Prompt-Level Strategic Deception",
+    "titleEn": "Stress-Testing Alignment Audits With Prompt-Level Strategic Deception",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.08877",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/qez3ztsnleud43yr8jp6a2hwz"
+    },
+    "publishedAt": "2026-02-09T16:38:29.000Z",
+    "timelineAt": "2026-10-08T12:48:23.256Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "zvkarrvve2h0c1uot71xa0tdk",
+    "arxivId": "2603.13847",
+    "title": "Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs",
+    "titleEn": "Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.13847",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/zvkarrvve2h0c1uot71xa0tdk"
+    },
+    "publishedAt": "2026-03-14T09:01:48.000Z",
+    "timelineAt": "2026-10-08T12:48:23.602Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "mwx84n2gb68xkbkbdvkrplehf",
+    "arxivId": "2610.09027",
+    "title": "Visual Memory Attacks Can Persist Through The KV Cache",
+    "titleEn": "Visual Memory Attacks Can Persist Through The KV Cache",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09027",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/mwx84n2gb68xkbkbdvkrplehf"
+    },
+    "publishedAt": "2026-10-06T19:25:08.000Z",
+    "timelineAt": "2026-10-08T04:29:30.469Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "im1nb3kga8ldg3wojers5mxmi",
+    "arxivId": "2604.02623",
+    "title": "Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",
+    "titleEn": "Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.02623",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/im1nb3kga8ldg3wojers5mxmi"
+    },
+    "publishedAt": null,
+    "timelineAt": "2026-10-08T06:39:54.953Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "adf5r3vc83gut94get7y2a14e",
+    "arxivId": "2607.03220",
+    "title": "CONTRA: Red-Teaming Configurations of Personalizable Agents",
+    "titleEn": "CONTRA: Red-Teaming Configurations of Personalizable Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.03220",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/adf5r3vc83gut94get7y2a14e"
+    },
+    "publishedAt": "2026-07-03T11:34:27.000Z",
+    "timelineAt": "2026-10-08T12:48:14.322Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "j9pcukyq9d0tlyprw4g9p8429",
+    "arxivId": "2608.16246",
+    "title": "CompoSkill: Compositional Skill Chain Attacks from Individually Scanner-Passing LLM Agent Skills",
+    "titleEn": "CompoSkill: Compositional Skill Chain Attacks from Individually Scanner-Passing LLM Agent Skills",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.16246",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/j9pcukyq9d0tlyprw4g9p8429"
+    },
+    "publishedAt": "2026-08-17T08:20:44.000Z",
+    "timelineAt": "2026-10-08T12:48:14.352Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "todvlllhrd74qall90qoam6j6",
+    "arxivId": "2608.09732",
+    "title": "ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners",
+    "titleEn": "ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.09732",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/todvlllhrd74qall90qoam6j6"
+    },
+    "publishedAt": "2026-08-10T15:32:44.000Z",
+    "timelineAt": "2026-10-08T12:48:14.557Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ikcppha3uew4hgr76indnyflh",
+    "arxivId": "2610.09517",
+    "title": "It Is Not Seeing the Hazard: A Frozen Vision-Language Safety Score Measures Its Caption Bank",
+    "titleEn": "It Is Not Seeing the Hazard: A Frozen Vision-Language Safety Score Measures Its Caption Bank",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09517",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ikcppha3uew4hgr76indnyflh"
+    },
+    "publishedAt": "2026-10-07T06:15:23.000Z",
+    "timelineAt": "2026-10-08T09:48:18.974Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ff90ixrsqyic5sex88qk0requ",
+    "arxivId": "2510.10987",
+    "title": "DITTO: A Spoofing Attack Framework on Watermarked LLMs via Knowledge Distillation",
+    "titleEn": "DITTO: A Spoofing Attack Framework on Watermarked LLMs via Knowledge Distillation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.10987",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ff90ixrsqyic5sex88qk0requ"
+    },
+    "publishedAt": "2025-10-13T03:53:40.000Z",
+    "timelineAt": "2026-10-08T12:48:23.424Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "c2zslawntma9zh4dmvn0g196w",
+    "arxivId": "2609.37468",
+    "title": "Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers",
+    "titleEn": "Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.37468",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/c2zslawntma9zh4dmvn0g196w"
+    },
+    "publishedAt": "2026-09-26T14:47:25.000Z",
+    "timelineAt": "2026-10-08T13:07:51.701Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "peeof46x6rudqhjejkqnzx6v7",
+    "arxivId": "2610.09384",
+    "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+    "titleEn": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09384",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/peeof46x6rudqhjejkqnzx6v7"
+    },
+    "publishedAt": "2026-10-07T03:40:44.000Z",
+    "timelineAt": "2026-10-08T04:20:35.134Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "a50yumy56534lhyfdq3s8idca",
+    "arxivId": "2610.10276",
+    "title": "PatchBench: Measuring Collateral Damage in Activation Patching",
+    "titleEn": "PatchBench: Measuring Collateral Damage in Activation Patching",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10276",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/a50yumy56534lhyfdq3s8idca"
+    },
+    "publishedAt": "2026-10-07T15:43:28.000Z",
+    "timelineAt": "2026-10-08T04:21:06.182Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 10,
+      "pending": 29,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "x5hmi616pg7k1m2xced39krbs",
+    "arxivId": "2609.32701",
+    "title": "Despite Instructions: Frontier Agents Improvise Covert Channels at Test Time",
+    "titleEn": "Despite Instructions: Frontier Agents Improvise Covert Channels at Test Time",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.32701",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/x5hmi616pg7k1m2xced39krbs"
+    },
+    "publishedAt": "2026-09-26T15:06:44.000Z",
+    "timelineAt": "2026-10-08T04:33:48.450Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "vlpoiqdxzg660p9e9ux3cskzy",
+    "arxivId": "2610.09981",
+    "title": "Sensitive-Topic Leakage Through LLM Routing Metadata: Measurement and Mitigation",
+    "titleEn": "Sensitive-Topic Leakage Through LLM Routing Metadata: Measurement and Mitigation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09981",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/vlpoiqdxzg660p9e9ux3cskzy"
+    },
+    "publishedAt": "2026-10-07T12:47:37.000Z",
+    "timelineAt": "2026-10-08T08:47:14.598Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "b6jdqhb9xf9nte5vw9x3o9kbx",
+    "arxivId": "2606.13044",
+    "title": "No Hidden Prompts Needed! You Can Game AI Peer Review with Presentation-Only Revisions",
+    "titleEn": "No Hidden Prompts Needed! You Can Game AI Peer Review with Presentation-Only Revisions",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.13044",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/b6jdqhb9xf9nte5vw9x3o9kbx"
+    },
+    "publishedAt": "2026-06-11T08:30:18.000Z",
+    "timelineAt": "2026-10-08T12:48:14.425Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "mfimwmf0267vmvc3asd63urli",
+    "arxivId": "2607.14493",
+    "title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+    "titleEn": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.14493",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/mfimwmf0267vmvc3asd63urli"
+    },
+    "publishedAt": "2026-07-16T02:15:35.000Z",
+    "timelineAt": "2026-10-08T12:48:14.490Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "xw55g91m4tvx32h9ffcwz1wnt",
+    "arxivId": "2608.07430",
+    "title": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+    "titleEn": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.07430",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/xw55g91m4tvx32h9ffcwz1wnt"
+    },
+    "publishedAt": "2026-08-07T17:17:18.000Z",
+    "timelineAt": "2026-10-08T12:48:23.410Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "foe20ccg9ev3ockq0hskw89fx",
+    "arxivId": "2605.21545",
+    "title": "RefusalBench: Why Refusal Rate Misranks Frontier LLMs on Biological Research Prompts",
+    "titleEn": "RefusalBench: Why Refusal Rate Misranks Frontier LLMs on Biological Research Prompts",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.21545",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/foe20ccg9ev3ockq0hskw89fx"
+    },
+    "publishedAt": "2026-05-20T09:53:31.000Z",
+    "timelineAt": "2026-10-08T12:48:23.680Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "nkfkp1ts6fsee86mh4hmta2yv",
+    "arxivId": "2610.09920",
+    "title": "Inverting Multi-Vector Visual Document Indices",
+    "titleEn": "Inverting Multi-Vector Visual Document Indices",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09920",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/nkfkp1ts6fsee86mh4hmta2yv"
+    },
+    "publishedAt": "2026-10-07T12:10:11.000Z",
+    "timelineAt": "2026-10-08T02:54:33.198Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 10,
+      "pending": 29,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "i0wx31yi6ng9mdlxvrn75nw4d",
+    "arxivId": "2610.10203",
+    "title": "How to train your model organism",
+    "titleEn": "How to train your model organism",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10203",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/i0wx31yi6ng9mdlxvrn75nw4d"
+    },
+    "publishedAt": "2026-10-07T15:02:57.000Z",
+    "timelineAt": "2026-10-08T06:53:07.441Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "qj99tgfr3vqt826jh5a3bca29",
+    "arxivId": "2610.09371",
+    "title": "The Confidence Game: Strategic Miscalibration in Human-AI Delegation",
+    "titleEn": "The Confidence Game: Strategic Miscalibration in Human-AI Delegation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09371",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/qj99tgfr3vqt826jh5a3bca29"
+    },
+    "publishedAt": "2026-10-07T03:25:44.000Z",
+    "timelineAt": "2026-10-08T10:20:38.154Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "c1bgb2knrjd3sfn22mfu7wbln",
+    "arxivId": "2609.38909",
+    "title": "Unlearning Deceptive Behaviors in LLMs with Contrastive Forget Sets",
+    "titleEn": "Unlearning Deceptive Behaviors in LLMs with Contrastive Forget Sets",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.38909",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/c1bgb2knrjd3sfn22mfu7wbln"
+    },
+    "publishedAt": "2026-09-30T03:55:35.000Z",
+    "timelineAt": "2026-10-08T11:21:38.752Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "e7s41o5hypa58zhuw1lgc7ie1",
+    "arxivId": "2605.19847",
+    "title": "Auditing Privacy in Multi-Tenant RAG under Account Collusion",
+    "titleEn": "Auditing Privacy in Multi-Tenant RAG under Account Collusion",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.19847",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/e7s41o5hypa58zhuw1lgc7ie1"
+    },
+    "publishedAt": "2026-05-19T13:41:59.000Z",
+    "timelineAt": "2026-10-08T12:48:23.212Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "zg6s0czut89k35mpf8nep49y5",
+    "arxivId": "2610.09159",
+    "title": "SpecGuard: Proving a Task Is Broken Before the Agent Cheats",
+    "titleEn": "SpecGuard: Proving a Task Is Broken Before the Agent Cheats",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09159",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/zg6s0czut89k35mpf8nep49y5"
+    },
+    "publishedAt": "2026-10-06T22:00:49.000Z",
+    "timelineAt": "2026-10-08T04:20:35.122Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ib0ztjtw9vtm3hxg24rnjr98x",
+    "arxivId": "2610.09600",
+    "title": "SafeEvo: Deciphering the Safety Alignment Mechanism and Evolution in Language Models",
+    "titleEn": "SafeEvo: Deciphering the Safety Alignment Mechanism and Evolution in Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09600",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ib0ztjtw9vtm3hxg24rnjr98x"
+    },
+    "publishedAt": "2026-10-07T07:48:20.000Z",
+    "timelineAt": "2026-10-08T05:30:02.470Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "qr3pkgdkdbcsbd7t53o2u1doz",
+    "arxivId": "2610.08144",
+    "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+    "titleEn": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08144",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/qr3pkgdkdbcsbd7t53o2u1doz"
+    },
+    "publishedAt": "2026-10-06T10:58:01.000Z",
+    "timelineAt": "2026-10-08T07:42:04.283Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yb95rd5nsnibaqut11dlk1dix",
+    "arxivId": "2610.09819",
+    "title": "Backdooring Acoustic Foundation Models for Physically Realizable Triggers",
+    "titleEn": "Backdooring Acoustic Foundation Models for Physically Realizable Triggers",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09819",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yb95rd5nsnibaqut11dlk1dix"
+    },
+    "publishedAt": "2026-10-07T10:41:54.000Z",
+    "timelineAt": "2026-10-08T08:47:22.064Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 40,
+      "translated": 11,
+      "pending": 29,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yh51499egwa8yhyqfcvt3oo75",
+    "arxivId": "2610.09667",
+    "title": "Shared and structured inputs undermine collective random choice by reasoning AI agents",
+    "titleEn": "Shared and structured inputs undermine collective random choice by reasoning AI agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09667",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yh51499egwa8yhyqfcvt3oo75"
+    },
+    "publishedAt": "2026-10-07T08:32:36.000Z",
+    "timelineAt": "2026-10-08T09:29:15.586Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "td5h7vxkb61d99jeiirbpaz8a",
+    "arxivId": "2608.04741",
+    "title": "LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents",
+    "titleEn": "LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04741",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/td5h7vxkb61d99jeiirbpaz8a"
+    },
+    "publishedAt": "2026-08-05T12:08:16.000Z",
+    "timelineAt": "2026-10-08T12:48:14.265Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "j09ph6oqbqaacsc9205fd7737",
+    "arxivId": "2608.04192",
+    "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
+    "titleEn": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04192",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/j09ph6oqbqaacsc9205fd7737"
+    },
+    "publishedAt": "2026-08-04T19:51:15.000Z",
+    "timelineAt": "2026-10-08T12:48:14.338Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "p0bhgqswcgjmp0whtzn3stqpb",
+    "arxivId": "2606.04329",
+    "title": "From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents",
+    "titleEn": "From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.04329",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/p0bhgqswcgjmp0whtzn3stqpb"
+    },
+    "publishedAt": "2026-06-03T01:04:13.000Z",
+    "timelineAt": "2026-10-08T12:48:14.473Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "loz0gs7abumuyaypq0y2jp6sp",
+    "arxivId": "2606.21077",
+    "title": "OTTER: A Red-Teaming System for Toxicity-Evading Jailbreak Prompt Optimization",
+    "titleEn": "OTTER: A Red-Teaming System for Toxicity-Evading Jailbreak Prompt Optimization",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.21077",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/loz0gs7abumuyaypq0y2jp6sp"
+    },
+    "publishedAt": "2026-06-19T03:55:08.000Z",
+    "timelineAt": "2026-10-08T12:48:14.541Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "edsl7bo3ewl9z2942q773j8rj",
+    "arxivId": "2606.04075",
+    "title": "Large Language Models Hack Rewards, and Society",
+    "titleEn": "Large Language Models Hack Rewards, and Society",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.04075",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/edsl7bo3ewl9z2942q773j8rj"
+    },
+    "publishedAt": "2026-06-02T16:29:48.000Z",
+    "timelineAt": "2026-10-08T12:48:14.624Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "fenvrxw2d0p8dvya70jmz1jl8",
+    "arxivId": "2607.21619",
+    "title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+    "titleEn": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.21619",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/fenvrxw2d0p8dvya70jmz1jl8"
+    },
+    "publishedAt": "2026-06-01T09:47:17.000Z",
+    "timelineAt": "2026-10-08T12:48:23.573Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "r2muvj92qzan8fibrsmf1mwni",
+    "arxivId": "2610.09708",
+    "title": "Black-Box Adversarial Patch Attacks on VLAs via Ancestor VLM Exploitation",
+    "titleEn": "Black-Box Adversarial Patch Attacks on VLAs via Ancestor VLM Exploitation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09708",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/r2muvj92qzan8fibrsmf1mwni"
+    },
+    "publishedAt": "2026-10-07T09:04:42.000Z",
+    "timelineAt": "2026-10-08T05:15:08.950Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "n613cj7219u1571g8ou5bbvo1",
+    "arxivId": "2610.07798",
+    "title": "Thin Evidence, Thick Priors: How Language Models Substitute Identity for Missing Financial Facts",
+    "titleEn": "Thin Evidence, Thick Priors: How Language Models Substitute Identity for Missing Financial Facts",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07798",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/n613cj7219u1571g8ou5bbvo1"
+    },
+    "publishedAt": "2026-10-06T05:46:28.000Z",
+    "timelineAt": "2026-10-08T11:21:46.246Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ksdaplnae3iz7d5c0n3o4k9ut",
+    "arxivId": "2606.29887",
+    "title": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing",
+    "titleEn": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.29887",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ksdaplnae3iz7d5c0n3o4k9ut"
+    },
+    "publishedAt": "2026-06-29T07:27:22.000Z",
+    "timelineAt": "2026-10-08T12:48:14.451Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 2,
+      "translated": 0,
+      "pending": 2,
+      "status": "original"
+    }
+  },
+  {
+    "id": "q3mbgtf5047zzx0rib0b723eq",
+    "arxivId": "2605.30040",
+    "title": "Token Inflation: How Dishonest Providers Can Overcharge for Large Language Model Usage",
+    "titleEn": "Token Inflation: How Dishonest Providers Can Overcharge for Large Language Model Usage",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.30040",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/q3mbgtf5047zzx0rib0b723eq"
+    },
+    "publishedAt": "2026-05-28T14:57:06.000Z",
+    "timelineAt": "2026-10-08T12:48:14.604Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "w0zpe9lqyfsq67btqzo158px7",
+    "arxivId": "2605.24312",
+    "title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
+    "titleEn": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.24312",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/w0zpe9lqyfsq67btqzo158px7"
+    },
+    "publishedAt": "2026-05-23T00:38:59.000Z",
+    "timelineAt": "2026-10-08T12:48:14.662Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "izyyxf0rwwfyxfo1ahn0rzhwm",
+    "arxivId": "2605.26156",
+    "title": "Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges",
+    "titleEn": "Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.26156",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/izyyxf0rwwfyxfo1ahn0rzhwm"
+    },
+    "publishedAt": "2026-05-24T05:24:09.000Z",
+    "timelineAt": "2026-10-08T12:48:14.694Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "oj78tqjnz3mp6j86sjui9nqvq",
+    "arxivId": "2605.13338",
+    "title": "Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models",
+    "titleEn": "Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.13338",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/oj78tqjnz3mp6j86sjui9nqvq"
+    },
+    "publishedAt": "2026-05-13T10:57:10.000Z",
+    "timelineAt": "2026-10-08T12:48:23.238Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "zewbi9s0dfc650h6fo2yb9ga9",
+    "arxivId": "2603.01454",
+    "title": "VidDoS: Universal Denial-of-Service Attack on Video-based Large Language Models",
+    "titleEn": "VidDoS: Universal Denial-of-Service Attack on Video-based Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.01454",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/zewbi9s0dfc650h6fo2yb9ga9"
+    },
+    "publishedAt": "2026-03-02T05:11:47.000Z",
+    "timelineAt": "2026-10-08T12:48:23.405Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 2,
+      "translated": 0,
+      "pending": 2,
+      "status": "original"
+    }
+  },
+  {
+    "id": "wu7xniu6p4dof3fgrr4sd3tqw",
+    "arxivId": "2606.09499",
+    "title": "Targeting World Models to Compromise Robot Learning Pipelines",
+    "titleEn": "Targeting World Models to Compromise Robot Learning Pipelines",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.09499",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/wu7xniu6p4dof3fgrr4sd3tqw"
+    },
+    "publishedAt": "2026-06-08T13:50:31.000Z",
+    "timelineAt": "2026-10-08T06:35:54.231Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "skblp99b43vgs99x8myo2vfr8",
+    "arxivId": "2511.18921",
+    "title": "BackdoorVLM: A Benchmark for Backdoor Attacks and Defenses on Vision-Language Models",
+    "titleEn": "BackdoorVLM: A Benchmark for Backdoor Attacks and Defenses on Vision-Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.18921",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/skblp99b43vgs99x8myo2vfr8"
+    },
+    "publishedAt": "2025-11-24T09:30:38.000Z",
+    "timelineAt": "2026-10-08T06:39:24.510Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jdrwaai7ruswx9umntyejs6pj",
+    "arxivId": "2610.10062",
+    "title": "Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents",
+    "titleEn": "Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10062",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jdrwaai7ruswx9umntyejs6pj"
+    },
+    "publishedAt": "2026-10-07T13:29:59.000Z",
+    "timelineAt": "2026-10-08T07:28:33.682Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "hioihnqjk0ilsu1cuw90vcjek",
+    "arxivId": "2610.09944",
+    "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
+    "titleEn": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09944",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/hioihnqjk0ilsu1cuw90vcjek"
+    },
+    "publishedAt": "2026-10-07T12:26:24.000Z",
+    "timelineAt": "2026-10-08T07:42:26.837Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "i9ff4x7jthkdrcph81q42bd4s",
+    "arxivId": "2608.15578",
+    "title": "ARENA: Automated Red-Teaming for Large Audio Language Models",
+    "titleEn": "ARENA: Automated Red-Teaming for Large Audio Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.15578",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/i9ff4x7jthkdrcph81q42bd4s"
+    },
+    "publishedAt": "2026-08-16T07:03:53.000Z",
+    "timelineAt": "2026-10-08T12:48:14.579Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "eplajchriujlfpjul3udxwqnq",
+    "arxivId": "2605.18168",
+    "title": "Acoustic Interference: A New Paradigm Weaponizing Acoustic Latent Semantic for Universal Jailbreak against Large Audio Language Models",
+    "titleEn": "Acoustic Interference: A New Paradigm Weaponizing Acoustic Latent Semantic for Universal Jailbreak against Large Audio Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18168",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/eplajchriujlfpjul3udxwqnq"
+    },
+    "publishedAt": "2026-05-18T10:10:31.000Z",
+    "timelineAt": "2026-10-08T12:48:14.674Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "q6luath4m96vt143n6m6unbjx",
+    "arxivId": "2605.24421",
+    "title": "Poisoning the Watchtower: Prompt Injection Attacks Against LLM-Augmented Security Operations Through Adversarial Log Content",
+    "titleEn": "Poisoning the Watchtower: Prompt Injection Attacks Against LLM-Augmented Security Operations Through Adversarial Log Content",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.24421",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/q6luath4m96vt143n6m6unbjx"
+    },
+    "publishedAt": "2026-05-23T06:21:10.000Z",
+    "timelineAt": "2026-10-08T12:48:23.218Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "airtbivoygtq9klqf31ucajqj",
+    "arxivId": "2608.01759",
+    "title": "Benign Alone, Harmful Together: Exploiting Experience Composition in Self-Evolving LLM Agents",
+    "titleEn": "Benign Alone, Harmful Together: Exploiting Experience Composition in Self-Evolving LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.01759",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/airtbivoygtq9klqf31ucajqj"
+    },
+    "publishedAt": "2026-08-03T06:28:21.000Z",
+    "timelineAt": "2026-10-08T12:48:14.314Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ujjnj2j238fvzs4bxnb7wh060",
+    "arxivId": "2608.12273",
+    "title": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
+    "titleEn": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.12273",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ujjnj2j238fvzs4bxnb7wh060"
+    },
+    "publishedAt": "2026-08-12T17:12:49.000Z",
+    "timelineAt": "2026-10-08T12:48:14.508Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "amwe4th95ls80qiwag4rp3b5b",
+    "arxivId": "2608.05108",
+    "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+    "titleEn": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.05108",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/amwe4th95ls80qiwag4rp3b5b"
+    },
+    "publishedAt": "2026-08-05T17:44:09.000Z",
+    "timelineAt": "2026-10-08T12:48:14.681Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 34,
+      "translated": 10,
+      "pending": 24,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "u0y6zdur82m66vnxykutn757h",
+    "arxivId": "2605.17971",
+    "title": "Babel: Jailbreaking Safety Attention via Obfuscation Distribution Optimized Sampling",
+    "titleEn": "Babel: Jailbreaking Safety Attention via Obfuscation Distribution Optimized Sampling",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.17971",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/u0y6zdur82m66vnxykutn757h"
+    },
+    "publishedAt": "2026-05-18T07:27:59.000Z",
+    "timelineAt": "2026-10-08T12:48:23.203Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "y29mvz8y9rwm9340mdmtll4dm",
+    "arxivId": "2509.09488",
+    "title": "Prompt Pirates Need a Map: Stealing Seeds helps Stealing Prompts",
+    "titleEn": "Prompt Pirates Need a Map: Stealing Seeds helps Stealing Prompts",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.09488",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/y29mvz8y9rwm9340mdmtll4dm"
+    },
+    "publishedAt": "2025-09-11T14:21:59.000Z",
+    "timelineAt": "2026-10-08T12:48:23.379Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "s2sa025ttuozt8sztny0ou32m",
+    "arxivId": "2606.01212",
+    "title": "DiscourseFlip: An Oblique Discourse-Level Opinion Manipulation Attack against Black-box Retrieval-Augmented Generation",
+    "titleEn": "DiscourseFlip: An Oblique Discourse-Level Opinion Manipulation Attack against Black-box Retrieval-Augmented Generation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.01212",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/s2sa025ttuozt8sztny0ou32m"
+    },
+    "publishedAt": "2026-05-31T13:03:47.000Z",
+    "timelineAt": "2026-10-08T12:48:23.649Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "fhdnxzpj4hdrp4v9068xuo5r4",
+    "arxivId": "2610.09264",
+    "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+    "titleEn": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09264",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/fhdnxzpj4hdrp4v9068xuo5r4"
+    },
+    "publishedAt": "2026-10-07T00:59:19.000Z",
+    "timelineAt": "2026-10-08T04:20:41.945Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lnkfsh2h2rxw4zrvnjntzxipp",
+    "arxivId": "2608.01117",
+    "title": "SoK: Intent-Oriented Systematization of Multi-Turn LLM Jailbreaks",
+    "titleEn": "SoK: Intent-Oriented Systematization of Multi-Turn LLM Jailbreaks",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.01117",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lnkfsh2h2rxw4zrvnjntzxipp"
+    },
+    "publishedAt": "2026-08-02T09:24:08.000Z",
+    "timelineAt": "2026-10-08T06:36:16.997Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 33,
+      "translated": 10,
+      "pending": 23,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "rv5gb9txiy76ogozfbtzg8t4f",
+    "arxivId": "2605.04446",
+    "title": "Misrouter: Exploiting Routing Mechanisms for Input-Only Attacks on Mixture-of-Experts LLMs",
+    "titleEn": "Misrouter: Exploiting Routing Mechanisms for Input-Only Attacks on Mixture-of-Experts LLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.04446",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/rv5gb9txiy76ogozfbtzg8t4f"
+    },
+    "publishedAt": "2026-05-06T03:21:38.000Z",
+    "timelineAt": "2026-10-08T12:48:14.599Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jf8gpskpb7pd2f81yf5fzp6mx",
+    "arxivId": "2605.11047",
+    "title": "Red-Teaming Agent Execution Contexts: Open-World Security Evaluation on OpenClaw",
+    "titleEn": "Red-Teaming Agent Execution Contexts: Open-World Security Evaluation on OpenClaw",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11047",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jf8gpskpb7pd2f81yf5fzp6mx"
+    },
+    "publishedAt": "2026-05-11T13:20:02.000Z",
+    "timelineAt": "2026-10-08T12:48:14.632Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "f9h9p31h9lk011yjk9ffseihz",
+    "arxivId": "2607.00481",
+    "title": "Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces",
+    "titleEn": "Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00481",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/f9h9p31h9lk011yjk9ffseihz"
+    },
+    "publishedAt": "2026-07-01T06:08:07.000Z",
+    "timelineAt": "2026-10-08T12:48:23.171Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "iefhycegk2er6s6okis1tnpn8",
+    "arxivId": "2605.18915",
+    "title": "DMN: A Compositional Framework for Jailbreaking Multimodal LLMs with Multi-Image Inputs",
+    "titleEn": "DMN: A Compositional Framework for Jailbreaking Multimodal LLMs with Multi-Image Inputs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18915",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/iefhycegk2er6s6okis1tnpn8"
+    },
+    "publishedAt": "2026-05-18T03:23:58.000Z",
+    "timelineAt": "2026-10-08T12:48:23.223Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "uwy28puy9njvq9q2aduiyw1xb",
+    "arxivId": "2607.00422",
+    "title": "KidnapRAG: A Black-Box Attack for Hijacking Reasoning in Agentic Retrieval-Augmented Generation Systems",
+    "titleEn": "KidnapRAG: A Black-Box Attack for Hijacking Reasoning in Agentic Retrieval-Augmented Generation Systems",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00422",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/uwy28puy9njvq9q2aduiyw1xb"
+    },
+    "publishedAt": "2026-07-01T04:32:17.000Z",
+    "timelineAt": "2026-10-08T12:48:23.333Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 34,
+      "translated": 10,
+      "pending": 24,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ns8bvcd3xmda7403f6usyxgsu",
+    "arxivId": "2606.12918",
+    "title": "MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems",
+    "titleEn": "MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.12918",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ns8bvcd3xmda7403f6usyxgsu"
+    },
+    "publishedAt": "2026-06-11T05:21:39.000Z",
+    "timelineAt": "2026-10-08T12:48:23.588Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "eupyquifwd838n2sqv619l964",
+    "arxivId": "2607.02961",
+    "title": "Overloading Large Vision-Language Models for Jailbreaking",
+    "titleEn": "Overloading Large Vision-Language Models for Jailbreaking",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.02961",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/eupyquifwd838n2sqv619l964"
+    },
+    "publishedAt": "2026-07-03T05:09:03.000Z",
+    "timelineAt": "2026-10-08T12:48:14.363Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "nm27aemaspfef8rzo5wyefhwm",
+    "arxivId": "2608.02681",
+    "title": "Safety in Batches? Understanding and Mitigating Safety Failures in Batch Prompting",
+    "titleEn": "Safety in Batches? Understanding and Mitigating Safety Failures in Batch Prompting",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.02681",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/nm27aemaspfef8rzo5wyefhwm"
+    },
+    "publishedAt": "2026-08-03T01:07:56.000Z",
+    "timelineAt": "2026-10-08T12:48:14.523Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 12,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "apd0xw3cyr7loknnhh9h0rlkl",
+    "arxivId": "2605.21541",
+    "title": "Frequency-Domain Regularized Adversarial Alignment for Transferable Attacks against Closed-Source MLLMs",
+    "titleEn": "Frequency-Domain Regularized Adversarial Alignment for Transferable Attacks against Closed-Source MLLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.21541",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/apd0xw3cyr7loknnhh9h0rlkl"
+    },
+    "publishedAt": "2026-05-20T08:15:56.000Z",
+    "timelineAt": "2026-10-08T12:48:14.565Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lqlo2m4nn70nzzqm6yckyuxdh",
+    "arxivId": "2605.08310",
+    "title": "WebTrap: Stealthy Mid-Task Hijacking of Browser Agents During Navigation",
+    "titleEn": "WebTrap: Stealthy Mid-Task Hijacking of Browser Agents During Navigation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.08310",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lqlo2m4nn70nzzqm6yckyuxdh"
+    },
+    "publishedAt": "2026-05-08T14:06:03.000Z",
+    "timelineAt": "2026-10-08T12:48:14.745Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "hsreelxxfpkcs8yujbhzlj6v1",
+    "arxivId": "2608.00718",
+    "title": "Adversarial Attacks in Multi-Agent LLM Pipelines: Unveiling Structural Vulnerabilities in Agentic AI Architectures",
+    "titleEn": "Adversarial Attacks in Multi-Agent LLM Pipelines: Unveiling Structural Vulnerabilities in Agentic AI Architectures",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.00718",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/hsreelxxfpkcs8yujbhzlj6v1"
+    },
+    "publishedAt": "2026-08-01T15:35:58.000Z",
+    "timelineAt": "2026-10-08T12:48:23.387Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "t2ajzecah99y1pnpdawzumk87",
+    "arxivId": "2605.19722",
+    "title": "Measuring Safety Alignment Effects in Autonomous Security Agents",
+    "titleEn": "Measuring Safety Alignment Effects in Autonomous Security Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.19722",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/t2ajzecah99y1pnpdawzumk87"
+    },
+    "publishedAt": "2026-05-19T11:55:54.000Z",
+    "timelineAt": "2026-10-08T12:48:23.685Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "nch903mxs17tlniwjuvl8e0xq",
+    "arxivId": "2610.10358",
+    "title": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
+    "titleEn": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10358",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/nch903mxs17tlniwjuvl8e0xq"
+    },
+    "publishedAt": "2026-10-07T16:30:59.000Z",
+    "timelineAt": "2026-10-08T05:41:38.673Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "rlu67cu6z5kwmhe68xtjvopju",
+    "arxivId": "2604.12447",
+    "title": "HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models",
+    "titleEn": "HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.12447",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/rlu67cu6z5kwmhe68xtjvopju"
+    },
+    "publishedAt": "2026-04-14T08:32:02.000Z",
+    "timelineAt": "2026-10-08T06:39:32.192Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "q7u2or1qv3dih15mmxtlu6etq",
+    "arxivId": "2610.09279",
+    "title": "AI-Assisted Submissions in Online Research Are Rare and Highly Concentrated but Routinely Approved",
+    "titleEn": "AI-Assisted Submissions in Online Research Are Rare and Highly Concentrated but Routinely Approved",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09279",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/q7u2or1qv3dih15mmxtlu6etq"
+    },
+    "publishedAt": "2026-10-07T01:25:59.000Z",
+    "timelineAt": "2026-10-08T10:20:45.663Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "dwggewltrkmsubduuiml9qe15",
+    "arxivId": "2609.34974",
+    "title": "Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces",
+    "titleEn": "Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34974",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/dwggewltrkmsubduuiml9qe15"
+    },
+    "publishedAt": "2026-09-28T11:53:24.000Z",
+    "timelineAt": "2026-10-08T11:01:32.138Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "obzlofan1y6d9im8is7hdsawe",
+    "arxivId": "2608.21929",
+    "title": "SkillBloat: Token Amplification Attacks via Skill Injection in LLM Coding Agents",
+    "titleEn": "SkillBloat: Token Amplification Attacks via Skill Injection in LLM Coding Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.21929",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/obzlofan1y6d9im8is7hdsawe"
+    },
+    "publishedAt": "2026-08-22T11:41:48.000Z",
+    "timelineAt": "2026-10-08T12:48:14.404Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "mjzkf3lebohuz9j3yhca40jku",
+    "arxivId": "2602.15927",
+    "title": "Visual Memory Injection Attacks for Multi-Turn Conversations",
+    "titleEn": "Visual Memory Injection Attacks for Multi-Turn Conversations",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.15927",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/mjzkf3lebohuz9j3yhca40jku"
+    },
+    "publishedAt": "2026-02-17T18:34:59.000Z",
+    "timelineAt": "2026-10-08T12:48:23.530Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "sv8oxmnhonaiaamvubhhy0cxb",
+    "arxivId": "2606.11265",
+    "title": "When Poison Fails After Retrieval: Revisiting Corpus Poisoning under Chunking and Reranking Pipelines",
+    "titleEn": "When Poison Fails After Retrieval: Revisiting Corpus Poisoning under Chunking and Reranking Pipelines",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.11265",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/sv8oxmnhonaiaamvubhhy0cxb"
+    },
+    "publishedAt": "2026-06-09T04:45:28.000Z",
+    "timelineAt": "2026-10-08T12:48:23.554Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "su2ny2dsee7tup0uvob37nwf3",
+    "arxivId": "2609.01325",
+    "title": "VerTox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models",
+    "titleEn": "VerTox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.01325",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/su2ny2dsee7tup0uvob37nwf3"
+    },
+    "publishedAt": "2026-09-01T14:43:11.000Z",
+    "timelineAt": "2026-10-08T13:07:44.222Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "a749w2p4s332iwulavekafkge",
+    "arxivId": "2610.09703",
+    "title": "Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs",
+    "titleEn": "Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09703",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/a749w2p4s332iwulavekafkge"
+    },
+    "publishedAt": "2026-10-07T09:01:09.000Z",
+    "timelineAt": "2026-10-08T04:29:42.961Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ov7nyfl3e5d756mpvzgzb2djk",
+    "arxivId": "2604.06240",
+    "title": "The Art of Building Verifiers for Computer Use Agents",
+    "titleEn": "The Art of Building Verifiers for Computer Use Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.06240",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ov7nyfl3e5d756mpvzgzb2djk"
+    },
+    "publishedAt": "2026-04-05T06:26:05.000Z",
+    "timelineAt": "2026-10-08T12:05:51.771Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jwb11r04uvlfd5lwkq1q1qxv9",
+    "arxivId": "2605.21401",
+    "title": "Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment",
+    "titleEn": "Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.21401",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jwb11r04uvlfd5lwkq1q1qxv9"
+    },
+    "publishedAt": "2026-05-20T16:59:44.000Z",
+    "timelineAt": "2026-10-08T12:48:23.307Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lii77tpeqz6p7eqxxca99l334",
+    "arxivId": "2604.24082",
+    "title": "Jailbreaking Frontier Foundation Models Through Intention Deception",
+    "titleEn": "Jailbreaking Frontier Foundation Models Through Intention Deception",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.24082",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lii77tpeqz6p7eqxxca99l334"
+    },
+    "publishedAt": "2026-04-27T06:12:43.000Z",
+    "timelineAt": "2026-10-08T12:48:23.563Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jpuj9zv8niykb78pqk7vmunbu",
+    "arxivId": "2610.03036",
+    "title": "WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites",
+    "titleEn": "WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.03036",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jpuj9zv8niykb78pqk7vmunbu"
+    },
+    "publishedAt": "2026-10-02T09:18:28.000Z",
+    "timelineAt": "2026-10-08T01:54:32.931Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "a8l8dafeagn4wl6pf2h53wo4d",
+    "arxivId": "2606.20626",
+    "title": "Efficient Safety Benchmarking via Item Response Theory",
+    "titleEn": "Efficient Safety Benchmarking via Item Response Theory",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.20626",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/a8l8dafeagn4wl6pf2h53wo4d"
+    },
+    "publishedAt": "2026-05-26T17:35:31.000Z",
+    "timelineAt": "2026-10-08T12:48:14.735Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lcr3df2e8hoq9az4ernfj9ngf",
+    "arxivId": "2606.04923",
+    "title": "Reproducing, Analyzing, and Detecting Reward Hacking in Rubric-Based Reinforcement Learning",
+    "titleEn": "Reproducing, Analyzing, and Detecting Reward Hacking in Rubric-Based Reinforcement Learning",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.04923",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lcr3df2e8hoq9az4ernfj9ngf"
+    },
+    "publishedAt": "2026-06-03T14:18:23.000Z",
+    "timelineAt": "2026-10-08T12:48:23.417Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "u8hrbyidt46a165vs2p2z2j1m",
+    "arxivId": "2606.07874",
+    "title": "Safety is Contextual, LLM-Judges Are Not: Navigating the Rigid Priors of Evaluators",
+    "titleEn": "Safety is Contextual, LLM-Judges Are Not: Navigating the Rigid Priors of Evaluators",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.07874",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/u8hrbyidt46a165vs2p2z2j1m"
+    },
+    "publishedAt": "2026-06-05T22:11:26.000Z",
+    "timelineAt": "2026-10-08T12:48:23.610Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "o3bpees55u4cl4ol77dcnc8yr",
+    "arxivId": "2609.01491",
+    "title": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+    "titleEn": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.01491",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/o3bpees55u4cl4ol77dcnc8yr"
+    },
+    "publishedAt": "2026-09-01T16:22:07.000Z",
+    "timelineAt": "2026-10-08T04:33:24.948Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "fk51dxy8k0j0q669vwq2yghzz",
+    "arxivId": "2602.00851",
+    "title": "Persuasion Propagation: Does Persuasion Change AI Agent Behavior?",
+    "titleEn": "Persuasion Propagation: Does Persuasion Change AI Agent Behavior?",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.00851",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/fk51dxy8k0j0q669vwq2yghzz"
+    },
+    "publishedAt": "2026-01-31T18:33:14.000Z",
+    "timelineAt": "2026-10-08T06:36:01.752Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "gyso52udiyg6w2y2cp0em88bv",
+    "arxivId": "2610.09000",
+    "title": "How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis",
+    "titleEn": "How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09000",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/gyso52udiyg6w2y2cp0em88bv"
+    },
+    "publishedAt": "2026-10-06T18:56:14.000Z",
+    "timelineAt": "2026-10-08T04:24:47.144Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "e2kytmh1cd08fspepy0dv7qez",
+    "arxivId": "2610.09941",
+    "title": "Purifying Backdoored Large Vision-Language Models by Removing Hijacked Directions",
+    "titleEn": "Purifying Backdoored Large Vision-Language Models by Removing Hijacked Directions",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09941",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/e2kytmh1cd08fspepy0dv7qez"
+    },
+    "publishedAt": "2026-10-07T12:25:47.000Z",
+    "timelineAt": "2026-10-08T05:33:35.817Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "v1x9t9p2rnhjj14y3mst7llio",
+    "arxivId": "2610.10150",
+    "title": "On the Reliability of LLM-Based Vulnerability Patching Benchmarks",
+    "titleEn": "On the Reliability of LLM-Based Vulnerability Patching Benchmarks",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10150",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/v1x9t9p2rnhjj14y3mst7llio"
+    },
+    "publishedAt": "2026-10-07T14:26:57.000Z",
+    "timelineAt": "2026-10-08T04:20:51.212Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "b2017u2rbd5nj4j6l9kflisjh",
+    "arxivId": "2610.09496",
+    "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+    "titleEn": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09496",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/b2017u2rbd5nj4j6l9kflisjh"
+    },
+    "publishedAt": "2026-10-07T05:52:02.000Z",
+    "timelineAt": "2026-10-08T04:30:42.349Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "j0fbnyry5fjioz3j8tu0gb2af",
+    "arxivId": "2610.10232",
+    "title": "LLM Persuasion Is in the Eye of the Evaluation",
+    "titleEn": "LLM Persuasion Is in the Eye of the Evaluation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10232",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/j0fbnyry5fjioz3j8tu0gb2af"
+    },
+    "publishedAt": "2026-10-07T15:19:54.000Z",
+    "timelineAt": "2026-10-08T04:33:55.989Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yxmwdxls2gx3x0z5b7hz05d80",
+    "arxivId": "2610.09469",
+    "title": "Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents",
+    "titleEn": "Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09469",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yxmwdxls2gx3x0z5b7hz05d80"
+    },
+    "publishedAt": "2026-10-07T05:24:40.000Z",
+    "timelineAt": "2026-10-08T06:39:47.339Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "rbmra4wf9ffrd50ugrbj8lwik",
+    "arxivId": "2606.12716",
+    "title": "Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review",
+    "titleEn": "Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.12716",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/rbmra4wf9ffrd50ugrbj8lwik"
+    },
+    "publishedAt": "2026-06-10T22:06:35.000Z",
+    "timelineAt": "2026-10-08T12:48:14.533Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "vgwk27edy47n26ma4p66xjmy4",
+    "arxivId": "2606.21155",
+    "title": "Who Checks the Citations? Benchmarking Legal Hallucination Detection",
+    "titleEn": "Who Checks the Citations? Benchmarking Legal Hallucination Detection",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.21155",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/vgwk27edy47n26ma4p66xjmy4"
+    },
+    "publishedAt": "2026-06-19T06:47:31.000Z",
+    "timelineAt": "2026-10-08T12:48:23.283Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yv1rkf46uofali8s7my7yiziu",
+    "arxivId": "2605.05709",
+    "title": "Conceal, Reconstruct, Jailbreak: Exploiting the Reconstruction-Concealment Tradeoff in MLLMs",
+    "titleEn": "Conceal, Reconstruct, Jailbreak: Exploiting the Reconstruction-Concealment Tradeoff in MLLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.05709",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yv1rkf46uofali8s7my7yiziu"
+    },
+    "publishedAt": "2026-05-07T05:54:49.000Z",
+    "timelineAt": "2026-10-08T12:48:23.365Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "vyt4jp9fsqppmh91ozmpy16bz",
+    "arxivId": "2610.09004",
+    "title": "Removing Information Content Does Not Certify Tamper Resistance in Open-Weight Models",
+    "titleEn": "Removing Information Content Does Not Certify Tamper Resistance in Open-Weight Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09004",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/vyt4jp9fsqppmh91ozmpy16bz"
+    },
+    "publishedAt": "2026-10-06T18:59:57.000Z",
+    "timelineAt": "2026-10-08T05:33:35.774Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "u738py6q48y5hcpll2ssg9cdm",
+    "arxivId": "2609.14744",
+    "title": "Runtime Authorization for Resources Acquired by AI Agents",
+    "titleEn": "Runtime Authorization for Resources Acquired by AI Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.14744",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/u738py6q48y5hcpll2ssg9cdm"
+    },
+    "publishedAt": "2026-09-13T19:16:44.000Z",
+    "timelineAt": "2026-10-08T06:40:33.991Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jyzjb019u15i8quypkee2disc",
+    "arxivId": "2607.25936",
+    "title": "From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs",
+    "titleEn": "From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.25936",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jyzjb019u15i8quypkee2disc"
+    },
+    "publishedAt": "2026-07-28T16:20:01.000Z",
+    "timelineAt": "2026-10-08T12:48:14.592Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "xv2fxmfpsehzuvne1wjk8gnco",
+    "arxivId": "2604.23067",
+    "title": "Training a General Purpose Automated Red Teaming Model",
+    "titleEn": "Training a General Purpose Automated Red Teaming Model",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.23067",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/xv2fxmfpsehzuvne1wjk8gnco"
+    },
+    "publishedAt": "2026-04-24T23:37:17.000Z",
+    "timelineAt": "2026-10-08T12:48:14.690Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "nli1pgcvuihjl0wyjo3t1sa2p",
+    "arxivId": "2605.08382",
+    "title": "SecureForge: Finding and Preventing Vulnerabilities in LLM-Generated Code via Prompt Optimization",
+    "titleEn": "SecureForge: Finding and Preventing Vulnerabilities in LLM-Generated Code via Prompt Optimization",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.08382",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/nli1pgcvuihjl0wyjo3t1sa2p"
+    },
+    "publishedAt": "2026-05-08T18:40:47.000Z",
+    "timelineAt": "2026-10-08T12:48:23.297Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "mzsqifslg9acyo6f49hui92qs",
+    "arxivId": "2610.07557",
+    "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+    "titleEn": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07557",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/mzsqifslg9acyo6f49hui92qs"
+    },
+    "publishedAt": "2026-10-06T00:42:45.000Z",
+    "timelineAt": "2026-10-07T16:50:31.614Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lmtlxz6x3d2gze5al2u5csre9",
+    "arxivId": "2610.09964",
+    "title": "Successive Training Stages and Large Language Model Persuasion: Effects of Misalignment, Supervised Fine-Tuning, and Preference Optimization",
+    "titleEn": "Successive Training Stages and Large Language Model Persuasion: Effects of Misalignment, Supervised Fine-Tuning, and Preference Optimization",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09964",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lmtlxz6x3d2gze5al2u5csre9"
+    },
+    "publishedAt": "2026-10-07T12:36:18.000Z",
+    "timelineAt": "2026-10-08T04:20:58.705Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "y69k02m1y3gppkg6c4448ps6q",
+    "arxivId": "2610.09935",
+    "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
+    "titleEn": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09935",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/y69k02m1y3gppkg6c4448ps6q"
+    },
+    "publishedAt": "2026-10-07T12:19:56.000Z",
+    "timelineAt": "2026-10-08T05:33:35.809Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ctqwdz4o8xjg0tpmlxozs4wsp",
+    "arxivId": "2606.16751",
+    "title": "Automated jailbreak attack targeting multiple defense strategies",
+    "titleEn": "Automated jailbreak attack targeting multiple defense strategies",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.16751",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ctqwdz4o8xjg0tpmlxozs4wsp"
+    },
+    "publishedAt": "2026-06-15T14:09:37.000Z",
+    "timelineAt": "2026-10-08T12:48:23.343Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jtxsdh1jp96021kbh9qoa03cb",
+    "arxivId": "2606.05609",
+    "title": "SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks",
+    "titleEn": "SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.05609",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jtxsdh1jp96021kbh9qoa03cb"
+    },
+    "publishedAt": "2026-06-04T02:31:29.000Z",
+    "timelineAt": "2026-10-08T12:48:23.350Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "wt6sbg6fyv31ddxt9g4kwuu6z",
+    "arxivId": "2610.08951",
+    "title": "ASPIRE: Agentic Safety & Prompt Injection Red-teaming Engine",
+    "titleEn": "ASPIRE: Agentic Safety & Prompt Injection Red-teaming Engine",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08951",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/wt6sbg6fyv31ddxt9g4kwuu6z"
+    },
+    "publishedAt": "2026-10-06T18:18:40.000Z",
+    "timelineAt": "2026-10-08T04:24:54.631Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "oy5go6n7zrqfkm8n2b3hv3n63",
+    "arxivId": "2606.22673",
+    "title": "Agent MechSuits: Mechanistic Subspace Safety Steering for Multi-Turn CLI Agents",
+    "titleEn": "Agent MechSuits: Mechanistic Subspace Safety Steering for Multi-Turn CLI Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.22673",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/oy5go6n7zrqfkm8n2b3hv3n63"
+    },
+    "publishedAt": "2026-06-21T21:13:55.000Z",
+    "timelineAt": "2026-10-08T06:35:39.125Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "i1lro877ndnohongp3mo4epvy",
+    "arxivId": "2610.10310",
+    "title": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+    "titleEn": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10310",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/i1lro877ndnohongp3mo4epvy"
+    },
+    "publishedAt": "2026-10-07T16:05:15.000Z",
+    "timelineAt": "2026-10-08T07:28:26.130Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "jgjuv25ges44jwjseoonrma6a",
+    "arxivId": "2610.04763",
+    "title": "Tracing model-generated DNA with position-independent watermarking",
+    "titleEn": "Tracing model-generated DNA with position-independent watermarking",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04763",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/jgjuv25ges44jwjseoonrma6a"
+    },
+    "publishedAt": "2026-10-03T20:56:43.000Z",
+    "timelineAt": "2026-10-08T10:52:18.177Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "xv8umhnfe4akiqd8ft1hk45ww",
+    "arxivId": "2606.15899",
+    "title": "SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills",
+    "titleEn": "SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.15899",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/xv8umhnfe4akiqd8ft1hk45ww"
+    },
+    "publishedAt": "2026-06-14T16:30:33.000Z",
+    "timelineAt": "2026-10-08T12:48:14.466Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "m33ts51hschvwloxn7c4w0fbm",
+    "arxivId": "2509.05219",
+    "title": "Conversational AI increases political knowledge as effectively as self-directed internet search",
+    "titleEn": "Conversational AI increases political knowledge as effectively as self-directed internet search",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.05219",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/m33ts51hschvwloxn7c4w0fbm"
+    },
+    "publishedAt": "2025-09-05T16:26:55.000Z",
+    "timelineAt": "2026-10-07T21:15:49.367Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "m59440htlxp7vh086o1do9sh6",
+    "arxivId": "2610.10064",
+    "title": "Comprehension Audits to Mitigate Risks from Automated AI Research",
+    "titleEn": "Comprehension Audits to Mitigate Risks from Automated AI Research",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10064",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/m59440htlxp7vh086o1do9sh6"
+    },
+    "publishedAt": "2026-10-07T13:30:47.000Z",
+    "timelineAt": "2026-10-08T05:30:02.497Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "capgywo5ywyqj9itq9t5qmb3o",
+    "arxivId": "2610.09581",
+    "title": "Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs",
+    "titleEn": "Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09581",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/capgywo5ywyqj9itq9t5qmb3o"
+    },
+    "publishedAt": "2026-10-07T07:26:33.000Z",
+    "timelineAt": "2026-10-08T09:48:11.397Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "bfaxmjurevmg3k4v0kuggtg3e",
+    "arxivId": "2607.01276",
+    "title": "Embedding Inference Attack",
+    "titleEn": "Embedding Inference Attack",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.01276",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/bfaxmjurevmg3k4v0kuggtg3e"
+    },
+    "publishedAt": "2026-07-01T02:56:39.000Z",
+    "timelineAt": "2026-10-08T12:48:14.550Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "wu4mg18618irmscl5i71mfey7",
+    "arxivId": "2606.24819",
+    "title": "HelpBench: Assessing the Ability of LLMs to Provide Privacy, Safety, and Security Advice",
+    "titleEn": "HelpBench: Assessing the Ability of LLMs to Provide Privacy, Safety, and Security Advice",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.24819",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/wu4mg18618irmscl5i71mfey7"
+    },
+    "publishedAt": "2026-06-23T17:05:19.000Z",
+    "timelineAt": "2026-10-08T12:48:14.615Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ucj5ccqdxgkzc7r93kr2goi6a",
+    "arxivId": "2606.09701",
+    "title": "Learning to Attack and Defend: Adaptive Red Teaming of Language Models via GRPO",
+    "titleEn": "Learning to Attack and Defend: Adaptive Red Teaming of Language Models via GRPO",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.09701",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ucj5ccqdxgkzc7r93kr2goi6a"
+    },
+    "publishedAt": "2026-06-08T16:21:36.000Z",
+    "timelineAt": "2026-10-08T12:48:23.194Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "dxe23k4d6fho3yegwswz32j5b",
+    "arxivId": "2610.09033",
+    "title": "Quad-State Safety Evaluation of Open-Weight Large Language Models on Non-Canonical Inputs",
+    "titleEn": "Quad-State Safety Evaluation of Open-Weight Large Language Models on Non-Canonical Inputs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09033",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/dxe23k4d6fho3yegwswz32j5b"
+    },
+    "publishedAt": "2026-10-06T19:33:24.000Z",
+    "timelineAt": "2026-10-08T04:29:42.944Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yxuwnxpxevz95irh1un6tse9d",
+    "arxivId": "2604.10893",
+    "title": "Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models",
+    "titleEn": "Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.10893",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yxuwnxpxevz95irh1un6tse9d"
+    },
+    "publishedAt": "2026-04-13T01:46:51.000Z",
+    "timelineAt": "2026-10-08T12:48:14.701Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ks0tq1lxvnitzldqiltt1i4e2",
+    "arxivId": "2508.06837",
+    "title": "Towards Effective Prompt Stealing Attack against Text-to-Image Diffusion Models",
+    "titleEn": "Towards Effective Prompt Stealing Attack against Text-to-Image Diffusion Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.06837",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ks0tq1lxvnitzldqiltt1i4e2"
+    },
+    "publishedAt": "2025-08-09T05:38:38.000Z",
+    "timelineAt": "2026-10-08T12:48:23.581Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "b7p6km6wohh0ej9am3hdse9w6",
+    "arxivId": "2609.39306",
+    "title": "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
+    "titleEn": "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.39306",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/b7p6km6wohh0ej9am3hdse9w6"
+    },
+    "publishedAt": "2026-09-30T08:49:03.000Z",
+    "timelineAt": "2026-10-08T02:24:32.346Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "crczdzn1neoff6g5dq2fd46xw",
+    "arxivId": "2610.08917",
+    "title": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
+    "titleEn": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08917",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/crczdzn1neoff6g5dq2fd46xw"
+    },
+    "publishedAt": "2026-10-06T18:00:05.000Z",
+    "timelineAt": "2026-10-08T05:41:38.634Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "vbcz04a431nrtrubyvml47jel",
+    "arxivId": "2605.22258",
+    "title": "Harder to Defend: Towards Chinese Toxicity Attacks via Implicit Enhancement and Obfuscation Rewriting",
+    "titleEn": "Harder to Defend: Towards Chinese Toxicity Attacks via Implicit Enhancement and Obfuscation Rewriting",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.22258",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/vbcz04a431nrtrubyvml47jel"
+    },
+    "publishedAt": "2026-05-21T10:01:03.000Z",
+    "timelineAt": "2026-10-08T12:48:14.413Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "m7o4c8ngvv6rc7kc32774o5x6",
+    "arxivId": "2605.07481",
+    "title": "Vaporizer: Breaking Watermarking Schemes for Large Language Model Outputs",
+    "titleEn": "Vaporizer: Breaking Watermarking Schemes for Large Language Model Outputs",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.07481",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/m7o4c8ngvv6rc7kc32774o5x6"
+    },
+    "publishedAt": "2026-05-08T09:24:29.000Z",
+    "timelineAt": "2026-10-08T12:48:14.444Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "j6k2rvw0nmh2zskennsgm5ilf",
+    "arxivId": "2605.27016",
+    "title": "Evaluating the Relevance of Uncertainty Estimators for LLM Hallucination",
+    "titleEn": "Evaluating the Relevance of Uncertainty Estimators for LLM Hallucination",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.27016",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/j6k2rvw0nmh2zskennsgm5ilf"
+    },
+    "publishedAt": "2026-05-26T13:34:54.000Z",
+    "timelineAt": "2026-10-08T12:48:14.620Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yl8n0bkjmu9cmrt6evd7h40to",
+    "arxivId": "2603.29418",
+    "title": "Covert Visual Prompt Injection against Commercial Multimodal Large Language Models",
+    "titleEn": "Covert Visual Prompt Injection against Commercial Multimodal Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29418",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yl8n0bkjmu9cmrt6evd7h40to"
+    },
+    "publishedAt": "2026-03-31T08:22:07.000Z",
+    "timelineAt": "2026-10-08T12:48:23.318Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 35,
+      "translated": 10,
+      "pending": 25,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "u30sgeqtw9vailnqov5o4yoy4",
+    "arxivId": "2605.20203",
+    "title": "GrandGuard: Taxonomy, Benchmark, and Safeguards for Elderly-Chatbot Interaction Safety",
+    "titleEn": "GrandGuard: Taxonomy, Benchmark, and Safeguards for Elderly-Chatbot Interaction Safety",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.20203",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/u30sgeqtw9vailnqov5o4yoy4"
+    },
+    "publishedAt": "2026-04-07T14:26:40.000Z",
+    "timelineAt": "2026-10-08T12:48:23.451Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "isyubddcw8w873ychxlqj3sav",
+    "arxivId": "2610.06339",
+    "title": "BabelFake: A Multilingual Audio-Visual DeepFake Benchmark",
+    "titleEn": "BabelFake: A Multilingual Audio-Visual DeepFake Benchmark",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.06339",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/isyubddcw8w873ychxlqj3sav"
+    },
+    "publishedAt": "2026-10-05T13:42:34.000Z",
+    "timelineAt": "2026-10-08T08:34:03.815Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "e39wrpzdyg8q1nz8fxmyq5ev9",
+    "arxivId": "2606.02302",
+    "title": "SeClaw: Spec-Driven Security Task Synthesis for Evaluating Autonomous Agents",
+    "titleEn": "SeClaw: Spec-Driven Security Task Synthesis for Evaluating Autonomous Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.02302",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/e39wrpzdyg8q1nz8fxmyq5ev9"
+    },
+    "publishedAt": "2026-06-01T14:23:42.000Z",
+    "timelineAt": "2026-10-08T12:48:23.654Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 28,
+      "translated": 9,
+      "pending": 19,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "dvb4g6cyoudpsk4pnjqc045lf",
+    "arxivId": "2610.08699",
+    "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+    "titleEn": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08699",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/dvb4g6cyoudpsk4pnjqc045lf"
+    },
+    "publishedAt": "2026-10-06T17:13:53.000Z",
+    "timelineAt": "2026-10-08T01:54:32.922Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "r1715deuw3n3337xw4x7p5d1m",
+    "arxivId": "2610.10405",
+    "title": "Reasoning-Token Spikes Under Prompted Untruthful Responding in Large Language Models",
+    "titleEn": "Reasoning-Token Spikes Under Prompted Untruthful Responding in Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10405",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/r1715deuw3n3337xw4x7p5d1m"
+    },
+    "publishedAt": "2026-10-07T16:53:11.000Z",
+    "timelineAt": "2026-10-08T04:20:35.140Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "lmxvf4n5wlz3vciepzjc9wcyy",
+    "arxivId": "2609.28372",
+    "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+    "titleEn": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.28372",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/lmxvf4n5wlz3vciepzjc9wcyy"
+    },
+    "publishedAt": "2026-09-23T16:47:52.000Z",
+    "timelineAt": "2026-10-08T06:40:26.134Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ih7tvjfvg7ak0lbmff8ydcgic",
+    "arxivId": "2609.38296",
+    "title": "AI Agents are Vulnerable to Radicalization",
+    "titleEn": "AI Agents are Vulnerable to Radicalization",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.38296",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ih7tvjfvg7ak0lbmff8ydcgic"
+    },
+    "publishedAt": "2026-09-29T17:45:00.000Z",
+    "timelineAt": "2026-10-08T10:52:10.713Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 33,
+      "translated": 10,
+      "pending": 23,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "rjw33xrw4wfbgh5cdg483p3a7",
+    "arxivId": "2606.18062",
+    "title": "Security and Privacy Prompts in the Wild: What Users Ask LLMs and How LLMs Respond",
+    "titleEn": "Security and Privacy Prompts in the Wild: What Users Ask LLMs and How LLMs Respond",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.18062",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/rjw33xrw4wfbgh5cdg483p3a7"
+    },
+    "publishedAt": "2026-06-16T15:37:25.000Z",
+    "timelineAt": "2026-10-08T12:48:23.431Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "he1n7fi1s6w17exs0gcyvc41v",
+    "arxivId": "2610.04299",
+    "title": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+    "titleEn": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04299",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/he1n7fi1s6w17exs0gcyvc41v"
+    },
+    "publishedAt": "2026-10-03T05:24:47.000Z",
+    "timelineAt": "2026-10-08T01:54:32.910Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "tlmwohd1a0rf1esmsi90c8e25",
+    "arxivId": "2610.09087",
+    "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
+    "titleEn": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09087",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/tlmwohd1a0rf1esmsi90c8e25"
+    },
+    "publishedAt": "2026-10-06T20:40:29.000Z",
+    "timelineAt": "2026-10-08T04:30:42.328Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "mvsdztwr2hsjp6sw5rgx2wfpt",
+    "arxivId": "2610.10285",
+    "title": "AI Safety Considerations for Agents With Limited Time to Act",
+    "titleEn": "AI Safety Considerations for Agents With Limited Time to Act",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10285",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/mvsdztwr2hsjp6sw5rgx2wfpt"
+    },
+    "publishedAt": "2026-10-07T15:49:06.000Z",
+    "timelineAt": "2026-10-08T07:28:41.296Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 34,
+      "translated": 9,
+      "pending": 25,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "uyb1vl6zp3soe478cbanin2m6",
+    "arxivId": "2605.20530",
+    "title": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
+    "titleEn": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.20530",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/uyb1vl6zp3soe478cbanin2m6"
+    },
+    "publishedAt": "2026-05-19T22:05:12.000Z",
+    "timelineAt": "2026-10-08T12:48:23.503Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 11,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "nko1bjsg98sh1p40tekjq0vs2",
+    "arxivId": "2610.09082",
+    "title": "Move Fast and Mend Things: Keeping Up with Evolving AI Harms Using Social Media Commentary",
+    "titleEn": "Move Fast and Mend Things: Keeping Up with Evolving AI Harms Using Social Media Commentary",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09082",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/nko1bjsg98sh1p40tekjq0vs2"
+    },
+    "publishedAt": "2026-10-06T20:24:10.000Z",
+    "timelineAt": "2026-10-08T04:29:37.954Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "y5efsc62a0jdttuw515skse0c",
+    "arxivId": "2607.27373",
+    "title": "RoguePrompt: Dual-Layer Encoding for Self-Reconstruction to Circumvent LLM Moderation",
+    "titleEn": "RoguePrompt: Dual-Layer Encoding for Self-Reconstruction to Circumvent LLM Moderation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.27373",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/y5efsc62a0jdttuw515skse0c"
+    },
+    "publishedAt": "2026-07-29T18:25:30.000Z",
+    "timelineAt": "2026-10-08T12:48:14.330Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "f44z8h6g3jdmqfu28bs4nbwjf",
+    "arxivId": "2608.27439",
+    "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+    "titleEn": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27439",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/f44z8h6g3jdmqfu28bs4nbwjf"
+    },
+    "publishedAt": "2026-08-27T17:55:33.000Z",
+    "timelineAt": "2026-10-08T12:48:14.377Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "te4gw6bpri9wzqp71y1hicy6l",
+    "arxivId": "2605.00553",
+    "title": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
+    "titleEn": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.00553",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/te4gw6bpri9wzqp71y1hicy6l"
+    },
+    "publishedAt": "2026-05-01T10:42:08.000Z",
+    "timelineAt": "2026-10-08T12:48:23.230Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "zd1ldf7nx355klus3ov2gsjr8",
+    "arxivId": "2610.10345",
+    "title": "SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing",
+    "titleEn": "SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10345",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/zd1ldf7nx355klus3ov2gsjr8"
+    },
+    "publishedAt": "2026-10-07T16:23:45.000Z",
+    "timelineAt": "2026-10-08T05:41:38.668Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "c1d0mfb1weyl6j5r3am99zegd",
+    "arxivId": "2606.18021",
+    "title": "LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI",
+    "titleEn": "LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.18021",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/c1d0mfb1weyl6j5r3am99zegd"
+    },
+    "publishedAt": "2026-06-16T15:02:37.000Z",
+    "timelineAt": "2026-10-08T12:48:14.459Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "yur5c6bkolgx7aa8aquxx978e",
+    "arxivId": "2610.09683",
+    "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+    "titleEn": "System Switch: When Should a Fast Decision Model Stop and Think?",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09683",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/yur5c6bkolgx7aa8aquxx978e"
+    },
+    "publishedAt": "2026-10-07T08:44:47.000Z",
+    "timelineAt": "2026-10-08T15:48:23.938Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "hvl57xdzep7szx583ih4mx8n3",
+    "arxivId": "2605.11036",
+    "title": "Sequential Behavioral Watermarking for LLM Agents",
+    "titleEn": "Sequential Behavioral Watermarking for LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11036",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/hvl57xdzep7szx583ih4mx8n3"
+    },
+    "publishedAt": "2026-05-11T02:28:34.000Z",
+    "timelineAt": "2026-10-08T12:48:14.609Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "gyepsfcz0mxb1ks17izi2vgm2",
+    "arxivId": "2610.08887",
+    "title": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model",
+    "titleEn": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08887",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/gyepsfcz0mxb1ks17izi2vgm2"
+    },
+    "publishedAt": "2026-10-06T15:29:37.000Z",
+    "timelineAt": "2026-10-08T04:30:42.298Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "dvm6znzqoaufef57q1sqciqz9",
+    "arxivId": "2604.06820",
+    "title": "What Does a Sharing Question Add? Auditing LLM Survey Scores for Misinformation",
+    "titleEn": "What Does a Sharing Question Add? Auditing LLM Survey Scores for Misinformation",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.06820",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/dvm6znzqoaufef57q1sqciqz9"
+    },
+    "publishedAt": "2026-04-08T08:37:37.000Z",
+    "timelineAt": "2026-10-08T06:39:39.797Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "cmm50f5zbd02b67akvi5qha6c",
+    "arxivId": "2609.27452",
+    "title": "Issuer-Sovereign Agentic Payments",
+    "titleEn": "Issuer-Sovereign Agentic Payments",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.27452",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/cmm50f5zbd02b67akvi5qha6c"
+    },
+    "publishedAt": "2026-09-23T07:18:01.000Z",
+    "timelineAt": "2026-10-08T06:43:39.179Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 28,
+      "translated": 10,
+      "pending": 18,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "c5i51evjn3ipy06nh7ys6mrd9",
+    "arxivId": "2601.04261",
+    "title": "Inhibitory Attacks on Backdoor-based Fingerprinting for Large Language Models",
+    "titleEn": "Inhibitory Attacks on Backdoor-based Fingerprinting for Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.04261",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/c5i51evjn3ipy06nh7ys6mrd9"
+    },
+    "publishedAt": "2026-01-07T06:06:56.000Z",
+    "timelineAt": "2026-10-08T12:48:23.272Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "d2l39463p9i98uo2wezdml08h",
+    "arxivId": "2605.25893",
+    "title": "D²-Monitor: Dynamic Safety Monitoring for Diffusion LLMs via Hesitation Signals",
+    "titleEn": "D²-Monitor: Dynamic Safety Monitoring for Diffusion LLMs via Hesitation Signals",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.25893",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/d2l39463p9i98uo2wezdml08h"
+    },
+    "publishedAt": "2026-05-25T14:22:21.000Z",
+    "timelineAt": "2026-10-08T06:36:09.382Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "kxd8iejrkb7seechcn634zq9e",
+    "arxivId": "2606.11425",
+    "title": "JailbreakOPT: Tool-Assisted Iterative Jailbreak Prompt Optimization",
+    "titleEn": "JailbreakOPT: Tool-Assisted Iterative Jailbreak Prompt Optimization",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.11425",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/kxd8iejrkb7seechcn634zq9e"
+    },
+    "publishedAt": "2026-06-09T20:22:29.000Z",
+    "timelineAt": "2026-10-08T12:48:14.650Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "ysd0pra9900068f4tkzigcyt7",
+    "arxivId": "2607.04379",
+    "title": "Knowledge Base Poisoning Attacks and Defense for Policy-Aware LLM-RAG Framework",
+    "titleEn": "Knowledge Base Poisoning Attacks and Defense for Policy-Aware LLM-RAG Framework",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.04379",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ysd0pra9900068f4tkzigcyt7"
+    },
+    "publishedAt": "2026-07-05T16:12:16.000Z",
+    "timelineAt": "2026-10-08T12:48:23.159Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "aquxzicwf4m8b8cbtcjsikap6",
+    "arxivId": "2603.10010",
+    "title": "FERRET: Framework for Expansion Reliant Red Teaming",
+    "titleEn": "FERRET: Framework for Expansion Reliant Red Teaming",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.10010",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/aquxzicwf4m8b8cbtcjsikap6"
+    },
+    "publishedAt": "2026-02-17T20:59:14.000Z",
+    "timelineAt": "2026-10-08T12:48:23.399Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 11,
+      "pending": 27,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "s01wvj2eml8vbljim9k1q02u6",
+    "arxivId": "2610.09043",
+    "title": "Careful Judge: Safe and Efficient Human-AI Collaborative Decision Making",
+    "titleEn": "Careful Judge: Safe and Efficient Human-AI Collaborative Decision Making",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09043",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/s01wvj2eml8vbljim9k1q02u6"
+    },
+    "publishedAt": "2026-10-06T19:44:15.000Z",
+    "timelineAt": "2026-10-08T05:41:38.677Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "xiioesojbcpgvaab3yl4l1pun",
+    "arxivId": "2608.03272",
+    "title": "Attacking and Defending Multi-Agent Collaborative Filtering Systems Through Connectivity",
+    "titleEn": "Attacking and Defending Multi-Agent Collaborative Filtering Systems Through Connectivity",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.03272",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/xiioesojbcpgvaab3yl4l1pun"
+    },
+    "publishedAt": "2026-08-04T07:49:58.000Z",
+    "timelineAt": "2026-10-08T06:43:46.781Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 31,
+      "translated": 10,
+      "pending": 21,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "affyc18v7ktfksj5kgwmqhig2",
+    "arxivId": "2605.18984",
+    "title": "Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos",
+    "titleEn": "Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18984",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/affyc18v7ktfksj5kgwmqhig2"
+    },
+    "publishedAt": "2026-05-18T18:04:54.000Z",
+    "timelineAt": "2026-10-08T12:48:23.665Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "vinu2kwahis49y3628fbuzbez",
+    "arxivId": "2610.09973",
+    "title": "From Expected Harmfulness to Likelihood: A Probabilistic Reformulation of Jailbreaking LLM Agents",
+    "titleEn": "From Expected Harmfulness to Likelihood: A Probabilistic Reformulation of Jailbreaking LLM Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09973",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/vinu2kwahis49y3628fbuzbez"
+    },
+    "publishedAt": "2026-10-07T12:40:20.000Z",
+    "timelineAt": "2026-10-08T05:33:35.829Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 39,
+      "translated": 11,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "p3ii6j87w3r0op06t48k7esk9",
+    "arxivId": "2606.24115",
+    "title": "A Benchmark for Hallucination Detection in VLMs for Gastrointestinal Endoscopy",
+    "titleEn": "A Benchmark for Hallucination Detection in VLMs for Gastrointestinal Endoscopy",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.24115",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/p3ii6j87w3r0op06t48k7esk9"
+    },
+    "publishedAt": "2026-06-23T04:04:19.000Z",
+    "timelineAt": "2026-10-08T12:48:14.711Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "btnst8a1f9fjyyvcb66dwdh9n",
+    "arxivId": "2603.08275",
+    "title": "AdaCultureSafe: Adaptive Cultural Safety Grounded by Cultural Knowledge in Large Language Models",
+    "titleEn": "AdaCultureSafe: Adaptive Cultural Safety Grounded by Cultural Knowledge in Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.08275",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/btnst8a1f9fjyyvcb66dwdh9n"
+    },
+    "publishedAt": "2026-03-09T11:44:37.000Z",
+    "timelineAt": "2026-10-08T12:48:23.659Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "webymji3abyur19vr22issjlk",
+    "arxivId": "2610.09892",
+    "title": "Defensive Sufficiency in a Stackelberg Model of AI Security",
+    "titleEn": "Defensive Sufficiency in a Stackelberg Model of AI Security",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09892",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/webymji3abyur19vr22issjlk"
+    },
+    "publishedAt": "2026-10-07T11:51:56.000Z",
+    "timelineAt": "2026-10-08T05:33:35.804Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "alo5d92x22ha8yd4oi8izifa5",
+    "arxivId": "2606.12420",
+    "title": "Eigenism: Ethics for a Human-AI Future",
+    "titleEn": "Eigenism: Ethics for a Human-AI Future",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.12420",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/alo5d92x22ha8yd4oi8izifa5"
+    },
+    "publishedAt": "2026-05-08T15:11:28.000Z",
+    "timelineAt": "2026-10-08T06:56:44.061Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 34,
+      "translated": 9,
+      "pending": 25,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "rjz5cuulm09xxdmseji82hw1q",
+    "arxivId": "2610.10000",
+    "title": "Beyond Reward Suppression: Near-Optimal Offline Attacks on Warm-Start Bandits with Bounded Rewards",
+    "titleEn": "Beyond Reward Suppression: Near-Optimal Offline Attacks on Warm-Start Bandits with Bounded Rewards",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10000",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/rjz5cuulm09xxdmseji82hw1q"
+    },
+    "publishedAt": "2026-10-07T12:57:18.000Z",
+    "timelineAt": "2026-10-08T08:33:56.334Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 38,
+      "translated": 10,
+      "pending": 28,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "h4bauhcr5ot0sm7nv6ipu27in",
+    "arxivId": "2603.29497",
+    "title": "Distilling Human-Aligned Privacy Sensitivity Assessment from Large Language Models",
+    "titleEn": "Distilling Human-Aligned Privacy Sensitivity Assessment from Large Language Models",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29497",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/h4bauhcr5ot0sm7nv6ipu27in"
+    },
+    "publishedAt": "2026-03-31T09:40:58.000Z",
+    "timelineAt": "2026-10-08T12:48:23.617Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "gaxzz10vioa7tcm7su6aqlqe2",
+    "arxivId": "2605.24765",
+    "title": "CyberMaskQA: A Privacy-Aware Benchmark for Evaluating Large Language Models in Cybersecurity Question Answering",
+    "titleEn": "CyberMaskQA: A Privacy-Aware Benchmark for Evaluating Large Language Models in Cybersecurity Question Answering",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.24765",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/gaxzz10vioa7tcm7su6aqlqe2"
+    },
+    "publishedAt": "2026-05-23T22:57:13.000Z",
+    "timelineAt": "2026-10-08T12:48:23.670Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 10,
+      "pending": 26,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "hv72lunxtxeogji57hb355nuc",
+    "arxivId": "2610.08884",
+    "title": "Task-Sufficient Contraction: Source Selection for Machine Information Interfaces",
+    "titleEn": "Task-Sufficient Contraction: Source Selection for Machine Information Interfaces",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08884",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/hv72lunxtxeogji57hb355nuc"
+    },
+    "publishedAt": "2026-10-06T12:30:08.000Z",
+    "timelineAt": "2026-10-08T08:22:06.988Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 30,
+      "translated": 9,
+      "pending": 21,
+      "status": "partial"
+    }
+  }
+]

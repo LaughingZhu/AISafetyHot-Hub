@@ -3,7 +3,7 @@
     "id": "gy798xve19ex60mr8j4qvowpm",
     "arxivId": "2602.04653",
     "title": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
-    "titleEn": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
+    "titleEn": "Inference-time backdoor via chat template: from LLM supply chain to agent system compromise",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -17,16 +17,16 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 3,
-      "translated": 0,
-      "pending": 3,
-      "status": "original"
+      "translated": 3,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
     "id": "po16jbxyvycytjig1k4mf49v6",
     "arxivId": "2602.23329",
     "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
-    "titleEn": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+    "titleEn": "LLM capability uplift for novices on dual-use computational biology tasks",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -40,9 +40,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 3,
-      "translated": 0,
-      "pending": 3,
-      "status": "original"
+      "translated": 3,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -63,8 +63,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 3,
-      "translated": 1,
-      "pending": 2,
+      "translated": 2,
+      "pending": 1,
       "status": "partial"
     }
   },
@@ -95,7 +95,7 @@
     "id": "kaj51xr9gd4xsdfnygspxp8lv",
     "arxivId": "2603.06594",
     "title": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
-    "titleEn": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
+    "titleEn": "Safety evaluation is like a coin toss: LLM judges cannot reliably measure adversarial robustness",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -109,9 +109,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 3,
-      "translated": 0,
-      "pending": 3,
-      "status": "original"
+      "translated": 3,
+      "pending": 0,
+      "status": "complete"
     }
   }
 ]
