@@ -76,16 +76,25 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 ## 最新 AI 安全日报简报
 
 <!-- daily:start -->
-### 2026-10-13 · 3 条精选
+### 2026-10-13 · 5 条精选
 
 **当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-13.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-13)
 
 点击标题展开导读，每条都附原文链接。
 
+#### 安全评测
+
+<details>
+<summary>1. 报告发现 ChatGPT for Teens 未能兑现安全承诺</summary>
+
+[报告发现 ChatGPT for Teens 未能兑现安全承诺](https://www.transparencycoalition.ai/news/report-finds-chatgpt-for-teens-fails-to-deliver-on-safety-promises)：Common Sense Media 旗下的 Youth AI Safety Institute 用 4000 多条提示词测试 ChatGPT for Teens，发现多项承诺的安全护栏未能生效，并给出不可接受风险的评级。测试在 OpenAI 2026 年 8 月 18 日宣布该青少年模式前后各进行一次，使用注册为 … ——Transparency Coalition.AI｜[站内](https://aisafetyhot.com/items/wm00lgi0h0dfqgky19nzqixe7)
+
+</details>
+
 #### 真实事件
 
 <details>
-<summary>1. Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅</summary>
+<summary>2. Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅</summary>
 
 [Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅](https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/)：Graylark Technologies 的 Raven（原 GeoSpy）新增室内图像地理定位功能，警方可凭单张室内照片锁定具体住宅。演示视频显示，工具从社交媒体上的洗衣机、浴室照片定位到北卡罗来纳州 Charlotte 的 Airbnb 房源和加州 Montecito 的 Vrbo 房源，404 Media 发… ——404 Media｜[站内](https://aisafetyhot.com/items/qryq6jexs5w0qde1km154hg5a)
 
@@ -94,16 +103,25 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 #### 治理与政策
 
 <details>
-<summary>2. 英国 AI 大臣演讲：准备 Agent 事故响应</summary>
+<summary>3. 英国 AI 大臣演讲：准备 Agent 事故响应</summary>
 
 [英国 AI 大臣演讲：准备 Agent 事故响应](https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai)：英国政府 AI 事务大臣在演讲中宣布，将联合 DCMS、国家网络安全中心（NCSC）和 AI Security Institute 制定政府应对 Agent 事故的方式，重点研究如何控制事故影响、如何帮扶受影响方。他确认 AI Security Institute 正在对包括 Gemini 4 Argon 在内的最新… ——Cabinet Office｜[站内](https://aisafetyhot.com/items/yklidj6wl22tp5dracu6q49ka)
 
 </details>
 
 <details>
-<summary>3. 白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限</summary>
+<summary>4. 白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限</summary>
 
 [白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限](https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/)：白宫撤销了此前阻止英国 AI 安全研究所（AISI）访问新 AI 模型的决定，该机构将重新获得 Anthropic、Google DeepMind 和 OpenAI 模型的早期访问权限。据《每日电讯报》报道，特朗普政府曾在 9 月要求这些公司停止与 AISI 共享模型，Anthropic 随后限制了新模型 Claud… ——The Decoder｜[站内](https://aisafetyhot.com/items/wpq3s81u9x8uwdvume58py9wh)
+
+</details>
+
+#### AI 动态
+
+<details>
+<summary>5. Meta 发布其首个前沿模型 Muse Wonder</summary>
+
+[Meta 发布其首个前沿模型 Muse Wonder](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)：Meta 的 Superintelligence Lab 周一发布两款新模型 Muse Wonder 和 Muse Wonder Full，称其为当前最先进的模型，也是 Meta 首次尝试前沿模型。 ——TechCrunch AI｜[站内](https://aisafetyhot.com/items/pfu4bou8kut0viknlal6eybg9)
 
 </details>
 <!-- daily:end -->
