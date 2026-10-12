@@ -1,5 +1,23 @@
 [
   {
+    "arxivId": "2610.13116",
+    "title": "DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design",
+    "titleZh": "DRYLAB-Bench：评测 Agent 式 LLM 突变设计的生物安全风险",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13116",
+      "aisafetyhot": "https://aisafetyhot.com/items/ngs1rpgpljhzssb4ikg888r5n"
+    },
+    "publishedAt": "2026-10-09T07:09:16.000Z",
+    "timelineAt": "2026-10-12T05:50:21.416Z",
+    "discoveredAt": "2026-10-12T05:50:21.416Z"
+  },
+  {
     "arxivId": "2610.12822",
     "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
     "titleZh": "奖励作弊作为多智能体编码系统中的可传播策略",
@@ -34,5 +52,23 @@
     "publishedAt": "2026-10-08T22:09:12.000Z",
     "timelineAt": "2026-10-12T04:38:39.161Z",
     "discoveredAt": "2026-10-12T04:38:39.161Z"
+  },
+  {
+    "arxivId": "2610.13928",
+    "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+    "titleZh": "AI 模型可被证明地隐藏任意能力",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13928",
+      "aisafetyhot": "https://aisafetyhot.com/items/ylmaojlfv5xtuhigjqo7pdgtj"
+    },
+    "publishedAt": "2026-10-09T17:55:06.000Z",
+    "timelineAt": "2026-10-12T05:42:04.153Z",
+    "discoveredAt": "2026-10-12T05:42:04.153Z"
   }
 ]
