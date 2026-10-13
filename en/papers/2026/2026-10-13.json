@@ -62,9 +62,9 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 3,
-      "translated": 2,
-      "pending": 1,
+      "total": 37,
+      "translated": 13,
+      "pending": 24,
       "status": "partial"
     }
   },
@@ -88,6 +88,29 @@
       "total": 37,
       "translated": 12,
       "pending": 25,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "et5aips3hnx63jzbaft4m4950",
+    "arxivId": "2609.20614",
+    "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+    "titleEn": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.20614",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/et5aips3hnx63jzbaft4m4950"
+    },
+    "publishedAt": "2026-09-17T15:59:45.000Z",
+    "timelineAt": "2026-10-13T13:31:19.809Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 12,
+      "pending": 24,
       "status": "partial"
     }
   }

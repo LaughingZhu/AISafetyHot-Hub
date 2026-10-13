@@ -70,5 +70,23 @@
     "publishedAt": "2026-10-08T01:29:04.000Z",
     "timelineAt": "2026-10-12T17:00:35.332Z",
     "discoveredAt": "2026-10-12T17:00:35.332Z"
+  },
+  {
+    "arxivId": "2609.20614",
+    "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+    "titleZh": "推理引擎指纹识别攻击切实可行：探索模型驱动的环境发现、利用与逃逸",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.20614",
+      "aisafetyhot": "https://aisafetyhot.com/items/et5aips3hnx63jzbaft4m4950"
+    },
+    "publishedAt": "2026-09-17T15:59:45.000Z",
+    "timelineAt": "2026-10-13T13:31:19.809Z",
+    "discoveredAt": "2026-10-13T13:31:19.809Z"
   }
 ]
