@@ -1305,9 +1305,30 @@
     "id": "yne8hp6vy14r1ah2gfz371lo1",
     "arxivId": "2610.08902",
     "title": "Agent Plasticity: Measuring Self-Improvement Through Experience",
-    "titleEn": "Agent Plasticity: Measuring Self-Improvement Through Experience",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "The paper proposes the agent plasticity metric to measure the efficiency of an agent's self-improvement through experience",
+    "summary": "The paper proposes the concept of agent plasticity, i.e., the efficiency with which an agent converts experience into future retained performance gains, used to measure self-improvement capability rather than capability at a fixed point in time. The study, in a controlled environment, has agents consolidate past experience into reusable artifacts inherited by subsequent instances, measuring performance on both training and held-out environment interactions at each checkpoint and accounting for learning cost. Results show that multiple frontier models exhibit markedly different improvement trajectories under equal learning opportunities; some models achieve sustained gains, while others stay near or below initial levels, and gains within the training environment often only partially transfer to out-of-distribution conditions. The best-performing agent at the end is not necessarily the most efficient at improvement, and failure tracing also shows that low-plasticity agents often fail to reuse relevant artifacts, while high-plasticity agents, even when reusing artifacts, may still fail due to limitations in artifact quality, generalization, or application.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Fixed-time capability evaluations cannot distinguish starting strong from learning later. The authors want to answer simultaneously: whether held-out performance improves and transfers out of the learning interaction, how sample-efficient new capability acquisition is, and where the improvement loop breaks.",
+          "label": "Questions"
+        },
+        {
+          "text": "Weights are frozen. Actions use new contexts, and only tools, skills, strategies, and text memories that pass structural and executable validation are left for subsequent instances. Plasticity is the held-out ID gain before estimated saturation divided by learning cost.",
+          "label": "Methods"
+        },
+        {
+          "text": "On Chess, Go, Hex, and NetHack, improvement trajectories diverge by model and task. In the three-game equal-weight curve, GPT-5.6 Sol has a Psat of 298 and Claude Fable 5 of 57, but the authors say the latter has the highest fitted endpoint. Gains on held-out IDs often transfer only partially to stronger opponents.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The authors say plasticity depends on the learning protocol, score headroom, learning horizon, saturation fitting, and vendor pricing, and does not separate environment feedback from compute for revising artifacts. Failure diagnostics are observational. The paper does not report the number of chess replications.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.08902"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.08902",
       "aisafetyhot": "https://aisafetyhot.com/en/items/yne8hp6vy14r1ah2gfz371lo1"
@@ -1319,9 +1340,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 36,
-      "translated": 10,
-      "pending": 26,
-      "status": "partial"
+      "translated": 36,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -1918,8 +1939,8 @@
     "id": "ywi41falp4kejo57nj9f75186",
     "arxivId": "2604.28157",
     "title": "FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
-    "titleEn": "FlashRT: An Efficient Red-Teaming Framework for Prompt Injection and Knowledge Poisoning in Long-Context LLMs",
-    "summary": "The researchers propose the FlashRT framework to improve the efficiency of optimization-based prompt injection and knowledge poisoning attacks on long-context LLMs while reducing computation and GPU memory overhead. According to the paper, compared with the SOTA baseline nanoGCG, FlashRT achieves 2x-7x speedup (for example, runtime reduced from one hour to under ten minutes) and 2x-4x GPU memory reduction (for example, 32K token context reduced from 264.1 GB to 65.7 GB). The framework can be broadly applied to black-box optimization methods such as TAP and AutoDAN; the authors hope it can serve as a red-teaming tool to support systematic evaluation of long-context LLM safety. Code has been released.",
+    "titleEn": "FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
+    "summary": null,
     "quickRead": null,
     "links": {
       "paper": "https://arxiv.org/abs/2604.28157",
@@ -1931,10 +1952,10 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 2,
+      "total": 3,
       "translated": 2,
-      "pending": 0,
-      "status": "complete"
+      "pending": 1,
+      "status": "partial"
     }
   },
   {
@@ -3884,8 +3905,8 @@
     "id": "jadgc55lepteijqbanv6dvdjs",
     "arxivId": "2508.03696",
     "title": "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
-    "titleEn": "PLA: Black-box Prompt Learning Attack against Text-to-Image Models",
-    "summary": "The researchers propose a prompt learning attack framework, PLA, to bypass the safety mechanisms of text-to-image models under black-box conditions where the model architecture and parameters are inaccessible. Previous methods mostly relied on word substitution to search for adversarial prompts, limited by the search space and less effective than gradient-based training; PLA uses multimodal similarity to design gradient training for black-box T2I models to learn adversarial prompts. Experiments show that this method can effectively attack black-box T2I safety mechanisms, including prompt filters and post-hoc safety checkers, with higher success rates than existing methods. The paper is published at ICCV 2025, and the authors note that the content may include harmful content generated by the model.",
+    "titleEn": "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
+    "summary": null,
     "quickRead": null,
     "links": {
       "paper": "https://arxiv.org/abs/2508.03696",
@@ -3897,10 +3918,10 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 2,
+      "total": 3,
       "translated": 2,
-      "pending": 0,
-      "status": "complete"
+      "pending": 1,
+      "status": "partial"
     }
   },
   {
@@ -4623,9 +4644,30 @@
     "id": "zcuw8om8hc1z6ujfdzsgtrqpd",
     "arxivId": "2610.11754",
     "title": "What Output-Only Review Cannot Verify: Study Contracts for Research Agents",
-    "titleEn": "What Output-Only Review Cannot Verify: Study Contracts for Research Agents",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "What output-only review cannot verify: a research contract for research agents",
+    "summary": "The research proposes a \"research contract\" mechanism that binds experiment selection, execution obligations, and conclusion scope to recorded execution evidence, in order to distinguish contract-level verification from scientific truth. In eight groups of self-made clean/mutation paired diagnostics, the deterministic checker applies registered fault-specific rules to approved and executed objects and detects all eight registered mutations; among eighteen review aliases and 144 mutation evaluation cases, 104 are flagged as defective, with the rest being 32 abstentions and 8 termination failures, and no explicit \"clean\" determination on mutation cases. The authors state that this result characterizes a development environment with deliberate information asymmetry and does not constitute a comparison of validator quality or agent reward hacking.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Research on agent improvement loops often uses task completion, artifacts, or manuscript review as rewards. These signals do not necessarily encode the relationship between approved research and actual execution, and looking only at outputs may not verify the contractual relative methodological qualifications.",
+          "label": "Questions"
+        },
+        {
+          "text": "The authors treat the approved research contract as the environment, checking versioned bindings, expected run denominators, typed claim promotion, and out-of-band human gates. The diagnosis uses eight pairs of self-authored packages: the deterministic checker holds approved objects and applies fault-specific rules, while eighteen aliases filter packages by metadata only.",
+          "label": "Methods"
+        },
+        {
+          "text": "The checker blocks 8/8 registered mutations and falsely blocks 0/8. Eighteen aliases give 104 fault flags and 0 explicit clean judgments across 144 mutation cases; intra-package contradiction classes are 16/18 to 18/18, and the two missing-fault classes are 2/18 and 1/18. The authors call this deliberate information asymmetry, not a validator quality comparison.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "Information cross-checking, legitimate adaptation control, and closed-loop evaluation have not been run, so the advantage cannot be attributed to the checker itself. The authors state this is not reward hacking; the fixtures and labels are self-authored with no held-out calibration. Coverage is 18 unfixed aliases and eight pairs of packages; the paper does not report agreement with humans.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11754"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.11754",
       "aisafetyhot": "https://aisafetyhot.com/en/items/zcuw8om8hc1z6ujfdzsgtrqpd"
@@ -4637,9 +4679,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 38,
-      "translated": 10,
-      "pending": 28,
-      "status": "partial"
+      "translated": 38,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -5029,8 +5071,8 @@
     "id": "jbgqieludc1w6aue86aunyrs9",
     "arxivId": "2511.18790",
     "title": "RoguePrompt: Dual-Layer Ciphering for Self-Reconstruction to Circumvent LLM Moderation",
-    "titleEn": "RoguePrompt: Double-Layer Encrypted Self-Reconstruction to Bypass LLM Content Moderation",
-    "summary": "The paper proposes RoguePrompt, an automated jailbreak pipeline that splits forbidden prompts and applies two layers of nested encoding with ROT-13 and Vigenère, then attaches natural-language decoding instructions, disguising forbidden requests as seemingly harmless prompts and inducing the model to reconstruct and execute the original intent within a single query. Under a black-box threat model with only API and UI access, the method achieves an average of 93.93% filter bypass, 79.02% instruction reconstruction, and 70.18% execution success on 313 real hard-refused prompts. The paper has been withdrawn by the authors and superseded by the extended version arXiv:2607.27373.",
+    "titleEn": "RoguePrompt: Dual-Layer Ciphering for Self-Reconstruction to Circumvent LLM Moderation",
+    "summary": null,
     "quickRead": null,
     "links": {
       "paper": "https://arxiv.org/abs/2511.18790",
@@ -5042,19 +5084,40 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 2,
+      "total": 3,
       "translated": 2,
-      "pending": 0,
-      "status": "complete"
+      "pending": 1,
+      "status": "partial"
     }
   },
   {
     "id": "xvty14snk1bvgfadbqra6qnp9",
     "arxivId": "2610.11123",
     "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
-    "titleEn": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "GenUI-Harness: A data-aware generative UI framework for proactive interaction",
+    "summary": "GenUI-Harness is a multi-agent framework composed of a Tool Agent responsible for information retrieval and task execution and a GUI Coder Agent that generates structured front-end code for interfaces, used to replace pure-text human-computer interaction. It uses Dynamic UX to collect interaction rewards in a single sandbox and uses a Reward Auditor meta-reward mechanism to suppress reward hacking in LLM-as-a-Judge. On UI-TAU Bench, which is based on the Tau-Bench tool-use setting and contains 10 real-world domain databases, the Lite split (300 tasks) Pass@3 is on average 4.48 percentage points higher than smolagents; the 4B backbone model improved from 9.33% to 58.00% after training, surpassing Claude Opus 5's 46.67%; in the review survey, generative UI reduced the average number of dialogue turns from 3.4 to 1.2.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "In complex service tasks, plain text tends to be ambiguous and scattered, requiring multiple rounds of clarification. The authors aim to have agents generate interfaces based on database evidence, collect missing inputs, and complete verifiable database updates.",
+          "label": "Questions"
+        },
+        {
+          "text": "The Tool Agent first performs read-only retrieval; the GUI Coder then generates a React/TypeScript interface to collect inputs, after which a single action is executed. Dynamic UX handles isolated rendering; the Reward Auditor revises training rewards based on the database state.",
+          "label": "Methods"
+        },
+        {
+          "text": "On Lite, GENUI-Harness outperforms smolagents by 4.48 percentage points in macro-average Pass@3. The trained 4B has a Pass@3 of 58.00%, while Claude Opus 5 in the same interface-generation setting is 46.67%. The generated interface reduces evaluation dialogue from 3.4 to 1.2.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The authors note that simulated users can see the source code and reference target, the survey only covers interfaces that are always interactive, and strict state equality rejects equivalent results that differ in identifiers, order, or free text. The Full four-set comparison only uses open-source backbones, with one round per task.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11123"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.11123",
       "aisafetyhot": "https://aisafetyhot.com/en/items/xvty14snk1bvgfadbqra6qnp9"
@@ -5066,9 +5129,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 10,
-      "pending": 27,
-      "status": "partial"
+      "translated": 37,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
