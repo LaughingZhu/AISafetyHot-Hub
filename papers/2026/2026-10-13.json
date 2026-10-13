@@ -36,6 +36,24 @@
     "discoveredAt": "2026-10-13T02:42:47.193Z"
   },
   {
+    "arxivId": "2609.13478",
+    "title": "BadEngram: Backdoor Attack on Gated Memory Components in LLMs",
+    "titleZh": "BadEngram：针对 LLM 门控记忆组件的后门攻击",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.13478",
+      "aisafetyhot": "https://aisafetyhot.com/items/qfxn186p854ge8ox9bk8nvhjl"
+    },
+    "publishedAt": "2026-09-11T19:48:59.000Z",
+    "timelineAt": "2026-10-13T11:28:45.737Z",
+    "discoveredAt": "2026-10-13T11:28:45.737Z"
+  },
+  {
     "arxivId": "2610.11069",
     "title": "Clinician use of language models diverges from how the models are evaluated",
     "titleZh": "临床医生使用语言模型的方式与模型的评测方式存在偏差",
