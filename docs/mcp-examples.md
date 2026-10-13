@@ -1,6 +1,6 @@
 # 使用示例
 
-[接入指南](agent.md) · [返回 README](../README.md#agent)
+[接入指南](agent.md) · [返回 README](../README.md)
 
 匿名范围为原发最近7天 News 短摘要及少量论文标题/链接。下面先给一次线上返回节选，再列常用调用形态。
 

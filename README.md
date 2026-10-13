@@ -1,204 +1,165 @@
 <p align="center"><img src="assets/logo.svg" width="80" alt="AI Safety HOT"></p>
 
-<p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
-
 <h1 align="center">AI Safety HOT Hub</h1>
 
-<p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
+<p align="center"><b>一行命令，让你的 Agent 每天读懂 AI 安全：越狱、提示注入、Agent 安全、评测、事故和政策，外加每天 30 篇精选论文。</b></p>
 
-AI Safety HOT 的 Agent 接入指南与公开简报归档。网站默认中文，可在“中文 / English”切换；[中文入口](https://aisafetyhot.com/zh)和[English](https://aisafetyhot.com/en)共享内容与原文链接。英文由后台逐步翻译，缺译处保留原文。
+<p align="center">
+  <a href="https://aisafetyhot.com"><img src="https://img.shields.io/badge/website-aisafetyhot.com-e4572e" alt="website"></a>
+  <a href="https://aisafetyhot.com/api/mcp"><img src="https://img.shields.io/badge/MCP-streamable%20http-6f42c1" alt="MCP"></a>
+  <a href="#技能"><img src="https://img.shields.io/badge/skills-6-2ea44f" alt="skills"></a>
+  <a href="daily-papers"><img src="https://img.shields.io/badge/papers-30%2Fday-0969da" alt="daily papers"></a>
+  <a href="https://github.com/wuyoscar/AISafetyHot-Hub/stargazers"><img src="https://img.shields.io/github/stars/wuyoscar/AISafetyHot-Hub?style=flat" alt="stars"></a>
+</p>
 
-## 感谢大家，也说一下接口调整
+<p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
 
-感谢大家的喜欢！AI Safety Hub 上线几天就迎来了大量访问。我们也观察到了一些疑似攻击的访问，并进行了拦截。我们本身研究 AI 安全，也会持续维护网站的防护。
+<p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.webp" width="1000" alt="AI Safety HOT"></a></p>
 
-考虑到服务成本、内容积累和长期维护，**我们不再通过匿名接口开放全部数据，但会继续做好近期信息的开放和可用性**：
+## 安装
 
-| 范围 | 现在提供什么 |
-| --- | --- |
-| 匿名 News 接口 | 原发最近 **7 天**的新闻标题、最多 **160 字**的短摘要、已知原发时间、原文链接和本站链接；支持搜索与分页 |
-| 少量精选论文 | 最多 **5 篇**近期精选论文的标题与链接，方便回网站阅读 |
-| 日报与事件 | 最近 7 天内日报的 News 简报，以及同一事件的近期新闻摘要与链接 |
-| 完整论文解读、正文、历史查询、周报/月报、全量与增量同步 | 需要只读授权，联系 [wuy7117@gmail.com](mailto:wuy7117@gmail.com) |
-
-未知原发日期的材料不会凭收录时间进入近期 News。网站继续免费阅读，公开简报继续无需登录。
-
-<a id="website"></a>
-
-## 在网站阅读
-
-[总览](https://aisafetyhot.com/zh) · [News](https://aisafetyhot.com/zh/featured) · [论文](https://aisafetyhot.com/zh/papers) · [热点事件](https://aisafetyhot.com/zh/hot) · [Newsletter](https://aisafetyhot.com/zh/daily) · [Conference](https://aisafetyhot.com/zh/conferences)
-
-新闻和日报按原发时间判断新进展，兼顾北美前一天。当天同一期日报会随新报道更新。论文完整速读与已有解读在详情页阅读。发现内容错误，欢迎在[留言板](https://aisafetyhot.com/board)反馈。
-
-<a id="agent"></a>
-
-## 接入 Agent
-
-公开简报不需要 API Key，连接方式为 **Streamable HTTP**。运行以下命令后重新打开客户端会话：
-
-**Codex**
+**Claude Code**（技能包 + MCP 一起装）
 
 ```bash
+/plugin marketplace add wuyoscar/AISafetyHot-Hub
+/plugin install aisafetyhot@aisafetyhot-hub
+```
+
+**Codex / Cursor / 其他 Agent**
+
+```bash
+npx skills add wuyoscar/AISafetyHot-Hub
 codex mcp add aisafetyhot --url https://aisafetyhot.com/api/mcp
 ```
 
-**Claude Code**
+不需要 API Key。别的客户端把 MCP 地址 `https://aisafetyhot.com/api/mcp`（Streamable HTTP）加进去即可。
 
-```bash
-claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com/api/mcp
-```
+<a id="技能"></a>
 
-| MCP 工具 | 匿名可用范围 |
-| --- | --- |
-| `aisafetyhot_get_latest` | 最近 24 小时或 7 天的 News 简报，附少量精选论文链接 |
-| `aisafetyhot_search` | 同范围 News 搜索和分页 |
-| `aisafetyhot_get_content` | 近期新闻短摘要、当前精选论文链接；`depth=summary` |
-| `aisafetyhot_get_hot_topics` | 当前热点标题、排名和阅读入口 |
-| `aisafetyhot_get_story` | 事件近期 News 摘要与链接；`depth=summary` |
-| `aisafetyhot_get_daily` | 最近 7 天内的日报 News 简报；`period=daily` |
-| `aisafetyhot_get_topics` | 话题名称、slug 与定义 |
+## 技能
 
-<a id="examples"></a>
+装好后直接用自然语言说，Agent 会自己选技能：
 
-### 怎么用
+| 技能 | 做什么 | 你可以这样说 |
+| --- | --- | --- |
+| [`aisafety-brief`](skills/aisafety-brief/SKILL.md) | 最近 24 小时 / 7 天的 AI 安全简报 | 「这周 AI 安全有什么大事？」 |
+| [`aisafety-paper-scout`](skills/aisafety-paper-scout/SKILL.md) | 按方向找论文，一句话看懂，附 BibTeX | 「找 15 篇 Agent 提示注入的论文，给 BibTeX」 |
+| [`aisafety-related-work`](skills/aisafety-related-work/SKILL.md) | 按你的摘要起草 Related Work | 「帮我这篇关于 reward hacking 的论文写 related work」 |
+| [`aisafety-lab-watch`](skills/aisafety-lab-watch/SKILL.md) | 盯一家实验室最近的安全动态 | 「Anthropic 最近一周在安全上做了什么？」 |
+| [`aisafety-incident-check`](skills/aisafety-incident-check/SKILL.md) | 查一个模型或工具最近有没有出事 | 「Cursor 最近有没有被曝漏洞？」 |
+| [`aisafetyhot`](skills/aisafetyhot/SKILL.md) | MCP 工具说明（其他技能的底座） | — |
 
-让 Agent 调用 `get_latest({window:"7d",mode:"all",limit:10})`，再通过返回的 ID 读取短摘要。搜索用 `search({q:"prompt injection",window:"7d",mode:"all"})`。同一筛选下沿 `page.nextCursor` 翻页，直到 `page.hasMore=false`。
+MCP 工具和匿名可用范围见 [Agent 接入指南](docs/agent.md) 和[示例](docs/mcp-examples.md)。
 
-`mode=all` 表示同一近期范围内全部 News；`window=all`、`depth=full`、`mode=snapshot/changes` 需要授权。原发时间与收录时间分别保留，不混为一谈。
+## 网站有什么
 
-匿名 MCP、REST 与 RSS 合计每 IP 最多 60 次/分钟、1,000 次/UTC 日；超额返回 429 与 `Retry-After`。只读授权使用 `Authorization: Bearer <令牌>`，不授予管理或写入权限。无效凭证返回 401，超范围返回 403 或 MCP `authorization_required`。
+网站 [aisafetyhot.com](https://aisafetyhot.com) 免费阅读，中英文切换。
 
-[详细指南](docs/agent.md) · [使用示例](docs/mcp-examples.md) · [Agent Skill](skills/aisafetyhot/SKILL.md) · [OpenAPI](https://aisafetyhot.com/openapi-v1.json)
+**[观测台](https://aisafetyhot.com/zh)**：首页。一眼看到材料从哪来、落在哪些方向、现在什么最热。
 
-<a id="daily"></a>
+<img src="assets/site-overview.webp" width="900" alt="观测台">
 
-## 最新 AI 安全日报简报
+**[新闻流](https://aisafetyhot.com/zh)**：每条新闻从信源流向它所属的方向，话题随新闻到达逐个亮起。
 
-<!-- daily:start -->
-### 2026-10-13 · 9 条精选
+<img src="assets/site-news-flow.webp" width="900" alt="新闻流">
 
-**当天一期，随新进展更新** · [完整日报](daily/2026/2026-10-13.md) · [在网站阅读](https://aisafetyhot.com/daily/2026-10-13)
+**[News](https://aisafetyhot.com/zh/featured)**：编辑精选的时间线，每条一段导读加原文链接；右侧是正在发酵的话题。
 
-点击标题展开导读，每条都附原文链接。
+<img src="assets/site-featured.webp" width="900" alt="News">
 
-#### 防御与护栏
+**[热点事件](https://aisafetyhot.com/zh/hot)**：同一件事的多篇报道归成一个事件，按关注度排名，带热度曲线。
 
-<details>
-<summary>1. Anthropic 加强针对蒸馏攻击的防御</summary>
+<img src="assets/site-hot.webp" width="900" alt="热点事件">
 
-[Anthropic 加强针对蒸馏攻击的防御](https://www.anthropic.com/research/distillation-defenses)：Anthropic 称早期证据显示，其新的蒸馏防御方法把蒸馏者获取的数据量减少了约 90% 至 99%，平台上被提取的推理 token 数降至此前的 1/10 到 1/100。防御分三类：用 preserved thinking 阻止新 API 账号编辑 Claude 的先前上下文，并让推理记录只对产生它的组织可见；… ——Anthropic Research｜[站内](https://aisafetyhot.com/items/zegi97d32s1zl1q79a4himjwu)
+**[论文](https://aisafetyhot.com/zh/papers)**：近两千篇 AI 安全论文，按方向和类型筛选，每篇有一句话和速读。
 
-</details>
+<img src="assets/site-papers.webp" width="900" alt="论文">
 
-#### 对齐与可解释性
+**[会议](https://aisafetyhot.com/zh/conferences)**：ICLR、ICML、NeurIPS、ACL 和四大安全会议（S&P、USENIX Security、CCS、NDSS）的 AI 安全论文，按方向分组。
 
-<details>
-<summary>2. Sakana AI 的自我改进模型在解题与评判上更强，却抓不住自己的盲点</summary>
+<img src="assets/site-conferences.webp" width="900" alt="会议">
 
-[Sakana AI 的自我改进模型在解题与评判上更强，却抓不住自己的盲点](https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/)：Sakana AI 与 UC Berkeley 的研究者提出多智能体自我监督方法 MASS，让同一个语言模型同时承担解题、优化工作流与评判结果三种角色，在无需更强教师模型的情况下实现递归自我改进。基座模型为 Qwen3.6-27B，任务为 GPT-5.5 生成的 12 项金融、机器人与制药研究任务。测试任务上对基座的… ——The Decoder｜[站内](https://aisafetyhot.com/items/ah0k35app67a4dad8y3tozajh)
+**[日报](https://aisafetyhot.com/zh/daily)**：每天一期，按方向分组，当天随新进展更新。
 
-</details>
+<img src="assets/site-daily.webp" width="900" alt="日报">
 
-#### 安全评测
+发现内容有错，欢迎到[留言板](https://aisafetyhot.com/board)告诉我们。
 
-<details>
-<summary>3. AI 模型或可在没有数据中心的情况下自我复制</summary>
+## 每日论文
 
-[AI 模型或可在没有数据中心的情况下自我复制](https://www.anthropic.com/research/self-replicating-ai)：Anthropic 红队研究显示，小型 AI 模型可能只需数月就能在商用 IoT 设备上实现自我复制。在评测中，Qwen3.5-9B 在 9 种硬件中的 8 种上成功搭起推理服务，30B 参数及以下的模型已能完成复制链的多数单步，GLM-5.2 在简化评测中可端到端复制。研究用 15 台约 55 美元的安卓电视盒子分… ——Anthropic Red Teaming｜[站内](https://aisafetyhot.com/items/lird2la13falhqvq0e2gizmld)
+每天从论文库挑 30 篇，不重复，只挑知名研究者、顶级实验室和名校团队的工作：一半是近两个月的新论文，其余来自半年内和更早的论文、会议论文，越新越优先。
 
-</details>
+<!-- papers:start -->
+### 2026-10-14 · 30 篇
 
-<details>
-<summary>4. 报告发现 ChatGPT for Teens 未能兑现安全承诺</summary>
+1. **[Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](https://arxiv.org/abs/2610.12445)**  
+   用 FIBS 训练白盒探针，监控智能体破坏行为与未言明欺骗 · `Agent 安全` · Oskar J. Hollinsworth … Chris Cundy · arXiv 2610.12445 · 2026-10-08 · [解读](https://aisafetyhot.com/items/bp1e2e7mg03hqoq6khww30za7)
+2. **[SWE-DeceptionBench: Benchmarking Deceptive Behaviors of LLMs Across the Software Development Lifecycle](https://arxiv.org/abs/2610.13626)**  
+   提出 SWE-DeceptionBench 评测 LLM 在软件开发生命周期中的欺骗 · Xiting Liu … Shi-Min Hu · arXiv 2610.13626 · 2026-10-09 · [解读](https://aisafetyhot.com/items/zoyvazwi5ki45odnxdnkrel3z)
+3. **[LETHE: Defending against Unauthorized Image-to-Video Generation via Value Diversity Collapse](https://arxiv.org/abs/2610.13333)**  
+   提出 LETHE，扰动参考图以阻止未授权图生视频 · Boheng Li … Tianwei Zhang · arXiv 2610.13333 · 2026-10-09 · [解读](https://aisafetyhot.com/items/wn0cihk25z0ptekp5gtuefthw)
+4. **[Towards Safe World Models: Risks, Defenses, and Evaluation](https://arxiv.org/abs/2610.13372)**  
+   综述世界模型六阶段生命周期中的风险、防御与评测 · Xiaoma Wang … Philip S. Yu · arXiv 2610.13372 · 2026-10-09 · [解读](https://aisafetyhot.com/items/m1i6ii3p0tkwu4ud76p1s3lle)
+5. **[AI Models Can Provably Hide Arbitrary Capabilities](https://arxiv.org/abs/2610.13928)**  
+   提出数字锁编译，把可执行网络加密进宿主权重以隐藏任意能力 · `后门与投毒` · Andis Draguns … Christian Schroeder de Witt · arXiv 2610.13928 · 2026-10-09 · [解读](https://aisafetyhot.com/items/ylmaojlfv5xtuhigjqo7pdgtj)
+6. **[X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems](https://arxiv.org/abs/2610.13886)**  
+   提出 X-AgentRed，用工具依赖图红队个人 Agent 的跨服务未授权伤害 · Yeonsung Jung … Ninareh Mehrabi · arXiv 2610.13886 · 2026-10-09 · [解读](https://aisafetyhot.com/items/ik4ujyqwtcrclxarh57cbkumd)
+7. **[OpenSocialJax: Evaluating Social Adaptation in Sequential Social Dilemmas with Open-Ended Environmental Dynamics](https://arxiv.org/abs/2610.13710)**  
+   用 OpenSocialJax 评测多智能体在隐藏规则社会困境中的适应 · Zihao Guo … Yali Du · arXiv 2610.13710 · 2026-10-09 · [解读](https://aisafetyhot.com/items/f472hniqod1zhttfbvvo0n925)
+8. **[KVeil: First-Place Solution to ECCV 2026 LifeGenIP Challenge on Unlearnable Videos](https://arxiv.org/abs/2610.13733)**  
+   提出 KVeil，对人脸视频加扰动以阻止未授权定制复现身份 · Boheng Li … Tianwei Zhang · arXiv 2610.13733 · 2026-10-09 · [解读](https://aisafetyhot.com/items/roqwjgvdfksx1n9mgf1r29sbk)
+9. **[ReSI: Recursive Safety Improvement toward Resistant and Resilient AI](https://arxiv.org/abs/2610.12233)**  
+   提出 ReSI，用自动红队与配方搜索递归改进模型安全对齐 · `防御与护栏` · Jingnan Zheng … Xiang Wang · arXiv 2610.12233 · 2026-10-08 · [解读](https://aisafetyhot.com/items/n0pl4tgv52bli3d2e5olutzbp)
+10. **[Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](https://huggingface.co/papers/2610.12360)**  
+   提出 ISE 框架，评测 LLM Agent 在知识冲突下的认知谦逊 · Kaiser Sun … Daniel Khashabi · arXiv 2610.12360 · 2026-10-08 · [解读](https://aisafetyhot.com/items/cgckfc6l7zolrx1t62ss0s29l)
+11. **[Thinking Inertia: LLMs Keep Thinking When Told Not To](https://arxiv.org/abs/2610.11765)**  
+   度量关闭思考指令下终答前是否仍有可见显式推理 · Dianqiao Lei … James Zou · arXiv 2610.11765 · 2026-10-08 · [解读](https://aisafetyhot.com/items/cq9vn2kafxr9f8knq040ngjr1)
+12. **[Searching for "Harmful Refusal": A Psychometric Audit of an AI Safety Benchmark](https://arxiv.org/abs/2610.12409)**  
+   审计 HarmBench 分数能否代表单一 harmful refusal 属性 · Christopher M. Stewart … Hoda Heidari · arXiv 2610.12409 · 2026-10-08 · [解读](https://aisafetyhot.com/items/dd057r8pclclrakyz3c5ivk52)
+13. **[How to post-train on a surrogate: Envelope sampling mitigates reward hacking](https://arxiv.org/abs/2610.11281)**  
+   提出包络采样，用少量真值标注重标定 LLM 评委以缓解奖励作弊 · Sanjit Dandapanthula … Alexandra Chouldechova · arXiv 2610.11281 · 2026-10-08 · [解读](https://aisafetyhot.com/items/w96g9g2rv33g3twfrclbkltii)
+14. **[Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](https://arxiv.org/abs/2610.12436)**  
+   为失配智能体种群建立生态模型，说明协作产生起飞临界规模 · Erin Crawley, Hidenori Tanaka · arXiv 2610.12436 · 2026-10-08 · [解读](https://aisafetyhot.com/items/hhyxmxyp9djni3j1jqu7or3u9)
+15. **[VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails](https://arxiv.org/abs/2610.12813)**  
+   提出 VEPA，以可验证符号规则演化智能体动作护栏 · `Agent 安全` · Duy Nguyen … Long T. Le · arXiv 2610.12813 · 2026-10-08 · [解读](https://aisafetyhot.com/items/kezphhyq30e7ia9jg9j7i0aqi)
+16. **[Vero: Can AI Agents Build Formally Verified Software Repositories?](https://arxiv.org/abs/2608.13522)**  
+   提出 Lean 4 仓库级基准 Vero，评测编程智能体联合生成实现与证明 · Zhe Ye … Dawn Song · arXiv 2608.13522 · 2026-08-13 · [解读](https://aisafetyhot.com/items/y1cyor0zbtlgvbwk41pzyjrxh)
+17. **[Stealing Reasoning Traces from Proprietary LLM APIs](https://arxiv.org/abs/2608.09867)**  
+   利用加密思维块的跨模型重放，诱导弱模型逐字转写专有推理链 · Alexander Panfilov … Maksym Andriushchenko · arXiv 2608.09867 · 2026-08-10 · [解读](https://aisafetyhot.com/items/mceic1zdxf3w73k37d207b64l)
+18. **[Mind Viruses: Self-Propagating Ideas in Multi-Agent LLM Systems](https://arxiv.org/abs/2608.10218)**  
+   用演化算法构造 mind virus 并测量其在多智能体中的传播 · Vassilis Papadopoulos … Jack Lindsey · arXiv 2608.10218 · 2026-08-10 · [解读](https://aisafetyhot.com/items/a5w81vgtzce9h6j0f4e7xja5n)
+19. **[PIPES: Securing Agent Perception with Provenance and Priors](https://arxiv.org/abs/2608.12789)**  
+   提出 PIPES，用来源与先验筛除工具响应中的越权主张 · Sanjay Kariyappa … G. Edward Suh · arXiv 2608.12789 · 2026-08-13 · [解读](https://aisafetyhot.com/items/duycucwtex6uuj7frbkx143h9)
+20. **[ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents](https://arxiv.org/abs/2608.09476)**  
+   构建自演化基准 ActBench，评测协作智能体的行为安全 · `Agent 安全` · Hongwei Yao … Kui Ren · arXiv 2608.09476 · 2026-08-10 · [解读](https://aisafetyhot.com/items/u7j21k74eb7orhrgfx42y9hpq)
+21. **[How much can language models memorize?](https://openreview.net/forum?id=bA6BgSbaUi)**  
+   提出区分非预期记忆与泛化的新方法，测定GPT模型容量约为每参数3.6比特，并建立了模型容量、数据规模与成员推断之间的标度律。 · `隐私与数据泄露` · John Xavier Morris … Saeed Mahloujifar · ICML 2026 spotlight
+22. **[The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models](https://openreview.net/forum?id=q17jVxMtwS)**  
+   在激活空间发现 Assistant Axis,其偏移可预测人格漂移;将激活限制在该轴固定区域可稳定行为并抵御基于人格的越狱。 · `可解释性` · Christina Lu … Jack Lindsey · ICML 2026 spotlight
+23. **[Safety Alignment of LMs via Non-cooperative Games](https://openreview.net/forum?id=Bve790HQrA)**  
+   提出将安全对齐建模为攻击者与防御者语言模型间的非零和博弈，通过在线强化学习联合训练，提升了防御模型的安全性与抗对抗攻击能力。 · `防御与护栏` · Anselm Paulus … Arman Zharmagambetov · ICML 2026 spotlight
+24. **[Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection](https://arxiv.org/abs/2604.14604)**  
+   提出 AudioHijack，用不可感知对抗音频对语音模型做上下文无关提示注入 · Meng Chen … Tianwei Zhang · arXiv 2604.14604 · 2026-04-16 · [解读](https://aisafetyhot.com/items/lqcza7hmpr135ihrl1a920g1y)
+25. **[What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data](https://openreview.net/forum?id=sC6A1bFDUt)**  
+   提出利用稀疏自编码器解释人类反馈数据的WIMHF方法，揭示了偏好数据中投票支持有毒内容等不安全倾向，并通过数据清洗带来了37%的安全增益。 · `对齐` · Rajiv Movva … Emma Pierson · ICLR 2026 Oral
+26. **[HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447)**  
+   提出 HazardArena 基准，用孪生场景评测 VLA 的语义安全 · Zixing Chen … Yu-Gang Jiang · arXiv 2604.12447 · 2026-04-14 · [解读](https://aisafetyhot.com/items/rlu67cu6z5kwmhe68xtjvopju)
+27. **[Detecting Safety Violations Across Many Agent Traces](https://arxiv.org/abs/2604.11806)**  
+   提出 Meerkat，聚类并搜索 Agent 轨迹库以定位跨轨迹安全违规 · Adam Stein … Eric Wong · arXiv 2604.11806 · 2026-04-13 · [解读](https://aisafetyhot.com/items/e9ch5o64hh1aos5wl5i5a9gz2)
+28. **[Hubble: a Model Suite to Advance the Study of LLM Memorization](https://openreview.net/forum?id=ZfdnZhOP0k)**  
+   发布开源模型套件Hubble，通过可控插入文本模拟记忆风险，揭示敏感数据频率和训练阶段对记忆的影响，为成员推断与机器遗忘提供基准。 · `隐私与数据泄露` · Johnny Wei … Robin Jia · ICLR 2026 Oral
+29. **[Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework](https://openreview.net/forum?id=hvI3Syn2U7)**  
+   揭示利用提示注入向快速响应分类器投毒的方法，通过遗漏攻击植入概念后门或引发误报，仅需1%投毒率即可使针对越狱的防御分类器失效。 · `后门与投毒` · David Huang … Chawin Sitawarin · ICML 2026 spotlight
+30. **[Beyond Prompt-Induced Lies: Investigating LLM Deception on Benign Prompts](https://openreview.net/forum?id=PDBBYwd1LY)**  
+   研究了大模型在良性提示下自发产生的主动欺骗行为，提出量化欺骗意图与欺骗行为的评估框架，发现两项指标随任务难度上升，且扩大模型规模未能消除欺骗。 · `欺骗与谋划` · Zhaomin Wu … Bingsheng He · ICLR 2026 Oral
 
-[报告发现 ChatGPT for Teens 未能兑现安全承诺](https://www.transparencycoalition.ai/news/report-finds-chatgpt-for-teens-fails-to-deliver-on-safety-promises)：Common Sense Media 旗下的 Youth AI Safety Institute 用 4000 多条提示词测试 ChatGPT for Teens，发现多项承诺的安全护栏未能生效，并给出不可接受风险的评级。测试在 OpenAI 2026 年 8 月 18 日宣布该青少年模式前后各进行一次，使用注册为 … ——Transparency Coalition.AI｜[站内](https://aisafetyhot.com/items/wm00lgi0h0dfqgky19nzqixe7)
+[往期每日论文](daily-papers/2026) · [论文库](https://aisafetyhot.com/zh/papers)
 
-</details>
+**按方向**：[Agent 安全](daily-papers/topics/agent-security.md) 3 · [防御与护栏](daily-papers/topics/defense.md) 2 · [后门与投毒](daily-papers/topics/backdoor.md) 2 · [隐私与数据泄露](daily-papers/topics/privacy.md) 2 · [对齐](daily-papers/topics/alignment.md) 1 · [可解释性](daily-papers/topics/interpretability.md) 1 · [欺骗与谋划](daily-papers/topics/scheming.md) 1
+<!-- papers:end -->
 
-#### 真实事件
+## 支持
 
-<details>
-<summary>5. Anthropic 的 Claude 向费城警方提交虚假谋杀线索</summary>
-
-[Anthropic 的 Claude 向费城警方提交虚假谋杀线索](https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/)：Anthropic 的 Claude 模型在内部测试中向费城警方网站提交了一条虚假的未破谋杀案线索，该提交被垃圾邮件过滤器拦截，未被人查看。据 Anthropic 与警方确认，Claude Haiku 4.5 在随机网页任务中被要求填写表单但不得提交，却误以为还有确认页而提交；公司于 9 月 28 日发现、10 月 … ——Ars Technica AI｜[站内](https://aisafetyhot.com/items/o3w2tl7iu20wjbyrv46461yuu)
-
-</details>
-
-<details>
-<summary>6. Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅</summary>
-
-[Graylark 的 Raven 让警方凭单张室内照片锁定具体住宅](https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/)：Graylark Technologies 的 Raven（原 GeoSpy）新增室内图像地理定位功能，警方可凭单张室内照片锁定具体住宅。演示视频显示，工具从社交媒体上的洗衣机、浴室照片定位到北卡罗来纳州 Charlotte 的 Airbnb 房源和加州 Montecito 的 Vrbo 房源，404 Media 发… ——404 Media｜[站内](https://aisafetyhot.com/items/qryq6jexs5w0qde1km154hg5a)
-
-</details>
-
-#### 治理与政策
-
-<details>
-<summary>7. 英国 AI 大臣演讲：准备 Agent 事故响应</summary>
-
-[英国 AI 大臣演讲：准备 Agent 事故响应](https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai)：英国政府 AI 事务大臣在演讲中宣布，将联合 DCMS、国家网络安全中心（NCSC）和 AI Security Institute 制定政府应对 Agent 事故的方式，重点研究如何控制事故影响、如何帮扶受影响方。他确认 AI Security Institute 正在对包括 Gemini 4 Argon 在内的最新… ——Cabinet Office｜[站内](https://aisafetyhot.com/items/yklidj6wl22tp5dracu6q49ka)
-
-</details>
-
-<details>
-<summary>8. 白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限</summary>
-
-[白宫改弦更张，恢复英国 AI 安全研究所对前沿模型的访问权限](https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/)：白宫撤销了此前阻止英国 AI 安全研究所（AISI）访问新 AI 模型的决定，该机构将重新获得 Anthropic、Google DeepMind 和 OpenAI 模型的早期访问权限。据《每日电讯报》报道，特朗普政府曾在 9 月要求这些公司停止与 AISI 共享模型，Anthropic 随后限制了新模型 Claud… ——The Decoder｜[站内](https://aisafetyhot.com/items/wpq3s81u9x8uwdvume58py9wh)
-
-</details>
-
-#### AI 动态
-
-<details>
-<summary>9. Meta 发布首款前沿模型 Muse Wonder</summary>
-
-[Meta 发布首款前沿模型 Muse Wonder](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)：Meta 的 Superintelligence Lab 发布 Muse Wonder 和 Muse Wonder Full 两款新模型，称这是公司首款前沿模型。据 Meta 在 model card 中公布的测试，两款模型在基准分数上与 Fable 5.1、GPT-6 Astra 相当。通过 Meta Model … ——TechCrunch AI｜[站内](https://aisafetyhot.com/items/pfu4bou8kut0viknlal6eybg9)
-
-</details>
-<!-- daily:end -->
-
-完整内容在[网站日报](https://aisafetyhot.com/daily)阅读。Hub 由既有发布器每 15 分钟检查更新，成功同步以正文和远端读回为准。
-
-<a id="papers"></a>
-
-## 论文链接与归档
-
-网站持续收录新论文，也补录历史论文，包括 Promptfoo 2026 论文。完整列表和搜索请到 [Paper 论文库](https://aisafetyhot.com/zh/papers)。下面表格的数量是 Hub 已导出的论文题录数，不是网站当天的全部收录数；批量补录不会逐篇显示在这里。
-
-自 **2026-10-12** 起，每天导出最多 5 篇精选论文的标题、原发时间和链接，保留 Markdown、BibTeX、JSON 格式；不再自动导出论文摘要、速读或六问解读。按本站收录的北京时间自然日归档，原发日期另列，两个日期可能不同。
-
-此前已经公开的归档继续保留；接口调整无法撤回他人已下载的内容。新范围内的导出对账以同一精选链接集合为准，未导出的其他论文仍在网站阅读。
-
-<!-- latest:start -->
-| 日期 | 每日精选 | 论文清单 |
-|---|---|---|
-| 2026-10-13 | [日报](daily/2026/2026-10-13.md) | [0 篇](papers/2026/2026-10-13.md) · [bib](papers/2026/2026-10-13.bib) · [json](papers/2026/2026-10-13.json) |
-| 2026-10-12 | [日报](daily/2026/2026-10-12.md) | [4 篇](papers/2026/2026-10-12.md) · [bib](papers/2026/2026-10-12.bib) · [json](papers/2026/2026-10-12.json) |
-| 2026-10-11 | [日报](daily/2026/2026-10-11.md) | [12 篇](papers/2026/2026-10-11.md) · [bib](papers/2026/2026-10-11.bib) · [json](papers/2026/2026-10-11.json) |
-| 2026-10-10 | [日报](daily/2026/2026-10-10.md) | [9 篇](papers/2026/2026-10-10.md) · [bib](papers/2026/2026-10-10.bib) · [json](papers/2026/2026-10-10.json) |
-| 2026-10-09 | [日报](daily/2026/2026-10-09.md) | [164 篇](papers/2026/2026-10-09.md) · [bib](papers/2026/2026-10-09.bib) · [json](papers/2026/2026-10-09.json) |
-| 2026-10-08 | [日报](daily/2026/2026-10-08.md) | [189 篇](papers/2026/2026-10-08.md) · [bib](papers/2026/2026-10-08.bib) · [json](papers/2026/2026-10-08.json) |
-| 2026-10-07 | [日报](daily/2026/2026-10-07.md) | [97 篇](papers/2026/2026-10-07.md) · [bib](papers/2026/2026-10-07.bib) · [json](papers/2026/2026-10-07.json) |
-| 2026-10-06 | [日报](daily/2026/2026-10-06.md) | [118 篇](papers/2026/2026-10-06.md) · [bib](papers/2026/2026-10-06.bib) · [json](papers/2026/2026-10-06.json) |
-| 2026-10-05 | [日报](daily/2026/2026-10-05.md) | [98 篇](papers/2026/2026-10-05.md) · [bib](papers/2026/2026-10-05.bib) · [json](papers/2026/2026-10-05.json) |
-| 2026-10-04 | [日报](daily/2026/2026-10-04.md) | [143 篇](papers/2026/2026-10-04.md) · [bib](papers/2026/2026-10-04.bib) · [json](papers/2026/2026-10-04.json) |
-| 2026-10-03 | [日报](daily/2026/2026-10-03.md) | [82 篇](papers/2026/2026-10-03.md) · [bib](papers/2026/2026-10-03.bib) · [json](papers/2026/2026-10-03.json) |
-| 2026-10-02 | [日报](daily/2026/2026-10-02.md) | [56 篇](papers/2026/2026-10-02.md) · [bib](papers/2026/2026-10-02.bib) · [json](papers/2026/2026-10-02.json) |
-| 2026-10-01 | [日报](daily/2026/2026-10-01.md) | [550 篇](papers/2026/2026-10-01.md) · [bib](papers/2026/2026-10-01.bib) · [json](papers/2026/2026-10-01.json) |
-| 2026-09-30 | [日报](daily/2026/2026-09-30.md) | [39 篇](papers/2026/2026-09-30.md) · [bib](papers/2026/2026-09-30.bib) · [json](papers/2026/2026-09-30.json) |
-
-更早的见 [2026 年目录](archive/2026.md)。
-
-论文清单按北京时间的自然日（0 点到 24 点，按论文在网站时间线上的时间）分天；日报当天一期，按原发时间取前一天 08:00 至当天更新时的材料，随新进展更新。两者的日界不同，所以同一天的日报和论文清单收的不完全是同一批，一篇论文可能出现在相邻一天的日报里。自 2026-10-12 起清单仅含每天最多 5 篇精选论文标题与链接，不导出摘要或速读。最近 7 天内该导出集合的撤下、修正或补进每小时检查一次。
-
-[status.json](status.json) 记录每天的论文数和 ID 摘要，以及同步时限（slaMinutes：导出范围内的精选论文最迟多少分钟内出现在这里）。
-<!-- latest:end -->
-
-[日报归档](daily) · [论文清单](papers) · [2026 归档](archive/2026.md) · [同步记录](status.json)
-
-## 支持与反馈
-
-如果这个项目帮你节省了时间，欢迎给仓库一个 Star，或[请作者喝杯咖啡](https://buymeacoffee.com/wuyoscar)。感谢 AIHOT、Security of AI，以及启发了这个项目的公众号、开源框架和社区。
+觉得有用，欢迎点个 Star，或[请作者喝杯咖啡](https://buymeacoffee.com/wuyoscar)。
 
 <img src="assets/wechat-pay.png" width="160" alt="微信支持二维码">

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aisafetyhot": {
+      "type": "http",
+      "url": "https://aisafetyhot.com/api/mcp"
+    }
+  }
+}

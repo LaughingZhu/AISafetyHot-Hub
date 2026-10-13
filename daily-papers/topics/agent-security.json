@@ -1,0 +1,84 @@
+[
+  {
+    "id": "bp1e2e7mg03hqoq6khww30za7",
+    "kind": "arxiv",
+    "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+    "titleZh": "FAR.AI 论文：白盒探针在 SHADE-Arena 上以 98.8% AUC 超过 Opus 5.5 文本监控",
+    "line": "用 FIBS 训练白盒探针，监控智能体破坏行为与未言明欺骗",
+    "topics": [
+      {
+        "slug": "agent-security",
+        "name": "Agent 安全"
+      }
+    ],
+    "venue": "arXiv 2610.12445",
+    "date": "2026-10-08",
+    "url": "https://arxiv.org/abs/2610.12445",
+    "site": "https://aisafetyhot.com/items/bp1e2e7mg03hqoq6khww30za7",
+    "authors": [
+      "Oskar J. Hollinsworth",
+      "Alex F. Spies",
+      "Tigist Diriba",
+      "Adam Gleave",
+      "Chris Cundy"
+    ],
+    "pushedOn": "2026-10-14"
+  },
+  {
+    "id": "kezphhyq30e7ia9jg9j7i0aqi",
+    "kind": "arxiv",
+    "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+    "titleZh": "VEPA：面向终身 LLM 智能体护栏的可验证演化形式化策略",
+    "line": "提出 VEPA，以可验证符号规则演化智能体动作护栏",
+    "topics": [
+      {
+        "slug": "agent-security",
+        "name": "Agent 安全"
+      }
+    ],
+    "venue": "arXiv 2610.12813",
+    "date": "2026-10-08",
+    "url": "https://arxiv.org/abs/2610.12813",
+    "site": "https://aisafetyhot.com/items/kezphhyq30e7ia9jg9j7i0aqi",
+    "authors": [
+      "Duy Nguyen",
+      "Lesly Miculicich",
+      "Bhavana Dalvi Mishra",
+      "Shuo Li",
+      "Krishnamurthy Dj Dvijotham",
+      "Mohit Bansal",
+      "Tomas Pfister",
+      "Long T. Le"
+    ],
+    "pushedOn": "2026-10-14"
+  },
+  {
+    "id": "u7j21k74eb7orhrgfx42y9hpq",
+    "kind": "arxiv",
+    "title": "ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents",
+    "titleZh": "ActBench：面向协作智能体行为安全的自演化基准",
+    "line": "构建自演化基准 ActBench，评测协作智能体的行为安全",
+    "topics": [
+      {
+        "slug": "agent-security",
+        "name": "Agent 安全"
+      }
+    ],
+    "venue": "arXiv 2608.09476",
+    "date": "2026-08-10",
+    "url": "https://arxiv.org/abs/2608.09476",
+    "site": "https://aisafetyhot.com/items/u7j21k74eb7orhrgfx42y9hpq",
+    "authors": [
+      "Hongwei Yao",
+      "Yiming Liu",
+      "Meihui Chen",
+      "Jieling Chen",
+      "Zikun Chen",
+      "Yiling He",
+      "Wangze Ni",
+      "Cong Wang",
+      "Kui Ren"
+    ],
+    "pushedOn": "2026-10-14"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "n0pl4tgv52bli3d2e5olutzbp",
+    "kind": "arxiv",
+    "title": "ReSI: Recursive Safety Improvement toward Resistant and Resilient AI",
+    "titleZh": "ReSI：面向抗攻击与抗未知风险的递归安全改进框架",
+    "line": "提出 ReSI，用自动红队与配方搜索递归改进模型安全对齐",
+    "topics": [
+      {
+        "slug": "defense",
+        "name": "防御与护栏"
+      }
+    ],
+    "venue": "arXiv 2610.12233",
+    "date": "2026-10-08",
+    "url": "https://arxiv.org/abs/2610.12233",
+    "site": "https://aisafetyhot.com/items/n0pl4tgv52bli3d2e5olutzbp",
+    "authors": [
+      "Jingnan Zheng",
+      "Dongcheng Zhang",
+      "Yi Zhang",
+      "Ming Zhang",
+      "Qiaosheng Zhang",
+      "Youbang Sun",
+      "An Zhang",
+      "Xiangnan He",
+      "Tat-Seng Chua",
+      "Xia Hu",
+      "Bowen Zhou",
+      "Chaochao Lu",
+      "Xiang Wang"
+    ],
+    "pushedOn": "2026-10-14"
+  },
+  {
+    "id": "icml:2026:Bve790HQrA",
+    "kind": "conference",
+    "title": "Safety Alignment of LMs via Non-cooperative Games",
+    "titleZh": "基于非合作博弈的语言模型安全对齐",
+    "line": "提出将安全对齐建模为攻击者与防御者语言模型间的非零和博弈，通过在线强化学习联合训练，提升了防御模型的安全性与抗对抗攻击能力。",
+    "topics": [
+      {
+        "slug": "defense",
+        "name": "防御与护栏"
+      }
+    ],
+    "venue": "ICML 2026 spotlight",
+    "date": null,
+    "url": "https://openreview.net/forum?id=Bve790HQrA",
+    "site": null,
+    "authors": [
+      "Anselm Paulus",
+      "Ilia Kulikov",
+      "Brandon Amos",
+      "Rémi Munos",
+      "Ivan Evtimov",
+      "Kamalika Chaudhuri",
+      "Arman Zharmagambetov"
+    ],
+    "pushedOn": "2026-10-14"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "aisafetyhot-hub",
+  "owner": { "name": "AI Safety HOT", "email": "wuy7117@gmail.com" },
+  "description": "AI safety news, papers and agent skills from AI Safety HOT",
+  "plugins": [
+    {
+      "name": "aisafetyhot",
+      "source": ".",
+      "description": "AI safety briefs, paper scouting, related work, lab watch and incident checks, backed by the AI Safety HOT MCP server"
+    }
+  ]
+}

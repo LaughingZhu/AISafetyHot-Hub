@@ -1,104 +1,96 @@
 <p align="center"><img src="assets/logo.svg" width="80" alt="AI Safety HOT"></p>
 
-<p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
-
 <h1 align="center">AI Safety HOT Hub</h1>
 
-<p align="center"><a href="https://aisafetyhot.com"><img src="assets/news-monitor-demo.gif" width="1000" alt="AI Safety HOT News Monitor"></a></p>
+<p align="center"><b>One command, and your agent keeps up with AI safety: jailbreaks, prompt injection, agent security, evals, incidents and policy, plus 30 hand-picked papers every day.</b></p>
 
-Agent connection guide and public briefing archive for AI Safety HOT. Open the [English website](https://aisafetyhot.com/en) or [Chinese website](https://aisafetyhot.com/zh). The default entry is Chinese; the language switch keeps your place. Translations arrive in the background, and fields awaiting translation retain their original language.
+<p align="center">
+  <a href="https://aisafetyhot.com/en"><img src="https://img.shields.io/badge/website-aisafetyhot.com-e4572e" alt="website"></a>
+  <a href="https://aisafetyhot.com/api/mcp"><img src="https://img.shields.io/badge/MCP-streamable%20http-6f42c1" alt="MCP"></a>
+  <a href="#skills"><img src="https://img.shields.io/badge/skills-6-2ea44f" alt="skills"></a>
+  <a href="daily-papers"><img src="https://img.shields.io/badge/papers-30%2Fday-0969da" alt="daily papers"></a>
+  <a href="https://github.com/wuyoscar/AISafetyHot-Hub/stargazers"><img src="https://img.shields.io/github/stars/wuyoscar/AISafetyHot-Hub?style=flat" alt="stars"></a>
+</p>
 
-## Thank you, and an access update
+<p align="center"><a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
 
-Thank you for your support! AI Safety Hub received substantial traffic within its first few days. We also observed suspicious requests that looked like potential attacks and blocked them. As AI safety researchers, we will continue maintaining the site's defenses.
+<p align="center"><a href="https://aisafetyhot.com/en"><img src="assets/news-monitor-demo.webp" width="1000" alt="AI Safety HOT"></a></p>
 
-To support service costs, our accumulated work and long-term maintenance, **anonymous access now covers recent discovery rather than every dataset**. We continue improving access to recent information:
+## Install
 
-| Scope | Available content |
-| --- | --- |
-| Public News API | News originally published in the last **7 days**: titles, excerpts up to **160 characters**, known original dates, source and website links; search and pagination |
-| Selected papers | Up to **5** recent selected paper titles and links |
-| Daily briefs and events | News excerpts from daily editions within the last 7 days, and recent source reports for an event |
-| Full readings/bodies, historical queries, weekly/monthly reports, snapshots and incremental synchronization | Read authorization required; contact [wuy7117@gmail.com](mailto:wuy7117@gmail.com) |
-
-Unknown original dates do not become recent through ingestion. The website remains free to read; public briefs need no login.
-
-<a id="website"></a>
-
-## Read on the website
-
-<!-- daily:start -->
-### 2026-10-13
-
-[English daily](en/daily/2026/2026-10-13.md) · [English website](https://aisafetyhot.com/en/daily/2026-10-13) · [Chinese edition](daily/2026/2026-10-13.md)
-<!-- daily:end -->
-
-[Overview](https://aisafetyhot.com/en) · [News](https://aisafetyhot.com/en/featured) · [Papers](https://aisafetyhot.com/en/papers) · [Events](https://aisafetyhot.com/en/hot) · [Newsletter](https://aisafetyhot.com/en/daily) · [Conference](https://aisafetyhot.com/en/conferences)
-
-News freshness uses original publication dates, including the previous day's North American news. The same daily edition is updated as new reports arrive. Full existing paper readings remain on detail pages. Report errors on the [board](https://aisafetyhot.com/en/board).
-
-<a id="agent"></a>
-
-## Connect your Agent
-
-Public briefs need no API key. Use **Streamable HTTP**, run a command below, then reopen the client session.
-
-**Codex**
+**Claude Code** (skills and MCP in one go)
 
 ```bash
+/plugin marketplace add wuyoscar/AISafetyHot-Hub
+/plugin install aisafetyhot@aisafetyhot-hub
+```
+
+**Codex / Cursor / other agents**
+
+```bash
+npx skills add wuyoscar/AISafetyHot-Hub
 codex mcp add aisafetyhot --url https://aisafetyhot.com/api/mcp
 ```
 
-**Claude Code**
+No API key. Any other client: add the MCP server `https://aisafetyhot.com/api/mcp` (Streamable HTTP).
 
-```bash
-claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com/api/mcp
-```
+<a id="skills"></a>
 
-| MCP tool | Anonymous scope |
-| --- | --- |
-| `aisafetyhot_get_latest` | 24h/7d News excerpts and selected paper links |
-| `aisafetyhot_search` | Search and paginate within the same recent News scope |
-| `aisafetyhot_get_content` | Recent News excerpts or current selected paper links; `depth=summary` |
-| `aisafetyhot_get_hot_topics` | Current event titles, ranks and reading links |
-| `aisafetyhot_get_story` | Recent News excerpts and links for an event; `depth=summary` |
-| `aisafetyhot_get_daily` | News briefs from daily editions within the last 7 days; `period=daily` |
-| `aisafetyhot_get_topics` | Topic names, slugs and definitions |
+## Skills
 
-<a id="examples"></a>
+Just ask in plain words; the agent picks the skill:
 
-### Try it
+| Skill | What it does | Try |
+| --- | --- | --- |
+| [`aisafety-brief`](skills/aisafety-brief/SKILL.md) | AI safety brief for the last 24 hours or 7 days | "What happened in AI safety this week?" |
+| [`aisafety-paper-scout`](skills/aisafety-paper-scout/SKILL.md) | Papers on a direction, one line each, with BibTeX | "Find 15 papers on prompt injection against agents, with BibTeX" |
+| [`aisafety-related-work`](skills/aisafety-related-work/SKILL.md) | Draft a related-work section from your abstract | "Write related work for my reward hacking paper" |
+| [`aisafety-lab-watch`](skills/aisafety-lab-watch/SKILL.md) | One lab's safety news lately | "What has Anthropic done on safety this week?" |
+| [`aisafety-incident-check`](skills/aisafety-incident-check/SKILL.md) | Recent incidents for a model or tool | "Any new vulnerabilities in Cursor lately?" |
+| [`aisafetyhot`](skills/aisafetyhot/SKILL.md) | The MCP tools (what the others build on) | — |
 
-Call `get_latest({window:"7d",mode:"all",limit:10})`, then use returned IDs for summaries. Search with `search({q:"prompt injection",window:"7d",mode:"all"})`. Keep filters unchanged when following `page.nextCursor` until `page.hasMore=false`.
+MCP tools and what anonymous access covers: [agent guide](docs/agent.md) and [examples](docs/mcp-examples.md).
 
-`mode=all` includes all News within the permitted window. `window=all`, `depth=full` and `mode=snapshot/changes` require authorization. Original dates and ingestion dates remain separate.
+## The website
 
-Anonymous MCP, REST and RSS share a per-IP quota of 60 requests/minute and 1,000/UTC day; excess requests return 429 and `Retry-After`. Authorized reads use `Authorization: Bearer <token>`, without admin or write access. Invalid credentials return 401; out-of-scope reads return 403 or MCP `authorization_required`.
+[aisafetyhot.com](https://aisafetyhot.com/en) is free to read, in Chinese and English.
 
-[Guide (Chinese)](docs/agent.md) · [Examples (Chinese)](docs/mcp-examples.md) · [Agent Skill](skills/aisafetyhot/SKILL.md) · [OpenAPI](https://aisafetyhot.com/openapi-v1.json)
+**[Overview](https://aisafetyhot.com/en)**: where the material comes from, which directions it lands in, and what is hot right now.
 
-<a id="daily"></a>
+<img src="assets/site-overview.webp" width="900" alt="Overview">
 
-## Daily briefs
+**[News flow](https://aisafetyhot.com/en)**: each story flows from its source to its direction; topics light up as the news reaches them.
 
-[Latest brief (Chinese)](README.md#daily) · [Daily archive](daily) · [Full website daily](https://aisafetyhot.com/daily)
+<img src="assets/site-news-flow.webp" width="900" alt="News flow">
 
-The existing publisher checks every 15 minutes. Digest bodies are primarily Chinese; this README provides English navigation.
+**[News](https://aisafetyhot.com/en/featured)**: the editors' timeline, a short read and the original link for each story; trending topics on the side.
 
-<a id="papers"></a>
+<img src="assets/site-featured.webp" width="900" alt="News">
 
-## Paper links and archives
+**[Hot](https://aisafetyhot.com/en/hot)**: reports of the same event grouped into one, ranked by attention, with a heat curve.
 
-The website adds new papers and backfills earlier work, including the Promptfoo 2026 papers. Browse and search the complete [Paper library](https://aisafetyhot.com/en/papers). Counts in the Hub archive table refer to exported paper entries, not every paper added to the website that day; bulk imports are not listed in full here.
+<img src="assets/site-hot.webp" width="900" alt="Hot">
 
-From **2026-10-12**, daily exports contain up to 5 selected paper titles, original dates and links in Markdown, BibTeX and JSON. Paper summaries, quick reads and detailed commentary are no longer automatically exported. Files use the Beijing ingestion day; original publication dates are recorded separately.
+**[Papers](https://aisafetyhot.com/en/papers)**: nearly two thousand AI safety papers, filtered by direction and type, each with one line and a quick read.
 
-Previously published archives remain available. Changing an API cannot recall copies already downloaded. Export reconciliation covers the selected link set; other papers remain readable on the website.
+<img src="assets/site-papers.webp" width="900" alt="Papers">
 
-[Latest downloads (Chinese)](README.md#papers) · [Papers](papers) · [Daily archive](daily) · [2026 archive](archive/2026.md) · [Sync record](status.json)
+**[Conferences](https://aisafetyhot.com/en/conferences)**: AI safety papers from ICLR, ICML, NeurIPS, ACL and the big four security venues (S&P, USENIX Security, CCS, NDSS), grouped by direction.
 
-## Support and feedback
+<img src="assets/site-conferences.webp" width="900" alt="Conferences">
 
-Please give the project a Star or [buy the author a coffee](https://buymeacoffee.com/wuyoscar) if it saves you time. Thanks to AIHOT, Security of AI, and the publications, open-source frameworks and communities that inspired this project.
+**[Daily](https://aisafetyhot.com/en/daily)**: one issue a day, grouped by direction, updated as the day goes on.
+
+<img src="assets/site-daily.webp" width="900" alt="Daily">
+
+Spotted a mistake? Tell us on the [board](https://aisafetyhot.com/board).
+
+## Daily papers
+
+Every day 30 papers from the library, never repeated, only from well-known researchers, top labs and strong university groups: half from the last two months, the rest from the last half year and earlier, conference papers included; newer first. Today's list and the index by direction are in [daily-papers](daily-papers) (one-liners in Chinese).
+
+## Support
+
+If it helps, a Star is welcome, or [buy the author a coffee](https://buymeacoffee.com/wuyoscar).
 
 <img src="assets/wechat-pay.png" width="160" alt="WeChat support QR code">

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ylmaojlfv5xtuhigjqo7pdgtj",
+    "kind": "arxiv",
+    "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+    "titleZh": "AI 模型可被证明地隐藏任意能力",
+    "line": "提出数字锁编译，把可执行网络加密进宿主权重以隐藏任意能力",
+    "topics": [
+      {
+        "slug": "backdoor",
+        "name": "后门与投毒"
+      }
+    ],
+    "venue": "arXiv 2610.13928",
+    "date": "2026-10-09",
+    "url": "https://arxiv.org/abs/2610.13928",
+    "site": "https://aisafetyhot.com/items/ylmaojlfv5xtuhigjqo7pdgtj",
+    "authors": [
+      "Andis Draguns",
+      "Sumeet Ramesh Motwani",
+      "Raymond Douglas",
+      "Christian Schroeder de Witt"
+    ],
+    "pushedOn": "2026-10-14"
+  },
+  {
+    "id": "icml:2026:hvI3Syn2U7",
+    "kind": "conference",
+    "title": "Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework",
+    "titleZh": "Rapid Poison：针对快速响应防护框架的实用投毒攻击",
+    "line": "揭示利用提示注入向快速响应分类器投毒的方法，通过遗漏攻击植入概念后门或引发误报，仅需1%投毒率即可使针对越狱的防御分类器失效。",
+    "topics": [
+      {
+        "slug": "backdoor",
+        "name": "后门与投毒"
+      }
+    ],
+    "venue": "ICML 2026 spotlight",
+    "date": null,
+    "url": "https://openreview.net/forum?id=hvI3Syn2U7",
+    "site": null,
+    "authors": [
+      "David Huang",
+      "Jaewon Chang",
+      "Avidan Shah",
+      "Prateek Mittal",
+      "Chawin Sitawarin"
+    ],
+    "pushedOn": "2026-10-14"
+  }
+]

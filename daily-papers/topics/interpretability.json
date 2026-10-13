@@ -1,0 +1,27 @@
+[
+  {
+    "id": "icml:2026:q17jVxMtwS",
+    "kind": "conference",
+    "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+    "titleZh": "Assistant Axis:定位并稳定语言模型的默认人格",
+    "line": "在激活空间发现 Assistant Axis,其偏移可预测人格漂移;将激活限制在该轴固定区域可稳定行为并抵御基于人格的越狱。",
+    "topics": [
+      {
+        "slug": "interpretability",
+        "name": "可解释性"
+      }
+    ],
+    "venue": "ICML 2026 spotlight",
+    "date": null,
+    "url": "https://openreview.net/forum?id=q17jVxMtwS",
+    "site": null,
+    "authors": [
+      "Christina Lu",
+      "Jack Gallagher",
+      "Jonathan Michala",
+      "Kyle Fish",
+      "Jack Lindsey"
+    ],
+    "pushedOn": "2026-10-14"
+  }
+]

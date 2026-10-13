@@ -1,0 +1,60 @@
+[
+  {
+    "id": "icml:2026:bA6BgSbaUi",
+    "kind": "conference",
+    "title": "How much can language models memorize?",
+    "titleZh": "语言模型能记忆多少内容？",
+    "line": "提出区分非预期记忆与泛化的新方法，测定GPT模型容量约为每参数3.6比特，并建立了模型容量、数据规模与成员推断之间的标度律。",
+    "topics": [
+      {
+        "slug": "privacy",
+        "name": "隐私与数据泄露"
+      }
+    ],
+    "venue": "ICML 2026 spotlight",
+    "date": null,
+    "url": "https://openreview.net/forum?id=bA6BgSbaUi",
+    "site": null,
+    "authors": [
+      "John Xavier Morris",
+      "Chawin Sitawarin",
+      "Chuan Guo",
+      "Narine Kokhlikyan",
+      "G. Edward Suh",
+      "Alexander M Rush",
+      "Kamalika Chaudhuri",
+      "Saeed Mahloujifar"
+    ],
+    "pushedOn": "2026-10-14"
+  },
+  {
+    "id": "iclr:2026:ZfdnZhOP0k",
+    "kind": "conference",
+    "title": "Hubble: a Model Suite to Advance the Study of LLM Memorization",
+    "titleZh": "Hubble：推进大语言模型记忆研究的模型套件",
+    "line": "发布开源模型套件Hubble，通过可控插入文本模拟记忆风险，揭示敏感数据频率和训练阶段对记忆的影响，为成员推断与机器遗忘提供基准。",
+    "topics": [
+      {
+        "slug": "privacy",
+        "name": "隐私与数据泄露"
+      }
+    ],
+    "venue": "ICLR 2026 Oral",
+    "date": null,
+    "url": "https://openreview.net/forum?id=ZfdnZhOP0k",
+    "site": null,
+    "authors": [
+      "Johnny Wei",
+      "Ameya Godbole",
+      "Mohammad Aflah Khan",
+      "Ryan Yixiang Wang",
+      "Xiaoyuan Zhu",
+      "James Flemings",
+      "Nitya Kashyap",
+      "Krishna P. Gummadi",
+      "Willie Neiswanger",
+      "Robin Jia"
+    ],
+    "pushedOn": "2026-10-14"
+  }
+]

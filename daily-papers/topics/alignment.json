@@ -1,0 +1,26 @@
+[
+  {
+    "id": "iclr:2026:sC6A1bFDUt",
+    "kind": "conference",
+    "title": "What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data",
+    "titleZh": "人类反馈中包含什么？学习偏好数据的可解释描述",
+    "line": "提出利用稀疏自编码器解释人类反馈数据的WIMHF方法，揭示了偏好数据中投票支持有毒内容等不安全倾向，并通过数据清洗带来了37%的安全增益。",
+    "topics": [
+      {
+        "slug": "alignment",
+        "name": "对齐"
+      }
+    ],
+    "venue": "ICLR 2026 Oral",
+    "date": null,
+    "url": "https://openreview.net/forum?id=sC6A1bFDUt",
+    "site": null,
+    "authors": [
+      "Rajiv Movva",
+      "Smitha Milli",
+      "Sewon Min",
+      "Emma Pierson"
+    ],
+    "pushedOn": "2026-10-14"
+  }
+]

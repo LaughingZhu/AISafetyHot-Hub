@@ -1,0 +1,8 @@
+{
+  "name": "aisafetyhot",
+  "version": "1.0.0",
+  "description": "AI safety briefs, paper scouting, related work, lab watch and incident checks, backed by the AI Safety HOT MCP server",
+  "homepage": "https://aisafetyhot.com",
+  "repository": "https://github.com/wuyoscar/AISafetyHot-Hub",
+  "license": "MIT"
+}
