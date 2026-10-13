@@ -2651,9 +2651,30 @@
     "id": "w96g9g2rv33g3twfrclbkltii",
     "arxivId": "2610.11281",
     "title": "How to post-train on a surrogate: Envelope sampling mitigates reward hacking",
-    "titleEn": "How to post-train on a surrogate: Envelope sampling mitigates reward hacking",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "Envelope sampling: recalibrating LLM judges with a small amount of ground-truth labels to mitigate reward hacking",
+    "summary": "To address the problem that post-training with cheap surrogate signals such as LLM judges easily leads to reward hacking, the authors propose envelope sampling, a theoretically grounded method for judge recalibration. Under the assumption that the human reward and the recalibrated reward lie within the judge's L2 ball, the method minimizes an upper bound on the regret of the post-trained model, and provides practical algorithms for sampling from the envelope via rejection sampling or fine-tuning on a modified reward. Experiments on clinical note generation and controlled sycophancy tasks show that recalibration based on envelope samples mitigates reward hacking, whereas recalibration based on base model samples does not.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "When true rewards are too expensive, post-training often optimizes an LLM judge. If miscalibration only occurs on outputs that the base model rarely generates, on-policy labeling cannot detect the divergence, and optimization concentrates on overestimated outputs. The question is from what query distribution these n ground-truth labels are drawn.",
+          "label": "Questions"
+        },
+        {
+          "text": "The authors state that when the true reward and the recalibrated reward lie within a clipped L2 ball around the current judge, the envelope distribution ρ* minimizes the worst-case coverage factor. The closed form depends on the proxy and the base model only through πj, and shifts mass toward the tail of πj. Sampling can be done by rejection from πj, or by fine-tuning on a bonus.",
+          "label": "Methods"
+        },
+        {
+          "text": "Clinical notes n=8, T=128: envelope's ≥3 fabrication proportion 1.0%, base query 19.8% (Table 2). Sycophancy panel 4, 27B, 256 draws: envelope error rate 2.06%, base query 33.49% (Table 3).",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The authors state that the theory idealizes post-training as exact exponential tilting, the case study uses a stylized output space, and the clinical reference is LLM review rather than physician review. Follow-up includes other domains, more recalibration rules, iterating the loop, richer reward classes, and connections to active learning. The paper reports 95% intervals and does not report hypothesis-test p-values.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11281"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.11281",
       "aisafetyhot": "https://aisafetyhot.com/en/items/w96g9g2rv33g3twfrclbkltii"
@@ -2665,18 +2686,39 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 10,
-      "pending": 27,
-      "status": "partial"
+      "translated": 37,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
     "id": "wci6vc6okyjawiwv1uux87dbk",
     "arxivId": "2610.12313",
     "title": "Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems",
-    "titleEn": "Verdict Without the Rule: Diagnosing and Auditing Regulatory Rule Sensitivity in LLM Compliance Systems",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "The study tests the sensitivity of five large-model compliance systems to perturbations of regulatory rules.",
+    "summary": "Researchers test on five models and 20 regulatory and platform policy domains whether compliance rulings truly rely on the given rules, by fixing the case and deleting, replacing, or negating the applicable rule, then observing whether rulings change and whether the model's internal compliance representations shift. Results show little change in either, with model rulings often remaining unchanged under substantial perturbations of the rules; among them, the guardrail model had the lowest rule sensitivity and accuracy under adapted custom rules in its native taxonomy, only slightly above random (51%), while general models scored 90-92%. The authors note this reflects more that the cases are easy than that models generally ignore rules: on cases where deleting the rule would change an originally correct prediction, models follow the rule closely. Better prompting or directly intervening in the model's internal representations failed to close this gap, so accuracy alone cannot prove that compliance rulings are built on the given rules.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Compliance systems are assumed by default to decide based on the given regulatory rules, but accuracy evaluations do not check whether the rules are used. The authors argue that decisions that still hold after the rules are deleted cannot be validated as compliance determinations by high benchmark scores alone.",
+          "label": "Questions"
+        },
+        {
+          "text": "Fixing the cases, the rules are deleted, swapped across domains, or mandatory obligations are negated. OCS checks whether decisions flip, and ICS-delta measures the projection change of the compliance prediction direction as a proportion of its own baseline magnitude. Then rule-anchoring prompts and activation steering are tested to see if they recover accuracy on low-sensitivity cases.",
+          "label": "Methods"
+        },
+        {
+          "text": "Across the 20 domains of OmniCompliance-100K, the five models' OCS-agg is 0.013–0.094, general-purpose models have 90.3%–91.9% accuracy, and the guardrail model has 51.1%. On rule-necessary cases, swapping rules gives OCS of 0.73–1.00. Neither intervention consistently improved accuracy on low-OCS cases.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The authors note that the standard prompt truncates the rules to 300 characters, so low OCS may come from information unavailability rather than non-use. The LOW/HIGH split is transferred from Llama-3.3-70B-Instruct, and consistency has not been checked. ICS-delta only goes along one anchor-layer direction; generalization is tested on only one model.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.12313"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.12313",
       "aisafetyhot": "https://aisafetyhot.com/en/items/wci6vc6okyjawiwv1uux87dbk"
@@ -2688,9 +2730,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 14,
-      "pending": 23,
-      "status": "partial"
+      "translated": 37,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -2799,8 +2841,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 33,
-      "translated": 10,
-      "pending": 23,
+      "translated": 32,
+      "pending": 1,
       "status": "partial"
     }
   },
@@ -3254,9 +3296,30 @@
     "id": "vr7bxbem66ztvjdpx4qkspqdf",
     "arxivId": "2610.11634",
     "title": "LTBD：用可学习信任边界分隔符防御提示注入",
-    "titleEn": null,
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "LTBD: Defending Against Prompt Injection with Learnable Trust Boundary Delimiters",
+    "summary": "The paper proposes Learnable Trust Boundary Delimiters (LTBD), a lightweight defense that explicitly encodes trust boundaries in the input without changing LLM parameters, using a small number of learnable delimiters to distinguish trusted user instructions from untrusted external data, enabling the model to better follow the intended trust hierarchy. Experiments show LTBD significantly outperforms inference-time defenses, performs comparably to training-based methods, while maintaining benign task utility and negligible inference overhead. On AlpacaFarm, the attack success rate is 0.00%; on TaskTracker, it is only 0.11-0.19%; it remains effective under adaptive attacks where the attacker fully knows the defense and attempts to bypass it. The paper is 5 pages, 3 tables, 1 figure, categorized under cs.CR and cs.AI, arXiv ID 2610.11634.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "LLMs place trusted instructions and external data that may contain malicious instructions in the same sequence without an explicit representation of trust source, so user intent can be overridden. The authors state that parameter-modifying defenses are often infeasible for closed-source models, and manual prompts can still be broken by strong attacks.",
+          "label": "Questions"
+        },
+        {
+          "text": "LTBD trains only four delimiter embeddings, marking the start and end of the trusted instruction region and the untrusted data region, while the base LLM is frozen. The loss is cross-entropy on benign responses plus a preference term relative to attack-induced responses; during training, half the samples are injected with Ignore, Completion, or Delimiter-Spoof.",
+          "label": "Methods"
+        },
+        {
+          "text": "The four models' AlpacaFarm ASR is 0.00% each, and TaskTracker is 0.11–0.19%. The authors claim the utility cost is small, and CyberSecEval2 is not the lowest in every cell. In Table 3, adaptive ASR is 0.00% or 0.48%, and the baseline is not specified.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The paper does not specifically write limitations or future directions. Experiments cover four open-source instruction models and AlpacaFarm, SEP, TaskTracker, CyberSecEval2; ablations are conducted on two models. Sample sizes, repetitions, ASR judge, and overhead numbers are not reported; Table 3's benchmark is not specified.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.11634"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.11634",
       "aisafetyhot": "https://aisafetyhot.com/en/items/vr7bxbem66ztvjdpx4qkspqdf"
@@ -3268,9 +3331,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 38,
-      "translated": 10,
-      "pending": 28,
-      "status": "partial"
+      "translated": 38,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -4288,9 +4351,30 @@
     "id": "v4gzjunog58nuzj6i2yjyj7h2",
     "arxivId": "2610.12235",
     "title": "Language Models as AI Research World Models",
-    "titleEn": "Language Models as AI Research World Models",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "The paper proposes using language models as world models for AI research to predict experimental results.",
+    "summary": "The paper studies whether language models can serve as research world models (RWMs) that predict the outcomes of candidate interventions across research environments. The evaluation is based on nine research environments and over 2,600 experimental records, covering pretraining, post-training, and inference, totaling more than 171,000 H100 GPU hours. Research knowledge from real experiments improves RWM predictions for unseen interventions within the same environment (Spearman +0.27) and can be reused across environments: using only pretraining experience from OLMo3, Marin, and Nanochat, the RWM reduces selection regret by 78% in the Qwen3 environment. In multi-round Autoresearch with a fixed selection budget, RWMs with within-environment and cross-environment research knowledge improve the best gain by 15.8% and 11.6%, respectively. An ablation of 13 language models as RWMs shows that adding research knowledge improves intervention ranking more than changing the model or simply increasing inference effort.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Research agents propose experiments faster than they can be executed in real environments. With limited budgets, intervention gains need to be predicted before execution, and whether an environment's experimental records can help predict unseen interventions in another environment needs to be determined.",
+          "label": "Questions"
+        },
+        {
+          "text": "Use a fixed-parameter language model as the research world model, inputting the environment, intervention, and allowed history, and outputting the median gain. Compare no-record, same-environment record, and cross-environment record settings, and select experiments under a fixed budget based on predictions, including multi-round Autoresearch.",
+          "label": "Methods"
+        },
+        {
+          "text": "The authors report that average in-env Spearman rises from 0.506 to 0.774, and cross-env macro Regret@3 drops 52.2%. OLMo3-100M multi-turn: in-env and cross-env make final best gain 15.8% and 11.6% higher than W0, respectively.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The authors state that the demonstrated gains come from in-context learning, and cross-environment evidence is currently limited to autoregressive pretraining. The next step is training an RWM on diverse records and comparing it with in-context learning on unseen environments. Evaluation records come from nine environments totaling 2,653 entries; the 13-backbone comparison and multi-turn experiments were all run on OLMo3-100M.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.12235"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.12235",
       "aisafetyhot": "https://aisafetyhot.com/en/items/v4gzjunog58nuzj6i2yjyj7h2"
@@ -4302,9 +4386,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 16,
-      "pending": 21,
-      "status": "partial"
+      "translated": 37,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -4822,9 +4906,30 @@
     "id": "vinc5ifuodyf2mpgaqdkdu7dh",
     "arxivId": "2610.08740",
     "title": "Kosoy 提出鲁棒老虎机多项式时间学习器，推进 AI 对齐",
-    "titleEn": null,
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "Kosoy proposes a polynomial-time learner for robust bandits, advancing AI alignment",
+    "summary": "For the agnostic learning problem, Kosoy found a special case solvable by a polynomial-time learner in the robust bandits framework, with a regret bound of Õ(√T). The authors prove that several small generalizations of this special case are NP-hard, indicating that this special case lies at the boundary of tractability. The authors state that efficient learners for the agnostic learning problem are crucial for solving the AI alignment problem, and this work is a small step in that direction.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "When the environment is not in the hypothesis class, agnostic guarantees for bandits are hard to obtain. Robust bandits handle agnostic learning using partially specified hypotheses; Kosoy already provided a Θ(√T) regret bound but without computational guarantees. The authors consider such polynomial-time learners important for the alignment agenda.",
+          "label": "Questions"
+        },
+        {
+          "text": "The arm set and outcome set are Euclidean balls, rewards are linear, and hypotheses are affine constraints satisfying a transversality condition. An ellipsoid tracks the unknown constraint subspace, arms are selected by penalized worst-case reward, and the observable penalty decides when to update. Arm selection is written as a QCQP and solved in polynomial time by Bienstock's approximation algorithm.",
+          "label": "Methods"
+        },
+        {
+          "text": "No numerical experiments. Algorithm 2 with λ=⌈√T⌉ has expected regret Õ(√T); any learner has worst-case regret Ω(√T). The authors say that when D is a simplex, X is a polytope, or the constraint is trilinear, a randomized polynomial-time learner implies NP⊆BPP; Theorem 34 then yields NP=RP.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The authors hope that similar definitions can be used in other learning frameworks and aim to identify hypothesis classes where planning remains easy; planning alone being easy is not sufficient, and it remains open which oracles beyond a planning oracle are still needed. The setting of Appel and Kosoy does not address computational efficiency. The positive results are limited to Euclidean balls, linear rewards, and affine constraints; the paper does not report numerical simulations.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.08740"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.08740",
       "aisafetyhot": "https://aisafetyhot.com/en/items/vinc5ifuodyf2mpgaqdkdu7dh"
@@ -4836,9 +4941,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 35,
-      "translated": 10,
-      "pending": 25,
-      "status": "partial"
+      "translated": 35,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
