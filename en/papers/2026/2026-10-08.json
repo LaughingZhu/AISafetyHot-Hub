@@ -348,9 +348,30 @@
     "id": "nx7ncszhbljvtw2hubpgldz36",
     "arxivId": "2609.27273",
     "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
-    "titleEn": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "Microsoft Research released CAVEAT: e-commerce steering mechanisms reduced the agent's optimal purchase rate from 78.6% to 17.3%",
+    "summary": "Microsoft Research proposes the CAVEAT benchmark, using nine high-fidelity e-commerce environments and eight types of guidance mechanisms from commercial practice, to evaluate whether computer-using agents still select the user's optimal product when there are incentive conflicts between the environment and user goals. Across 52 standard tasks and 18 configurations from five model families, the optimal purchase rate is 78.6% when guidance mechanisms are disabled, dropping to 17.3% when all are enabled, with a reference degradation of 61.3 percentage points; CAVEAT-Hard expands the catalog to 2,112 products and 88 pages of results, with GPT-5.6-Sol-high dropping from 90.0% to 0.0%, stopping on page 1 in all 50 attempts. Trajectory analysis and ablations attribute failures to three categories: prematurely ending search, user-unstated preference ordering (preferences mentioned earlier in the request are treated as priorities), and placing orders before confirming key facts such as price. The researchers also used synthetic environment trajectories for two-stage post-training of Qwen3.5-27B to obtain CAVEAT-27B, achieving 22.9% on 16 held-out tasks when paired with Harness.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "When the online environment in which computer-use agents operate has its own preferences (e.g., sponsored rankings and promotional frameworks on e-commerce platforms), can agents still adhere to user goals without suffering explicit malicious injection?",
+          "label": "Questions"
+        },
+        {
+          "text": "They build CAVEAT, a benchmark containing 9 high-fidelity market environments and 8 steering mechanisms, and evaluate the decline in optimal purchase rate through paired comparisons. For the three types of decision defects diagnosed, they propose CAVEAT-Harness, an inference-time verification scaffold, and combine it with on-policy imitation training to open-source the model CAVEAT-27B.",
+          "label": "Methods"
+        },
+        {
+          "text": "The optimal purchase rate of the 5 model families on CAVEAT-Standard dropped from 78.6% in the control group to 17.3% in the steering group; CAVEAT-Harness improved GPT-5.6-Terra on CAVEAT-Shop from 11.7% to 66.7%.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The experiments mainly focused on CAVEAT-Shop and a few CAVEAT-Stay tasks; some diagnostics relied on dozens of trials; the all-on setting is a controlled stress test; it does not cover finance, recruitment, or dynamically adaptive environments; the Harness increases the number of interaction steps and time cost.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（Gemini 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.27273"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.27273",
       "aisafetyhot": "https://aisafetyhot.com/en/items/nx7ncszhbljvtw2hubpgldz36"
@@ -362,9 +383,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 39,
-      "translated": 13,
-      "pending": 26,
-      "status": "partial"
+      "translated": 39,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -1107,9 +1128,30 @@
     "id": "qr3pkgdkdbcsbd7t53o2u1doz",
     "arxivId": "2610.08144",
     "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
-    "titleEn": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "New paper says Lean verification cannot endorse OpenAI's Navier-Stokes natural language proof",
+    "summary": "Researchers from the University of Cambridge and King's College London published a paper arguing that automated formalization in AI cannot guarantee semantic fidelity, so Lean's formal verification of OpenAI's claimed proof of the blow-up of solutions to the Navier-Stokes equations cannot prove the correctness of the natural language proof. The authors point out that the difficulty required to resolve ambiguity in mathematical natural language is infinite in the Solvability Complexity Index (SCI) hierarchy, harder than the halting problem (SCI=1), and provide multiple instances where AI mistranslates natural language statements and proofs into Lean. In OpenAI's Navier-Stokes proof, the Lean formalization does not correspond to the natural language paper: the estimate in Lemma 8.6 of the paper uses derivatives of order m+4, while the corresponding Lean theorem norm_derivativeWord_inverse_le uses derivatives of order m+5, with a weaker conclusion; the bound and proof approach for the pressure flux estimate (10.19) also differ from the Lean version.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Autoformalisation is increasingly used to verify natural-language mathematical proofs, but compilation passing in a formal system (such as Lean) does not guarantee that the original natural-language proof is correct; AI may generate semantically unfaithful translations or prove a different proposition.",
+          "label": "Questions"
+        },
+        {
+          "text": "It distinguishes two types of autoformalisation tasks, pointing out that aiming only at Lean compilation passing leads to semantic distortion; it proves through Hilbert's tenth problem that mathematical ambiguity resolution is infinite on the SCI hierarchy (harder than the halting problem); combined with practical cases such as OpenAI's Navier-Stokes equations, it shows the disconnection between natural language and formalised proofs.",
+          "label": "Methods"
+        },
+        {
+          "text": "Two specific inconsistencies are identified in OpenAI's formalization of the Navier-Stokes equations: in Lemma 8.6, the natural language requires derivatives of order m+4 while the Lean formalization requires derivatives of order m+5; in equation (10.19), the formalization introduces a gradient term AR not present in the natural language, and the proof strategy differs substantially.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "Limitations and coverage are limited to what the paper explicitly discusses: the paper does not perform a detailed item-by-item manual comparison of the automated formalization of the Euler equation similar to that for the Navier-Stokes equation; the theoretical complexity result (SCI = ∞) is based on Hilbert's tenth problem and theoretical constructions with presupposed resolutions; no quantitative benchmark tests or statistical tests are provided; no specific query counts or time costs are reported.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（Gemini 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.08144"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2610.08144",
       "aisafetyhot": "https://aisafetyhot.com/en/items/qr3pkgdkdbcsbd7t53o2u1doz"
@@ -1121,9 +1163,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 36,
-      "translated": 13,
-      "pending": 23,
-      "status": "partial"
+      "translated": 36,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -2087,8 +2129,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 10,
-      "pending": 27,
+      "translated": 11,
+      "pending": 26,
       "status": "partial"
     }
   },
@@ -2340,8 +2382,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 36,
-      "translated": 10,
-      "pending": 26,
+      "translated": 11,
+      "pending": 25,
       "status": "partial"
     }
   },
@@ -2487,9 +2529,30 @@
     "id": "o3bpees55u4cl4ol77dcnc8yr",
     "arxivId": "2609.01491",
     "title": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
-    "titleEn": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
-    "summary": null,
-    "quickRead": null,
+    "titleEn": "GlossoGen: Spontaneously Emergent Language in Multi-Agent LLM Interactions",
+    "summary": "The researchers proposed the GlossoGen platform to study language evolution among multiple LLM agents in complex scenarios and built the SaveVeyru scenario, which requires agents with incomplete information to communicate under pressure. The experiments found that language evolution does occur among LLM agents, and the evolved languages exhibit compositionality and morphological productivity, deviating from the LLMs' English prior and being incomprehensible to humans. The study identified several conditions that drive evolution: efficiency pressure, the strength of the models supporting the agents, and a postmortem phase where agents agree on language conventions. The conditions for language transmission to new agents differ: agents can learn a new language simply through use and play an active role in the process; the emergence of a new language requires stronger models, but once a language emerges, weaker models can also learn it. The authors argue that current LLMs have the potential for cumulative cultural evolution, and mixed agent populations can develop capabilities beyond their lowest common level.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "Goal-oriented multi-agent systems both act and communicate. If communication deviates from English, external observers may be unable to monitor it. The authors aim to determine whether language evolves in complex tasks, which conditions it depends on, and whether it can be transferred to new agents.",
+          "label": "Questions"
+        },
+        {
+          "text": "SaveVeyru turns communication into a task prerequisite: observers see only symptoms, experts see only the changing disposition mapping each round, and the link is timed by character. Inter-round postmortems are not budget-limited. When transferring, a new Field Observer who cannot see that discussion is swapped in.",
+          "label": "Methods"
+        },
+        {
+          "text": "For proprietary models under high pressure with postmortem, average perplexity was 1700; at maximum budget without postmortem it was 320. 2000s success rate: proprietary models 92.1%, open-weight 30.8%; the latter was 0 at 150s. The longer the history, the higher the success rate after the swap.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "The paper does not specifically discuss limitations. The reported experiments are on SaveVeyru with five agent model types, 150s and 2000s main budgets, and Field Observer exchange. The paper does not report per-proprietary-model average success rates for each budget and postmortem combination.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2609.01491"
+    },
     "links": {
       "paper": "https://arxiv.org/abs/2609.01491",
       "aisafetyhot": "https://aisafetyhot.com/en/items/o3bpees55u4cl4ol77dcnc8yr"
@@ -2501,9 +2564,9 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 13,
-      "pending": 24,
-      "status": "partial"
+      "translated": 37,
+      "pending": 0,
+      "status": "complete"
     }
   },
   {
@@ -2570,8 +2633,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 38,
-      "translated": 10,
-      "pending": 28,
+      "translated": 11,
+      "pending": 27,
       "status": "partial"
     }
   },
@@ -2800,8 +2863,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
-      "translated": 10,
-      "pending": 27,
+      "translated": 11,
+      "pending": 26,
       "status": "partial"
     }
   },
@@ -2984,8 +3047,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 36,
-      "translated": 10,
-      "pending": 26,
+      "translated": 11,
+      "pending": 25,
       "status": "partial"
     }
   },
@@ -3674,8 +3737,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 34,
-      "translated": 9,
-      "pending": 25,
+      "translated": 10,
+      "pending": 24,
       "status": "partial"
     }
   },

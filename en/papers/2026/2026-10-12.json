@@ -3,7 +3,7 @@
     "id": "gy798xve19ex60mr8j4qvowpm",
     "arxivId": "2602.04653",
     "title": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
-    "titleEn": "Inference-time backdoor via chat template: from LLM supply chain to agent system compromise",
+    "titleEn": "Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise",
     "summary": null,
     "quickRead": null,
     "links": {
@@ -16,10 +16,10 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 11,
-      "translated": 11,
-      "pending": 0,
-      "status": "complete"
+      "total": 38,
+      "translated": 13,
+      "pending": 25,
+      "status": "partial"
     }
   },
   {

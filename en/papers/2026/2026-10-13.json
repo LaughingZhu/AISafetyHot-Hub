@@ -1,5 +1,28 @@
 [
   {
+    "id": "g41oquz8uidt122wn8ebwr16l",
+    "arxivId": "2610.13651",
+    "title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+    "titleEn": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13651",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/g41oquz8uidt122wn8ebwr16l"
+    },
+    "publishedAt": "2026-10-09T14:27:32.000Z",
+    "timelineAt": "2026-10-12T21:33:08.797Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 3,
+      "translated": 2,
+      "pending": 1,
+      "status": "partial"
+    }
+  },
+  {
     "id": "jkdr3b65srerohpjkboh4bdb3",
     "arxivId": "2610.11069",
     "title": "Clinician use of language models diverges from how the models are evaluated",
@@ -16,9 +39,9 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 3,
-      "translated": 2,
-      "pending": 1,
+      "total": 11,
+      "translated": 6,
+      "pending": 5,
       "status": "partial"
     }
   }

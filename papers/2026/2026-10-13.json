@@ -1,5 +1,23 @@
 [
   {
+    "arxivId": "2610.13651",
+    "title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+    "titleZh": "ToFu：利用与模糊测试 LLM 编排器与工具之间的信任边界",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13651",
+      "aisafetyhot": "https://aisafetyhot.com/items/g41oquz8uidt122wn8ebwr16l"
+    },
+    "publishedAt": "2026-10-09T14:27:32.000Z",
+    "timelineAt": "2026-10-12T21:33:08.797Z",
+    "discoveredAt": "2026-10-12T21:33:08.797Z"
+  },
+  {
     "arxivId": "2610.11069",
     "title": "Clinician use of language models diverges from how the models are evaluated",
     "titleZh": "临床医生使用语言模型的方式与模型的评测方式存在偏差",

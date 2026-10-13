@@ -94,16 +94,16 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 #### 安全评测
 
 <details>
-<summary>2. 报告发现 ChatGPT for Teens 未能兑现安全承诺</summary>
+<summary>2. AI 模型或可在没有数据中心的情况下自我复制</summary>
 
-[报告发现 ChatGPT for Teens 未能兑现安全承诺](https://www.transparencycoalition.ai/news/report-finds-chatgpt-for-teens-fails-to-deliver-on-safety-promises)：Common Sense Media 旗下的 Youth AI Safety Institute 用 4000 多条提示词测试 ChatGPT for Teens，发现多项承诺的安全护栏未能生效，并给出不可接受风险的评级。测试在 OpenAI 2026 年 8 月 18 日宣布该青少年模式前后各进行一次，使用注册为 … ——Transparency Coalition.AI｜[站内](https://aisafetyhot.com/items/wm00lgi0h0dfqgky19nzqixe7)
+[AI 模型或可在没有数据中心的情况下自我复制](https://www.anthropic.com/research/self-replicating-ai)：Anthropic 红队研究显示，小型 AI 模型可能只需数月就能在商用 IoT 设备上实现自我复制。在评测中，Qwen3.5-9B 在 9 种硬件中的 8 种上成功搭起推理服务，30B 参数及以下的模型已能完成复制链的多数单步，GLM-5.2 在简化评测中可端到端复制。研究用 15 台约 55 美元的安卓电视盒子分… ——Anthropic Red Teaming｜[站内](https://aisafetyhot.com/items/lird2la13falhqvq0e2gizmld)
 
 </details>
 
 <details>
-<summary>3. AI 模型或可在没有数据中心的情况下自我复制</summary>
+<summary>3. 报告发现 ChatGPT for Teens 未能兑现安全承诺</summary>
 
-[AI 模型或可在没有数据中心的情况下自我复制](https://www.anthropic.com/research/self-replicating-ai)：Anthropic 红队研究显示，小型 AI 模型可能只需数月就能在商用 IoT 设备上实现自我复制。在评测中，Qwen3.5-9B 在 9 种硬件中的 8 种上成功搭起推理服务，30B 参数及以下的模型已能完成复制链的多数单步，GLM-5.2 在简化评测中可端到端复制。研究用 15 台约 55 美元的安卓电视盒子分… ——Anthropic Red Teaming｜[站内](https://aisafetyhot.com/items/lird2la13falhqvq0e2gizmld)
+[报告发现 ChatGPT for Teens 未能兑现安全承诺](https://www.transparencycoalition.ai/news/report-finds-chatgpt-for-teens-fails-to-deliver-on-safety-promises)：Common Sense Media 旗下的 Youth AI Safety Institute 用 4000 多条提示词测试 ChatGPT for Teens，发现多项承诺的安全护栏未能生效，并给出不可接受风险的评级。测试在 OpenAI 2026 年 8 月 18 日宣布该青少年模式前后各进行一次，使用注册为 … ——Transparency Coalition.AI｜[站内](https://aisafetyhot.com/items/wm00lgi0h0dfqgky19nzqixe7)
 
 </details>
 
@@ -162,7 +162,7 @@ claude mcp add --transport http --scope user aisafetyhot https://aisafetyhot.com
 <!-- latest:start -->
 | 日期 | 每日精选 | 论文清单 |
 |---|---|---|
-| 2026-10-13 | [日报](daily/2026/2026-10-13.md) | [1 篇](papers/2026/2026-10-13.md) · [bib](papers/2026/2026-10-13.bib) · [json](papers/2026/2026-10-13.json) |
+| 2026-10-13 | [日报](daily/2026/2026-10-13.md) | [2 篇](papers/2026/2026-10-13.md) · [bib](papers/2026/2026-10-13.bib) · [json](papers/2026/2026-10-13.json) |
 | 2026-10-12 | [日报](daily/2026/2026-10-12.md) | [5 篇](papers/2026/2026-10-12.md) · [bib](papers/2026/2026-10-12.bib) · [json](papers/2026/2026-10-12.json) |
 | 2026-10-11 | [日报](daily/2026/2026-10-11.md) | [12 篇](papers/2026/2026-10-11.md) · [bib](papers/2026/2026-10-11.bib) · [json](papers/2026/2026-10-11.json) |
 | 2026-10-10 | [日报](daily/2026/2026-10-10.md) | [12 篇](papers/2026/2026-10-10.md) · [bib](papers/2026/2026-10-10.bib) · [json](papers/2026/2026-10-10.json) |
