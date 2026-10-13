@@ -89,6 +89,8 @@ The existing publisher checks every 15 minutes. Digest bodies are primarily Chin
 
 ## Paper links and archives
 
+The website adds new papers and backfills earlier work, including the Promptfoo 2026 papers. Browse and search the complete [Paper library](https://aisafetyhot.com/en/papers). Counts in the Hub archive table refer to exported paper entries, not every paper added to the website that day; bulk imports are not listed in full here.
+
 From **2026-10-12**, daily exports contain up to 5 selected paper titles, original dates and links in Markdown, BibTeX and JSON. Paper summaries, quick reads and detailed commentary are no longer automatically exported. Files use the Beijing ingestion day; original publication dates are recorded separately.
 
 Previously published archives remain available. Changing an API cannot recall copies already downloaded. Export reconciliation covers the selected link set; other papers remain readable on the website.
