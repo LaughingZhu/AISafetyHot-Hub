@@ -1,29 +1,27 @@
 {
   "note": "days 是网站上每天（北京时间，按 timelineAt 分天）进站、判定为 AI 安全的论文：信源为 arXiv、Hugging Face Daily Papers 和论文追踪，同一篇 arXiv 论文一天只算一次（arXiv 编号取网站 /api/site/items/<id> 的 links.original；留哪一条：精选优先，再按网站的 score 高，非精选也按 score，再按 timelineAt 早，最后按 id 字典序）。ids 是网站条目 id（网站上的 /items/<id>），按字典序排列；idsSha256 是排好的 ids 用换行连起来（末尾不加换行）的 SHA-256。自 2026-10-12 起，days 仅涵盖每天最多 5 篇精选论文题录链接，不含摘要和速读；此前归档保留。导出集合中的论文在网站上出现以后（从第一次能在网站上看到算起，不是 timelineAt），slaMinutes 分钟内应出现在 papers/<年>/<日期>.json。这个文件只在内容变化时随那次提交更新；generatedAt 是那次生成的时间，siteFetchedAt 是读网站接口的时间。",
-  "generatedAt": "2026-10-13T13:43:33.260Z",
-  "siteFetchedAt": "2026-10-13T13:41:59.381Z",
+  "generatedAt": "2026-10-13T16:13:05.248Z",
+  "siteFetchedAt": "2026-10-13T16:12:54.383Z",
   "slaMinutes": 60,
   "days": {
+    "2026-10-14": {
+      "count": 0,
+      "idsSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ids": []
+    },
     "2026-10-13": {
-      "count": 5,
-      "idsSha256": "b3e7db2124a649c266cd1bd3f746305d486550d16b952cc622479334677f2c0a",
-      "ids": [
-        "et5aips3hnx63jzbaft4m4950",
-        "g41oquz8uidt122wn8ebwr16l",
-        "jkdr3b65srerohpjkboh4bdb3",
-        "qfxn186p854ge8ox9bk8nvhjl",
-        "qg6jfnzpzs1ssi6bd8fezfizc"
-      ]
+      "count": 0,
+      "idsSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ids": []
     },
     "2026-10-12": {
-      "count": 5,
-      "idsSha256": "88c1b19b4f1bf5c569f112801df588c6b1e4b5d4ffe67546da55fcef2f41e116",
+      "count": 4,
+      "idsSha256": "ecba5d96591d95c31ade080d25c1829ab4d40647295c944346f8e32100cc85b0",
       "ids": [
-        "g34dcq6ycbnrvmtkxleiv79fh",
-        "gy798xve19ex60mr8j4qvowpm",
-        "kaj51xr9gd4xsdfnygspxp8lv",
-        "p4yuobfd86ajcvnud78u1q1gw",
-        "po16jbxyvycytjig1k4mf49v6"
+        "bqcbopsp8rxbzxw1vvyobhvjl",
+        "ngs1rpgpljhzssb4ikg888r5n",
+        "vtpar3orzqz8yb8570auepxet",
+        "ylmaojlfv5xtuhigjqo7pdgtj"
       ]
     },
     "2026-10-11": {
@@ -45,20 +43,17 @@
       ]
     },
     "2026-10-10": {
-      "count": 12,
-      "idsSha256": "66e68ab48cdbb3fdcf28277855fc08a2a0b782ceb8b8df5a2a4c44c85b8ffb1f",
+      "count": 9,
+      "idsSha256": "2d450018ec965bf71a58735d1a36d88eaea4d3ea933b5872291c8697a2bd55e7",
       "ids": [
-        "a96zojasssfyepiv1oigbpqb5",
         "d4pxfhyhnqsfgy3qgltwlqu7h",
-        "exzp15zm6i2zfalgju2km6c5s",
+        "d9mkvhcgpxmelgwjo2u0g2wc0",
         "fw1b4bwqs4596pq2vfdhzvbro",
+        "hs7x9nwt4upy3dgns638977ox",
+        "j60gmjz75xb72a7mwwidy8yh0",
         "lqvgsrfg28ywli6ha5m9f9jgx",
-        "lytkh18wwq0isocm0bhktp3ov",
-        "mek7qa97peombxtebbf9oum6y",
         "of8dpno9hcfswb26ubo3vxvru",
         "raqu6wbr4ibd0qgtyms0zxvhc",
-        "tf5cngqw2nj2565sglybbbtm9",
-        "xe661qjmzmcayim2zacw6ut0k",
         "yki8yqjjiaieuzbpms9t04f37"
       ]
     },
@@ -1611,51 +1606,6 @@
         "zrbgwn1ou6fakv7y83x9qgvwv",
         "ztvqnyk4dqkztwge94s8460xt",
         "zxg0k2ipsqkna0dgzrixgfs2w"
-      ]
-    },
-    "2026-09-30": {
-      "count": 39,
-      "idsSha256": "6d52f1719f3fb9546223b6d458d081538560400802ac03de6927b2d10dd28478",
-      "ids": [
-        "durer2ruqye9pk0zc2mxkt1zh",
-        "ek6oug2t9k1nt3tce34h29x7q",
-        "eo6qo9am6a95501xpihitoozd",
-        "g2t4kyrapvri59x4ahc88s9nb",
-        "g69w3sostyxhu6cl3ewzsxa5s",
-        "ggbym6yopvducgtv2x9l18f3e",
-        "hbirpxa1p6x58vspypu9640p4",
-        "hgcr43lrtuog10s6hl3cx54i8",
-        "hpkcouztk6hqpqd9u3cqu40eq",
-        "hsp6dka1v3ypv4hyndakrv5as",
-        "hx85px9d5b7pdhm3t2a12zkjj",
-        "i667ggqip52qarbmlvh3wcyz5",
-        "id093aj5wsoat5paj6pcwft0z",
-        "j3caqvk0865mqa1c44zbw3vr6",
-        "jgu7fy6z1h5m3qgx8w1p9x11s",
-        "jlw4ebysmtl679kxg4a5fafds",
-        "k3mokpi125jxfo84tc53hm9q9",
-        "lau8f77gp2yp5wio2xiepy77k",
-        "me71kmzogmcyvrzo08i90at2n",
-        "mp67keehjqbd3a83jknezeief",
-        "ol8z9qssbwps21p9dscethdy5",
-        "p2gqtvkitoic5gryn0d42r9sd",
-        "p6gfkhhksdlnsxt9lis4eb7s7",
-        "p9f9h6zr6319mccjjg6hqpecb",
-        "pqq8xs44z3m7mv8qdre4i034n",
-        "qhmfncwdotqkegs78yteuivoj",
-        "qjekdcchi8y9ecdi148n950iz",
-        "r3krurr4crgc48af5gphmgiq9",
-        "ryw8oxnttnz0994x3i5pumw86",
-        "slws2ums8w3hszdvsj8tew2v6",
-        "svlm8n8hcok2jcucd4ydonjz6",
-        "tpsrnpllugzex2kte4rf0y9ft",
-        "v1l72aeiv1iizm7xyqs1eo598",
-        "vud6cephor7woeaxatkzeziyo",
-        "xqt8mobp6vx9vvzpd5a26sf2s",
-        "yap8s41eixg4x47ocb763vygd",
-        "z2f5v288oo4gwk6m9rj3yi5fu",
-        "zywsg1tm6f1stkmmvx20yv95i",
-        "zyzy97m2q1ya9ocgbqmf5tvdj"
       ]
     }
   }

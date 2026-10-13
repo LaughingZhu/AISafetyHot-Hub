@@ -46,117 +46,6 @@
     }
   },
   {
-    "id": "tf5cngqw2nj2565sglybbbtm9",
-    "arxivId": "2610.10422",
-    "title": "研究：在线 RL 行为归因信号可能被梯度大小与流畅度混淆",
-    "titleEn": "Study: online RL behavior attribution signals may be confounded by gradient magnitude and fluency",
-    "summary": "A paper studies whether behavior attribution is trustworthy on GRPO online RL fine-tuning, using controlled experiments with behaviors of known cause, and releases an open-source evaluation framework, BehaviorTrace. Across three random seeds on Qwen2.5-1.5B, a substantial portion of attribution signal comes from confounds: a control method that ranks training steps only by gradient magnitude with no behavior target reaches 4.2 to 4.5 times random level, and matches or exceeds the best directed estimator on two of three seeds. At saturated checkpoints, model fluency predicts behavior labels no worse than any compared gradient method; after controlling for fluency, per-rollout results vary across seeds and across generation samples, so a single run is inconclusive. The authors state the only signal that holds across all three seeds is alignment of the trigger token's gradient with a target constructed at the location where the behavior actually occurs. The paper tests existing methods including GAS (renormalized TracInCP) and TRAK-style estimators, proposes no new estimator, and organizes the conclusions into a checklist for evaluating RL attribution.",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "Online RL may teach behaviors that were not requested, but gradient attribution has mostly been validated only in static supervised settings; whether it can localize the rollout responsible for the behavior is unclear.",
-          "label": "Questions"
-        },
-        {
-          "text": "BehaviorTrace implants an early bonus on GRPO for Qwen2.5-1.5B-Instruct, and compares GAS, TRAK-style, TracInCP against gradient norm and fluency controls using a full-gradient CountSketch.",
-          "label": "Methods"
-        },
-        {
-          "text": "Across three seeds, the untargeted gradient magnitude ranking reaches the abstract's claimed 4.2 to 4.5 times random and is not lower than directed estimators on two seeds. The authors state that within the training window, all methods fall near baseline rates. After controlling for fluency, which of direction or magnitude is higher flips across seeds. Trigger token gradients and in-context targets align across three seeds.",
-          "label": "Experiments and results"
-        },
-        {
-          "text": "The authors limit to Qwen2.5 up to 1.5B, GRPO only, newly generated sibling samples at step 100, and fluency control at the rollout level only for GAS. The behavior is reinforced by RL from a 10-example SFT seed; whether a behavior spread across the whole answer still has a token-level signal is called an open question by the authors.",
-          "label": "Limitations and future work"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.10422"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.10422",
-      "aisafetyhot": "https://aisafetyhot.com/en/items/tf5cngqw2nj2565sglybbbtm9"
-    },
-    "publishedAt": "2026-10-07T17:01:37.000Z",
-    "timelineAt": "2026-10-10T06:04:17.391Z",
-    "translation": {
-      "locale": "en",
-      "scope": "editorial_prose",
-      "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 36,
-      "translated": 36,
-      "pending": 0,
-      "status": "complete"
-    }
-  },
-  {
-    "id": "xe661qjmzmcayim2zacw6ut0k",
-    "arxivId": "2610.11599",
-    "title": "Large Language Model Turnover Undermines Screening for Artificial Intelligence-Assisted Scientific Writing",
-    "titleEn": "Large Language Model Turnover Undermines Screening for Artificial Intelligence-Assisted Scientific Writing",
-    "summary": null,
-    "quickRead": null,
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.11599",
-      "aisafetyhot": "https://aisafetyhot.com/en/items/xe661qjmzmcayim2zacw6ut0k"
-    },
-    "publishedAt": "2026-10-08T09:44:08.000Z",
-    "timelineAt": "2026-10-10T11:06:47.151Z",
-    "translation": {
-      "locale": "en",
-      "scope": "editorial_prose",
-      "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 36,
-      "translated": 35,
-      "pending": 1,
-      "status": "partial"
-    }
-  },
-  {
-    "id": "exzp15zm6i2zfalgju2km6c5s",
-    "arxivId": "2610.07309",
-    "title": "论文提出长期记忆智能体的检索可允许性验证框架",
-    "titleEn": "The paper proposes a retrieval admissibility verification framework for long-term memory agents.",
-    "summary": "The paper proposes a retrieval admissibility verification framework that labels each memory-query pair as admissible, inadmissible, or undecided, and compares different retrieval paths under matched required-evidence recall while tracking memory ID flow in prompt exposure. The authors conduct a post-hoc top-20 reanalysis of frozen rankings on two public long-term memory benchmarks, RHELM and MemOps, covering 3,767 queries: all published anchors fall within the trusted query namespace, filtering out-of-namespace content does not lower their rank when in-namespace scores are unchanged, top-20 anchor recall rises from 0.432 to 0.533, 80% recall feasibility rises from 0.237 to 0.311, and exact similarity evaluations decrease by 98.3%. In 72 frozen development diagnostics, a reference scheme based on published metadata preserves required evidence, while two text-based verifiers fail to detect violations under a 1% required-anchor false-rejection limit. The authors observe only one 95% confidence interval not containing zero among four readers across 16 controlled exposure scenarios.",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "Long-term memory agents can retrieve records that are topically relevant but belong to other subjects, violate policy, or are incompatible with the lifecycle. Recall and answer accuracy do not reveal whether the record can enter the current prompt.",
-          "label": "Questions"
-        },
-        {
-          "text": "The authors label memory-query pairs as admissible, inadmissible, or undecided, compare paths at the recall of matched required evidence, provide bounds for undecided labels, and then track prompt exposure and answer disclosure by memory ID. Support, eligibility, and exposure are verified by subpopulation.",
-          "label": "Methods"
-        },
-        {
-          "text": "Across 3,767 queries, namespace top-20 recall goes from 0.432 to 0.533. On 1,523 examples, three readers' accuracy gains are 0.053–0.068, which the authors state are observational. Across 16 scenarios, only DeepSeek V4 Pro's inadmissible disclosure interval excludes 0.",
-          "label": "Experiments and results"
-        },
-        {
-          "text": "The authors state the evidence covers only two public sources and seven RHELM groups, the namespace is a trusted label rather than inferred, and frozen-route comparisons are associational. Experiments include 3,767 queries, 1,523 paired examples, 72 fixed-candidate analyses, and a 200-output alternative-judge audit.",
-          "label": "Limitations and future work"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.07309"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.07309",
-      "aisafetyhot": "https://aisafetyhot.com/en/items/exzp15zm6i2zfalgju2km6c5s"
-    },
-    "publishedAt": "2026-10-05T19:47:43.000Z",
-    "timelineAt": "2026-10-10T03:02:54.107Z",
-    "translation": {
-      "locale": "en",
-      "scope": "editorial_prose",
-      "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 37,
-      "translated": 37,
-      "pending": 0,
-      "status": "complete"
-    }
-  },
-  {
     "id": "of8dpno9hcfswb26ubo3vxvru",
     "arxivId": "2610.04888",
     "title": "研究：事实核查评测可能混入声明时不可知的未来证据",
@@ -201,127 +90,39 @@
     }
   },
   {
-    "id": "mek7qa97peombxtebbf9oum6y",
-    "arxivId": "2610.09167",
-    "title": "Persist-3 用顺序检验识别未见越狱来源，提升 MTK 与 Prompt Guard 2 防御效果",
-    "titleEn": "Persist-3 uses sequential testing to identify unseen jailbreak sources, improving the defense effectiveness of MTK and Prompt Guard 2",
-    "summary": "The paper proposes Persist-3 to determine, from a stream of attack prompts, whether they come from a source outside the known attack sources. The method computes a conformal p-value for each known source and rejects the null hypothesis only when the evidence against all known sources is strong enough. Theoretical analysis shows that its detection probability approaches 1 exponentially as the observation window grows, so a shorter window suffices to detect unseen sources that are clearly distinguishable from known ones. The authors validate Persist-3 on top of two recent jailbreak defenses, MTK and Prompt Guard 2, and observe a significant enhancement in defense effectiveness.",
+    "id": "hs7x9nwt4upy3dgns638977ox",
+    "arxivId": "2610.13912",
+    "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+    "titleEn": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+    "summary": "The paper proposes RSI-Anything, a domain-general framework built on JEPA-Anything, which uses predictive world models to guide action and training data selection for recursive self-improvement; observed feedback drives policy or workflow improvements and conditional world model adaptation, while component and compatibility checks determine whether to retain the updated policy-model combination. In code repair tasks, with a fixed coder, the success rate improves from 26.3% with a static verifier to 29.2% with predictive selection, reaching 31.2% after world model adaptation, with comparable test usage. In GUI evaluation, task completion rates are higher, with average action count reduced by 39.4%; laboratory planning scores more than double from 21.80% to 46.01% across five consecutive policy versions. In reaction optimization, under the same budget of 40 experiments, RSI-Anything achieves an average optimal yield of 96.15%, compared to 82.16% for Bayesian optimization. The paper also presents an end-to-end immunology application, connecting workflow evolution and predictive modeling to therapeutic hypothesis generation.",
     "quickRead": {
       "parts": [
         {
-          "text": "Jailbreak defenses are usually calibrated on fixed known attack methods, and existing detectors degrade when new methods appear. The authors ask: looking only at the representation stream before the victim model returns a response, how can one tell that the current attack does not belong to any known source, and how does the degree of separation determine detection speed? Switches between known sources should not count as targets.",
+          "text": "Recursive self-improvement requires one round of interaction experience to improve the next round's actions and learning, and the updates must be retained. External feedback requires executing the candidate before the consequences are known, and the budget is limited; policy updates also change the candidate distribution the world model faces.",
           "label": "Questions"
         },
         {
-          "text": "For each known source, compute a Mahalanobis score and a split conformal p-value. Persist-3 averages over the recent W=10 per source, then takes the minimum, and requires L=3 consecutive threshold crossings, so it depends only on the last 12 observations. Thresholds use only known-source validation streams. After alarm, escalate the stream on the unmodified guardrail.",
+          "text": "RSI-Anything uses the world model from JEPA-Anything to score candidates and decide who gets external evaluation. Feedback drives policy or workflow updates, and adapts the world model when reliability, data, and budget allow; component checks and compatibility checks decide which pair is kept.",
           "label": "Methods"
         },
         {
-          "text": "At H=1000, Persist-3's KU detection rate is 0.458, SR-DKW full is 0.648, and stationary FPR is 0/1835 for both (Table 1). Layered on MTK or PG2, the authors state block rate increases by 7.0 to 10.0 percentage points (Table 2).",
+          "text": "With the coder fixed, CodeContests hidden-test all-pass rates go from 26.3% to 31.2% (static verifier to world-model adaptation). Five versions of 4B F200 Level-2 go from 21.80% to 46.01%. Across 40 streaming experiments, the average best yield is 96.15%, versus 82.16% for the control.",
           "label": "Experiments and results"
         },
         {
-          "text": "The authors list asymptotic analysis under more online data as a future direction, and state explicitly that fully adaptive attackers are not covered by the theorems or stress tests. Empirically, there is no registration after verified alarms; stratified comparisons are not budget-matched. Replay is not compared with the stream-level defenses of Piet et al. (2025).",
+          "text": "The authors say that joint multi-round evaluation of the policy and world model within the same task is still needed; the lab results evaluate protocol-aligned planning, and the treatment hypothesis awaits experimental testing. The code fix keeps the coder fixed, and OSWorld does not report absolute success rates.",
           "label": "Limitations and future work"
         }
       ],
       "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.09167"
+      "sourceUrl": "https://arxiv.org/abs/2610.13912"
     },
     "links": {
-      "paper": "https://arxiv.org/abs/2610.09167",
-      "aisafetyhot": "https://aisafetyhot.com/en/items/mek7qa97peombxtebbf9oum6y"
+      "paper": "https://arxiv.org/abs/2610.13912",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/hs7x9nwt4upy3dgns638977ox"
     },
-    "publishedAt": "2026-10-06T22:10:21.000Z",
-    "timelineAt": "2026-10-10T02:10:58.784Z",
-    "translation": {
-      "locale": "en",
-      "scope": "editorial_prose",
-      "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 38,
-      "translated": 38,
-      "pending": 0,
-      "status": "complete"
-    }
-  },
-  {
-    "id": "a96zojasssfyepiv1oigbpqb5",
-    "arxivId": "2610.10833",
-    "title": "研究：Agent 准时停机不等于有效使用时间预算",
-    "titleEn": "Research: An agent stopping on time does not equal productive use of its time budget",
-    "summary": "The paper studies whether small LLM agents can both adhere to a runtime and allocate time productively under an explicit wall-clock budget; it evaluates Qwen3.6-27B on five tasks from MLE-Bench Lite and Qwen3-4B on Zork I (Jericho). When the budget is written only into the prompt, the agent cannot convert the budget into controlled time use, due to a lack of time perception, difficulty in estimating action durations, and no learned mapping from available time to policy. The authors test two types of intervention: exposing time information via a harness and enforcing deadlines, and reinforcement learning with budget-aware rewards. Harness-injected time information significantly improves budget adherence for Qwen3.6-27B without a measurable performance loss; enforcement hooks further improve adherence; GRPO reinforcement learning attains near-perfect budget adherence on Zork I and generalizes to budgets unseen during training, but it does not improve task performance on MLE-Bench.",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "Agents need to return within an explicit wall-clock budget and, on search-type tasks, trade more time for better solutions. The authors divide the requirement into adherence (returning on time) and productive use (more time improving results). When only written in the prompt, the model has no timing feedback and cannot reliably estimate action durations.",
-          "label": "Questions"
-        },
-        {
-          "text": "Across five MLE-Bench (Qwen3.6-27B) and Zork I (Qwen3-4B), compare prompt budgets, clock harnesses that can truncate or refuse timed-out commands, and GRPO. Zork's reward adds a time term to the score, and exceeding 1.1x the budget can zero the entire segment.",
-          "label": "Methods"
-        },
-        {
-          "text": "Table 2: Qwen3.6-27B, 15 minutes, prompt-only on-time rate 15%, refuse 88%, clock time used 99.7% of budget. Qwen3-4B, RL+Auto-Clock, 16 seconds at 46.4/350. The authors say it will stop, but adding time did not improve scores.",
-          "label": "Experiments and results"
-        },
-        {
-          "text": "The authors note that policy collapse, memorization, and evaluation scope remain open, and suggest exploring reward and environment changes. Experiments are five MLE-Bench tasks (Qwen3.6-27B) and Zork I; Table 6 has n=16 per cell. The paper does not report the number of episodes for Table 2.",
-          "label": "Limitations and future work"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.10833"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.10833",
-      "aisafetyhot": "https://aisafetyhot.com/en/items/a96zojasssfyepiv1oigbpqb5"
-    },
-    "publishedAt": "2026-10-07T19:35:08.000Z",
-    "timelineAt": "2026-10-10T07:14:26.537Z",
-    "translation": {
-      "locale": "en",
-      "scope": "editorial_prose",
-      "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 37,
-      "translated": 37,
-      "pending": 0,
-      "status": "complete"
-    }
-  },
-  {
-    "id": "lytkh18wwq0isocm0bhktp3ov",
-    "arxivId": "2609.33987",
-    "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
-    "titleEn": "Opera: A Verbal Critic Framework for Long-Horizon Coding Agents",
-    "summary": "The researchers propose Opera, a verbal critic framework for long-horizon coding agents, that tracks each correction as a persistent note until the diagnosed problem is truly resolved. It decides when to review via periodic and event-driven triggers, diagnoses problems with typed operators, audits feedback against visible evidence before delivery, and tracks the agent's subsequent actions to distinguish superficial compliance from actual resolution. As a test-time critic, Opera improves the resolve rate of non-critic agents by up to 12.4, 15.0, and 8.9 percentage points on Terminal-Bench 2.1, a SWE-Bench Pro subset, and DeepSWE v1.1 respectively, across four policy models, and achieves the highest average resolve rate among competitive critic baselines on all three benchmarks, while also providing gains when the policy model self-criticizes. Code is open-sourced at https://github.com/dongyuanjushi/Opera。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "Long-horizon coding agents often repeat failures or report completion without verification, and feedback that misjudges incomplete work can be harmful. Existing critics rarely track whether the problem is actually resolved after feedback.",
-          "label": "Questions"
-        },
-        {
-          "text": "Opera turns each correction into a persistent note: periodic or five event types trigger review, nine contract-bearing operators diagnose only one issue each time, delivery only after admission audit passes, and tracks compliance and resolution separately.",
-          "label": "Methods"
-        },
-        {
-          "text": "Under GPT-5.6-Sol criticism, Qwen3.5-9B's resolve rate improves by 12.4 and 15.0 percentage points on TB2.1 and SWE-Pro. Table 1's DeepSWE gain is 8.9 percentage points. Qwen3.5-9B solves no tasks on DeepSWE.",
-          "label": "Experiments and results"
-        },
-        {
-          "text": "The conclusion states that training comes from single-model supervised fine-tuning and one out-of-domain benchmark, and future work could expand data, iterate with post-training models, or combine with reinforcement learning. Experiments include three benchmarks and four policy models; Table 1 does not state the number of repetitions.",
-          "label": "Limitations and future work"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2609.33987"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.33987",
-      "aisafetyhot": "https://aisafetyhot.com/en/items/lytkh18wwq0isocm0bhktp3ov"
-    },
-    "publishedAt": "2026-09-27T22:42:57.000Z",
-    "timelineAt": "2026-10-09T21:31:24.915Z",
+    "publishedAt": "2026-10-09T17:50:30.000Z",
+    "timelineAt": "2026-10-09T17:50:30.000Z",
     "translation": {
       "locale": "en",
       "scope": "editorial_prose",
@@ -372,6 +173,50 @@
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 37,
       "translated": 37,
+      "pending": 0,
+      "status": "complete"
+    }
+  },
+  {
+    "id": "j60gmjz75xb72a7mwwidy8yh0",
+    "arxivId": "2610.13889",
+    "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+    "titleEn": "RATED: Reliability-Aware Tool Retrieval for AI Agents via Execution Dynamics",
+    "summary": "RATED is a tool retrieval framework for AI agents that combines semantic matching with dynamic reliability adaptation, using a lightweight contextual bandit module to rerank candidates based on real-time execution feedback, adapting to runtime tool failures without retraining. On the EcoAgent benchmark with 5,172 real tools, its MRR improves by 52.2% relative to the ToolLLM API retriever, and under severe API failures with a 30% failure rate, the failure selection rate drops from 86.2% to 2.9%, with additional latency under 1 ms.",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "The agent must select tools from a growing tool library that remain usable at execution time. Existing retrieval mainly optimizes semantics; the authors claim that methods updating the planner with batch trajectories cannot change ranking between adjacent requests. The authors claim that over 50% of tools in four platform catalogs have broken links or lack authentication.",
+          "label": "Questions"
+        },
+        {
+          "text": "RATED uses a contrastively fine-tuned and frozen DRAGON dual encoder to take the top-10 by semantic score, then reranks with a per-tool discounted LinUCB based on binary feedback from single executions and a metadata prior. EcoAgent contains 5,172 tools, and synthetic queries are generated by Gemma-3-1b.",
+          "label": "Methods"
+        },
+        {
+          "text": "Under 30% failure injection, RATED's FSR is 2.9%, and ToolLLM's is 86.2%. On EcoAgent-Real, the authors report a 52.2% MRR improvement relative to ToolLLM, but 0.618 is lower than Ada-002's 0.670. The extra latency is 0.172 ms.",
+          "label": "Experiments and results"
+        },
+        {
+          "text": "Conclusion leaves cold-start evaluation of newly added tools and live agent runtime validation as future work. Experiments include EcoAgent offline retrieval, and dynamic selection under simulated persistent failures at 20% and 30%. The paper does not report the number of repetitions for the dynamic experiments.",
+          "label": "Limitations and future work"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.13889"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13889",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/j60gmjz75xb72a7mwwidy8yh0"
+    },
+    "publishedAt": "2026-10-09T17:38:11.000Z",
+    "timelineAt": "2026-10-09T17:38:11.000Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 35,
+      "translated": 35,
       "pending": 0,
       "status": "complete"
     }
@@ -440,6 +285,29 @@
       "total": 37,
       "translated": 35,
       "pending": 2,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "d9mkvhcgpxmelgwjo2u0g2wc0",
+    "arxivId": "2610.13810",
+    "title": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
+    "titleEn": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13810",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/d9mkvhcgpxmelgwjo2u0g2wc0"
+    },
+    "publishedAt": "2026-10-09T16:22:16.000Z",
+    "timelineAt": "2026-10-09T16:22:16.000Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 14,
+      "pending": 22,
       "status": "partial"
     }
   }

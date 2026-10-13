@@ -78,125 +78,6 @@
     "discoveredAt": "2026-10-09T23:01:43.997Z"
   },
   {
-    "arxivId": "2610.10422",
-    "title": "研究：在线 RL 行为归因信号可能被梯度大小与流畅度混淆",
-    "titleZh": "研究：在线 RL 行为归因信号可能被梯度大小与流畅度混淆",
-    "authors": [],
-    "category": "alignment",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "一篇论文在 GRPO 在线 RL 微调上研究行为归因是否可信，用植入已知成因的行为做受控实验，并发布开源评测框架 BehaviorTrace。在 Qwen2.5-1.5B 的三个随机种子上，相当一部分归因信号来自混淆因素：仅按梯度大小对训练步骤排序、不设行为目标的对照方法达到随机水平的 4.2 至 4.5 倍，并在三个种子中的两个上达到或超过最佳定向估计器。在饱和检查点上，模型流畅度对行为标签的预测能力不弱于所比较的任何梯度方法；控制流畅度后，逐 rollout 结果在不同种子和不同生成抽样之间变化，单次运行无法定论。作者称唯一在三个种子上都成立的信号是触发 token 的梯度与行为实际发生处构建的目标对齐。论文测试了包括 GAS（renormalized TracInCP）和 TRAK 类估计器在内的现有方法，未提出新估计器，并将结论整理为评估 RL 归因的检查清单。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "在线RL可能教出无人要求的行为，但梯度归因大多只在静态监督设置里验证过，能否定位造成该行为的rollout并不清楚。",
-          "label": "问题"
-        },
-        {
-          "text": "BehaviorTrace在Qwen2.5-1.5B-Instruct的GRPO上植入早期加成，用全梯度CountSketch比较GAS、TRAK-style、TracInCP与梯度范数及流畅度对照。",
-          "label": "方法"
-        },
-        {
-          "text": "三颗种子上，无目标的梯度大小排序达到摘要所称随机的4.2到4.5倍，并在两颗上不低于定向估计器。作者称训练窗口内各方法落在基率附近。控制流畅度后，方向与幅度谁更高随种子翻转。触发token梯度与in-context目标在三颗种子上对齐。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "作者限定为至多1.5B的Qwen2.5、仅GRPO、step 100的新生成兄弟样本，且rollout级只对GAS做了流畅度控制。行为从10例SFT种子被RL强化；铺在整段回答上的行为是否仍有token级信号，作者称为开放问题。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.10422"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.10422",
-      "aisafetyhot": "https://aisafetyhot.com/items/tf5cngqw2nj2565sglybbbtm9"
-    },
-    "publishedAt": "2026-10-07T17:01:37.000Z",
-    "timelineAt": "2026-10-10T06:04:17.391Z",
-    "discoveredAt": "2026-10-10T06:04:17.391Z"
-  },
-  {
-    "arxivId": "2610.11599",
-    "title": "Large Language Model Turnover Undermines Screening for Artificial Intelligence-Assisted Scientific Writing",
-    "titleZh": "研究：大语言模型版本更替削弱 AI 辅助科研写作筛查",
-    "authors": [
-      "Kazuki Nakajima; Takayuki Mizuno"
-    ],
-    "category": "eval",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "日本研究者 Kazuki Nakajima 与 Takayuki Mizuno 的论文量化了大语言模型版本更替对科研稿件 AI 写作筛查的影响。研究将 PNAS 的 4000 篇 ChatGPT 之前摘要与 23 个模型版本（来自三家厂商，2023 年 6 月至 2026 年 8 月发布）的改写配对，并在从每次新版本都重训到只训练一次不再更新的多种维护场景下训练检测器。仅在厂商历史版本上训练的检测器会在模型代际边界处失效：在校准为误报 1% 人类摘要时，最陡边界前可检出超过 99% 的改写，边界后仅 3.8%。在模拟的两种筛查场景中，覆盖全部 23 个版本的筛查要么误标八分之一的人类摘要，要么漏掉最新版本三分之一改写。作者据此建议科研诚信政策应将检测器的基准准确率视为临时性的，需随每次模型发布重新验证。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "期刊和会议已用检测器筛查投稿中的LLM写作，但基准多按固定版本评估，实际在用的版本不断更换，且人类文本误标必须少见。作者要量化这种更替对科学摘要筛查的影响。",
-          "label": "问题"
-        },
-        {
-          "text": "把4,000篇ChatGPT前的PNAS摘要交给23个版本做两阶段改写，微调RoBERTa-base。在1%假阳性下比较四种维护，以及检测器取并的union和汇集训练的pooled，并查询Pangram 3.3.2。",
-          "label": "方法"
-        },
-        {
-          "text": "只训更早版本时，GPT-5为26.6%，Muse-Glimmer为3.8%（1%假阳性）。union误标11.9%人类摘要；pooled漏掉33.8%的Muse-Glimmer改写。Pangram漏掉后者79.8%（319/400）。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "作者称结果来自PNAS英文摘要、两阶段改写、一类微调检测器和一个固定工作点的商用检测器，版本只来自三家厂商，JSD与迁移的关联不是因果。实验含10次划分、词频检测器、两种替代提示词，以及0.5%和5%假阳性。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.11599"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.11599",
-      "aisafetyhot": "https://aisafetyhot.com/items/xe661qjmzmcayim2zacw6ut0k"
-    },
-    "publishedAt": "2026-10-08T09:44:08.000Z",
-    "timelineAt": "2026-10-10T11:06:47.151Z",
-    "discoveredAt": "2026-10-10T11:06:47.151Z"
-  },
-  {
-    "arxivId": "2610.07309",
-    "title": "论文提出长期记忆智能体的检索可允许性验证框架",
-    "titleZh": "论文提出长期记忆智能体的检索可允许性验证框架",
-    "authors": [],
-    "category": "alignment",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "论文提出一个检索可允许性验证框架，把每个记忆-查询对标记为可允许、不可允许或未解决三种状态，并在匹配所需证据召回率的前提下比较不同检索路径，同时追踪记忆 ID 在提示暴露中的流转。作者对 RHELM 和 MemOps 两个公开长期记忆基准的冻结排序做事后 top-20 重分析，覆盖 3,767 条查询：所有已发布锚点都落在受信任的查询命名空间内，过滤命名空间外内容在不改变命名空间内得分的情况下不会降低其排名，top-20 锚点召回率从 0.432 升至 0.533，80% 召回可行性从 0.237 升至 0.311，精确相似度评估减少 98.3%。在 72 例冻结开发诊断中，基于已发布元数据的参照方案保留了所需证据，而两个纯文本验证器在 1% 必需锚点误拒限制下都未能检出违规。作者在 16 个受控暴露场景中仅观察到四个 reader 的一个 95% 置信区间不含零。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "长时记忆智能体会检索到主题相关、但属于其他主体、违反策略或生命周期不兼容的记录。召回和答案准确率看不出该记录能否进入当前提示词。",
-          "label": "问题"
-        },
-        {
-          "text": "作者给记忆–查询对标成可采纳、不可采纳或未决，在匹配必需证据召回处比较路径并对未决标签给界，再按记忆ID追踪提示词暴露与答案披露。支持、资格和暴露分人群核验。",
-          "label": "方法"
-        },
-        {
-          "text": "3767条查询上，命名空间top-20召回从0.432到0.533。1523例上三名reader的准确率增益为0.053–0.068，作者称是观察性的。16场景中仅DeepSeek V4 Pro的不可采纳披露区间不含0。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "作者写明证据只覆盖两个公开源和七个RHELM组，命名空间是可信标签而非推断，冻结路线比较是关联性的。实验包括3767条查询、1523个成对例、72例固定候选分析和200条替代judge审计。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.07309"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.07309",
-      "aisafetyhot": "https://aisafetyhot.com/items/exzp15zm6i2zfalgju2km6c5s"
-    },
-    "publishedAt": "2026-10-05T19:47:43.000Z",
-    "timelineAt": "2026-10-10T03:02:54.107Z",
-    "discoveredAt": "2026-10-10T03:02:54.107Z"
-  },
-  {
     "arxivId": "2610.04888",
     "title": "研究：事实核查评测可能混入声明时不可知的未来证据",
     "titleZh": "研究：事实核查评测可能混入声明时不可知的未来证据",
@@ -236,121 +117,43 @@
     "discoveredAt": "2026-10-09T16:05:52.690Z"
   },
   {
-    "arxivId": "2610.09167",
-    "title": "Persist-3 用顺序检验识别未见越狱来源，提升 MTK 与 Prompt Guard 2 防御效果",
-    "titleZh": "Persist-3 用顺序检验识别未见越狱来源，提升 MTK 与 Prompt Guard 2 防御效果",
-    "authors": [],
-    "category": "defense",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "论文提出 Persist-3，用于从攻击提示流中判断其是否来自已知攻击源之外的来源。方法对每个已知来源计算 conformal p 值，只有当针对所有已知来源的证据都足够强时才拒绝原假设。理论分析显示，其检测概率随观测窗口增大呈指数级趋近于 1，因此较短的窗口即可检测与已知来源区分明显的未见来源。作者在 MTK 和 Prompt Guard 2 两种近期越狱防御之上验证 Persist-3，观察到防御效果显著增强。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "越狱防御通常按固定的已知攻击方法校准，新方法出现后已有检测会变差。作者要回答：只看受害模型返回响应前的表示流，如何判断当前攻击不属于任一已知源，以及分离程度如何决定检出速度。已知源之间的切换不应算作目标。",
-          "label": "问题"
-        },
-        {
-          "text": "对每个已知源计算马氏分数和 split conformal p 值。Persist-3 对最近 W=10 条按源平均后再取最小，并要求连续 L=3 步越阈，因此只依赖最近 12 条。阈值只用已知源验证流。报警后在未改动护栏上升级该流。",
-          "label": "方法"
-        },
-        {
-          "text": "H=1000 时 Persist-3 的 KU 检出率 0.458，SR-DKW full 为 0.648，静止 FPR 均为 0/1835（Table 1）。叠在 MTK 或 PG2 上，作者称 block rate 增加 7.0 至 10.0 个百分点（Table 2）。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "作者将更多在线数据下的渐近分析列为后续方向，并写明完全自适应攻击者不在定理与压力测试内。经验上不含已验证的报警后登记；分层比较未做预算匹配。回放未与 Piet et al. (2025) 的流级防御比较。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.09167"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.09167",
-      "aisafetyhot": "https://aisafetyhot.com/items/mek7qa97peombxtebbf9oum6y"
-    },
-    "publishedAt": "2026-10-06T22:10:21.000Z",
-    "timelineAt": "2026-10-10T02:10:58.784Z",
-    "discoveredAt": "2026-10-10T02:10:58.784Z"
-  },
-  {
-    "arxivId": "2610.10833",
-    "title": "研究：Agent 准时停机不等于有效使用时间预算",
-    "titleZh": "研究：Agent 准时停机不等于有效使用时间预算",
+    "arxivId": "2610.13912",
+    "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+    "titleZh": "RSI-Anything：用世界模型解锁递归自我改进",
     "authors": [],
     "category": "alignment",
     "selected": false,
     "attention": null,
-    "summaryZh": "论文研究小型 LLM Agent 能否在明确的墙钟时间预算下既遵守运行时长又有效利用时间，在 MLE-Bench Lite 的五个竞赛上评测 Qwen3.6-27B，在 Zork I（Jericho）上评测 Qwen3-4B。仅把预算写进提示词时，Agent 无法把预算转化为受控的时间使用，原因包括缺少时间感知、难以预估动作耗时，以及没有从可用时间到策略的学习映射。作者测试两类干预：通过 harness 暴露时间信息并强制执行截止时间，以及带预算感知奖励的强化学习。harness 注入时间信息显著提升 Qwen3.6-27B 的预算遵守度且未造成可测的性能损失，强制执行钩子进一步提升遵守度；GRPO 强化学习在 Zork I 上达到接近完美的预算遵守度，并能泛化到训练中未见的预算，但在 MLE-Bench 上未提升任务表现。",
+    "summaryZh": "论文提出 RSI-Anything，一个构建在 JEPA-Anything 之上的领域通用框架，用预测性世界模型引导动作与训练数据选择，以实现递归自我改进；观测到的反馈驱动策略或工作流改进以及条件式世界模型适配，组件与兼容性检查则决定是否保留更新后的策略-模型组合。在代码修复任务中，固定 coder 时成功率从静态验证器的 26.3% 提升到预测选择的 29.2%，经世界模型适配后达到 31.2%，测试用量相当。GUI 评测中任务完成率更高，平均动作数减少 39.4%；实验室规划分数在连续五个策略版本上从 21.80% 提升逾一倍至 46.01%。反应优化中，在同样的 40 次实验预算下，RSI-Anything 的平均最优产率为 96.15%，贝叶斯优化为 82.16%。论文还给出一个端到端的免疫科学应用，将工作流演化与预测建模连接到治疗假设生成。",
     "quickRead": {
       "parts": [
         {
-          "text": "智能体需要在显式 wall-clock 预算内返回，并在搜索型任务上把更多时间换成更好的解。作者将要求分为 adherence（按时）和 productive use（加时提高成绩）。只写在提示词里时，模型没有计时反馈，也不能可靠预估动作时长。",
+          "text": "递归自改进要求一轮交互经验改进下一轮的行动与学习，且更新必须被保留。外部反馈要先执行候选才知道后果，预算有限；策略更新又会改变世界模型面对的候选分布。",
           "label": "问题"
         },
         {
-          "text": "在五场 MLE-Bench（Qwen3.6-27B）和 Zork I（Qwen3-4B）上，比较提示词预算、可截断或拒绝超时命令的时钟 harness，以及 GRPO。Zork 奖励在分数上加时间项，超过 1.1 倍预算可整段清零。",
+          "text": "RSI-Anything用JEPA-Anything的世界模型给候选打分，决定谁接受外部评估。反馈驱动策略或工作流更新，并在reliability、数据和预算允许时适应世界模型；组件检查与兼容性检查决定保留哪一对。",
           "label": "方法"
         },
         {
-          "text": "Table 2：Qwen3.6-27B、15分钟，仅提示词按时率15%，refuse为88%，时钟后用时占预算99.7%。Qwen3-4B、RL+Auto-Clock、16秒为46.4/350。作者称会停止，但加时未提高成绩。",
+          "text": "固定coder的CodeContests隐测全过率从26.3%到31.2%（静态验证器到世界模型适应）。五版4B的F200 Level-2从21.80%到46.01%。40次流式实验平均最佳产率96.15%，对照82.16%。",
           "label": "实验与结果"
         },
         {
-          "text": "作者指出策略坍缩、记忆化与评测范围仍开放，并建议探索奖励与环境变化。实验为五场MLE-Bench（Qwen3.6-27B）和Zork I；Table 6每格n=16。论文未报告Table 2的episode数。",
+          "text": "作者称还需在同一任务内对策略与世界模型做联合多轮评估；实验室结果评的是协议对齐规划，治疗假设尚待实验检验。代码修复保持coder固定，OSWorld未给出绝对成功率。",
           "label": "局限与可以继续做的"
         }
       ],
       "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2610.10833"
+      "sourceUrl": "https://arxiv.org/abs/2610.13912"
     },
     "links": {
-      "paper": "https://arxiv.org/abs/2610.10833",
-      "aisafetyhot": "https://aisafetyhot.com/items/a96zojasssfyepiv1oigbpqb5"
+      "paper": "https://arxiv.org/abs/2610.13912",
+      "aisafetyhot": "https://aisafetyhot.com/items/hs7x9nwt4upy3dgns638977ox"
     },
-    "publishedAt": "2026-10-07T19:35:08.000Z",
-    "timelineAt": "2026-10-10T07:14:26.537Z",
-    "discoveredAt": "2026-10-10T07:14:26.537Z"
-  },
-  {
-    "arxivId": "2609.33987",
-    "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
-    "titleZh": "Opera：面向长程编码 Agent 的口头批评者框架",
-    "authors": [],
-    "category": "ai_news",
-    "selected": false,
-    "attention": null,
-    "summaryZh": "研究者提出 Opera，一个面向长程编码 Agent 的口头批评者框架，把每次纠正当作持续跟踪的笔记，直到被诊断的问题真正解决。它通过周期性与事件驱动触发决定何时审查，用带类型的算子诊断问题，在交付前依据可见证据审核反馈，并跟踪 Agent 后续动作以区分表面服从与实际解决。作为测试时批评者，Opera 在 Terminal-Bench 2.1、SWE-Bench Pro 子集和 DeepSWE v1.1 上，跨四个策略模型把非批评者 Agent 的解决率分别提升最多 12.4、15.0 和 8.9 个百分点，并在三个基准上取得竞争性批评者基线中最高的平均解决率，也能在策略模型自我批评时带来提升。代码已开源于 https://github.com/dongyuanjushi/Opera。",
-    "quickRead": {
-      "parts": [
-        {
-          "text": "长程编码智能体常重复失败或未验证就报完成，误判未完成工作的反馈还可能有害。现有批评很少跟踪反馈之后问题是否真的解决。",
-          "label": "问题"
-        },
-        {
-          "text": "Opera把一次纠正做成持久笔记：周期或五类事件触发审查，九个带契约的算子每次只诊断一个问题，准入审计通过才交付，并分开跟踪遵从与解决。",
-          "label": "方法"
-        },
-        {
-          "text": "GPT-5.6-Sol批评下，Qwen3.5-9B在TB2.1与SWE-Pro的resolve rate提高12.4与15.0个百分点。Table 1的DeepSWE增益为8.9个百分点。Qwen3.5-9B在DeepSWE无任务解决。",
-          "label": "实验与结果"
-        },
-        {
-          "text": "结论写训练来自单模型监督微调和一个域外基准，后续可扩大数据、用训练后模型迭代，或与强化学习结合。实验含三个基准、四种策略模型；Table 1未写重复次数。",
-          "label": "局限与可以继续做的"
-        }
-      ],
-      "sourceName": "论文 PDF（AI 生成）",
-      "sourceUrl": "https://arxiv.org/abs/2609.33987"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.33987",
-      "aisafetyhot": "https://aisafetyhot.com/items/lytkh18wwq0isocm0bhktp3ov"
-    },
-    "publishedAt": "2026-09-27T22:42:57.000Z",
-    "timelineAt": "2026-10-09T21:31:24.915Z",
-    "discoveredAt": "2026-10-09T21:31:24.915Z"
+    "publishedAt": "2026-10-09T17:50:30.000Z",
+    "timelineAt": "2026-10-09T17:50:30.000Z",
+    "discoveredAt": "2026-10-12T02:08:38.173Z"
   },
   {
     "arxivId": "2610.09296",
@@ -390,6 +193,47 @@
     "publishedAt": "2026-10-07T01:58:25.000Z",
     "timelineAt": "2026-10-09T17:19:19.856Z",
     "discoveredAt": "2026-10-09T17:19:19.856Z"
+  },
+  {
+    "arxivId": "2610.13889",
+    "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+    "titleZh": "RATED：通过执行动态实现可靠性感知的 AI 智能体工具检索",
+    "authors": [
+      "Weiliang Chen; Song Liao"
+    ],
+    "category": "tip",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "RATED 是一种结合语义匹配与动态可靠性适配的 AI 智能体工具检索框架，用轻量 contextual bandit 模块依据实时执行反馈重排候选，无需重训即可适应运行时工具故障。在含 5,172 个真实工具的 EcoAgent 基准上，其 MRR 较 ToolLLM API retriever 相对提升 52.2%，30% 失败率的严重 API 故障下故障选择率从 86.2% 降至 2.9%，额外延迟不足 1 ms。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "智能体要从增长的工具库里选出执行时仍能用的工具。现有检索主要优化语义；作者称用成批轨迹更新规划器的做法，不能在相邻请求间改排序。作者称四个平台目录里超过50%的工具有失效链接或缺认证。",
+          "label": "问题"
+        },
+        {
+          "text": "RATED用对比微调后冻结的DRAGON双编码器按语义分取top-10，再用每工具独立的折扣LinUCB，按单次执行的二元反馈和元数据先验重排。EcoAgent含5,172个工具，合成查询由Gemma-3-1b生成。",
+          "label": "方法"
+        },
+        {
+          "text": "30%故障注入下RATED的FSR为2.9%，ToolLLM为86.2%。EcoAgent-Real上作者报告相对ToolLLM的MRR提升52.2%，但0.618低于Ada-002的0.670。额外时延0.172 ms。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "Conclusion把新加入工具的冷启动评测和live agent runtime验证留作后续。实验包括EcoAgent离线检索，以及20%与30%模拟持续故障下的动态选择。论文未报告动态实验重复次数。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.13889"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13889",
+      "aisafetyhot": "https://aisafetyhot.com/items/j60gmjz75xb72a7mwwidy8yh0"
+    },
+    "publishedAt": "2026-10-09T17:38:11.000Z",
+    "timelineAt": "2026-10-09T17:38:11.000Z",
+    "discoveredAt": "2026-10-12T05:04:22.751Z"
   },
   {
     "arxivId": "2610.12432",
@@ -470,5 +314,46 @@
     "publishedAt": "2026-10-08T08:17:45.000Z",
     "timelineAt": "2026-10-10T01:12:52.652Z",
     "discoveredAt": "2026-10-10T01:12:52.652Z"
+  },
+  {
+    "arxivId": "2610.13810",
+    "title": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
+    "titleZh": "用子序列关联过滤与广度感知选择抑制 LLM 查询扩展中的幻觉词",
+    "authors": [
+      "Amit Kumar Jaiswal; Sagar Uprety; Prayag Tiwari"
+    ],
+    "category": "tip",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "SAFE-QE 通过子序列关联过滤与广度感知选择抑制 LLM 查询扩展中的幻觉词，在 TREC 和 BEIR 上其 nDCG@10 与生成式、语料引导式扩展无统计差别，但每查询注入的无支持词为 4.3 个，Query2doc 与 HyDE 为 27.8 和 57.5 个。该方法免训练、与检索器无关，按语料条件下的跨上下文可复现性给候选词打分，将随机上下文下反复出现却缺乏伪相关集支持的词降权，并提出 Hallucinated Expansion Term Rate 衡量查询侧忠实性。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "LLM查询扩展会注入语料不支持的实体和离题词，增加排序噪声，并可能伤害强检索器。现有过滤多按与检索证据是否共现来留弃，保留多少词则交给固定top-k或调好的权重。",
+          "label": "问题"
+        },
+        {
+          "text": "SAFE-QE不训练。开放指令微调LLM采样候选词后，用跨随机上下文的可复现性与伪相关文档支持打分，惩罚高可复现且无支持的词；再在接地约束下贪心最大化覆盖，并按重采样频率过滤。另定义查询侧HETR。",
+          "label": "方法"
+        },
+        {
+          "text": "Table 1里除无扩展行外，与HyDE、CSQE、MILL的nDCG@10校正后p>0.5，Query2doc的p=0.021。Table 3宏平均下SAFE-QE无支持词负载4.79，Query2doc 27.83，HyDE 57.47。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称τg固定、应按检索器校准，组件消融未做，广度与一致性的有限样本分析仍开放。实验用六个集合、三个检索器、四个生成器；论文未报告各超参数取值。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.13810"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13810",
+      "aisafetyhot": "https://aisafetyhot.com/items/d9mkvhcgpxmelgwjo2u0g2wc0"
+    },
+    "publishedAt": "2026-10-09T16:22:16.000Z",
+    "timelineAt": "2026-10-09T16:22:16.000Z",
+    "discoveredAt": "2026-10-12T05:04:07.679Z"
   }
 ]
