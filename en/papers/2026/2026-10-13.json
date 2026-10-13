@@ -16,9 +16,32 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 11,
-      "translated": 6,
-      "pending": 5,
+      "total": 38,
+      "translated": 14,
+      "pending": 24,
+      "status": "partial"
+    }
+  },
+  {
+    "id": "qg6jfnzpzs1ssi6bd8fezfizc",
+    "arxivId": "2610.09294",
+    "title": "RT-SAFE：实时具身环境下的智能体安全评测",
+    "titleEn": null,
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09294",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/qg6jfnzpzs1ssi6bd8fezfizc"
+    },
+    "publishedAt": "2026-10-07T01:57:17.000Z",
+    "timelineAt": "2026-10-13T02:42:47.193Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 37,
+      "translated": 10,
+      "pending": 27,
       "status": "partial"
     }
   },
@@ -39,9 +62,9 @@
       "locale": "en",
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
-      "total": 11,
-      "translated": 6,
-      "pending": 5,
+      "total": 37,
+      "translated": 12,
+      "pending": 25,
       "status": "partial"
     }
   }

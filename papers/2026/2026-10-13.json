@@ -18,6 +18,24 @@
     "discoveredAt": "2026-10-12T21:33:08.797Z"
   },
   {
+    "arxivId": "2610.09294",
+    "title": "RT-SAFE：实时具身环境下的智能体安全评测",
+    "titleZh": "RT-SAFE：实时具身环境下的智能体安全评测",
+    "authors": [],
+    "category": null,
+    "selected": true,
+    "attention": null,
+    "summaryZh": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09294",
+      "aisafetyhot": "https://aisafetyhot.com/items/qg6jfnzpzs1ssi6bd8fezfizc"
+    },
+    "publishedAt": "2026-10-07T01:57:17.000Z",
+    "timelineAt": "2026-10-13T02:42:47.193Z",
+    "discoveredAt": "2026-10-13T02:42:47.193Z"
+  },
+  {
     "arxivId": "2610.11069",
     "title": "Clinician use of language models diverges from how the models are evaluated",
     "titleZh": "临床医生使用语言模型的方式与模型的评测方式存在偏差",
