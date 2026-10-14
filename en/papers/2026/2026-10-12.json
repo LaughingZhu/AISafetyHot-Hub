@@ -86,8 +86,8 @@
       "scope": "editorial_prose",
       "policy": "public-en-v1:localize-public@f623634f95",
       "total": 40,
-      "translated": 18,
-      "pending": 22,
+      "translated": 39,
+      "pending": 1,
       "status": "partial"
     }
   }

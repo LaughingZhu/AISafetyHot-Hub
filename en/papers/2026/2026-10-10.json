@@ -134,6 +134,29 @@
     }
   },
   {
+    "id": "v0v0ra5bs8j1dep9g48clzp5d",
+    "arxivId": "2610.14224",
+    "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+    "titleEn": "Harness^2: Recursive Agent Harnessing for an Open World",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14224",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/v0v0ra5bs8j1dep9g48clzp5d"
+    },
+    "publishedAt": "2026-10-09T18:34:25.000Z",
+    "timelineAt": "2026-10-09T18:34:25.000Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 14,
+      "pending": 22,
+      "status": "partial"
+    }
+  },
+  {
     "id": "fw1b4bwqs4596pq2vfdhzvbro",
     "arxivId": "2610.09296",
     "title": "论文用生成式 Agent 建模模拟私有测试集对评分与用户体验差距的影响",

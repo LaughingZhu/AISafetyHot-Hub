@@ -156,6 +156,45 @@
     "discoveredAt": "2026-10-12T02:08:38.173Z"
   },
   {
+    "arxivId": "2610.14224",
+    "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+    "titleZh": "Harness^2：面向开放世界的递归式 Agent 执行框架改进",
+    "authors": [],
+    "category": "ai_news",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "论文提出 Harness^2，一个可插拔的递归式 Agent 执行框架改进方法，通过任务级与改进级两层递归，在缺少真值验证器的开放世界任务中自动编辑执行框架。任务级递归使用对比式 Propose-Probe-Compose 步骤引导编辑，可用并行或串行递归进一步扩展；改进级递归则从这些编辑中提取经验，更新持续改进框架，使 Agent 更好适配未来任务。在三个专业基准和四种模型-框架配置上，单步递归均提升 GLM-5 与 Gemini 3.5 Flash 相对基础框架的表现，WorkBuddy-Bench 最高提升 11.5 分、JobBench 提升 4.5 分、LAB 提升 11.8 个百分点，并随任务级递归预算增加而进一步提高。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "开放世界任务设计时通常未见过，测试时没有真值验证器；只改当前任务或继承定制执行harness，都难稳定服务后续任务。作者要同时改进当前harness，以及未来如何改进harness。",
+          "label": "问题"
+        },
+        {
+          "text": "任务级用Propose–Probe–Compose：提不变式与领域候选，匹配条件下比行为差异再合成；可平行或顺序扩大预算。任务后把有执行对比支持的经验写入改进库。下一题仍从初始harness出发，由库指导，权重不更新。",
+          "label": "方法"
+        },
+        {
+          "text": "四配置单步均高于base。作者称WB上GLM-5+OpenCode单步+11.5分，JobBench与LAB Partial最高+4.5分、+11.8个百分点。k=5再增加；LAB有一处Meta-Harness更高。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者指出递归增加推理成本，只刻画了有界预算内的权衡，未给普遍最优分配。无真值时靠行为对比与模型判断，不保证正确或跨任务迁移。递归形式和预算需预先指定。主结果为两执行器、两初始harness、三基准上的三次打乱顺序流。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.14224"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14224",
+      "aisafetyhot": "https://aisafetyhot.com/items/v0v0ra5bs8j1dep9g48clzp5d"
+    },
+    "publishedAt": "2026-10-09T18:34:25.000Z",
+    "timelineAt": "2026-10-09T18:34:25.000Z",
+    "discoveredAt": "2026-10-14T02:59:42.912Z"
+  },
+  {
     "arxivId": "2610.09296",
     "title": "论文用生成式 Agent 建模模拟私有测试集对评分与用户体验差距的影响",
     "titleZh": "论文用生成式 Agent 建模模拟私有测试集对评分与用户体验差距的影响",
