@@ -78,6 +78,45 @@
     "discoveredAt": "2026-10-09T23:01:43.997Z"
   },
   {
+    "arxivId": "2610.14163",
+    "title": "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+    "titleZh": "AutoEnvScaling：用终端 Agent 自动化数据飞轮",
+    "authors": [],
+    "category": "ai_news",
+    "selected": false,
+    "attention": null,
+    "summaryZh": "论文提出 AutoEnvScaling，把 RL 环境设计当作终端任务，由 proposer agent 基于正在训练的 solver 的 rollout 生成新环境，再由 solver 的新 rollout 驱动下一轮。作者报告称，相比仅用提示词生成，有效环境率最多提升 25 倍，单个有效环境成本最多降低 75%。用 GPT-5.6-sol 生成的 AutoEnvScaling 环境训练 Qwen3.5-35B-A3B，其 Terminal-Bench 2.1 得分比匹配的 Tmax 基线高 4.3 分；Qwen3.6-35B-A3B 同时担任 proposer 与 solver 两个角色时，Terminal-Bench 2.1 提升 12.2 分，Terminal-Bench 4.0 从 1.6 升到 3.2。",
+    "quickRead": {
+      "parts": [
+        {
+          "text": "终端智能体的强化学习需要多样、可验证的环境，但这些环境仍多由研究者设计，供给只与人力同步增长，学会后还会失效。",
+          "label": "问题"
+        },
+        {
+          "text": "AutoEnvScaling把造环境做成终端任务。提议者在沙箱里按求解器轨迹编写并测试Harbor环境，校验和校准后入库，新轨迹再驱动下一轮；同一模型也可兼任两个角色。",
+          "label": "方法"
+        },
+        {
+          "text": "八个前沿提议者上终端式生成的有效环境率都最高。GPT-5.6-sol造环境时，Qwen3.5-35B-A3B的TB2.1比匹配Tmax高4.3分。Qwen3.6-35B-A3B兼任两角色，TB2.1从41.1到53.3。",
+          "label": "实验与结果"
+        },
+        {
+          "text": "作者称更长训练后增益是否持续尚未建立，TB4.0仍然低，通过校验也不保证环境正确。跨域实验做到生成与准入，这些域的下游训练增益作者称尚未展示。",
+          "label": "局限与可以继续做的"
+        }
+      ],
+      "sourceName": "论文 PDF（AI 生成）",
+      "sourceUrl": "https://arxiv.org/abs/2610.14163"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14163",
+      "aisafetyhot": "https://aisafetyhot.com/items/ymoj5fz7hvsf2awvqcyetpnm7"
+    },
+    "publishedAt": "2026-10-09T17:51:50.000Z",
+    "timelineAt": "2026-10-09T17:51:50.000Z",
+    "discoveredAt": "2026-10-14T04:01:42.918Z"
+  },
+  {
     "arxivId": "2610.04888",
     "title": "研究：事实核查评测可能混入声明时不可知的未来证据",
     "titleZh": "研究：事实核查评测可能混入声明时不可知的未来证据",

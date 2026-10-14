@@ -46,6 +46,29 @@
     }
   },
   {
+    "id": "ymoj5fz7hvsf2awvqcyetpnm7",
+    "arxivId": "2610.14163",
+    "title": "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+    "titleEn": "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+    "summary": null,
+    "quickRead": null,
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14163",
+      "aisafetyhot": "https://aisafetyhot.com/en/items/ymoj5fz7hvsf2awvqcyetpnm7"
+    },
+    "publishedAt": "2026-10-09T17:51:50.000Z",
+    "timelineAt": "2026-10-09T17:51:50.000Z",
+    "translation": {
+      "locale": "en",
+      "scope": "editorial_prose",
+      "policy": "public-en-v1:localize-public@f623634f95",
+      "total": 36,
+      "translated": 12,
+      "pending": 24,
+      "status": "partial"
+    }
+  },
+  {
     "id": "of8dpno9hcfswb26ubo3vxvru",
     "arxivId": "2610.04888",
     "title": "研究：事实核查评测可能混入声明时不可知的未来证据",
